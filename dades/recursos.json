@@ -1,0 +1,128 @@
+{
+  "spotify": [
+    {
+      "titol": "La llista del professor",
+      "descripcio": "Les obres que escoltam a classe",
+      "enllac": "https://open.spotify.com/playlist/5aZVuI4n02s65omjXUBf4i"
+    },
+    {
+      "titol": "Guia d'orquestra",
+      "descripcio": "Podcast per conèixer els instruments de l'orquestra",
+      "enllac": "https://open.spotify.com/show/3QeyLNFOq3xxeRnqOyNbbX"
+    },
+    {
+      "titol": "Una tarda a l'òpera",
+      "descripcio": "Podcast per descobrir òperes famoses",
+      "enllac": "https://open.spotify.com/show/19muSPwDltEgNXWKyhf1Dk"
+    }
+  ],
+  "grups": [
+    {
+      "titol": "Òpera",
+      "descripcio": "Vídeos per descobrir què és l'òpera i com ha canviat al llarg de la història.",
+      "recursos": [
+        {
+          "titol": "Història de l'òpera",
+          "descripcio": "Vídeo sobre la història de l'òpera",
+          "enllac": "https://www.youtube.com/watch?v=LXrmcyLgZEU"
+        },
+        {
+          "titol": "This is Opera · 1",
+          "descripcio": "YouTube",
+          "enllac": "https://www.youtube.com/watch?v=SDmSVNT_09k"
+        },
+        {
+          "titol": "This is Opera · 2",
+          "descripcio": "YouTube",
+          "enllac": "https://www.youtube.com/watch?v=o-g-XBqWYOY"
+        },
+        {
+          "titol": "This is Opera · 3",
+          "descripcio": "YouTube",
+          "enllac": "https://www.youtube.com/watch?v=dUCjrDio0o4"
+        }
+      ]
+    },
+    {
+      "titol": "Històries de l'òpera (3Cat)",
+      "descripcio": "Les òperes més conegudes explicades com un conte.",
+      "recursos": [
+        {
+          "titol": "Històries de l'òpera",
+          "descripcio": "3Cat",
+          "enllac": "https://www.3cat.cat/3cat/histories-de-lopera/"
+        }
+      ]
+    },
+    {
+      "titol": "Història de la música",
+      "descripcio": "Una sèrie per recórrer tota la història de la música.",
+      "recursos": [
+        {
+          "titol": "Howard Goodall's Story of Music",
+          "descripcio": "BBC · llista de vídeos",
+          "enllac": "https://www.youtube.com/watch?v=I0Y6NPahlDE&list=PLX_3mlborR3gZIwKFbuY1hlGJuzlzwiyJ"
+        }
+      ]
+    },
+    {
+      "titol": "Curiositats",
+      "descripcio": "La música antiga també pot sonar molt moderna.",
+      "recursos": [
+        {
+          "titol": "Super Mario Bros tocat amb clavecí",
+          "descripcio": "YouTube",
+          "enllac": "https://www.youtube.com/watch?v=8aQNL6t9Kas"
+        }
+      ]
+    },
+    {
+      "titol": "Canals d'anàlisi",
+      "descripcio": "Canals de YouTube que expliquen com estan fetes les obres. Són en anglès.",
+      "grans": true,
+      "recursos": [
+        {
+          "titol": "Moments Musicaux",
+          "descripcio": "Canal de YouTube",
+          "enllac": "https://www.youtube.com/@-MomentsMusicaux-"
+        },
+        {
+          "titol": "Classics Explained",
+          "descripcio": "Canal de YouTube",
+          "enllac": "https://www.youtube.com/@ClassicsExplained"
+        },
+        {
+          "titol": "Inside the Score",
+          "descripcio": "Canal de YouTube",
+          "enllac": "https://www.youtube.com/@InsidetheScore"
+        },
+        {
+          "titol": "David Bruce Composer",
+          "descripcio": "Canal de YouTube",
+          "enllac": "https://www.youtube.com/@DBruce"
+        },
+        {
+          "titol": "Skylar Lim",
+          "descripcio": "Canal de YouTube",
+          "enllac": "https://www.youtube.com/@skylarlimex"
+        },
+        {
+          "titol": "tonebase Piano",
+          "descripcio": "Canal de YouTube",
+          "enllac": "https://www.youtube.com/@tonebasePiano"
+        }
+      ]
+    },
+    {
+      "titol": "Partitures",
+      "descripcio": "Biblioteca mundial de partitures lliures de drets.",
+      "recursos": [
+        {
+          "titol": "IMSLP",
+          "descripcio": "Petrucci Music Library: milers de partitures gratuïtes",
+          "enllac": "https://imslp.org"
+        }
+      ]
+    }
+  ]
+}

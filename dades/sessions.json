@@ -1,0 +1,188 @@
+{
+  "4t": {
+    "nom": "4t d'EP",
+    "tema": "De l'Antiguitat al Renaixement",
+    "apunts": "https://docs.google.com/document/d/1ABN2nKn4_uoiuMBuwF1-bLjGtcQlDCmse7RAczfPtcI/edit?usp=sharing",
+    "diapositives": "https://drive.google.com/drive/folders/14ixJNAH9KJoqrQ2UsWBWI87hAVusZOyl",
+    "periodes": ["antiguitat", "edat-mitjana", "renaixement"],
+    "trimestres": [
+      {
+        "nom": "1r trimestre",
+        "tema": "Antiguitat i monodia medieval",
+        "diapositives": "https://drive.google.com/drive/folders/1ep8ZVe2nWslcnBJ3y9FjdgNSienP2ESZ",
+        "sessions": [
+          { "numero": 1, "data": "2026-09-30", "titol": "Com s'escolta la història", "subtitol": "Un viatge de 2.500 anys de música", "periode": "antiguitat", "enllac": "https://docs.google.com/presentation/d/1DxdjgDbWnha2gW7wmF_Eq7rlyM9Y0r13lonlIABap9M/view" },
+          { "numero": 2, "data": "2026-10-07", "titol": "La música com a fet humà", "subtitol": "Orígens i músiques d'altres cultures", "periode": "antiguitat", "enllac": "https://docs.google.com/presentation/d/1Q7fZwZIXwa46n6HafJTn11XYetvQvYkBsU_B6tyNoiU/view" },
+          { "numero": 3, "data": "2026-10-14", "titol": "Grècia I: la música dels déus i dels homes", "subtitol": "Quan música, poesia i dansa eren una sola cosa", "periode": "antiguitat", "enllac": "https://docs.google.com/presentation/d/1p_ZMiT54MmCch28vVp6JXRBAtEw7phwzq1TgYcV2W14/view" },
+          { "numero": 4, "data": "2026-10-21", "titol": "Grècia II: Pitàgores, els nombres i els modes", "subtitol": "Quan la música era una ciència", "periode": "antiguitat", "enllac": "https://docs.google.com/presentation/d/1LYyVy9aVdxWTRe6pryecyAG3rXhfiwU3rKWAXmKTjqU/view" },
+          { "numero": 5, "data": "2026-10-28", "titol": "Grècia III i Roma: la música ens fa millors?", "subtitol": "L'ethos, els filòsofs i l'espectacle romà", "periode": "antiguitat", "enllac": "https://docs.google.com/presentation/d/1hStMaZuN-b93oIfqxIQL_bJp8iQ3xzoX845k9wOr_QU/view" },
+          { "numero": 6, "data": "2026-11-04", "titol": "Els primers cristians: del temple a l'església", "subtitol": "Una nova fe que canta", "periode": "edat-mitjana", "enllac": "https://docs.google.com/presentation/d/1l3vBapAFQxXKvH42lN78fScafkqI66jwacP5fnxL5is/view" },
+          { "numero": 7, "data": "2026-11-11", "titol": "Cant gregorià I: la veu de l'Església", "subtitol": "La missa, l'ofici i un cant per a tot un imperi", "periode": "edat-mitjana", "enllac": "https://docs.google.com/presentation/d/1N6oKq2ZbqzDmksbqSOfEsyA50FL2N8SCP9nKzyA8XMk/view" },
+          { "numero": 8, "data": "2026-11-18", "titol": "Cant gregorià II: modes, notes i el naixement del solfeig", "subtitol": "D'on surten el do, el re i el mi", "periode": "edat-mitjana", "enllac": "https://docs.google.com/presentation/d/13tsNF4jmlaowqm6mJxkZog4sCbLs_ZCqN8q7eI_5A74/view" },
+          { "numero": 9, "data": "2026-11-25", "titol": "Tropus, seqüències i Hildegarda", "subtitol": "Quan la litúrgia comença a créixer", "periode": "edat-mitjana", "enllac": "https://docs.google.com/presentation/d/1b0CHo8puAZym6H7VkhCdYnb48ewNtFrYwt2DxCgN27k/view" },
+          { "numero": 10, "data": "2026-12-02", "titol": "Trobadors, trobairitz i reis poetes", "subtitol": "La música surt de l'església", "periode": "edat-mitjana", "enllac": "https://docs.google.com/presentation/d/1l_mDSjEoTX1HXpCExj06407P5p6t2v3RfQuRg1oF8us/view" },
+          { "numero": 11, "data": "2026-12-09", "titol": "Instruments medievals i síntesi", "subtitol": "Joglars, danses i tot un trimestre", "periode": "edat-mitjana", "enllac": "https://docs.google.com/presentation/d/1lRTem3_lSprR5K_8E_2C3cXVKwYOdkyjNqgyJZYl3t0/view" },
+          { "activitat": true, "data": "2026-12-16", "titol": "Exposicions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      },
+      {
+        "nom": "2n trimestre",
+        "tema": "",
+        "diapositives": "https://drive.google.com/drive/folders/1I8Rg_XrPSoS62I3kgdI3eQLIL7zuG0Z9",
+        "sessions": [
+          { "numero": 12, "data": "2027-01-13", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 13, "data": "2027-01-20", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 14, "data": "2027-01-27", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 15, "data": "2027-02-03", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 16, "data": "2027-02-10", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 17, "data": "2027-02-17", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 18, "data": "2027-02-24", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 19, "data": "2027-03-03", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "numero": 20, "data": "2027-03-10", "titol": "", "subtitol": "", "periode": "edat-mitjana", "enllac": "" },
+          { "activitat": true, "data": "2027-03-17", "titol": "Presentacions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      },
+      {
+        "nom": "3r trimestre",
+        "tema": "",
+        "diapositives": "https://drive.google.com/drive/folders/1LI_j8rrOYPv2GwpUVgKIjjR06l32PZc6",
+        "sessions": [
+          { "numero": 21, "data": "2027-04-07", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 22, "data": "2027-04-14", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 23, "data": "2027-04-21", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 24, "data": "2027-04-28", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 25, "data": "2027-05-05", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 26, "data": "2027-05-12", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 27, "data": "2027-05-19", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 28, "data": "2027-05-26", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "numero": 29, "data": "2027-06-02", "titol": "", "subtitol": "", "periode": "renaixement", "enllac": "" },
+          { "activitat": true, "data": "2027-06-09", "titol": "Presentacions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      }
+    ]
+  },
+  "5e": {
+    "nom": "5è d'EP",
+    "tema": "Barroc i Classicisme",
+    "apunts": "https://drive.google.com/file/d/1Z_xbKAXtAdSoczAux0Yg7yrDKeTrIrCY/view?usp=sharing",
+    "diapositives": "https://drive.google.com/drive/folders/1j7bkxF9mtQBYy67sot4YXWBcdMFoSFrL",
+    "periodes": ["barroc", "classicisme"],
+    "trimestres": [
+      {
+        "nom": "1r trimestre",
+        "tema": "El Barroc: la veu i el teatre",
+        "diapositives": "https://drive.google.com/drive/folders/1A1qxnF1PvWfXMQhbwvDWfVZcx5QwOXql",
+        "sessions": [
+          { "numero": 1, "data": "2026-09-30", "titol": "Benvinguts al Barroc", "subtitol": "Contrast, moviment i emoció", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1dTc4Faou17puclE9eFD2MmqsGfUiI3yO/view" },
+          { "numero": 2, "data": "2026-10-07", "titol": "El baix continu", "subtitol": "Els fonaments de la música barroca", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1PAd96Md4BYxgSBCNZzqdE2CacI1nAZ04/view" },
+          { "numero": 3, "data": "2026-10-14", "titol": "La música dels afectes", "subtitol": "Quan cada peça vol fer-nos sentir una cosa", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1F-qDrj3zps6z5XH-pgGnbfL5J5bQfaPi/view" },
+          { "numero": 4, "data": "2026-10-21", "titol": "Monteverdi i els inicis de l'òpera", "subtitol": "Del palau al teatre públic", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1iNTTOqHkE4hDhXX2h9VfTWTqsZWvZne_/view" },
+          { "numero": 5, "data": "2026-10-28", "titol": "L'òpera italiana", "subtitol": "Àries, castrats i estrelles", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1vx3hLmPEXLpbJ4gltzhIVgap-FFnRH37/view" },
+          { "numero": 6, "data": "2026-11-04", "titol": "Versalles i Londres", "subtitol": "L'òpera a França i a Anglaterra", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1m3nEX7vSkdGbjQEhMXtowohHqgSLCF3B/view" },
+          { "numero": 7, "data": "2026-11-11", "titol": "Oratori i cantata", "subtitol": "Teatre sense escena, fe amb música", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1dTIdgkEZwu_rkGwvAI_4DAH--9kAw6tM/view" },
+          { "numero": 8, "data": "2026-11-18", "titol": "Bach i la Passió", "subtitol": "El gran drama sense teatre", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1su660iu6lkTNl3uAgxNDJfEWoELbTAAx/view" },
+          { "numero": 9, "data": "2026-11-25", "titol": "El Barroc hispànic i americà", "subtitol": "Villancicos, orgues i músiques de dos mons", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1xKNnvgcnp6FEDyoJPU1XpCOnU6mrqAPE/view" },
+          { "numero": 10, "data": "2026-12-02", "titol": "Les compositores del Barroc", "subtitol": "Veus que la història havia oblidat", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1Dm2Cxxvag-gIQn6Kvb3Ogb3M1bRJmKOD/view" },
+          { "numero": 11, "data": "2026-12-09", "titol": "Síntesi del trimestre", "subtitol": "La veu barroca", "periode": "barroc", "enllac": "https://drive.google.com/file/d/1tBlU2ZqGSGikDGQjscZDDdGbQHMaK6Jl/view" },
+          { "activitat": true, "data": "2026-12-16", "titol": "Exposicions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      },
+      {
+        "nom": "2n trimestre",
+        "tema": "",
+        "diapositives": "https://drive.google.com/drive/folders/1DbutyJ-IkJVzx9vQdVZgg_mIkAEpVHmY",
+        "sessions": [
+          { "numero": 12, "data": "2027-01-13", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 13, "data": "2027-01-20", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 14, "data": "2027-01-27", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 15, "data": "2027-02-03", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 16, "data": "2027-02-10", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 17, "data": "2027-02-17", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 18, "data": "2027-02-24", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 19, "data": "2027-03-03", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "numero": 20, "data": "2027-03-10", "titol": "", "subtitol": "", "periode": "barroc", "enllac": "" },
+          { "activitat": true, "data": "2027-03-17", "titol": "Presentacions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      },
+      {
+        "nom": "3r trimestre",
+        "tema": "",
+        "diapositives": "https://drive.google.com/drive/folders/1Tf-f8_pFNO47jkn5fW0PmjEBBfACFAtH",
+        "sessions": [
+          { "numero": 21, "data": "2027-04-07", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 22, "data": "2027-04-14", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 23, "data": "2027-04-21", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 24, "data": "2027-04-28", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 25, "data": "2027-05-05", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 26, "data": "2027-05-12", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 27, "data": "2027-05-19", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 28, "data": "2027-05-26", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "numero": 29, "data": "2027-06-02", "titol": "", "subtitol": "", "periode": "classicisme", "enllac": "" },
+          { "activitat": true, "data": "2027-06-09", "titol": "Presentacions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      }
+    ]
+  },
+  "6e": {
+    "nom": "6è d'EP",
+    "tema": "Del Romanticisme als nostres dies",
+    "apunts": "https://drive.google.com/file/d/1TczlUsFLWTEHk7ELjVo9hPeFiXuXp8JH/view?usp=sharing",
+    "diapositives": "https://drive.google.com/drive/folders/1sBwFcdEF9vWvNDRJ8ZMLT8e9TsSZaDlr",
+    "periodes": ["romanticisme", "xx-xxi"],
+    "trimestres": [
+      {
+        "nom": "1r trimestre",
+        "tema": "El Romanticisme",
+        "diapositives": "https://drive.google.com/drive/folders/1xc0XaguIAR7zAs2tGd4asTVwFnvId3oZ",
+        "sessions": [
+          { "numero": 1, "data": "2026-09-30", "titol": "Què és el Romanticisme?", "subtitol": "L'individu, la natura i el sublim", "periode": "romanticisme", "enllac": "https://docs.google.com/presentation/d/1CGpPYIts0jPiSH_QxH2Bi1SgttyzYH8T_bhwKIGAZcU/view" },
+          { "numero": 2, "data": "2026-10-07", "titol": "El lied", "subtitol": "Poesia i piano", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1x1GUC4OeO6rubxOzV9KcvqGo4M9p_e1C/view" },
+          { "numero": 3, "data": "2026-10-14", "titol": "El piano romàntic", "subtitol": "Petites peces per a grans emocions", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1YjV1dY3Dspa0lphgWlPKUzJD60JPlgS6/view" },
+          { "numero": 4, "data": "2026-10-21", "titol": "Els virtuosos", "subtitol": "Paganini i Liszt, les primeres estrelles", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1RhOhGh4hytj4FZCdbGis5xOpsgQiIzQG/view" },
+          { "numero": 5, "data": "2026-10-28", "titol": "La música que explica històries", "subtitol": "Música programàtica i poema simfònic", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1JUXmjwn9hpJAO24szTy45lpv6oHqwbQL/view" },
+          { "numero": 6, "data": "2026-11-04", "titol": "La gran simfonia romàntica", "subtitol": "L'orquestra creix", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/18vEFcHhhTbBqT8nnRQteLpB78B3q_7JB/view" },
+          { "numero": 7, "data": "2026-11-11", "titol": "Els nacionalismes", "subtitol": "La música de cada poble", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1NaYuNxqmuq95_Ycf9uvqdhLk9uBXqHG3/view" },
+          { "numero": 8, "data": "2026-11-18", "titol": "L'òpera italiana: Rossini i Verdi", "subtitol": "Bel canto i passions humanes", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1wxe2lBVEFtKRD8289Nxn-ieAp0OlcQKV/view" },
+          { "numero": 9, "data": "2026-11-25", "titol": "Wagner i el drama musical", "subtitol": "L'obra d'art total", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1qCEVlEBWoztLG1mpgN7QnuYhXq5UmmPh/view" },
+          { "numero": 10, "data": "2026-12-02", "titol": "El Romanticisme a casa nostra", "subtitol": "Cors, sarsuela i piano", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1uYZKhclWcnuYJt3HldNRuAep9Atjrli8/view" },
+          { "numero": 11, "data": "2026-12-09", "titol": "Síntesi del trimestre", "subtitol": "El segle de les emocions", "periode": "romanticisme", "enllac": "https://drive.google.com/file/d/1E5YT_dgdQTk_Cs6IymeCGBq6HFqUt-Yg/view" },
+          { "activitat": true, "data": "2026-12-16", "titol": "Exposicions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      },
+      {
+        "nom": "2n trimestre",
+        "tema": "",
+        "diapositives": "https://drive.google.com/drive/folders/1dta6S1rbgFkBqOAFyvRxTfhUki8vrLDN",
+        "sessions": [
+          { "numero": 12, "data": "2027-01-13", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 13, "data": "2027-01-20", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 14, "data": "2027-01-27", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 15, "data": "2027-02-03", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 16, "data": "2027-02-10", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 17, "data": "2027-02-17", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 18, "data": "2027-02-24", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 19, "data": "2027-03-03", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 20, "data": "2027-03-10", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "activitat": true, "data": "2027-03-17", "titol": "Presentacions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      },
+      {
+        "nom": "3r trimestre",
+        "tema": "",
+        "diapositives": "https://drive.google.com/drive/folders/1Ha2aeoKG2cmEP9TOJV0H_ojKpsDmwefP",
+        "sessions": [
+          { "numero": 21, "data": "2027-04-07", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 22, "data": "2027-04-14", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 23, "data": "2027-04-21", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 24, "data": "2027-04-28", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 25, "data": "2027-05-05", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 26, "data": "2027-05-12", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 27, "data": "2027-05-19", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 28, "data": "2027-05-26", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "numero": 29, "data": "2027-06-02", "titol": "", "subtitol": "", "periode": "xx-xxi", "enllac": "" },
+          { "activitat": true, "data": "2027-06-09", "titol": "Presentacions", "subtitol": "Presentam els treballs del trimestre" }
+        ]
+      }
+    ]
+  }
+}

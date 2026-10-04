@@ -1,0 +1,431 @@
+{
+  "_com_funciona": "Cada dilluns surt l'obra següent de la llista, comptant des de la data d'inici. Quan s'acaba la llista, torna a començar. Per fixar una obra concreta, posa el seu número de posició (començant per 1) a 'fixa'; deixa-ho a 0 perquè vagi sola.",
+  "inici": "2026-09-07",
+  "fixa": 0,
+  "obres": [
+    {
+      "titol": "L'Orfeo: Toccata",
+      "autor": "Claudio Monteverdi",
+      "any": "1607",
+      "periode": "barroc",
+      "youtube": "ETd_bQxBlOY",
+      "anecdota": "L'Orfeo és una de les primeres òperes de la història. Aquesta tocata, que sona tres vegades al principi, probablement feia de «sintonia» per anunciar l'arribada dels Gonzaga, la família poderosa que pagava l'espectacle. Sí, una fanfàrria per dir: «Ja arriben els senyors!»."
+    },
+    {
+      "titol": "Ut queant laxis (himne a sant Joan)",
+      "autor": "Anònim (cant gregorià)",
+      "any": "segle VIII",
+      "periode": "edat-mitjana",
+      "youtube": "viu-PhML3D8",
+      "anecdota": "D'aquest himne surten els noms de les notes! Cada vers comença una nota més aguda, i el monjo Guido d'Arezzo en va agafar les primeres síl·labes: UT, RE, MI, FA, SOL, LA. Més endavant, UT es va canviar per DO perquè és més fàcil de cantar."
+    },
+    {
+      "titol": "Simfonia núm. 45 «Dels adéus» (final)",
+      "autor": "Joseph Haydn",
+      "any": "1772",
+      "periode": "classicisme",
+      "youtube": "kjFeDk6Kr3U",
+      "anecdota": "Els músics de Haydn duien mesos lluny de casa i el príncep no els deixava tornar. Haydn va escriure un final en què els músics apaguen l'espelma i se'n van un a un, fins que només en queden dos. El príncep ho va entendre… i poc després tots tornaven a casa!"
+    },
+    {
+      "titol": "Guillem Tell: obertura (final)",
+      "autor": "Gioachino Rossini",
+      "any": "1829",
+      "periode": "romanticisme",
+      "youtube": "YIbYCOiETx0",
+      "anecdota": "Aquest galop és tan famós que s'ha usat a dibuixos animats i pel·lícules de cowboys. Guillem Tell va ser l'última òpera de Rossini: es va retirar amb 37 anys i es va dedicar sobretot a la cuina. Encara hi ha un plat que du el seu nom!"
+    },
+    {
+      "titol": "El Grillo",
+      "autor": "Josquin des Prez",
+      "any": "c. 1505",
+      "periode": "renaixement",
+      "youtube": "O_EsMD6oDvI",
+      "anecdota": "«El grill és bon cantant i aguanta molt les notes»: així comença aquesta cançó. Escolta com les veus imiten el cri-cri del grill repetint síl·labes molt ràpides. Josquin era tan famós que alguns editors posaven el seu nom en obres d'altres per vendre més!"
+    },
+    {
+      "titol": "Children's Corner: Golliwogg's Cakewalk",
+      "autor": "Claude Debussy",
+      "any": "1908",
+      "periode": "xx-xxi",
+      "youtube": "p5Rhv1E3tEM",
+      "anecdota": "Debussy va escriure aquest recull per a la seva filla Chouchou. Al mig de la peça fa una broma: cita la música seriosíssima de Wagner, la marca «amb gran emoció»… i tot d'una la interromp amb uns acords que se'n riuen."
+    },
+    {
+      "titol": "Himne hurrita núm. 6",
+      "autor": "Anònim",
+      "any": "c. 1400 aC",
+      "periode": "antiguitat",
+      "youtube": "QpxN2VXPMLc",
+      "anecdota": "És la melodia escrita més antiga que coneixem! Es va trobar en una tauleta d'argila a Ugarit (l'actual Síria) i té uns 3.400 anys. Els investigadors encara discuteixen com s'ha de llegir, per això cada versió sona una mica diferent."
+    },
+    {
+      "titol": "Dido i Enees: «When I am laid in earth»",
+      "autor": "Henry Purcell",
+      "any": "c. 1688",
+      "periode": "barroc",
+      "youtube": "jq1K_cnVo6Q",
+      "anecdota": "Una de les òperes angleses més antigues es va estrenar… en una escola de nines de Chelsea, a Londres! El lament final de Dido es construeix sobre una línia greu que es repeteix una vegada i una altra, com un plor que no s'atura."
+    },
+    {
+      "titol": "Ordo Virtutum",
+      "autor": "Hildegarda de Bingen",
+      "any": "c. 1151",
+      "periode": "edat-mitjana",
+      "youtube": "zUMlhtoGTzY",
+      "anecdota": "Hildegarda era monja, compositora, escriptora i experta en plantes medicinals. En aquesta obra, una mena d'òpera medieval, tots els personatges canten… excepte el dimoni, que només crida i parla, perquè no és capaç de fer música bella."
+    },
+    {
+      "titol": "Variacions sobre «Ah, vous dirai-je, maman»",
+      "autor": "Wolfgang Amadeus Mozart",
+      "any": "c. 1781",
+      "periode": "classicisme",
+      "youtube": "hCKBl-TpRzc",
+      "anecdota": "Aquesta melodia la coneixes segur: és la mateixa de «Estrelleta, on ets?» Mozart en va fer dotze variacions, cada una més enginyosa que l'anterior. Saps reconèixer la melodia quan es va disfressant?"
+    },
+    {
+      "titol": "Nabucco: «Va, pensiero»",
+      "autor": "Giuseppe Verdi",
+      "any": "1842",
+      "periode": "romanticisme",
+      "youtube": "MBYmhYxEvUM",
+      "anecdota": "És el cor dels esclaus hebreus que enyoren la seva terra. Els italians de l'època el varen fer seu com a símbol de llibertat, i es diu que, quan Verdi va morir, la gent el va cantar pels carrers de Milà."
+    },
+    {
+      "titol": "La guerra (ensalada)",
+      "autor": "Mateu Fletxa el Vell",
+      "any": "c. 1530",
+      "periode": "renaixement",
+      "youtube": "6Rm5UeS51t0",
+      "anecdota": "Les «ensalades» barrejaven idiomes, cançons populars i efectes sonors, com una amanida! En aquesta, les veus imiten les trompetes, els tambors i els crits d'una batalla. Fletxa va néixer a Prades, al Camp de Tarragona."
+    },
+    {
+      "titol": "La consagració de la primavera",
+      "autor": "Igor Stravinski",
+      "any": "1913",
+      "periode": "xx-xxi",
+      "youtube": "EkwqPJZe8ms",
+      "anecdota": "L'estrena a París va acabar en escàndol: una part del públic xiulava, cridava i es barallava, i els ballarins gairebé no sentien l'orquestra! Els ritmes i els sons eren tan nous que molta gent no ho va entendre. Avui és una obra clau del segle XX."
+    },
+    {
+      "titol": "Epitafi de Seikilos",
+      "autor": "Anònim (Seikilos)",
+      "any": "segle I",
+      "periode": "antiguitat",
+      "youtube": "hIFcIE23Su4",
+      "anecdota": "És la cançó completa més antiga que s'ha conservat, amb la lletra i les notes gravades en una làpida de pedra. Durant anys, una família la va fer servir de peu per a un test de flors i en van serrar la base perquè no fes tentines… i s'hi va perdre una línia del text!"
+    },
+    {
+      "titol": "Cànon en re",
+      "autor": "Johann Pachelbel",
+      "any": "c. 1690",
+      "periode": "barroc",
+      "youtube": "NlprozGcs80",
+      "anecdota": "Durant gairebé tres-cents anys, aquesta obra va estar oblidada. Es va redescobrir al segle XX i ara és una de les més famoses del món: sona a moltes bodes i se n'han fet centenars de versions pop. El baix repeteix les mateixes vuit notes 28 vegades!"
+    },
+    {
+      "titol": "Viderunt omnes",
+      "autor": "Perotí",
+      "any": "1198",
+      "periode": "edat-mitjana",
+      "youtube": "Q2JvIyStzNA",
+      "anecdota": "És una de les primeres obres escrites per a quatre veus que sonen alhora. Es cantava a la catedral de Notre-Dame de París, i l'any 1198 el bisbe va ordenar que sonàs a les festes de Nadal. Escolta com la veu greu allarga cada nota mentre les altres hi fan filigranes."
+    },
+    {
+      "titol": "Eine kleine Nachtmusik",
+      "autor": "Wolfgang Amadeus Mozart",
+      "any": "1787",
+      "periode": "classicisme",
+      "youtube": "QZWKUszkbXU",
+      "anecdota": "El títol vol dir «Una petita serenata». És una de les obres més conegudes de la història, però ningú no sap per a qui ni per a què la va escriure Mozart, i no es va publicar fins molts anys després de la seva mort."
+    },
+    {
+      "titol": "Vals del minut",
+      "autor": "Frédéric Chopin",
+      "any": "1847",
+      "periode": "romanticisme",
+      "youtube": "hKILwVH_MdM",
+      "anecdota": "No dura un minut! El nom ve de la paraula anglesa «minute», que també vol dir «petit». Diuen que Chopin s'hi va inspirar veient un cagnet que donava voltes per agafar-se la cua."
+    },
+    {
+      "titol": "Danserye: La Mourisque",
+      "autor": "Tielman Susato",
+      "any": "1551",
+      "periode": "renaixement",
+      "youtube": "Imh7_XQRJxE",
+      "anecdota": "Susato era músic i també tenia una impremta a Anvers. Va publicar aquest recull de danses perquè la gent les pogués tocar a casa amb els instruments que tingués: flautes, violes, sacabutxos… El Renaixement va ser la primera època en què la música es venia impresa!"
+    },
+    {
+      "titol": "Els planetes: Mart",
+      "autor": "Gustav Holst",
+      "any": "1914",
+      "periode": "xx-xxi",
+      "youtube": "cXOanvv4plU",
+      "anecdota": "Mart, el portador de la guerra, té un ritme de cinc temps que no s'atura mai, com una màquina. Si et sona de pel·lícules de l'espai és normal: ha inspirat molta música de cinema, com la de Star Wars."
+    },
+    {
+      "titol": "Música aquàtica: Alla Hornpipe",
+      "autor": "Georg Friedrich Händel",
+      "any": "1717",
+      "periode": "barroc",
+      "youtube": "1h4mAceHmrI",
+      "anecdota": "El rei Jordi I d'Anglaterra va fer una festa damunt el riu Tàmesi i Händel va posar cinquanta músics en una barca al costat de la del rei. Al rei li va agradar tant que va demanar que la toquessin tres vegades seguides, ja de nit!"
+    },
+    {
+      "titol": "Sumer is icumen in",
+      "autor": "Anònim",
+      "any": "segle XIII",
+      "periode": "edat-mitjana",
+      "youtube": "nyLXPU1xhYA",
+      "anecdota": "És un dels cànons més antics que coneixem: una cançó en què les veus van entrant una darrere l'altra amb la mateixa melodia, com «Frère Jacques». Diu que ha arribat l'estiu… i que el cucut canta ben fort!"
+    },
+    {
+      "titol": "Simfonia núm. 94 «La sorpresa»",
+      "autor": "Joseph Haydn",
+      "any": "1791",
+      "periode": "classicisme",
+      "youtube": "VOLy6JxEDLw",
+      "anecdota": "El segon moviment comença molt suau i tranquil… i de cop: PAM! Un acord fortíssim. Es diu que Haydn ho va fer per despertar els senyors de Londres que s'adormien als concerts. Estigues atent i no et deixis sorprendre!"
+    },
+    {
+      "titol": "Danse macabre",
+      "autor": "Camille Saint-Saëns",
+      "any": "1874",
+      "periode": "romanticisme",
+      "youtube": "ZDWMoJz8OYU",
+      "anecdota": "A mitjanit, la Mort toca el violí i els esquelets surten a ballar. El xilòfon imita el soroll dels ossos! El violí solista està afinat diferent del normal per sonar més inquietant. Quan canta el gall, tots tornen a les tombes."
+    },
+    {
+      "titol": "Spem in alium",
+      "autor": "Thomas Tallis",
+      "any": "c. 1570",
+      "periode": "renaixement",
+      "youtube": "QmH1nZSGIyY",
+      "anecdota": "Aquesta obra té 40 veus diferents, repartides en vuit cors de cinc cantants! El so passa d'un cor a l'altre i, si l'escoltes en directe envoltat de cantants, sembla que la música et dóna voltes pel cap."
+    },
+    {
+      "titol": "El amor brujo: Dansa ritual del foc",
+      "autor": "Manuel de Falla",
+      "any": "1915",
+      "periode": "xx-xxi",
+      "youtube": "Qbx5i4A_XMc",
+      "anecdota": "La protagonista balla al voltant del foc a mitjanit per espantar un fantasma que la persegueix. Falla s'inspirava en la música gitana i andalusa que havia escoltat de petit a Cadis."
+    },
+    {
+      "titol": "Concert de Brandenburg núm. 3",
+      "autor": "Johann Sebastian Bach",
+      "any": "1721",
+      "periode": "barroc",
+      "youtube": "qr0f6t2UbOo",
+      "anecdota": "Bach va enviar sis concerts al marquès de Brandenburg per aconseguir feina. Sembla que el marquès no els va fer tocar mai: van passar anys oblidats en una biblioteca. Avui són algunes de les obres més estimades del Barroc."
+    },
+    {
+      "titol": "Ma fin est mon commencement",
+      "autor": "Guillaume de Machaut",
+      "any": "segle XIV",
+      "periode": "edat-mitjana",
+      "youtube": "dcfPr4IN2MM",
+      "anecdota": "El títol vol dir «El meu final és el meu començament», i és literal: una de les veus canta exactament la mateixa melodia que una altra, però de darrere cap endavant, com un palíndrom musical."
+    },
+    {
+      "titol": "La flauta màgica: ària de la Reina de la Nit",
+      "autor": "Wolfgang Amadeus Mozart",
+      "any": "1791",
+      "periode": "classicisme",
+      "youtube": "YuBeBjqKSGQ",
+      "anecdota": "És una de les àries més difícils de l'òpera: la soprano ha d'arribar a un fa sobreagut, una nota altíssima. Mozart la va escriure per a la seva cunyada, Josepha Hofer, que tenia una veu extraordinària."
+    },
+    {
+      "titol": "Peer Gynt: «En la cova del rei de la muntanya»",
+      "autor": "Edvard Grieg",
+      "any": "1875",
+      "periode": "romanticisme",
+      "youtube": "OqvHWUZZdP0",
+      "anecdota": "Comença molt fluix i lent i va augmentant de velocitat i de volum fins que esclata. Curiosament, a Grieg no li agradava gens: deia que sonava a fem de vaca! Avui és una de les seves obres més famoses."
+    },
+    {
+      "titol": "Miserere",
+      "autor": "Gregorio Allegri",
+      "any": "c. 1638",
+      "periode": "renaixement",
+      "youtube": "IX1zicNRLmY",
+      "anecdota": "El Vaticà guardava aquesta partitura en secret i prohibia copiar-la. Però l'any 1770 un nin de 14 anys la va sentir a la Capella Sixtina i, en arribar a casa, la va escriure sencera de memòria. Aquell nin es deia Wolfgang Amadeus Mozart."
+    },
+    {
+      "titol": "Rhapsody in Blue",
+      "autor": "George Gershwin",
+      "any": "1924",
+      "periode": "xx-xxi",
+      "youtube": "VR8X26YpUbQ",
+      "anecdota": "Gershwin es va assabentar pel diari que havia d'estrenar una obra nova… en cinc setmanes! El famós glissando del clarinet del principi va néixer com una broma del clarinetista a un assaig, i a Gershwin li va agradar tant que el va deixar."
+    },
+    {
+      "titol": "L'hivern (Les quatre estacions)",
+      "autor": "Antonio Vivaldi",
+      "any": "1725",
+      "periode": "barroc",
+      "youtube": "ZPdk5GaIDjo",
+      "anecdota": "Vivaldi va acompanyar cada estació amb un poema que explica el que imita la música. Escolta com el violí fa tremolar les dents de fred, el vent gelat i les passes damunt el gel. A Vivaldi li deien «el capellà pèl-roig» perquè era sacerdot i tenia els cabells vermells."
+    },
+    {
+      "titol": "Stella splendens (Llibre Vermell de Montserrat)",
+      "autor": "Anònim",
+      "any": "c. 1399",
+      "periode": "edat-mitjana",
+      "youtube": "LnmLKFa0mMU",
+      "anecdota": "Els pelegrins que passaven la nit a Montserrat cantaven i ballaven cançons poc adequades per a un monestir. Per això els monjos van escriure cançons i danses noves, «honestes i devotes», que es conserven en un llibre enquadernat en vellut vermell."
+    },
+    {
+      "titol": "Per a Elisa",
+      "autor": "Ludwig van Beethoven",
+      "any": "1810",
+      "periode": "classicisme",
+      "youtube": "wfF0zHeU3Zs",
+      "anecdota": "És una de les peces de piano més famoses del món, però ningú no sap qui era Elisa! Potser el copista va llegir malament el nom «Therese», una alumna de Beethoven. La partitura es va trobar gairebé quaranta anys després de la seva mort."
+    },
+    {
+      "titol": "El Moldava",
+      "autor": "Bedřich Smetana",
+      "any": "1874",
+      "periode": "romanticisme",
+      "youtube": "3ZJwlDPWEkg",
+      "anecdota": "La música descriu el riu Moldava des de les dues fonts on neix, passant per boscos, una boda de pagesos i ninfes a la nit, fins arribar a Praga. Smetana la va compondre quan ja s'havia quedat completament sord."
+    },
+    {
+      "titol": "Bolero",
+      "autor": "Maurice Ravel",
+      "any": "1928",
+      "periode": "xx-xxi",
+      "youtube": "_Y8DvESTMlw",
+      "anecdota": "Tot el Bolero és la mateixa melodia repetida una vegada i una altra, sempre amb el mateix ritme de caixa, però cada cop amb instruments diferents i més fort. Ravel deia que era «un experiment» i es va sorprendre que tingués tant d'èxit."
+    },
+    {
+      "titol": "El Messies: «Al·leluia»",
+      "autor": "Georg Friedrich Händel",
+      "any": "1742",
+      "periode": "barroc",
+      "youtube": "IUZEtVbJT5c",
+      "anecdota": "Händel va escriure tot El Messies en només 24 dies! Hi ha una tradició curiosa: quan sona l'«Al·leluia», el públic s'aixeca. Diu la llegenda que el rei d'Anglaterra s'hi va posar dret i, és clar, quan el rei s'aixeca, tothom s'aixeca."
+    },
+    {
+      "titol": "Simfonia núm. 5",
+      "autor": "Ludwig van Beethoven",
+      "any": "1808",
+      "periode": "classicisme",
+      "youtube": "I7AQeN-x_Xs",
+      "anecdota": "Ta-ta-ta-TAAA! Amb només quatre notes, Beethoven construeix tot un primer moviment. A l'estrena, el concert va durar unes quatre hores, en un teatre gelat de Viena i amb una orquestra que gairebé no havia assajat."
+    },
+    {
+      "titol": "Carmen: «Habanera»",
+      "autor": "Georges Bizet",
+      "any": "1875",
+      "periode": "romanticisme",
+      "youtube": "EseMHr6VEM0",
+      "anecdota": "Avui Carmen és una de les òperes més representades del món, però l'estrena va ser un fracàs. Bizet va morir tres mesos després, sense saber l'èxit enorme que tindria. La melodia de l'Habanera, de fet, l'havia agafada d'una cançó d'un altre compositor."
+    },
+    {
+      "titol": "Pere i el llop",
+      "autor": "Serguei Prokófiev",
+      "any": "1936",
+      "periode": "xx-xxi",
+      "youtube": "MfM7Y9Pcdzw",
+      "anecdota": "Prokófiev la va escriure per ensenyar als infants els instruments de l'orquestra: cada personatge és un instrument. Pere és la corda, l'ocell la flauta, l'ànec l'oboè, el gat el clarinet, l'avi el fagot… i el llop, les trompes!"
+    },
+    {
+      "titol": "Tocata i fuga en re menor",
+      "autor": "Johann Sebastian Bach",
+      "any": "c. 1705",
+      "periode": "barroc",
+      "youtube": "erXG9vnN-GI",
+      "anecdota": "Segur que l'has sentida en pel·lícules de terror o de vampirs! Quan era jove, Bach va fer uns 400 km a peu per anar a escoltar el gran organista Buxtehude a Lübeck… i s'hi va quedar tant de temps que a la feina el varen renyar."
+    },
+    {
+      "titol": "Simfonia núm. 9: «Oda a l'alegria»",
+      "autor": "Ludwig van Beethoven",
+      "any": "1824",
+      "periode": "classicisme",
+      "youtube": "fzyO3fLV5O0",
+      "anecdota": "Quan la va estrenar, Beethoven ja era completament sord. En acabar, no sentia els aplaudiments i una cantant el va girar perquè veiés el públic entusiasmat. Avui la seva melodia és l'himne de la Unió Europea."
+    },
+    {
+      "titol": "Quadres d'una exposició: La gran porta de Kíev",
+      "autor": "Modest Mussorgski",
+      "any": "1874",
+      "periode": "romanticisme",
+      "youtube": "TU-w2eIyVyA",
+      "anecdota": "Mussorgski va visitar una exposició dels quadres del seu amic Hartmann, que havia mort, i va convertir cada quadre en música. La va escriure per a piano, però la versió més famosa és la que en va fer Ravel per a orquestra."
+    },
+    {
+      "titol": "Carmina Burana: «O Fortuna»",
+      "autor": "Carl Orff",
+      "any": "1937",
+      "periode": "xx-xxi",
+      "youtube": "EJC-_j3SnXk",
+      "anecdota": "Sona molt moderna, però la lletra té més de 700 anys! Orff va fer servir poemes en llatí d'un manuscrit medieval trobat en un monestir de Baviera. Parla de la Fortuna, que fa rodar la sort com una roda."
+    },
+    {
+      "titol": "El carnaval dels animals: El cigne",
+      "autor": "Camille Saint-Saëns",
+      "any": "1886",
+      "periode": "romanticisme",
+      "youtube": "3qrKjywjo7Q",
+      "anecdota": "Saint-Saëns va escriure El carnaval dels animals de broma i va prohibir que es publicàs mentre fos viu, perquè no volia que el prenguessin per un compositor poc seriós. Només va deixar publicar una peça: aquest cigne tan elegant."
+    },
+    {
+      "titol": "Gayaneh: Dansa del sabre",
+      "autor": "Aram Khatxaturian",
+      "any": "1942",
+      "periode": "xx-xxi",
+      "youtube": "mUQHGpxrz-8",
+      "anecdota": "Diuen que Khatxaturian va escriure aquesta dansa en poques hores, perquè al ballet li faltava un número just abans de l'estrena. Va acabar sent tan famosa que el compositor es queixava que la gent només el coneixia per això."
+    },
+    {
+      "titol": "Asturias (Llegenda)",
+      "autor": "Isaac Albéniz",
+      "any": "1892",
+      "periode": "romanticisme",
+      "youtube": "inBKFMB-yPg",
+      "anecdota": "Albéniz la va escriure per a piano, però avui és molt més famosa a la guitarra, perquè la seva música imita el so de la guitarra flamenca. Albéniz era un nin prodigi: diuen que als quatre anys ja tocava el piano en públic."
+    },
+    {
+      "titol": "La màquina d'escriure",
+      "autor": "Leroy Anderson",
+      "any": "1950",
+      "periode": "xx-xxi",
+      "youtube": "G4nX0Xrn-wo",
+      "anecdota": "En aquesta obra, l'instrument solista és… una màquina d'escriure! El percussionista ha de teclejar, fer sonar la campaneta i moure el carro al ritme exacte de l'orquestra. No és tan fàcil com sembla!"
+    },
+    {
+      "titol": "El trencanous: Dansa de la fada de sucre",
+      "autor": "Piotr Ilitx Txaikovski",
+      "any": "1892",
+      "periode": "romanticisme",
+      "youtube": "gFjveJ5sgeQ",
+      "anecdota": "El so màgic d'aquesta dansa és la celesta, un instrument que Txaikovski va descobrir a París. El va dur a Rússia en secret perquè cap altre compositor el fes servir abans que ell!"
+    },
+    {
+      "titol": "4'33''",
+      "autor": "John Cage",
+      "any": "1952",
+      "periode": "xx-xxi",
+      "youtube": "AWVUp12XPpU",
+      "anecdota": "Durant quatre minuts i trenta-tres segons, els músics… no toquen res! La música són els sons que es produeixen a la sala: una tos, una cadira que grinyola, la pluja a fora. Cage volia que escoltàssim el món amb orelles noves."
+    },
+    {
+      "titol": "L'aprenent de bruixot",
+      "autor": "Paul Dukas",
+      "any": "1897",
+      "periode": "romanticisme",
+      "youtube": "J4vs0TFrGDU",
+      "anecdota": "Un aprenent fa màgia perquè una escombra li dugui aigua… però no sap com aturar-la! Segur que coneixes la història: Walt Disney la va posar a la pel·lícula Fantasia (1940), amb Mickey Mouse fent d'aprenent."
+    },
+    {
+      "titol": "Star Wars: tema principal",
+      "autor": "John Williams",
+      "any": "1977",
+      "periode": "xx-xxi",
+      "youtube": "54hoKbTWon4",
+      "anecdota": "John Williams és el compositor de cinema més nominat als Oscar, i també va fer la música de Harry Potter, Jurassic Park i Indiana Jones. Per a Star Wars va escriure música a l'estil dels grans compositors romàntics, amb una orquestra simfònica gegant."
+    }
+  ]
+}

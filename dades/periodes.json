@@ -1,0 +1,70 @@
+[
+  {
+    "id": "introduccio",
+    "nom": "Introducció",
+    "linia": false
+  },
+  {
+    "id": "antiguitat",
+    "nom": "Antiguitat",
+    "dates": "fins al segle V",
+    "curs": "4t",
+    "resum": "Les primeres civilitzacions (Mesopotàmia, Egipte, Grècia i Roma) ja feien música per als rituals, les festes, el teatre i la guerra. A l'antiga Grècia, la música anava sempre unida a la poesia i la dansa, i els filòsofs pensaven que podia canviar el caràcter de les persones: per això era una part important de l'educació. Pitàgores va descobrir que els sons agradables tenen relació amb els números, una idea que encara feim servir avui. Gairebé no conservam partitures d'aquesta època: només alguns fragments gravats en pedra o escrits en papirs.",
+    "noms": ["Pitàgores (matemàtic i filòsof)", "Plató i Aristòtil (filòsofs que escrigueren sobre la música)", "Seikilos (autor de l'epitafi de Seikilos)", "Orfeu (músic de la mitologia grega)"],
+    "caracteristiques": ["Música monòdica: una sola melodia", "Instruments: lira, cítara, aulos, tuba romana i hidraule (orgue d'aigua)", "Música per al teatre, els rituals, els jocs i l'exèrcit", "Es transmetia sobretot de memòria"]
+  },
+  {
+    "id": "edat-mitjana",
+    "nom": "Edat Mitjana",
+    "dates": "segles V – XV",
+    "curs": "4t",
+    "resum": "Durant l'Edat Mitjana, l'Església era la gran protectora de la música, que es cantava sobretot als monestirs i a les catedrals. El cant gregorià, en llatí i sense acompanyament, servia per pregar. Per no haver d'aprendre-ho tot de memòria, els monjos inventaren la notació musical, l'avantpassat de les nostres partitures. Fora de l'Església, els trobadors componien cançons d'amor als castells i els joglars les cantaven per places i fires. A poc a poc va néixer la polifonia: diverses melodies que sonen alhora.",
+    "noms": ["Hildegarda de Bingen", "Guido d'Arezzo", "Leoní i Perotí (escola de Notre-Dame)", "Alfons X el Savi (Cantigas de Santa Maria)", "Guillaume de Machaut", "Trobadors com Cerverí de Girona"],
+    "caracteristiques": ["Cant gregorià (en llatí i sense acompanyament)", "Trobadors i joglars: música profana", "Naixement de la polifonia i de la notació musical", "Instruments: viola de roda, salteri, flautes, cornamusa i percussió", "Llibre Vermell de Montserrat (cançons de pelegrins)"]
+  },
+  {
+    "id": "renaixement",
+    "nom": "Renaixement",
+    "dates": "1450 – 1600",
+    "curs": "4t",
+    "resum": "Es redescobreix la cultura de l'antiga Grècia i Roma, i l'ésser humà passa a ser el centre de tot. La polifonia vocal arriba al seu punt més alt: les veus s'imiten unes a les altres i sonen equilibrades i clares. Els compositors volen que la música expressi el significat del text. Gràcies a la impremta, les partitures es poden copiar i viatjar per tot Europa, i la música instrumental, sobretot per ballar, guanya importància. És també l'època d'or de la música a la península Ibèrica.",
+    "noms": ["Josquin des Prez", "Giovanni Pierluigi da Palestrina", "Orlando di Lasso", "Thomas Tallis", "Tomás Luis de Victoria", "Mateu Fletxa el Vell", "Juan del Encina", "Antonio de Cabezón"],
+    "caracteristiques": ["Polifonia vocal: misses, motets, madrigals i villancets", "Danses instrumentals (pavana, gallarda…)", "Instruments: llaüt, vihuela, viola de gamba, flauta de bec, sacabutx i orgue", "Impremta musical"]
+  },
+  {
+    "id": "barroc",
+    "nom": "Barroc",
+    "dates": "1600 – 1750",
+    "curs": "5è",
+    "resum": "El Barroc comença amb un gran invent: l'òpera, que uneix música, teatre, decorats i vestuari. La música es torna molt expressiva i plena de contrastos: fort i fluix, ràpid i lent, solista i orquestra. Apareix el baix continu, una línia greu (tocada pel clavicèmbal o l'orgue i el violoncel) que acompanya tota la música. Els instruments guanyen protagonisme i neixen formes com el concert, la sonata i la suite. Els músics solien treballar per a l'Església, per a un rei o per a un noble.",
+    "noms": ["Claudio Monteverdi", "Jean-Baptiste Lully", "Henry Purcell", "Arcangelo Corelli", "Antonio Vivaldi", "Johann Sebastian Bach", "Georg Friedrich Händel", "Domenico Scarlatti", "Joan Cabanilles"],
+    "caracteristiques": ["Naixement de l'òpera i l'oratori", "Baix continu i contrastos", "Concert, concerto grosso, sonata, suite i fuga", "Instruments: clavicèmbal, orgue, violí i família de la corda"]
+  },
+  {
+    "id": "classicisme",
+    "nom": "Classicisme",
+    "dates": "1750 – 1820",
+    "curs": "5è",
+    "resum": "La música busca l'equilibri, la claredat i l'elegància: melodies fàcils de recordar, acompanyaments senzills i formes ben ordenades, com la forma sonata. És l'època de la simfonia, el quartet de corda i el concert per a solista. L'orquestra s'organitza tal com la coneixem avui i el piano substitueix el clavicèmbal. Apareixen els concerts públics, on qualsevol persona podia comprar una entrada, i els compositors comencen a voler ser independents dels nobles. Viena es converteix en la capital de la música.",
+    "noms": ["Christoph Willibald Gluck", "Joseph Haydn", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Luigi Boccherini", "Antonio Salieri", "Fernando Sor"],
+    "caracteristiques": ["Forma sonata", "Simfonia, concert, sonata i quartet de corda", "L'orquestra clàssica i el pianoforte", "Òpera seriosa i òpera còmica"]
+  },
+  {
+    "id": "romanticisme",
+    "nom": "Romanticisme",
+    "dates": "1820 – 1900",
+    "curs": "6è",
+    "resum": "La música vol expressar els sentiments: l'amor, la tristesa, la natura, els somnis i les llegendes. El compositor és vist com un artista genial i lliure, i apareixen grans virtuosos que omplen els teatres. L'orquestra es fa enorme i la música sovint explica una història (música programàtica). Alhora, es componen peces breus i íntimes per a piano o per a veu i piano (el lied). Cap al final del segle, molts músics s'inspiren en les cançons i danses populars del seu país: són els nacionalismes.",
+    "noms": ["Franz Schubert", "Felix i Fanny Mendelssohn", "Robert i Clara Schumann", "Frédéric Chopin", "Franz Liszt", "Hector Berlioz", "Giuseppe Verdi", "Richard Wagner", "Johannes Brahms", "Piotr Ilitx Txaikovski", "Antonín Dvořák", "Edvard Grieg", "Isaac Albéniz", "Enric Granados"],
+    "caracteristiques": ["Lied i peces breus per a piano", "Gran orquestra i música programàtica (poema simfònic)", "Òpera romàntica: Verdi a Itàlia i Wagner a Alemanya", "Nacionalismes musicals", "Grans virtuosos del piano i del violí"]
+  },
+  {
+    "id": "xx-xxi",
+    "nom": "Segles XX i XXI",
+    "dates": "1900 – avui",
+    "curs": "6è",
+    "resum": "Mai no hi havia hagut tants estils diferents alhora! Els compositors experimenten amb sons nous: harmonies que «sonen estranyes», ritmes trencats, música sense tonalitat i fins i tot sons electrònics i silencis. Gràcies a la ràdio, els discos, el cinema i internet, la música arriba a tothom. Neixen el jazz, el rock, el pop i la música de cinema, que conviuen amb la música de concert. Avui els compositors barregen estils i tecnologies amb total llibertat.",
+    "noms": ["Claude Debussy", "Maurice Ravel", "Igor Stravinsky", "Arnold Schönberg", "Béla Bartók", "Manuel de Falla", "Frederic Mompou", "George Gershwin", "Dmitri Xostakóvitx", "John Cage", "Philip Glass", "Arvo Pärt", "John Williams"],
+    "caracteristiques": ["Impressionisme, avantguardes, atonalitat i minimalisme", "Música electrònica i música de cinema", "Jazz, rock, pop i música popular moderna", "Noves maneres d'escriure i de tocar els instruments"]
+  }
+]
