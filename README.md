@@ -27,7 +27,6 @@ A `dades/sessions.json`, cerca la sessió i enganxa l'enllaç de la presentació
 - Les sessions del 2n i el 3r trimestre ja hi són, amb la data, però sense títol ni enllaç: surten com a «Pròximament». Quan tenguis la presentació, omple `titol`, `subtitol` i `enllac`.
 - `data` és el dimecres de la sessió (any-mes-dia). Les sessions d'abans d'avui surten en gris amb un ✓, i la següent surt destacada com a «Pròxima classe» (o «Avui»). Si un dimecres no hi ha classe, canvia les dates de les sessions que venen darrere.
 - Les línies amb `"activitat": true` són dies especials sense presentació (exposicions, presentacions de treballs): surten amb una estrella i sense número.
-- Si `enllac` és buit, la sessió surt com a «Properament».
 - Per afegir una sessió nova, copia una línia, canvia el número i posa una coma entre línies.
 - Valors de `periode`: `introduccio`, `antiguitat`, `edat-mitjana`, `renaixement`, `barroc`, `classicisme`, `romanticisme`, `xx-xxi`.
 
@@ -50,3 +49,7 @@ python3 -m http.server 8765
 ```
 
 i ves a http://localhost:8765.
+
+## Quan pugis canvis de disseny
+
+Si canvies `css/estils.css` o `js/app.js`, augmenta el número de versió (`?v=2` → `?v=3`) a tots els fitxers `.html`. Així els navegadors dels alumnes carregaran la versió nova i no una còpia antiga. Si només canvies fitxers de `dades/`, no cal.

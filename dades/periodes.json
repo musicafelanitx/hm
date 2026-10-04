@@ -9,62 +9,62 @@
     "nom": "Antiguitat",
     "dates": "fins al segle V",
     "curs": "4t",
-    "resum": "Les primeres civilitzacions (Mesopotàmia, Egipte, Grècia i Roma) ja feien música per als rituals, les festes, el teatre i la guerra. A l'antiga Grècia, la música anava sempre unida a la poesia i la dansa, i els filòsofs pensaven que podia canviar el caràcter de les persones: per això era una part important de l'educació. Pitàgores va descobrir que els sons agradables tenen relació amb els números, una idea que encara feim servir avui. Gairebé no conservam partitures d'aquesta època: només alguns fragments gravats en pedra o escrits en papirs.",
-    "noms": ["Pitàgores (matemàtic i filòsof)", "Plató i Aristòtil (filòsofs que escrigueren sobre la música)", "Seikilos (autor de l'epitafi de Seikilos)", "Orfeu (músic de la mitologia grega)"],
-    "caracteristiques": ["Música monòdica: una sola melodia", "Instruments: lira, cítara, aulos, tuba romana i hidraule (orgue d'aigua)", "Música per al teatre, els rituals, els jocs i l'exèrcit", "Es transmetia sobretot de memòria"]
+    "resum": "Mesopotàmia, Egipte, Grècia i Roma ja tenien una vida musical rica, però en conservam molt poques fonts sonores: una seixantena de fragments grecs i pocs documents més. Coneixem la música grega sobretot a través de la teoria: Pitàgores va relacionar els intervals consonants amb proporcions numèriques (2:1, 3:2, 4:3), i Plató i Aristòtil van formular la doctrina de l'ethos, segons la qual cada mode té un efecte moral sobre qui l'escolta. La música era inseparable de la poesia i de la dansa, i formava part de l'educació del ciutadà. Aquest pensament teòric, transmès per autors com Boeci, va condicionar tota la teoria musical medieval.",
+    "noms": ["Pitàgores", "Plató", "Aristòtil", "Aristoxen de Tàrent", "Ptolemeu", "Boeci (transmissor a l'Edat Mitjana)"],
+    "caracteristiques": ["Monodia, amb heterofonia instrumental", "Sistema de tetracords i espècies d'octava (modes grecs)", "Notació alfabètica, vocal i instrumental", "Doctrina de l'ethos", "Instruments: lira, cítara, aulos i hydraulis"]
   },
   {
     "id": "edat-mitjana",
     "nom": "Edat Mitjana",
     "dates": "segles V – XV",
     "curs": "4t",
-    "resum": "Durant l'Edat Mitjana, l'Església era la gran protectora de la música, que es cantava sobretot als monestirs i a les catedrals. El cant gregorià, en llatí i sense acompanyament, servia per pregar. Per no haver d'aprendre-ho tot de memòria, els monjos inventaren la notació musical, l'avantpassat de les nostres partitures. Fora de l'Església, els trobadors componien cançons d'amor als castells i els joglars les cantaven per places i fires. A poc a poc va néixer la polifonia: diverses melodies que sonen alhora.",
-    "noms": ["Hildegarda de Bingen", "Guido d'Arezzo", "Leoní i Perotí (escola de Notre-Dame)", "Alfons X el Savi (Cantigas de Santa Maria)", "Guillaume de Machaut", "Trobadors com Cerverí de Girona"],
-    "caracteristiques": ["Cant gregorià (en llatí i sense acompanyament)", "Trobadors i joglars: música profana", "Naixement de la polifonia i de la notació musical", "Instruments: viola de roda, salteri, flautes, cornamusa i percussió", "Llibre Vermell de Montserrat (cançons de pelegrins)"]
+    "resum": "L'Església és la gran institució musical: el cant gregorià, fixat en temps de l'imperi carolingi, organitza la litúrgia de la missa i l'ofici i es classifica en vuit modes eclesiàstics. Per transmetre aquest repertori es desenvolupa la notació, dels neumes adiastemàtics al tetragrama de Guido d'Arezzo. Fora de l'Església, trobadors i trobairitz creen la lírica profana en llengua vulgar. La polifonia avança de l'organum primitiu a l'escola de Notre-Dame, amb Leoní i Perotí i els modes rítmics, i culmina en l'Ars nova del segle XIV, amb la notació mensural i el motet isorítmic.",
+    "noms": ["Gregori I (atribució del cant gregorià)", "Hildegarda de Bingen", "Guido d'Arezzo", "Bernart de Ventadorn", "Comtessa de Dia", "Alfons X el Savi", "Leoní i Perotí", "Philippe de Vitry", "Guillaume de Machaut", "Francesco Landini"],
+    "caracteristiques": ["Cant gregorià: modes eclesiàstics, estils sil·làbic, neumàtic i melismàtic", "Tropus i seqüències", "Monodia profana: trobadors, trouvères i Minnesänger", "Organum, conductus i motet", "Ars antiqua i Ars nova: notació mensural i isorritmia"]
   },
   {
     "id": "renaixement",
     "nom": "Renaixement",
     "dates": "1450 – 1600",
     "curs": "4t",
-    "resum": "Es redescobreix la cultura de l'antiga Grècia i Roma, i l'ésser humà passa a ser el centre de tot. La polifonia vocal arriba al seu punt més alt: les veus s'imiten unes a les altres i sonen equilibrades i clares. Els compositors volen que la música expressi el significat del text. Gràcies a la impremta, les partitures es poden copiar i viatjar per tot Europa, i la música instrumental, sobretot per ballar, guanya importància. És també l'època d'or de la música a la península Ibèrica.",
-    "noms": ["Josquin des Prez", "Giovanni Pierluigi da Palestrina", "Orlando di Lasso", "Thomas Tallis", "Tomás Luis de Victoria", "Mateu Fletxa el Vell", "Juan del Encina", "Antonio de Cabezón"],
-    "caracteristiques": ["Polifonia vocal: misses, motets, madrigals i villancets", "Danses instrumentals (pavana, gallarda…)", "Instruments: llaüt, vihuela, viola de gamba, flauta de bec, sacabutx i orgue", "Impremta musical"]
+    "resum": "L'humanisme situa l'ésser humà al centre i recupera els models clàssics, i la música busca una relació nova entre text i so. La polifonia franco-flamenca arriba a la plenitud amb la imitació contínua entre veus, el contrapunt equilibrat i l'ús creixent de la tríada. Després del Concili de Trento, la música religiosa busca la intel·ligibilitat del text (Palestrina), mentre el madrigal italià experimenta amb el cromatisme i el madrigalisme. La impremta musical, a partir de Petrucci (1501), permet la difusió de partitures i fa créixer la música instrumental: danses, variacions i obres per a llaüt, vihuela i tecla.",
+    "noms": ["Josquin des Prez", "Johannes Ockeghem", "Giovanni Pierluigi da Palestrina", "Orlando di Lasso", "Tomás Luis de Victoria", "Thomas Tallis", "Carlo Gesualdo", "Mateu Fletxa el Vell", "Juan del Encina", "Antonio de Cabezón"],
+    "caracteristiques": ["Polifonia imitativa i textura equilibrada entre veus", "Misses, motets, madrigals, chansons, villancets i ensalades", "Contrareforma i Concili de Trento", "Música instrumental: danses, diferencies i ricercars", "Impremta musical"]
   },
   {
     "id": "barroc",
     "nom": "Barroc",
     "dates": "1600 – 1750",
     "curs": "5è",
-    "resum": "El Barroc comença amb un gran invent: l'òpera, que uneix música, teatre, decorats i vestuari. La música es torna molt expressiva i plena de contrastos: fort i fluix, ràpid i lent, solista i orquestra. Apareix el baix continu, una línia greu (tocada pel clavicèmbal o l'orgue i el violoncel) que acompanya tota la música. Els instruments guanyen protagonisme i neixen formes com el concert, la sonata i la suite. Els músics solien treballar per a l'Església, per a un rei o per a un noble.",
-    "noms": ["Claudio Monteverdi", "Jean-Baptiste Lully", "Henry Purcell", "Arcangelo Corelli", "Antonio Vivaldi", "Johann Sebastian Bach", "Georg Friedrich Händel", "Domenico Scarlatti", "Joan Cabanilles"],
-    "caracteristiques": ["Naixement de l'òpera i l'oratori", "Baix continu i contrastos", "Concert, concerto grosso, sonata, suite i fuga", "Instruments: clavicèmbal, orgue, violí i família de la corda"]
+    "resum": "El Barroc neix amb la monodia acompanyada de la Camerata Florentina i amb l'òpera, i s'organitza a partir del baix continu: una línia greu xifrada que harmonitzen el clavicèmbal, l'orgue o el llaüt. La teoria dels afectes demana que cada peça o moviment expressi un estat d'ànim concret, i el contrast (solista i tutti, fort i fluix) passa a ser un principi constructiu. Es consolida la tonalitat major-menor i neixen formes com el concerto grosso, el concert per a solista, la sonata, la suite i la fuga. L'òpera italiana, la tragèdia lírica francesa, l'oratori i la cantata defineixen la música vocal.",
+    "noms": ["Claudio Monteverdi", "Barbara Strozzi", "Jean-Baptiste Lully", "Henry Purcell", "Arcangelo Corelli", "Antonio Vivaldi", "Johann Sebastian Bach", "Georg Friedrich Händel", "Jean-Philippe Rameau", "Domenico Scarlatti", "Joan Cabanilles"],
+    "caracteristiques": ["Baix continu i baix xifrat", "Teoria dels afectes", "Consolidació del sistema tonal", "Òpera, oratori, cantata i passió", "Concerto grosso, concert per a solista, sonata, suite i fuga"]
   },
   {
     "id": "classicisme",
     "nom": "Classicisme",
     "dates": "1750 – 1820",
     "curs": "5è",
-    "resum": "La música busca l'equilibri, la claredat i l'elegància: melodies fàcils de recordar, acompanyaments senzills i formes ben ordenades, com la forma sonata. És l'època de la simfonia, el quartet de corda i el concert per a solista. L'orquestra s'organitza tal com la coneixem avui i el piano substitueix el clavicèmbal. Apareixen els concerts públics, on qualsevol persona podia comprar una entrada, i els compositors comencen a voler ser independents dels nobles. Viena es converteix en la capital de la música.",
-    "noms": ["Christoph Willibald Gluck", "Joseph Haydn", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Luigi Boccherini", "Antonio Salieri", "Fernando Sor"],
-    "caracteristiques": ["Forma sonata", "Simfonia, concert, sonata i quartet de corda", "L'orquestra clàssica i el pianoforte", "Òpera seriosa i òpera còmica"]
+    "resum": "Amb la Il·lustració, l'ideal musical canvia cap a la claredat, l'equilibri i la naturalitat: melodies articulades en frases regulars, harmonia més senzilla i acompanyaments com el baix d'Alberti. El baix continu desapareix i la forma sonata, basada en el contrast tonal i temàtic, esdevé el principi organitzador de la simfonia, el quartet de corda, la sonata i el concert. L'orquestra clàssica s'estandarditza i el pianoforte desplaça el clavicèmbal. Neixen els concerts públics, i el compositor comença a treballar per al mercat més que per a un sol mecenes; Viena n'és el centre amb Haydn, Mozart i Beethoven.",
+    "noms": ["Carl Philipp Emanuel Bach", "Christoph Willibald Gluck", "Joseph Haydn", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Luigi Boccherini", "Antonio Salieri", "Muzio Clementi", "Fernando Sor"],
+    "caracteristiques": ["Forma sonata i fraseig regular", "Simfonia, quartet de corda, sonata i concert", "Orquestra clàssica i pianoforte", "Reforma de l'òpera (Gluck), opera buffa i singspiel", "Concerts públics"]
   },
   {
     "id": "romanticisme",
     "nom": "Romanticisme",
     "dates": "1820 – 1900",
     "curs": "6è",
-    "resum": "La música vol expressar els sentiments: l'amor, la tristesa, la natura, els somnis i les llegendes. El compositor és vist com un artista genial i lliure, i apareixen grans virtuosos que omplen els teatres. L'orquestra es fa enorme i la música sovint explica una història (música programàtica). Alhora, es componen peces breus i íntimes per a piano o per a veu i piano (el lied). Cap al final del segle, molts músics s'inspiren en les cançons i danses populars del seu país: són els nacionalismes.",
-    "noms": ["Franz Schubert", "Felix i Fanny Mendelssohn", "Robert i Clara Schumann", "Frédéric Chopin", "Franz Liszt", "Hector Berlioz", "Giuseppe Verdi", "Richard Wagner", "Johannes Brahms", "Piotr Ilitx Txaikovski", "Antonín Dvořák", "Edvard Grieg", "Isaac Albéniz", "Enric Granados"],
-    "caracteristiques": ["Lied i peces breus per a piano", "Gran orquestra i música programàtica (poema simfònic)", "Òpera romàntica: Verdi a Itàlia i Wagner a Alemanya", "Nacionalismes musicals", "Grans virtuosos del piano i del violí"]
+    "resum": "La música romàntica posa en primer pla la subjectivitat, la natura i allò sublim. Conviuen dos pols: les formes íntimes (el lied i la peça breu per a piano) i les grans formes (la simfonia, el poema simfònic i el drama musical). L'harmonia s'enriqueix amb cromatisme i modulacions llunyanes fins a tensar la tonalitat (Tristany i Isolda, 1865), i l'orquestra creix en efectius i colors. El virtuós esdevé una figura pública, el debat entre música pura i música programàtica divideix els compositors, i els nacionalismes incorporen elements populars de cada país.",
+    "noms": ["Franz Schubert", "Felix i Fanny Mendelssohn", "Robert i Clara Schumann", "Frédéric Chopin", "Franz Liszt", "Hector Berlioz", "Gioachino Rossini", "Giuseppe Verdi", "Richard Wagner", "Johannes Brahms", "Piotr Ilitx Txaikovski", "Antonín Dvořák", "Isaac Albéniz", "Enric Granados"],
+    "caracteristiques": ["Lied i peça característica per a piano", "Música programàtica i poema simfònic", "Bel canto, Verdi i el drama musical de Wagner (leitmotiv)", "Cromatisme i expansió de la tonalitat", "Virtuosisme i nacionalismes"]
   },
   {
     "id": "xx-xxi",
     "nom": "Segles XX i XXI",
     "dates": "1900 – avui",
     "curs": "6è",
-    "resum": "Mai no hi havia hagut tants estils diferents alhora! Els compositors experimenten amb sons nous: harmonies que «sonen estranyes», ritmes trencats, música sense tonalitat i fins i tot sons electrònics i silencis. Gràcies a la ràdio, els discos, el cinema i internet, la música arriba a tothom. Neixen el jazz, el rock, el pop i la música de cinema, que conviuen amb la música de concert. Avui els compositors barregen estils i tecnologies amb total llibertat.",
-    "noms": ["Claude Debussy", "Maurice Ravel", "Igor Stravinsky", "Arnold Schönberg", "Béla Bartók", "Manuel de Falla", "Frederic Mompou", "George Gershwin", "Dmitri Xostakóvitx", "John Cage", "Philip Glass", "Arvo Pärt", "John Williams"],
-    "caracteristiques": ["Impressionisme, avantguardes, atonalitat i minimalisme", "Música electrònica i música de cinema", "Jazz, rock, pop i música popular moderna", "Noves maneres d'escriure i de tocar els instruments"]
+    "resum": "El segle XX trenca amb la tonalitat com a llenguatge comú. L'impressionisme explora el timbre i les escales modals i per tons, Schönberg arriba a l'atonalitat i al dodecafonisme, i Stravinski i Bartók renoven el ritme i incorporen el folklore. Després de 1945, el serialisme integral, la música concreta i l'electrònica, l'aleatorietat (Cage) i el minimalisme (Reich, Glass) proposen camins molt diferents. Alhora, el jazz, la música de cinema i la música popular urbana canvien la manera com es crea i es consumeix la música, i la tecnologia de gravació la fa arribar a tothom.",
+    "noms": ["Claude Debussy", "Maurice Ravel", "Arnold Schönberg", "Igor Stravinsky", "Béla Bartók", "Manuel de Falla", "Frederic Mompou", "Olivier Messiaen", "Dmitri Xostakóvitx", "John Cage", "Karlheinz Stockhausen", "Steve Reich", "Arvo Pärt", "Kaija Saariaho"],
+    "caracteristiques": ["Impressionisme, expressionisme i neoclassicisme", "Atonalitat, dodecafonisme i serialisme", "Música concreta, electrònica i aleatòria", "Minimalisme i nova simplicitat", "Jazz, música de cinema i música popular"]
   }
 ]

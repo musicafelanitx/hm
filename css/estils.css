@@ -500,9 +500,20 @@ a.sessio:hover { background: var(--fons-suau); }
 }
 
 /* ---------- Recursos ---------- */
-.grup-recursos { margin-top: 40px; }
-.grup-recursos > header { margin-bottom: 14px; }
-.grup-recursos > header p { color: var(--text-suau); margin: 0; }
+.grup-recursos { padding: 40px 0; }
+.grup-recursos:nth-child(even) {
+  background: var(--fons-suau);
+  border-top: 1px solid var(--linia);
+  border-bottom: 1px solid var(--linia);
+}
+.grup-recursos:last-child { margin-bottom: -64px; }
+.grup-recursos .titol-seccio .avis { vertical-align: middle; }
+
+/* Llibres */
+.targeta.llibre { border-left: 5px solid var(--barroc); }
+.targeta.llibre .autor-llibre { color: var(--text); font-weight: 700; }
+.targeta.llibre .detalls { font-size: .9rem; }
+.targeta.llibre .avis { align-self: flex-start; margin: 6px 0 0; }
 .avis {
   display: inline-block;
   margin-left: 6px;

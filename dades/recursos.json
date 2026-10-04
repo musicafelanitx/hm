@@ -45,7 +45,7 @@
     },
     {
       "titol": "Històries de l'òpera (3Cat)",
-      "descripcio": "Les òperes més conegudes explicades com un conte.",
+      "descripcio": "Sèrie de 3Cat dedicada a les grans òperes del repertori.",
       "recursos": [
         {
           "titol": "Històries de l'òpera",
@@ -110,6 +110,33 @@
           "titol": "tonebase Piano",
           "descripcio": "Canal de YouTube",
           "enllac": "https://www.youtube.com/@tonebasePiano"
+        }
+      ]
+    },
+    {
+      "titol": "Llibres",
+      "descripcio": "Lectures per anar més enllà de classe.",
+      "recursos": [
+        {
+          "titol": "Si Beethoven pogués escoltar-me",
+          "autor": "Ramon Gener",
+          "detalls": "2013 · en català i en castellà",
+          "descripcio": "Un passeig per la música clàssica per descobrir que no és avorrida ni difícil, sinó plena de vida.",
+          "enllac": ""
+        },
+        {
+          "titol": "L'amor et farà immortal",
+          "autor": "Ramon Gener",
+          "detalls": "2016 · en català i en castellà",
+          "descripcio": "Gener viatja als llocs on Verdi, Clara Schumann, Brahms o Joaquín Rodrigo van viure moments clau, i ho lliga amb la història del seu pare.",
+          "enllac": ""
+        },
+        {
+          "titol": "Historias de la historia de la ópera",
+          "autor": "Roger Alier",
+          "detalls": "Ma Non Troppo, 2011 · en castellà",
+          "descripcio": "Anècdotes i curiositats dels compositors i els cantants d'òpera, contades per un dels grans experts del país.",
+          "enllac": ""
         }
       ]
     },

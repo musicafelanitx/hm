@@ -304,38 +304,56 @@ function miniaturaYouTube(url) {
   return id ? `<img class="miniatura" src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="" loading="lazy">` : "";
 }
 
+// Targeta d'un recurs: enllaç, llibre o pendent
+function targetaRecurs(r) {
+  if (r.autor) {
+    return `<div class="targeta llibre">
+      <strong>${esc(r.titol)}</strong>
+      <span class="autor-llibre">${esc(r.autor)}</span>
+      ${r.detalls ? `<span class="detalls">${esc(r.detalls)}</span>` : ""}
+      ${r.descripcio ? `<span>${esc(r.descripcio)}</span>` : ""}
+      ${r.grans ? '<span class="avis">Per als més grans</span>' : ""}
+    </div>`;
+  }
+  if (r.enllac) {
+    return `<a class="targeta" href="${esc(r.enllac)}" target="_blank" rel="noopener">${miniaturaYouTube(r.enllac)}<strong>${esc(r.titol)}</strong>${r.descripcio ? `<span>${esc(r.descripcio)}</span>` : ""}</a>`;
+  }
+  return `<div class="targeta pendent"><strong>${esc(r.titol)}</strong><span>${esc(r.descripcio || "Enllaç pendent")}</span></div>`;
+}
+
+// Cada grup ocupa tota l'amplada; els fons alternen blanc i beix (vegeu .grup-recursos al CSS)
+function grupRecursos(titol, descripcio, contingut, grans = false) {
+  return `
+    <section class="grup-recursos">
+      <div class="contenidor">
+        <header class="titol-seccio">
+          <h2>${esc(titol)}${grans ? ' <span class="avis">Per als més grans</span>' : ""}</h2>
+          ${descripcio ? `<p>${esc(descripcio)}</p>` : ""}
+        </header>
+        ${contingut}
+      </div>
+    </section>`;
+}
+
 async function paginaRecursos() {
   const cos = document.getElementById("llista-recursos");
   try {
     const dades = await carrega("recursos.json");
-    const spotify = `
-      <section class="grup-recursos">
-        <header><h2>Spotify</h2><p>Música i podcasts per escoltar a casa.</p></header>
-        <div class="spotify">
-          ${dades.spotify.map(r => {
-            const embed = urlEmbedSpotify(r.enllac);
-            return `<figure>
-              <figcaption>${esc(r.titol)}<span>${esc(r.descripcio)}</span></figcaption>
-              ${embed ? `<iframe src="${embed}" loading="lazy" title="${esc(r.titol)} a Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>` : ""}
-              <p><a href="${esc(r.enllac)}" target="_blank" rel="noopener">Obre a Spotify</a></p>
-            </figure>`;
-          }).join("")}
-        </div>
-      </section>`;
+    const spotify = grupRecursos("Spotify", "Música i podcasts per escoltar a casa.", `
+      <div class="spotify">
+        ${dades.spotify.map(r => {
+          const embed = urlEmbedSpotify(r.enllac);
+          return `<figure>
+            <figcaption>${esc(r.titol)}<span>${esc(r.descripcio)}</span></figcaption>
+            ${embed ? `<iframe src="${embed}" loading="lazy" title="${esc(r.titol)} a Spotify" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>` : ""}
+            <p><a href="${esc(r.enllac)}" target="_blank" rel="noopener">Obre a Spotify</a></p>
+          </figure>`;
+        }).join("")}
+      </div>`);
 
-    const grups = dades.grups.map(g => `
-      <section class="grup-recursos">
-        <header>
-          <h2>${esc(g.titol)}${g.grans ? ' <span class="avis">Per als més grans</span>' : ""}</h2>
-          ${g.descripcio ? `<p>${esc(g.descripcio)}</p>` : ""}
-        </header>
-        <div class="targetes">
-          ${g.recursos.map(r => r.enllac
-            ? `<a class="targeta" href="${esc(r.enllac)}" target="_blank" rel="noopener">${miniaturaYouTube(r.enllac)}<strong>${esc(r.titol)}</strong>${r.descripcio ? `<span>${esc(r.descripcio)}</span>` : ""}</a>`
-            : `<div class="targeta pendent"><strong>${esc(r.titol)}</strong><span>${esc(r.descripcio || "Enllaç pendent")}</span></div>`
-          ).join("")}
-        </div>
-      </section>`).join("");
+    const grups = dades.grups.map(g =>
+      grupRecursos(g.titol, g.descripcio, `<div class="targetes">${g.recursos.map(targetaRecurs).join("")}</div>`, g.grans)
+    ).join("");
 
     cos.innerHTML = spotify + grups;
   } catch (e) {
@@ -377,7 +395,7 @@ async function paginaLinia() {
         <p class="dates">${esc(p.dates)}</p>
         <p>${esc(p.resum)}</p>
         <div class="columnes">
-          <div><h3>Noms per recordar</h3><ul class="noms">${p.noms.map(n => `<li>${esc(n)}</li>`).join("")}</ul></div>
+          <div><h3>Noms clau</h3><ul class="noms">${p.noms.map(n => `<li>${esc(n)}</li>`).join("")}</ul></div>
           <div><h3>Característiques</h3><ul>${p.caracteristiques.map(n => `<li>${esc(n)}</li>`).join("")}</ul></div>
         </div>
         <div class="peu-detall">
