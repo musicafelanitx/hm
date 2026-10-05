@@ -108,10 +108,9 @@ function pintaCapcalera() {
         ${grup("inici", "", PAGINES.filter(p => p.grup === "inici"))}
         ${grup("cursos", "Cursos", PAGINES.filter(p => p.grup === "cursos"))}
         ${grup("explora", "Explora", PAGINES.filter(p => p.grup === "explora"))}
-        <p class="menu-peu">Conservatori de Felanitx · Història de la música</p>
       </nav>
     </div>
-    <div class="fons-menu" hidden></div>`;
+`;
   document.body.prepend(capcalera);
 
   const salta = document.createElement("a");
@@ -122,21 +121,11 @@ function pintaCapcalera() {
 
   const boto = capcalera.querySelector(".boto-menu");
   const menu = capcalera.querySelector(".menu");
-  const fons = capcalera.querySelector(".fons-menu");
-  const obre = obert => {
-    menu.classList.toggle("obert", obert);
-    fons.hidden = !obert;
+  boto.addEventListener("click", () => {
+    const obert = menu.classList.toggle("obert");
     boto.setAttribute("aria-expanded", obert);
     boto.setAttribute("aria-label", obert ? "Tanca el menú" : "Obre el menú");
-    document.documentElement.classList.toggle("menu-obert", obert);
-  };
-  const mesura = () => document.documentElement.style.setProperty("--alt-capcalera", `${capcalera.getBoundingClientRect().height}px`);
-  mesura();
-  addEventListener("resize", mesura);
-  boto.addEventListener("click", () => obre(!menu.classList.contains("obert")));
-  fons.addEventListener("click", () => obre(false));
-  addEventListener("keydown", e => { if (e.key === "Escape" && menu.classList.contains("obert")) { obre(false); boto.focus(); } });
-  matchMedia("(min-width: 961px)").addEventListener("change", e => { if (e.matches) obre(false); });
+  });
 }
 
 function pintaPeu() {

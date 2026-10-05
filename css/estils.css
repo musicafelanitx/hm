@@ -163,90 +163,48 @@ img { max-width: 100%; height: auto; }
 .menu a[aria-current="page"] { background: var(--text); color: #fff; }
 .fons-menu { display: none; }
 
-/* Menú del mòbil: un panell amb els cursos en color i la resta amb icona */
+/* Menú del mòbil: una llista senzilla que es desplega sota la capçalera */
 @media (max-width: 960px) {
   .boto-menu { display: grid; }
   .menu {
     display: none;
-    position: fixed;
-    left: 0; right: 0;
-    top: var(--alt-capcalera, 71px);
-    max-height: calc(100dvh - var(--alt-capcalera, 71px));
-    overflow-y: auto;
+    position: absolute;
+    left: 0; right: 0; top: 100%;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    padding: 18px 16px 22px;
+    padding: 6px 16px 14px;
     background: var(--fons);
-    border-top: 1px solid var(--linia);
-    box-shadow: 0 18px 40px rgba(0,0,0,.18);
-    border-radius: 0 0 20px 20px;
-    z-index: 30;
+    border-bottom: 1px solid var(--linia);
+    box-shadow: 0 10px 24px rgba(0,0,0,.12);
   }
-  .menu.obert { display: flex; animation: baixa .22s ease; }
-  @keyframes baixa { from { opacity: 0; transform: translateY(-8px); } }
-  .fons-menu {
-    display: block;
-    position: fixed; inset: 0;
-    top: var(--alt-capcalera, 71px);
-    background: rgba(20, 18, 15, .4);
-    z-index: 25;
-  }
-  .fons-menu[hidden] { display: none !important; }
-  .menu-obert, .menu-obert body { overflow: hidden; }
-
-  .menu-etiqueta {
-    display: block;
-    margin: 18px 4px 8px;
-    font-size: .75rem; font-weight: 700;
-    letter-spacing: .1em; text-transform: uppercase;
-    color: var(--text-suau);
-  }
-  .menu-grup ul { flex-direction: column; gap: 2px; }
+  .menu.obert { display: flex; }
+  .menu-grup ul { flex-direction: column; gap: 0; }
+  .menu-grup + .menu-grup { border-top: 1px solid var(--linia); }
   .menu a {
-    display: flex; align-items: center; gap: 14px;
-    padding: 12px;
-    border-radius: 14px;
-    font-size: 1.08rem;
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 8px;
+    font-size: 1.08rem; font-weight: 700;
     white-space: normal;
+    border-radius: 10px;
   }
-  .menu a:hover { background: var(--fons-suau); }
-  .menu a[aria-current="page"] { background: var(--fons-suau); color: var(--text); box-shadow: inset 4px 0 0 var(--text); }
+  .menu a[aria-current="page"] { background: var(--fons-suau); color: var(--text); }
   .menu-icona {
     display: block;
-    width: 40px; height: 40px; padding: 9px;
+    width: 22px; height: 22px;
     flex-shrink: 0;
-    border-radius: 12px;
-    background: var(--fons-suau);
-    color: var(--text);
+    color: var(--text-suau);
   }
-  .menu a[aria-current="page"] .menu-icona { background: var(--text); color: #fff; }
-  .menu-text { display: flex; flex-direction: column; font-weight: 700; line-height: 1.2; }
-  .menu small { display: block; font-weight: 400; font-size: .88rem; color: var(--text-suau); margin-top: 2px; }
-
-  /* Cursos: tres rajoles de color */
-  .menu-cursos ul { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-  .menu a.menu-curs {
-    flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 2px;
-    min-height: 84px;
-    padding: 12px;
+  /* Cursos: un quadradet amb el color de cada curs */
+  .menu a.menu-curs::before {
+    content: "";
+    width: 22px; height: 22px; flex-shrink: 0;
+    border-radius: 6px;
     background: var(--color);
-    color: #fff;
   }
-  .menu a.menu-curs:hover { filter: brightness(1.1); background: var(--color); }
-  .menu a.menu-curs .menu-text { font-family: var(--serif); font-size: 1.7rem; line-height: 1; }
-  .menu a.menu-curs small { color: rgba(255,255,255,.88); font-size: .78rem; }
-  .menu a.menu-curs[aria-current="page"] { box-shadow: inset 0 0 0 3px rgba(255,255,255,.75); color: #fff; background: var(--color); }
-
-  .menu-peu {
-    display: block;
-    margin: 20px 4px 0;
-    padding-top: 14px;
-    border-top: 1px solid var(--linia);
-    font-size: .85rem; color: var(--text-suau);
-  }
+  .menu a.menu-curs small { display: inline; font-weight: 400; font-size: .92rem; color: var(--text-suau); margin-left: auto; }
 }
-@media (prefers-reduced-motion: reduce) { .menu.obert { animation: none; } }
+
 
 /* ---------- Peu ---------- */
 .peu {
