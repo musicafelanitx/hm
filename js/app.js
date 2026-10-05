@@ -436,11 +436,53 @@ async function paginaLinia() {
   }
 }
 
+/* ---------- App al mòbil ---------- */
+
+function preparaApp() {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(e => console.warn("Service worker:", e));
+  }
+
+  const boto = document.getElementById("instal-la");
+  if (!boto) return;
+
+  const jaInstallada = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  const esMobil = matchMedia("(pointer: coarse)").matches;
+  if (jaInstallada || !esMobil) return;
+
+  const esIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) ||
+    (navigator.userAgent.includes("Macintosh") && navigator.maxTouchPoints > 1);
+
+  if (esIOS) {
+    // A l'iPhone no es pot instal·lar amb un botó: mostram com fer-ho
+    boto.hidden = false;
+    boto.addEventListener("click", () => document.getElementById("dialeg-ios").showModal());
+    return;
+  }
+
+  // Android (Chrome, Edge, Samsung…): el navegador ens deixa obrir el seu avís d'instal·lació
+  let avis = null;
+  addEventListener("beforeinstallprompt", e => {
+    e.preventDefault();
+    avis = e;
+    boto.hidden = false;
+  });
+  boto.addEventListener("click", async () => {
+    if (!avis) return;
+    avis.prompt();
+    await avis.userChoice;
+    avis = null;
+    boto.hidden = true;
+  });
+  addEventListener("appinstalled", () => { boto.hidden = true; });
+}
+
 /* ---------- Arrencada ---------- */
 
 document.addEventListener("DOMContentLoaded", () => {
   pintaCapcalera();
   pintaPeu();
+  preparaApp();
   const pagina = document.body.dataset.pagina;
   if (pagina === "inici") paginaInici();
   else if (pagina === "curs") paginaCurs(document.body.dataset.curs);

@@ -772,3 +772,22 @@ a.targeta:hover { border-color: #c9c6be; }
 .sessio.activitat .titol { color: var(--color); font-family: var(--serif); font-size: 1.15rem; }
 .sessio.activitat .icona-activitat svg { fill: currentColor; }
 .sessio.activitat.feta { background: var(--fons-suau); border-color: var(--linia); }
+
+/* ---------- Botó i instruccions per instal·lar l'app ---------- */
+.boto.instal-la { margin-top: 4px; }
+.boto.instal-la[hidden] { display: none; }
+.dialeg-ios {
+  width: min(420px, calc(100% - 32px));
+  border: 0;
+  border-radius: 18px;
+  padding: 24px 22px 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.25);
+  color: var(--text);
+  font-family: var(--sans);
+}
+.dialeg-ios::backdrop { background: rgba(0,0,0,.45); }
+.dialeg-ios h2 { font-size: 1.35rem; }
+.dialeg-ios ol { padding-left: 1.3em; margin: 0 0 18px; }
+.dialeg-ios li { margin-bottom: 10px; }
+.dialeg-ios svg { width: 20px; height: 20px; vertical-align: -4px; color: #0a84ff; }
+.dialeg-ios form { text-align: right; }

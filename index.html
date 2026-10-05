@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Història de la música · Conservatori de Felanitx</title>
   <meta name="description" content="Web d'Història de la música per a l'alumnat de 4t, 5è i 6è d'EP del Conservatori de Felanitx.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%BC%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="icones/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="Història Música">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estils.css?v=4">
-  <script src="js/app.js?v=4" defer></script>
+  <link rel="stylesheet" href="css/estils.css?v=5">
+  <script src="js/app.js?v=5" defer></script>
 </head>
 <body data-pagina="inici">
 
@@ -21,6 +25,10 @@
         <span class="etiqueta">Conservatori de Felanitx · 4t, 5è i 6è d'EP</span>
         <h1>Història de la <em>música</em></h1>
         <p class="intro">Materials de l'assignatura d'Història de la música dels Ensenyaments Professionals: apunts, presentacions de cada sessió, audicions i recursos, de l'Antiguitat fins avui.</p>
+        <button class="boto instal-la" id="instal-la" type="button" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M12 7v7M9 11l3 3 3-3"/></svg>
+          Instal·la l'app al mòbil
+        </button>
       </div>
     </div>
   </section>
@@ -73,6 +81,18 @@
     </div>
   </section>
 </main>
+
+<dialog class="dialeg-ios" id="dialeg-ios" aria-labelledby="titol-ios">
+  <h2 id="titol-ios">Instal·la l'app a l'iPhone</h2>
+  <ol>
+    <li>Toca el botó <strong>Compartir</strong>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-label="(icona de compartir)"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>
+      de la barra del navegador.</li>
+    <li>Baixa i toca <strong>Afegeix a la pantalla d'inici</strong>.</li>
+    <li>Toca <strong>Afegeix</strong>. La icona del conservatori apareixerà al costat de les altres apps.</li>
+  </ol>
+  <form method="dialog"><button class="boto">Entesos</button></form>
+</dialog>
 <noscript><p class="contenidor">Cal activar JavaScript per veure aquesta pàgina.</p></noscript>
 </body>
 </html>

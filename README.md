@@ -53,3 +53,11 @@ i ves a http://localhost:8765.
 ## Quan pugis canvis de disseny
 
 Si canvies `css/estils.css` o `js/app.js`, augmenta el número de versió (`?v=2` → `?v=3`) a tots els fitxers `.html`. Així els navegadors dels alumnes carregaran la versió nova i no una còpia antiga. Si només canvies fitxers de `dades/`, no cal.
+
+## App al mòbil
+
+La web es pot instal·lar al mòbil com una app (PWA). A la portada, al mòbil, surt el botó «Instal·la l'app al mòbil»: a Android obre l'avís d'instal·lació i a l'iPhone mostra els passos (Compartir → Afegeix a la pantalla d'inici).
+
+- `manifest.webmanifest`: nom, colors i icones de l'app.
+- `sw.js`: guarda una còpia de les pàgines per si no hi ha connexió. Sempre prova primer la xarxa, així els canvis es veuen de seguida.
+- `icones/`: icones fetes amb el logo del conservatori. Per canviar-les, substitueix els PNG mantenint el nom i la mida.

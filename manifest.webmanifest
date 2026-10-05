@@ -1,0 +1,15 @@
+{
+  "name": "Història de la música · Conservatori de Felanitx",
+  "short_name": "Història Música",
+  "description": "Apunts, presentacions, audicions i recursos d'Història de la música (4t, 5è i 6è d'EP).",
+  "lang": "ca",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "icones/icona-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icones/icona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
