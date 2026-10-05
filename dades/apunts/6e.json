@@ -797,6 +797,1042 @@
     "motiu": "Perquè tanca el Romanticisme i obre la porta a la gran ruptura del segle XX."
    },
    "etiquetaAudicions": "Audicions de recordatori"
+  },
+  {
+   "numero": 12,
+   "titol": "El final d'un món: Mahler i Strauss",
+   "subtitol": "El Romanticisme arriba al límit",
+   "audicions": [
+    {
+     "text": "G. Mahler – Simfonia n. 5, Adagietto",
+     "clau": true
+    },
+    {
+     "text": "R. Strauss – Així parlà Zaratustra (inici)",
+     "clau": true
+    },
+    {
+     "text": "G. Mahler – Simfonia n. 1, 3r moviment",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El canvi de segle",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Cap al 1900, Europa viu un moment d&#x27;optimisme tecnològic (electricitat, telèfon, cinema, automòbil), però també d&#x27;inquietud. A Viena, <strong>Sigmund Freud</strong> estudia l&#x27;inconscient. Els artistes senten que el món antic s&#x27;acaba. En música, el Romanticisme arriba al màxim: orquestres gegantines, obres llarguíssimes i una harmonia cada vegada més complexa."
+      }
+     ]
+    },
+    {
+     "titol": "Mahler i Strauss",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Gustav Mahler</strong> (1860-1911) va ser el gran director d&#x27;orquestra de la seva època, director de l&#x27;Òpera de Viena. Només podia compondre a l&#x27;estiu. Les seves simfonies són enormes, i hi barreja tot: marxes militars, cançons populars, danses, himnes. Deia que una simfonia havia de ser com el món: ho havia de contenir tot."
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Richard Strauss</strong> (1864-1949) va escriure poemes simfònics i òperes amb una orquestra plena de colors."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici d&#x27;<strong>Així parlà Zaratustra</strong> (1896) representa la sortida del sol: una nota greu, tres notes de trompeta que pugen, un acord immens i els timbals. El cineasta Stanley Kubrick el va fer servir el 1968 a la pel·lícula <em>2001: una odissea de l&#x27;espai</em>, i des d&#x27;aleshores és una de les músiques més conegudes del món."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>3r moviment de la Simfonia n. 1</strong> de Mahler comença amb una melodia que coneixeu: <em>Frère Jacques</em>, però en tonalitat menor i lenta, com una marxa fúnebre. De sobte hi apareix una música de banda de poble. L&#x27;humor i la tristesa, junts."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Adagietto de la Simfonia n. 5</strong> és només per a corda i arpa: una melodia lenta i intensa, que molts han interpretat com una carta d&#x27;amor a la seva dona, Alma."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que cap al 1900 el Romanticisme arriba al màxim, amb orquestres i obres gegantines, i que Mahler i Strauss en són els darrers grans representants.</p>",
+   "obraClau": {
+    "obra": "Mahler – Simfonia n. 5, Adagietto",
+    "motiu": "Perquè és el darrer gran sospir del Romanticisme."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 13,
+   "titol": "L'Impressionisme",
+   "subtitol": "Debussy, Ravel i la música del color",
+   "audicions": [
+    {
+     "text": "C. Debussy – Preludi a la migdiada d'un faune",
+     "clau": true
+    },
+    {
+     "text": "C. Debussy – La catedral submergida",
+     "clau": true
+    },
+    {
+     "text": "M. Ravel – Bolero",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Música i pintura",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A França, pintors com <strong>Claude Monet</strong> pinten la llum que canvia, amb pinzellades soltes i colors que es barregen. A partir d&#x27;un quadre de Monet, <em>Impressió, sol naixent</em>, se&#x27;ls va anomenar <strong>impressionistes</strong>. <strong>Claude Debussy</strong> (1862-1918) no volia que se&#x27;l comparàs amb ells, però la seva música fa una cosa semblant: suggereix, en lloc de descriure."
+      },
+      {
+       "tipus": "p",
+       "html": "Les característiques de l&#x27;Impressionisme musical són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El timbre i el color</strong> són tan importants com la melodia.",
+        "<strong>Escales noves</strong>: l&#x27;escala de tons sencers, l&#x27;escala pentatònica (de la música asiàtica, que Debussy va descobrir a l&#x27;Exposició Universal de París de 1889) i els modes antics.",
+        "<strong>Acords lliures</strong> que no necessiten resoldre&#x27;s, que es mouen en paral·lel.",
+        "Ritmes flotants, sense una pulsació marcada.",
+        "Temes de la <strong>natura</strong>: el mar, la boira, el vent, la lluna."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Maurice Ravel</strong> (1875-1937) va ser un gran mestre de l&#x27;orquestració. La seva mare era basca i molts ritmes espanyols apareixen a la seva música."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Preludi a la migdiada d&#x27;un faune</strong> (1894) comença amb una flauta sola que baixa i puja cromàticament, sense pulsació. Un faune, un ésser mitològic, descansa una tarda calorosa i somia. Molts consideren que amb aquesta flauta comença la música del segle XX."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>La catedral submergida</strong> (1910) descriu una llegenda: una catedral enfonsada al mar que surt a la superfície entre la boira i torna a submergir-se. Fixau-vos en els acords paral·lels, com campanes, i en les notes greus que ressonen."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Bolero</strong> (1928) de Ravel és un experiment: la mateixa melodia es repeteix una vegada i una altra sobre el mateix ritme de la caixa, i cada vegada canvia l&#x27;instrument i creix el volum. Una lliçó d&#x27;orquestració."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;Impressionisme dona molta importància al timbre i al color, que fa servir escales noves i acords que no es resolen, i que Debussy i Ravel en són els grans mestres.</p>",
+   "obraClau": {
+    "obra": "Debussy – Preludi a la migdiada d'un faune",
+    "motiu": "Perquè una flauta sola obre la porta a la música del segle XX."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 14,
+   "titol": "Stravinsky i La consagració de la primavera",
+   "subtitol": "L'escàndol que va canviar el ritme",
+   "audicions": [
+    {
+     "text": "I. Stravinsky – La consagració de la primavera, «Els auguris primaverals»",
+     "clau": true
+    },
+    {
+     "text": "I. Stravinsky – L'ocell de foc, final",
+     "clau": true
+    },
+    {
+     "text": "I. Stravinsky – Petruixka, «Dansa russa»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els Ballets Russos",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A principis del segle XX, l&#x27;empresari <strong>Serguei Diàguilev</strong> porta a París els <strong>Ballets Russos</strong>, una companyia que uneix els millors ballarins, pintors i compositors. Per a ells, el jove compositor rus <strong>Igor Stravinsky</strong> (1882-1971) escriu tres ballets: <em>L&#x27;ocell de foc</em> (1910), <em>Petruixka</em> (1911) i <em>La consagració de la primavera</em> (1913)."
+      }
+     ]
+    },
+    {
+     "titol": "Un escàndol",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La nit de l&#x27;estrena de <strong>La consagració de la primavera</strong>, el 29 de maig de 1913 a París, el públic es va escandalitzar: crits, xiulets i baralles. La coreografia de Nijinski i la música de Stravinsky eren massa noves. L&#x27;obra representa un ritual de la Rússia pagana: per celebrar l&#x27;arribada de la primavera, una jove és escollida per ballar fins a morir."
+      },
+      {
+       "tipus": "p",
+       "html": "La gran novetat és el <strong>ritme</strong>:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Accents <strong>irregulars</strong> i imprevisibles.",
+        "Compassos que canvien constantment.",
+        "<strong>Poliritmes</strong>: diversos ritmes alhora.",
+        "<strong>Dissonàncies</strong> fortes i blocs de so repetits.",
+        "Melodies breus d&#x27;origen popular rus."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>final de L&#x27;ocell de foc</strong> encara és plenament romàntic: una melodia popular russa, tocada per la trompa, que creix fins a un final triomfal."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Dansa russa de Petruixka</strong> és enèrgica i rítmica, amb melodies populars."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Els auguris primaverals</strong>, les cordes repeteixen un mateix acord dissonant, i els accents cauen en llocs inesperats, com cops. Intentau marcar la pulsació: és molt difícil preveure on caurà el pròxim accent. El ritme passa a ser el protagonista."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que amb Stravinsky el ritme es converteix en protagonista, amb accents irregulars i canvis de compàs, i que La consagració de la primavera va provocar un dels escàndols més grans de la història de la música.</p>",
+   "obraClau": {
+    "obra": "Stravinsky – La consagració de la primavera",
+    "motiu": "Perquè va canviar per sempre la manera d&#x27;entendre el ritme."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 15,
+   "titol": "Expressionisme i atonalitat",
+   "subtitol": "Schoenberg i la Segona Escola de Viena",
+   "audicions": [
+    {
+     "text": "A. Schoenberg – Pierrot lunaire, «Mondestrunken»",
+     "clau": true
+    },
+    {
+     "text": "A. Berg – Concert per a violí, final",
+     "clau": true
+    },
+    {
+     "text": "A. Schoenberg – Suite per a piano op. 25 (Preludi)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La fi de la tonalitat",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Durant tres segles, la música occidental s&#x27;havia organitzat al voltant de la <strong>tonalitat</strong>: una nota principal, la tònica, i unes regles que tothom seguia. Amb Wagner i Mahler, l&#x27;harmonia s&#x27;havia fet tan cromàtica que la tonalitat ja gairebé no se sentia. <strong>Arnold Schoenberg</strong> (1874-1951), a Viena, dona el pas definitiu: l&#x27;<strong>atonalitat</strong>, una música on cap nota no és més important que les altres i les dissonàncies no necessiten resoldre&#x27;s."
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta música està lligada a l&#x27;<strong>Expressionisme</strong>, un moviment artístic que expressa les angoixes interiors, els malsons i el patiment, amb colors violents i formes deformades. Pensau en <em>El crit</em> d&#x27;Edvard Munch."
+      }
+     ]
+    },
+    {
+     "titol": "El dodecafonisme",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Cap al 1921, Schoenberg crea un mètode per organitzar la música atonal: el <strong>dodecafonisme</strong>. El compositor ordena les <strong>dotze notes</strong> de l&#x27;escala cromàtica en una <strong>sèrie</strong>, i tota l&#x27;obra es construeix a partir d&#x27;aquesta sèrie, sense repetir cap nota fins que han sonat totes. Els seus deixebles <strong>Alban Berg</strong> i <strong>Anton Webern</strong> formen amb ell la <strong>Segona Escola de Viena</strong>."
+      },
+      {
+       "tipus": "p",
+       "html": "Schoenberg, que era jueu, va haver de fugir de l&#x27;Alemanya nazi i es va instal·lar als Estats Units."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A <strong>«Mondestrunken»</strong> («Borratxo de lluna»), de <em>Pierrot lunaire</em> (1912), la veu no canta ni parla: fa una cosa intermèdia, el <strong>Sprechgesang</strong> o «cant parlat». Un petit grup d&#x27;instruments crea un ambient estrany i inquietant."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Preludi de la Suite op. 25</strong> és una de les primeres obres completament dodecafòniques. Fixau-vos que no hi ha cap nota que sembli «casa»."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Concert per a violí</strong> (1935) d&#x27;Alban Berg és dodecafònic, però molt emotiu. El va dedicar «a la memòria d&#x27;un àngel», Manon, una noia de 18 anys que havia mort. Al final hi apareix, sorprenentment, un coral de Bach, «Es ist genug». Recordau els corals luterans? Vint anys de música, tres segles d&#x27;història."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Schoenberg trenca amb la tonalitat i crea l&#x27;atonalitat i el dodecafonisme, i que aquesta música està lligada a l&#x27;Expressionisme, que expressa les angoixes interiors.</p>",
+   "obraClau": {
+    "obra": "Berg – Concert per a violí",
+    "motiu": "Perquè ens mostra que la música dodecafònica també pot emocionar, i perquè uneix el segle XX amb Bach."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 16,
+   "titol": "La música popular com a font",
+   "subtitol": "Bartók i Falla",
+   "audicions": [
+    {
+     "text": "M. de Falla – L'amor bruixot, «Dansa ritual del foc»",
+     "clau": true
+    },
+    {
+     "text": "B. Bartók – Danses populars romaneses",
+     "clau": true
+    },
+    {
+     "text": "B. Bartók – Allegro barbaro",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Recollir la música del poble",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XX, alguns compositors continuen el camí dels nacionalistes, però d&#x27;una manera nova: van als pobles a <strong>recollir</strong> la música popular amb rigor científic, i la fan servir per crear un llenguatge modern."
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Béla Bartók</strong> (1881-1945), hongarès, va recórrer els pobles d&#x27;Hongria, Romania i altres països amb un fonògraf per enregistrar milers de cançons de pagesos. Va descobrir ritmes irregulars, escales antigues i una energia que va integrar a la seva música. És un dels pares de l&#x27;<strong>etnomusicologia</strong>, l&#x27;estudi de la música de les diferents cultures."
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Manuel de Falla</strong> (1876-1946), de Cadis, deixeble de Pedrell, va unir la música popular andalusa, especialment el <strong>cante jondo</strong> flamenc, amb les novetats de París, on va viure uns anys. Va passar molt de temps a Mallorca en els anys trenta i va acabar la vida exiliat a l&#x27;Argentina."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Les <strong>Danses populars romaneses</strong> (1915) de Bartók són sis danses breus basades en melodies que ell mateix va recollir. Fixau-vos en el caràcter de cada una: danses amb pals, danses lentes, danses que s&#x27;acceleren."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Allegro barbaro</strong> (1911) tracta el piano com un instrument de percussió: acords martellejats i ritmes obsessius."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Dansa ritual del foc</strong>, de <em>L&#x27;amor bruixot</em> (1915), és un exorcisme per allunyar un fantasma. Fixau-vos en el trinat inicial, en el ritme obsessiu i en els acords finals, repetits amb una força creixent."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Bartók i Falla van estudiar la música popular i la van convertir en un llenguatge modern, i que Bartók és un dels pares de l&#x27;etnomusicologia.</p>",
+   "obraClau": {
+    "obra": "Falla – Dansa ritual del foc",
+    "motiu": "Perquè uneix el flamenc, el ritual i la modernitat en una música plena d&#x27;energia."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 17,
+   "titol": "Neoclassicisme",
+   "subtitol": "Tornar enrere per avançar",
+   "audicions": [
+    {
+     "text": "S. Prokófiev – Pere i el llop",
+     "clau": true
+    },
+    {
+     "text": "S. Prokófiev – Simfonia clàssica, 1r moviment",
+     "clau": true
+    },
+    {
+     "text": "I. Stravinsky – Pulcinella, Sinfonia",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Després de la Primera Guerra Mundial",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La Primera Guerra Mundial (1914-1918) va ser una catàstrofe. Després de tant de dolor, molts compositors rebutgen els excessos del Romanticisme tardà i l&#x27;angoixa expressionista. Busquen una música més <strong>clara</strong>, <strong>equilibrada</strong>, <strong>objectiva</strong> i sovint amb humor. Per fer-ho, tornen a mirar els models del Barroc i del Classicisme: és el <strong>Neoclassicisme</strong>. Recuperen les formes antigues (concert grosso, suite, simfonia clàssica), però amb harmonies, ritmes i sorpreses del segle XX."
+      },
+      {
+       "tipus": "p",
+       "html": "A França, un grup de joves compositors, <strong>Els Sis</strong> (entre ells Francis Poulenc i Darius Milhaud), defensen una música senzilla i propera al music-hall i al circ."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El 1920, Stravinsky va escriure <strong>Pulcinella</strong> a partir de música del segle XVIII, atribuïda llavors a Pergolesi. Recordau Pergolesi? La música antiga hi sona amb colors i accents nous."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Simfonia clàssica</strong> (1917) de Serguei Prokófiev és una simfonia «com l&#x27;hauria escrit Haydn si hagués viscut avui». Fixau-vos en la claredat i en les sorpreses harmòniques que ens porten de sobte a tonalitats inesperades."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Pere i el llop</strong> (1936) és un conte per a infants on cada personatge és un instrument: Pere, la corda; l&#x27;ocell, la flauta; l&#x27;ànec, l&#x27;oboè; el gat, el clarinet; l&#x27;avi, el fagot; el llop, les trompes. Recordau el leitmotiv de Wagner? Aquí és una manera divertida de conèixer l&#x27;orquestra."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que després de la Primera Guerra Mundial molts compositors tornen a les formes del Barroc i del Classicisme amb un llenguatge modern, i que aquesta tendència s&#x27;anomena Neoclassicisme.</p>",
+   "obraClau": {
+    "obra": "Prokófiev – Pere i el llop",
+    "motiu": "Perquè ens ensenya l&#x27;orquestra amb humor i perquè cada instrument hi és un personatge."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 18,
+   "titol": "El jazz i la música americana",
+   "subtitol": "Un so nou arriba d'Amèrica",
+   "audicions": [
+    {
+     "text": "G. Gershwin – Rhapsody in Blue (inici)",
+     "clau": true
+    },
+    {
+     "text": "L. Armstrong – West End Blues",
+     "clau": true
+    },
+    {
+     "text": "A. Copland – Appalachian Spring, variacions sobre «Simple Gifts»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els orígens del jazz",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>jazz</strong> neix a principis del segle XX als Estats Units, sobretot a <strong>Nova Orleans</strong>, entre la població <strong>afroamericana</strong>. És una música que barreja tradicions africanes (ritmes, improvisació, pregunta i resposta) i europees (harmonia, instruments de banda). Els seus antecedents són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Els <strong>espirituals</strong> i els <strong>cants de treball</strong> de les persones esclavitzades.",
+        "El <strong>blues</strong>: cançons de lament amb una estructura de dotze compassos i unes «notes blaves» (<em>blue notes</em>) lleugerament més baixes.",
+        "El <strong>ragtime</strong>: música per a piano amb un ritme sincopat."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Les característiques del jazz són la <strong>improvisació</strong>, el <strong>swing</strong> (una manera flexible de tocar el ritme) i el protagonisme dels solistes. El jazz es va convertir en una de les músiques més influents del segle XX, i d&#x27;ell neixen moltes músiques populars actuals."
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Louis Armstrong</strong> (1901-1971), trompetista i cantant de Nova Orleans, va ser un dels primers grans solistes del jazz. <strong>George Gershwin</strong> (1898-1937) va portar el jazz a la sala de concerts."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>West End Blues</strong> (1928) comença amb una introducció de trompeta d&#x27;Armstrong totalment improvisada i brillant. Després sentim el blues i un moment en què Armstrong canta sense paraules, fent sons amb la veu: és el <strong>scat</strong>."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici de la <strong>Rhapsody in Blue</strong> (1924) us interessarà especialment: comença amb un trinat del <strong>clarinet</strong> i un <strong>glissando</strong> que puja com un llisc. Diuen que va ser una broma del clarinetista a l&#x27;assaig, i que a Gershwin li va agradar tant que la va deixar. És una obra per a piano i orquestra que barreja jazz i música clàssica."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Appalachian Spring</strong> (1944), Aaron Copland varia una melodia tradicional dels shakers, «Simple Gifts». És el so d&#x27;una Amèrica rural i oberta."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el jazz neix de la població afroamericana i barreja tradicions africanes i europees, que es basa en la improvisació i el swing, i que va influir en la música clàssica i en tota la música popular del segle XX.</p>",
+   "obraClau": {
+    "obra": "Gershwin – Rhapsody in Blue",
+    "motiu": "Perquè un glissando de clarinet uneix per sempre el jazz i la sala de concerts."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 19,
+   "titol": "Música, guerra i exili",
+   "subtitol": "Quan la música resisteix",
+   "audicions": [
+    {
+     "text": "O. Messiaen – Quartet per a la fi del temps, «Lloança a l'eternitat de Jesús»",
+     "clau": true
+    },
+    {
+     "text": "P. Casals – El cant dels ocells",
+     "clau": true
+    },
+    {
+     "text": "D. Xostakóvitx – Simfonia n. 5, final",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Música i dictadures",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els anys trenta i quaranta són els de les grans dictadures i de la Segona Guerra Mundial (1939-1945). La música també en pateix les conseqüències:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "A l&#x27;<strong>Alemanya nazi</strong>, la música de compositors jueus i la música moderna es prohibeixen com a «art degenerat». Molts músics han de fugir.",
+        "A la <strong>Unió Soviètica</strong>, Stalin exigeix una música que agradi al poble i que glorifiqui el règim. <strong>Dmitri Xostakóvitx</strong> (1906-1975) va viure amb por de ser represaliat.",
+        "A <strong>Espanya</strong>, després de la Guerra Civil (1936-1939), molts músics van haver de marxar a l&#x27;exili."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Pau Casals",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Pau Casals</strong> (1876-1973), nascut al Vendrell, va ser el violoncel·lista més important del segle XX. Recordau que va fer conèixer les Suites de Bach? Després de la Guerra Civil es va exiliar a Prada de Conflent, a la Catalunya del Nord, i es va negar a tocar als països que donaven suport a les dictadures. Tancava els seus concerts amb <strong>El cant dels ocells</strong>, una cançó popular catalana de Nadal, que es va convertir en un símbol de pau i llibertat. El 1971, a la seu de les Nacions Unides, a Nova York, la va tocar després de dir que era un cant de pau."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>El cant dels ocells</strong>, en la versió per a violoncel de Casals, és una melodia senzilla i profunda. Fixau-vos en el so càlid del violoncel i en el silenci que crea."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;any 1940, el compositor francès <strong>Olivier Messiaen</strong> va ser fet presoner de guerra. Al camp de presoners va escriure el <strong>Quartet per a la fi del temps</strong> per als instruments que hi havia: violí, violoncel, clarinet i un piano en mal estat. Es va estrenar el gener de 1941 davant centenars de presoners, a l&#x27;aire gelat. A <strong>«Lloança a l&#x27;eternitat de Jesús»</strong>, el violoncel canta una melodia lentíssima, sobre acords suaus del piano: el temps sembla aturar-se. Recordau Pérotin?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>final de la Simfonia n. 5</strong> de Xostakóvitx sembla triomfal, però molts hi han sentit una alegria forçada, obligada pel règim."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que les dictadures i la guerra van perseguir músics i músiques, i que la música també pot ser un acte de resistència, de pau i d&#x27;esperança, com ho va ser per a Casals i Messiaen.</p>",
+   "obraClau": {
+    "obra": "Casals – El cant dels ocells",
+    "motiu": "Perquè una cançó popular catalana es va convertir en un missatge de pau per a tot el món."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 20,
+   "titol": "Síntesi: la gran ruptura",
+   "subtitol": "De 1890 a 1945",
+   "audicions": [
+    {
+     "text": "Mahler – Simfonia n. 5, Adagietto",
+     "clau": false
+    },
+    {
+     "text": "Debussy – Preludi a la migdiada d'un faune",
+     "clau": false
+    },
+    {
+     "text": "Stravinsky – La consagració de la primavera",
+     "clau": false
+    },
+    {
+     "text": "Schoenberg – Pierrot lunaire",
+     "clau": false
+    },
+    {
+     "text": "Gershwin – Rhapsody in Blue",
+     "clau": false
+    },
+    {
+     "text": "Casals – El cant dels ocells",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem viscut el període de canvis més ràpids de tota la història de la música."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem començat amb el darrer sospir del Romanticisme, l&#x27;<strong>Adagietto</strong> de Mahler. Després, la flauta del <strong>faune</strong> de Debussy va obrir el segle XX: el color i el timbre passaven al primer pla."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb <strong>La consagració de la primavera</strong>, el ritme va trencar totes les regles. I amb Schoenberg i <strong>Pierrot lunaire</strong>, la tonalitat, que havia organitzat la música durant tres segles, va desaparèixer."
+      },
+      {
+       "tipus": "p",
+       "html": "Vam veure que altres compositors van buscar camins diferents: la música popular (Bartók, Falla) o la tornada als models antics (el Neoclassicisme)."
+      },
+      {
+       "tipus": "escolta",
+       "html": "D&#x27;Amèrica va arribar el jazz, i la <strong>Rhapsody in Blue</strong> el va portar a la sala de concerts."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I finalment, en temps de guerra i d&#x27;exili, <strong>El cant dels ocells</strong> de Casals ens va recordar que la música pot ser un missatge de pau."
+      }
+     ]
+    }
+   ],
+   "apres": "<ul><li>No hi ha un sol estil, sinó molts camins alhora.</li><li>Es trenquen les regles de la tonalitat, del ritme i del timbre.</li><li>La música popular i el jazz entren a la música de concert.</li><li>La història política afecta profundament la vida dels músics.</li></ul>",
+   "obraClau": {
+    "obra": "Stravinsky – La consagració de la primavera",
+    "motiu": "Perquè és el símbol de la ruptura: un escàndol el 1913, un clàssic avui."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
+  },
+  {
+   "numero": 21,
+   "titol": "Els sons nous: música concreta i electrònica",
+   "subtitol": "Quan tot pot ser música",
+   "audicions": [
+    {
+     "text": "P. Schaeffer – Estudi dels ferrocarrils",
+     "clau": true
+    },
+    {
+     "text": "K. Stockhausen – Gesang der Jünglinge (fragment)",
+     "clau": true
+    },
+    {
+     "text": "E. Varèse – Poème électronique (fragment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Després de la Segona Guerra Mundial",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Després de 1945, molts joves compositors volen començar de zero. Les noves tecnologies (el magnetòfon, els primers ordinadors, els sintetitzadors) permeten treballar directament amb el so."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La música concreta</strong> (París, 1948): <strong>Pierre Schaeffer</strong>, enginyer de la ràdio francesa, grava sons reals (trens, portes, veus) i els transforma: els talla, els accelera, els inverteix o els repeteix.",
+        "<strong>La música electrònica</strong> (Colònia, anys cinquanta): els compositors creen sons des de zero amb aparells electrònics. El gran nom és <strong>Karlheinz Stockhausen</strong>."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquests experiments són a l&#x27;origen de tota la música electrònica actual, del sampler i de les músiques de ball."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A l&#x27;<strong>Estudi dels ferrocarrils</strong> (1948), Schaeffer fa servir només sons de trens gravats: xiulets, rodes, frens. Els repeteix i els combina fins a crear ritmes. És música? Aquest és el debat que proposam."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Gesang der Jünglinge</strong> («El cant dels joves», 1956), Stockhausen barreja la veu d&#x27;un infant que canta un text bíblic amb sons electrònics. La veu es multiplica, es transforma i es mou per l&#x27;espai. Recordau els cori spezzati de Venècia?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Poème électronique</strong> (1958) d&#x27;Edgard Varèse es va escriure per al pavelló Philips de l&#x27;Exposició Universal de Brussel·les, dissenyat per Le Corbusier. Sonava des de centenars d&#x27;altaveus repartits per l&#x27;edifici."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que després de 1945 les noves tecnologies permeten treballar directament amb el so, que la música concreta transforma sons gravats i la música electrònica en crea de nous, i que d&#x27;aquí neix la música electrònica actual.</p>",
+   "obraClau": {
+    "obra": "Schaeffer – Estudi dels ferrocarrils",
+    "motiu": "Perquè ens obliga a preguntar-nos què és la música, amb el so d&#x27;un tren."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 22,
+   "titol": "L'atzar, el silenci i la textura",
+   "subtitol": "Cage i Ligeti",
+   "audicions": [
+    {
+     "text": "J. Cage – 4'33''",
+     "clau": true
+    },
+    {
+     "text": "G. Ligeti – Atmosphères (fragment)",
+     "clau": true
+    },
+    {
+     "text": "J. Cage – Sonates i interludis per a piano preparat (Sonata V)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "John Cage",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>John Cage</strong> (1912-1992), nord-americà, va qüestionar tot el que crèiem saber sobre la música. Influït per la filosofia zen, va introduir l&#x27;<strong>atzar</strong> en la composició: de vegades decidia les notes tirant daus o monedes. Va inventar el <strong>piano preparat</strong>: col·locava cargols, gomes i trossos de fusta entre les cordes del piano, que sonava com un conjunt de percussió."
+      },
+      {
+       "tipus": "p",
+       "html": "La seva obra més famosa és <strong>4&#x27;33&#x27;&#x27;</strong> (1952): l&#x27;intèrpret s&#x27;asseu al piano i no toca res durant quatre minuts i trenta-tres segons. La «música» són els sons que ens envolten: tossides, el vent, el trànsit, la respiració. Cage volia que escoltàssim el món."
+      }
+     ]
+    },
+    {
+     "titol": "La música de textures",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Altres compositors, com l&#x27;hongarès <strong>György Ligeti</strong> (1923-2006) o el polonès Krzysztof Penderecki, creen músiques on ja no hi ha melodies ni ritmes clars, sinó <strong>textures</strong>: grans masses de so, núvols que canvien lentament de color."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Farem l&#x27;experiència de <strong>4&#x27;33&#x27;&#x27;</strong> a classe. Després, cadascú dirà què ha sentit. Ha estat música?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "A la <strong>Sonata V</strong> de Cage, el piano preparat sembla un gamelan de Java o un conjunt de percussió."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Atmosphères</strong> (1961) de Ligeti comença amb totes les notes de diverses octaves sonant alhora, molt fluix. El so canvia a poc a poc, com un núvol. Stanley Kubrick també la va fer servir a <em>2001: una odissea de l&#x27;espai</em>."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Cage introdueix l&#x27;atzar, el piano preparat i el silenci com a elements musicals, i que compositors com Ligeti creen música a partir de textures en lloc de melodies.</p>",
+   "obraClau": {
+    "obra": "Cage – 4'33''",
+    "motiu": "Perquè ens ensenya a escoltar el món com si fos música."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 23,
+   "titol": "El minimalisme",
+   "subtitol": "Menys és més",
+   "audicions": [
+    {
+     "text": "A. Pärt – Spiegel im Spiegel",
+     "clau": true
+    },
+    {
+     "text": "S. Reich – Clapping Music",
+     "clau": true
+    },
+    {
+     "text": "S. Reich – Music for 18 Musicians (recordatori de 4t)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Una reacció contra la complexitat",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Als anys seixanta, alguns compositors nord-americans reaccionen contra la complexitat de l&#x27;avantguarda europea. Volen tornar a una música <strong>senzilla</strong>, amb una <strong>pulsació regular</strong>, harmonies tonals i <strong>patrons que es repeteixen</strong> i canvien molt a poc a poc. És el <strong>minimalisme</strong>. Els seus grans noms són <strong>Steve Reich</strong>, <strong>Philip Glass</strong>, Terry Riley i La Monte Young. Beuen del jazz, de la música africana i de la música de l&#x27;Índia i d&#x27;Indonèsia."
+      },
+      {
+       "tipus": "p",
+       "html": "A Europa, l&#x27;estonià <strong>Arvo Pärt</strong> (1935) crea un estil propi, molt espiritual, anomenat <strong>tintinnabuli</strong> (de «campaneta»): una veu fa una melodia senzilla i l&#x27;altra toca les notes d&#x27;un acord, com campanes."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Clapping Music</strong> (1972) de Reich és només per a dues persones que piquen de mans. Totes dues fan el mateix patró, però una d&#x27;elles, cada cert temps, el desplaça una corxera. Els dos patrons es desquadren i es tornen a trobar al final. La provarem a classe!"
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Spiegel im Spiegel</strong> («Mirall en el mirall», 1978) de Pärt és per a violí (o violoncel) i piano. El violí toca escales molt lentes, i el piano, acords desplegats. És una música que sembla aturar el temps."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I tornam a <strong>Music for 18 Musicians</strong>, que vam escoltar el primer dia de 4t. Recordau la sorpresa? La música més antiga i la més moderna compartien una idea: la repetició que atura el temps. Ara sabeu d&#x27;on ve."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el minimalisme torna a la pulsació, a la tonalitat i a la repetició de patrons que canvien a poc a poc, i que Reich i Pärt en són grans representants.</p>",
+   "obraClau": {
+    "obra": "Reich – Clapping Music",
+    "motiu": "Perquè amb només dues mans que piquen ens mostra com funciona el minimalisme."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 24,
+   "titol": "La música a la pantalla i a l'escena",
+   "subtitol": "Cinema, musical i música de videojoc",
+   "audicions": [
+    {
+     "text": "E. Morricone – La missió, «Gabriel's Oboe»",
+     "clau": true
+    },
+    {
+     "text": "L. Bernstein – West Side Story, «America»",
+     "clau": true
+    },
+    {
+     "text": "J. Williams – La guerra de les galàxies, tema principal",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La música de cinema",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Des dels inicis del cinema, la música hi ha estat present: al cinema mut, un pianista o una orquestra tocaven en directe. Amb el cinema sonor, la <strong>banda sonora</strong> es converteix en un gènere propi, i molts compositors fan servir recursos que ja coneixem:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "El <strong>leitmotiv</strong> de Wagner: un tema per a cada personatge.",
+        "L&#x27;<strong>orquestra romàntica</strong>, per crear emocions.",
+        "Les <strong>tècniques contemporànies</strong> (dissonàncies, textures, electrònica) per crear tensió o misteri."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Avui, també els <strong>videojocs</strong> tenen bandes sonores orquestrals que canvien segons el que fa el jugador."
+      }
+     ]
+    },
+    {
+     "titol": "El musical",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>musical</strong> de Broadway (Nova York) i del West End (Londres) és l&#x27;hereu de l&#x27;òpera, de la sarsuela i de l&#x27;opereta: teatre amb diàlegs, cançons i dansa. <strong>Leonard Bernstein</strong> (1918-1990), director d&#x27;orquestra i compositor, va escriure <em>West Side Story</em> (1957), una versió de <em>Romeu i Julieta</em> als barris de Nova York."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>tema de La guerra de les galàxies</strong> (1977), de John Williams, és una fanfàrria heroica per a gran orquestra, amb leitmotivs per a cada personatge. Wagner al cinema."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«America»</strong>, de <em>West Side Story</em>, alterna compassos de 6/8 i 3/4, un ritme d&#x27;origen llatinoamericà. Fixau-vos en com aquest canvi constant d&#x27;accents dona energia a la dansa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Gabriel&#x27;s Oboe»</strong>, de la pel·lícula <em>La missió</em> (1986), d&#x27;Ennio Morricone: un jesuïta toca l&#x27;oboè a la selva per comunicar-se amb els guaranís. Una melodia senzilla i emocionant. Recordau les missions d&#x27;Amèrica de 5è?"
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música de cinema, de videojoc i de musical fa servir recursos de tota la història de la música, i que és una de les maneres en què més gent escolta música orquestral avui.</p>",
+   "obraClau": {
+    "obra": "Morricone – Gabriel's Oboe",
+    "motiu": "Perquè una melodia per a oboè ens explica, sense paraules, tota una història."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 25,
+   "titol": "La música d'avui",
+   "subtitol": "Moltes veus, molts camins",
+   "audicions": [
+    {
+     "text": "C. Shaw – Partita for 8 Voices, «Passacaglia»",
+     "clau": true
+    },
+    {
+     "text": "F. Mompou – Música callada (n. 1)",
+     "clau": true
+    },
+    {
+     "text": "A. Thorvaldsdottir – Aeriality (fragment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Una música plural",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Avui no hi ha un estil dominant. Els compositors actuals fan servir tot el que ha passat: la tonalitat i l&#x27;atonalitat, l&#x27;electrònica, les músiques del món, el jazz, el pop i la música antiga. Moltes de les compositores i dels compositors més interpretats avui són dones, cosa que durant segles era gairebé impossible."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Frederic Mompou</strong> (1893-1987), de Barcelona, va crear una música íntima i despullada, feta de silencis i de ressonàncies de campanes. La seva <strong>Música callada</strong> (1959-1967) s&#x27;inspira en els versos de sant Joan de la Creu.",
+        "<strong>Caroline Shaw</strong> (1982), nord-americana, va guanyar el premi Pulitzer de música el 2013, la persona més jove a aconseguir-lo, amb una obra per a vuit veus.",
+        "<strong>Anna Thorvaldsdottir</strong> (1977), islandesa, crea paisatges sonors inspirats en la natura del seu país."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A la <strong>Passacaglia</strong> de la <em>Partita for 8 Voices</em>, vuit veus canten, parlen, respiren i xiuxiuegen, i de sobte arriben a uns acords plens i lluminosos. Una passacaglia! Recordau el baix ostinato del Barroc? La música d&#x27;avui dialoga amb la de fa quatre segles."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Música callada</strong> de Mompou és una música de silencis, per escoltar amb els ulls tancats."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Aeriality</strong> és una obra per a orquestra que crea la sensació de flotar, sense terra sota els peus."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música d&#x27;avui és plural i combina totes les èpoques i cultures, que les compositores hi tenen un paper cada vegada més important, i que la història de la música continua escrivint-se.</p>",
+   "obraClau": {
+    "obra": "Shaw – Partita for 8 Voices, «Passacaglia»",
+    "motiu": "Perquè una obra d&#x27;aquest segle recupera una forma barroca i demostra que tota la història és viva."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 26,
+   "titol": "Síntesi final: 2.500 anys de música",
+   "subtitol": "El viatge complet",
+   "audicions": [
+    {
+     "text": "Epitafi de Seikilos",
+     "clau": false
+    },
+    {
+     "text": "Pérotin – Viderunt omnes",
+     "clau": false
+    },
+    {
+     "text": "Bach – Concert de Brandenburg n. 3",
+     "clau": false
+    },
+    {
+     "text": "Beethoven – Simfonia n. 5",
+     "clau": false
+    },
+    {
+     "text": "Stravinsky – La consagració de la primavera",
+     "clau": false
+    },
+    {
+     "text": "Reich – Music for 18 Musicians",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Fa tres cursos vam començar un viatge amb un joc: escoltar tres fragments i ordenar-los en el temps. Avui el tancam."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Vam començar a Grècia, amb l&#x27;<strong>Epitafi de Seikilos</strong>, una melodia sola que ens deia: «mentre visquis, brilla»."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb el <strong>Viderunt omnes</strong> de Pérotin, la música es va convertir en una catedral de veus: va néixer la polifonia."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb el Barroc i el <strong>Concert de Brandenburg n. 3</strong>, vam descobrir el baix continu, la pulsació que no s&#x27;atura i el contrast. Amb el Classicisme, l&#x27;equilibri i la forma sonata."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb la <strong>Simfonia n. 5</strong> de Beethoven, el compositor va començar a parlar de si mateix, i el Romanticisme va convertir la música en l&#x27;art de les emocions."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb <strong>La consagració de la primavera</strong>, el segle XX ho va trencar tot: la tonalitat, el ritme, el timbre."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I amb <strong>Music for 18 Musicians</strong> vam tornar al principi: la repetició que atura el temps, com a Pérotin. La història de la música no és una línia recta, sinó un gran diàleg entre èpoques."
+      }
+     ]
+    }
+   ],
+   "apres": "<ul><li>La música canvia perquè canvia la societat que la fa.</li><li>Cada època busca un equilibri diferent entre la paraula, l&#x27;emoció, la forma i el so.</li><li>Les idees tornen una vegada i una altra: el baix que es repeteix, el diàleg entre grups, la repetició que atura el temps.</li><li>Conèixer la història ens fa millors oients i millors intèrprets.</li></ul>",
+   "obraClau": {
+    "obra": "Pérotin – Viderunt omnes i Reich – Music for 18 Musicians",
+    "motiu": "Perquè, separades per gairebé vuit segles, ens mostren que la música més antiga i la més moderna es poden donar la mà."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
   }
  ]
 }

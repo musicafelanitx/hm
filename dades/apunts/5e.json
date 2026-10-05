@@ -815,6 +815,1391 @@
     "motiu": "Perquè resumeix el trimestre: un baix que es repeteix, un afecte clar i una veu que ens commou."
    },
    "etiquetaAudicions": "Audicions de recordatori"
+  },
+  {
+   "numero": 12,
+   "titol": "Els instruments del Barroc",
+   "subtitol": "El violí, el clavecí i la viola da gamba",
+   "audicions": [
+    {
+     "text": "H. I. F. Biber – Passacaglia per a violí sol",
+     "clau": true
+    },
+    {
+     "text": "F. Couperin – Les barricades mystérieuses",
+     "clau": true
+    },
+    {
+     "text": "M. Marais – Les voix humaines",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La música instrumental s'independitza",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;any passat vam veure com al Renaixement els instruments començaven a tenir música pròpia. Al Barroc, la música instrumental arriba a tenir la mateixa importància que la vocal. Els instruments es perfeccionen i apareixen els grans virtuosos."
+      }
+     ]
+    },
+    {
+     "titol": "Els instruments principals",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El violí:</strong> és l&#x27;instrument rei del Barroc. A <strong>Cremona</strong> (Itàlia), famílies de lutiers com els <strong>Amati</strong>, els <strong>Guarneri</strong> i sobretot <strong>Antonio Stradivari</strong> (1644-1737) construeixen violins que encara avui es consideren els millors del món. Les cordes eren de budell, i l&#x27;arc, més curt i lleuger que l&#x27;actual.",
+        "<strong>La família del violí:</strong> la viola i el <strong>violoncel</strong>, que a poc a poc substitueix la viola da gamba.",
+        "<strong>La viola da gamba:</strong> amb trasts i un so suau i velat, molt apreciada a França.",
+        "<strong>El clavecí:</strong> instrument de tecla on les cordes es pincen amb un plectre. No pot fer fort i fluix tocant més o menys fort, però té un so brillant i molt clar.",
+        "<strong>L&#x27;orgue</strong>, el gran instrument de les esglésies.",
+        "<strong>Vent:</strong> la flauta de bec i la travessera, l&#x27;oboè, el fagot, la trompa natural i la trompeta natural, sense pistons."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Passacaglia</strong> de Biber (c. 1676) és per a violí <strong>sol</strong>, sense acompanyament. Tot es basa en quatre notes que baixen, repetides més de seixanta vegades, i el violinista hi fa variacions amb acords i diverses veus alhora. Un sol instrument sembla un grup."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Les barricades mystérieuses</strong> (1717), de François Couperin, és una peça per a clavecí amb un títol misteriós que ningú no ha sabut explicar del tot. Fixau-vos en les notes que se superposen i ressonen, com una boira."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Les voix humaines</strong>, de Marin Marais, fa honor al seu títol: la viola da gamba sembla una veu humana que canta suaument."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que al Barroc la música instrumental s&#x27;iguala a la vocal, que el violí es converteix en el gran protagonista gràcies als lutiers de Cremona, i que el clavecí, l&#x27;orgue i la viola da gamba tenen repertoris propis.</p>",
+   "obraClau": {
+    "obra": "Biber – Passacaglia per a violí sol",
+    "motiu": "Perquè ens demostra que un sol violí pot construir una gran obra sobre un baix de quatre notes."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 13,
+   "titol": "Corelli: la sonata i el concerto grosso",
+   "subtitol": "Dialogar en grup",
+   "audicions": [
+    {
+     "text": "A. Corelli – Concerto grosso op. 6 n. 8 «Fet per a la nit de Nadal» (Pastorale)",
+     "clau": true
+    },
+    {
+     "text": "A. Corelli – Sonata op. 5 n. 12 «La Follia»",
+     "clau": true
+    },
+    {
+     "text": "A. Corelli – Sonata a tres op. 3 n. 2 (selecció)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Arcangelo Corelli",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Arcangelo Corelli</strong> (1653-1713) va viure a Roma i va treballar per a cardenals i per a la reina Cristina de Suècia. No va escriure gaire música, només sis col·leccions, però totes es van publicar, es van copiar i es van estudiar per tot Europa. Va ser el gran model de la música per a violí."
+      }
+     ]
+    },
+    {
+     "titol": "La sonata barroca",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al Barroc, <strong>sonata</strong> vol dir «peça per sonar» amb instruments, en oposició a <em>cantata</em>, «peça per cantar». Hi ha dos tipus principals:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Sonata a solo:</strong> un instrument melòdic i el continu.",
+        "<strong>Sonata a tres:</strong> dos instruments melòdics (normalment dos violins) i el continu. Atenció: s&#x27;anomena «a tres» per les tres línies, però la tocaven quatre músics."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "També es distingia la <strong>sonata da chiesa</strong> («d&#x27;església»), amb moviments lents i ràpids alternats, i la <strong>sonata da camera</strong> («de cambra»), formada per danses."
+      }
+     ]
+    },
+    {
+     "titol": "El concerto grosso",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>concerto grosso</strong> contraposa dos grups:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "El <strong>concertino</strong>: un petit grup de solistes (normalment dos violins i un violoncel).",
+        "El <strong>ripieno</strong> o <strong>tutti</strong>: l&#x27;orquestra de corda."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Els dos grups s&#x27;alternen i s&#x27;uneixen, creant contrastos de volum i de color. És una idea molt barroca, que ja vam veure als cori spezzati de Venècia."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Concerto grosso op. 6 n. 8</strong> es va escriure per a la nit de Nadal i es va publicar el 1714, després de la mort de Corelli. El darrer moviment, la <strong>Pastorale</strong>, imita la música dels pastors: un ritme balancejat i notes llargues al baix, com les cornamuses. Fixau-vos en com el concertino i el tutti s&#x27;alternen."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>La Follia</strong> és una sèrie de variacions per a violí i continu sobre una melodia i un baix molt coneguts, d&#x27;origen ibèric. Cada variació és diferent: ràpida, lenta, amb acords, amb escales... És un catàleg de tot el que pot fer un violinista."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Una <strong>sonata a tres</strong> ens deixa sentir els dos violins que s&#x27;imiten i es responen damunt el continu."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Corelli va crear el model de la sonata i del concerto grosso, que la sonata pot ser a solo o a tres, i que el concerto grosso contraposa el concertino i el tutti.</p>",
+   "obraClau": {
+    "obra": "Corelli – Concerto grosso op. 6 n. 8",
+    "motiu": "Perquè ens mostra el diàleg entre un grup de solistes i l&#x27;orquestra que marcarà tota la música instrumental barroca."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 14,
+   "titol": "Vivaldi i el concert solista",
+   "subtitol": "El prete rosso i les nines de la Pietà",
+   "audicions": [
+    {
+     "text": "A. Vivaldi – L'estiu (3r moviment)",
+     "clau": true
+    },
+    {
+     "text": "A. Vivaldi – La primavera (1r moviment, amb el sonet)",
+     "clau": true
+    },
+    {
+     "text": "A. Vivaldi – Concert per a mandolina RV 425",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Antonio Vivaldi",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Antonio Vivaldi</strong> (1678-1741) va néixer a Venècia. Era capellà, i per això i pel color dels seus cabells li deien <em>il prete rosso</em>, «el capellà pèl-roig». Va treballar durant molts anys a l&#x27;<strong>Ospedale della Pietà</strong>, un orfenat de nines on s&#x27;ensenyava música a un nivell altíssim. Les seves orquestres de noies eren famoses a tot Europa, i Vivaldi hi assajava i hi estrenava moltes obres. Va escriure més de cinc-cents concerts i nombroses òperes. Va morir pobre a Viena."
+      }
+     ]
+    },
+    {
+     "titol": "El concert solista",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Vivaldi va fixar el model del <strong>concert per a solista</strong>:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Tres moviments:</strong> ràpid – lent – ràpid.",
+        "Els moviments ràpids segueixen la <strong>forma ritornello</strong>: l&#x27;orquestra toca un tema (el <strong>ritornello</strong>), el solista fa una secció virtuosa (<strong>episodi</strong>), torna el ritornello, sovint abreujat i en una altra tonalitat, un altre episodi... i el ritornello final.",
+        "Un solista virtuós que dialoga amb l&#x27;orquestra."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Va escriure concerts per a violí, però també per a flauta, fagot, violoncel, mandolina i moltes altres combinacions."
+      }
+     ]
+    },
+    {
+     "titol": "Les quatre estacions",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Les quatre estacions</strong> són quatre concerts per a violí publicats el 1725. Cada un va acompanyat d&#x27;un <strong>sonet</strong>, un poema, i la música descriu el que diu el text. És un exemple primerenc de <strong>música programàtica</strong>, música que explica o descriu alguna cosa."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Tornam a escoltar <strong>La primavera</strong>, ara amb el sonet: l&#x27;arribada de la primavera (ritornello), el cant dels ocells, les fonts que murmuren, una tempesta i el retorn dels ocells. Fixau-vos en com el ritornello torna i en com els episodis del solista il·lustren el poema."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>3r moviment de L&#x27;estiu</strong> és una tempesta d&#x27;estiu: escales rapidíssimes, trèmolos, llamps i trons. El violí solista hi toca amb una energia desbordant."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Concert per a mandolina</strong> ens mostra que Vivaldi també escrivia per a instruments poc habituals."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Vivaldi va fixar el concert solista en tres moviments, amb la forma ritornello, i que Les quatre estacions són un exemple primerenc de música descriptiva.</p>",
+   "obraClau": {
+    "obra": "Vivaldi – L'estiu (3r moviment)",
+    "motiu": "Perquè és una tempesta feta música, i perquè el violí solista hi mostra tot el seu virtuosisme."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 15,
+   "titol": "La suite: la dansa feta música",
+   "subtitol": "Allemanda, courante, sarabanda i giga",
+   "audicions": [
+    {
+     "text": "J. S. Bach – Suite per a violoncel n. 1, Preludi",
+     "clau": true
+    },
+    {
+     "text": "G. F. Händel – Música aquàtica, Hornpipe",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Suite orquestral n. 3, Ària",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La suite",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Recordau les parelles de danses del Renaixement, com la pavana i la gallarda? Al Barroc, les danses s&#x27;agrupen en obres més llargues: la <strong>suite</strong>. Moltes d&#x27;aquestes danses ja no es ballaven, sinó que eren música per escoltar, però en mantenien el ritme i el caràcter."
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;estructura més habitual té quatre danses de països diferents:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Allemanda</strong> (Alemanya): moderada, en compàs binari.",
+        "<strong>Courante</strong> (França) o <strong>corrente</strong> (Itàlia): més ràpida, en ternari.",
+        "<strong>Sarabanda</strong> (d&#x27;origen hispànic): lenta i solemne, en ternari.",
+        "<strong>Giga</strong> (d&#x27;origen anglès o irlandès): ràpida i saltada."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Sovint s&#x27;hi afegia un <strong>preludi</strong> al principi, o danses opcionals, com el minuet, la gavota o la bourrée, abans de la giga. Cada dansa té normalment una <strong>forma binària</strong>: dues parts que es repeteixen (AABB)."
+      }
+     ]
+    },
+    {
+     "titol": "La suite orquestral",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "També hi havia suites per a orquestra, que començaven amb una <strong>obertura francesa</strong>. La <strong>Música aquàtica</strong> de Händel (1717) es va tocar en unes barques al riu Tàmesi, a Londres, per acompanyar un passeig del rei Jordi I. Diuen que al rei li va agradar tant que la va fer repetir diverses vegades."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Preludi de la Suite per a violoncel n. 1</strong> de Bach és una de les peces més conegudes per a aquest instrument. El violoncel toca sol arpegis que suggereixen una harmonia completa, com si fos un instrument d&#x27;acords. Durant molt de temps, aquestes suites es van considerar exercicis, fins que el violoncel·lista català <strong>Pau Casals</strong> les va fer conèixer al món."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Hornpipe</strong> de la Música aquàtica és una dansa anglesa enèrgica, amb trompes i trompetes, pensada per sonar a l&#x27;aire lliure. Recordau els instruments alts de l&#x27;Edat Mitjana?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Ària</strong> de la Suite orquestral n. 3 és una melodia lenta i ampla del primer violí, sobre un baix que camina tranquil·lament."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la suite agrupa danses de diferents països (allemanda, courante, sarabanda i giga), que pot ser per a un instrument o per a orquestra, i que la dansa continua sent a la base de la música instrumental.</p>",
+   "obraClau": {
+    "obra": "Bach – Suite per a violoncel n. 1, Preludi",
+    "motiu": "Perquè un sol violoncel hi construeix tota una harmonia, i perquè Pau Casals el va fer conèixer al món."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 16,
+   "titol": "L'orgue i la fuga",
+   "subtitol": "Un tema que es persegueix a si mateix",
+   "audicions": [
+    {
+     "text": "J. S. Bach – Fuga en sol menor BWV 578 («Petita fuga»)",
+     "clau": true
+    },
+    {
+     "text": "D. Buxtehude – Passacaglia en re menor BuxWV 161",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Tocata i fuga en re menor (completa)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "L'orgue barroc",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;orgue és l&#x27;instrument més gran i complex del Barroc. Té diversos teclats, un <strong>pedaler</strong> per tocar amb els peus i molts <strong>registres</strong>, que permeten canviar el so: flautes, trompetes, veus... A l&#x27;Alemanya del nord, els organistes eren grans figures de la ciutat, i els concursos per aconseguir una plaça eren molt exigents."
+      },
+      {
+       "tipus": "p",
+       "html": "El gran organista de Lübeck era <strong>Dietrich Buxtehude</strong> (c. 1637-1707). El 1705, un jove Bach va caminar uns 400 quilòmetres per anar a escoltar-lo, i s&#x27;hi va quedar tant de temps que a Arnstadt, on treballava, se&#x27;n van queixar."
+      }
+     ]
+    },
+    {
+     "titol": "La fuga",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>fuga</strong> és la gran forma del contrapunt barroc i l&#x27;hereva de la imitació del Renaixement. Funciona així:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Una veu presenta el tema principal, el <strong>subjecte</strong>.",
+        "Una segona veu el repeteix en una altra tonalitat: és la <strong>resposta</strong>. Mentrestant, la primera veu continua amb una melodia que l&#x27;acompanya, el <strong>contrasubjecte</strong>.",
+        "Entren la resta de veus, una rere l&#x27;altra: és l&#x27;<strong>exposició</strong>.",
+        "Després hi ha <strong>episodis</strong>, on la música es mou cap a altres tonalitats, i noves entrades del subjecte.",
+        "Al final, el subjecte torna a la tonalitat principal."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "El nom ve del llatí <em>fuga</em>, «fugida»: les veus semblen perseguir-se."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Petita fuga en sol menor</strong> de Bach és perfecta per aprendre a seguir una fuga. El subjecte és una melodia llarga i cantable. Aixecau la mà cada vegada que el sentiu entrar: primer a dalt, després al mig, després més avall, i finalment al pedaler, als peus de l&#x27;organista."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Passacaglia</strong> de Buxtehude es construeix sobre un baix de set notes que el pedaler repeteix una vegada i una altra, mentre les veus de dalt varien. Recordau el baix ostinato?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "Escoltam sencera la <strong>Tocata i fuga en re menor</strong>: una tocata lliure i dramàtica i una fuga plena d&#x27;energia."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;orgue barroc és un instrument enorme amb pedaler i registres, que la fuga es construeix amb entrades successives d&#x27;un subjecte, i que Buxtehude va ser un model per a Bach.</p>",
+   "obraClau": {
+    "obra": "Bach – Petita fuga en sol menor",
+    "motiu": "Perquè ens permet seguir amb claredat com un tema passa de veu en veu fins a omplir l&#x27;església."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 17,
+   "titol": "Bach, el gran sintetitzador",
+   "subtitol": "Temperament, concerts i contrapunt",
+   "audicions": [
+    {
+     "text": "J. S. Bach – El clavecí ben temperat I, Preludi en do major",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Concert de Brandenburg n. 5 (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Concert de Brandenburg n. 3 (1r moviment, recordatori de 4t)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El temperament",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Recordau l&#x27;afinació pitagòrica, basada en cinquenes pures? Té un problema: si afinam un instrument de tecla així, algunes tonalitats sonen molt bé, però les tonalitats amb moltes alteracions sonen desafinades. Al Barroc es van inventar sistemes d&#x27;afinació, els <strong>temperaments</strong>, que repartien aquestes petites diferències perquè totes les tonalitats es poguessin tocar. Avui feim servir el <strong>temperament igual</strong>, on tots els semitons són iguals."
+      },
+      {
+       "tipus": "p",
+       "html": "Bach va voler demostrar les possibilitats dels nous temperaments amb <strong>El clavecí ben temperat</strong> (el primer llibre és de 1722): 24 preludis i fugues, un en cada tonalitat major i menor. Més endavant en va escriure un segon llibre. Moltes generacions de pianistes hi han après."
+      }
+     ]
+    },
+    {
+     "titol": "Els Concerts de Brandenburg",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El 1721, Bach va enviar sis concerts al marcgravi de Brandenburg, amb l&#x27;esperança d&#x27;aconseguir feina. Cada concert fa servir una combinació d&#x27;instruments diferent, com un catàleg de possibilitats. Recordau el Concert n. 3, que vam escoltar el primer dia de 4t?"
+      },
+      {
+       "tipus": "p",
+       "html": "Bach sintetitza tot el que havia après: el concert italià de Vivaldi (del qual va transcriure concerts), la suite francesa, la fuga alemanya i el coral luterà. Per això se&#x27;l considera el gran sintetitzador del Barroc. En vida, però, era més conegut com a organista que com a compositor, i a finals de la seva vida el seu estil semblava antic."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Preludi en do major</strong> és molt senzill: un acord desplegat, sempre amb el mateix dibuix, que va canviant d&#x27;harmonia. Fixau-vos en com les harmonies ens porten lluny i tornen a casa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>1r moviment del Concert de Brandenburg n. 5</strong>, el concertino és una flauta, un violí i... un clavecí. El clavecí deixa el continu i es converteix en solista. Cap al final, l&#x27;orquestra calla i el clavecí toca sol una llarga <strong>cadència</strong> virtuosa. És un dels precedents del concert per a piano."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I tornam al <strong>Concert n. 3</strong>: ara ja sabeu reconèixer el ritornello, el diàleg entre grups i la pulsació que no s&#x27;atura."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el temperament permet tocar en totes les tonalitats, que El clavecí ben temperat ho demostra amb 24 preludis i fugues, i que Bach sintetitza els estils italià, francès i alemany.</p>",
+   "obraClau": {
+    "obra": "Bach – Concert de Brandenburg n. 5 (1r moviment)",
+    "motiu": "Perquè el clavecí hi passa de l&#x27;acompanyament al protagonisme, i ens anuncia el futur concert per a piano."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 18,
+   "titol": "1685: Händel i Scarlatti",
+   "subtitol": "Tres genis del mateix any",
+   "audicions": [
+    {
+     "text": "G. F. Händel – Música per als focs d'artifici reials, «La Réjouissance»",
+     "clau": true
+    },
+    {
+     "text": "D. Scarlatti – Sonata en mi major K. 380",
+     "clau": true
+    },
+    {
+     "text": "A. Soler – Fandango (atribuït)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Un any extraordinari",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;any <strong>1685</strong> van néixer tres dels compositors més importants del Barroc: Bach, Händel i Domenico Scarlatti. Tots tres eren grans intèrprets de tecla, però van tenir vides molt diferents."
+      }
+     ]
+    },
+    {
+     "titol": "Georg Friedrich Händel",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Händel</strong> (1685-1759) va néixer a Halle, a Alemanya, com Bach, però va ser un músic internacional. Va estudiar a Itàlia i es va instal·lar a <strong>Londres</strong>, on va triomfar amb l&#x27;òpera italiana i, després, amb l&#x27;oratori en anglès. A diferència de Bach, que treballava per a l&#x27;església, Händel va ser un empresari: organitzava temporades, contractava cantants i es jugava els seus diners. Va ser molt famós en vida i està enterrat a l&#x27;abadia de Westminster."
+      },
+      {
+       "tipus": "p",
+       "html": "El 1749 va escriure la <strong>Música per als focs d&#x27;artifici reials</strong> per celebrar un tractat de pau, amb una gran banda de vent i percussió. L&#x27;assaig general va atreure milers de persones i va provocar un embús de carruatges a Londres."
+      }
+     ]
+    },
+    {
+     "titol": "Domenico Scarlatti",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Domenico Scarlatti</strong> (1685-1757), fill del compositor d&#x27;òperes Alessandro Scarlatti, va passar la major part de la vida a la Península: primer a Lisboa i després a <strong>Madrid</strong>, com a professor de la princesa i després reina <strong>Maria Bàrbara de Bragança</strong>. Per a ella va escriure <strong>555 sonates</strong> per a clavecí, breus i en un sol moviment, plenes d&#x27;enginy, salts, notes repetides i efectes que imiten la guitarra i les castanyoles."
+      },
+      {
+       "tipus": "p",
+       "html": "Un dels músics que més va aprendre del seu estil va ser el pare <strong>Antoni Soler</strong> (1729-1783), nascut a Olot, format a l&#x27;escolania de Montserrat i organista del monestir d&#x27;El Escorial."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>«La Réjouissance»</strong> («L&#x27;alegria») és una peça brillant, amb trompetes, trompes i timbals. És música pública i festiva, per a milers de persones."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Sonata K. 380</strong> de Scarlatti té un caràcter de desfilada cerimonial, amb fanfàrries i ecos que imiten trompetes i trompes. Fixau-vos en com el clavecí sembla una orquestra sencera."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Fandango</strong> atribuït a Soler es basa en un baix que es repeteix, un ritme de dansa hispànica i una energia creixent."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el 1685 van néixer Bach, Händel i Scarlatti, que Händel va triomfar a Londres com a empresari de l&#x27;òpera i de l&#x27;oratori, i que Scarlatti va escriure a Madrid centenars de sonates que influirien en músics com el pare Soler.</p>",
+   "obraClau": {
+    "obra": "Scarlatti – Sonata K. 380",
+    "motiu": "Perquè en pocs minuts ens mostra un llenguatge nou i imaginatiu, nascut a la cort de Madrid."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 19,
+   "titol": "Un nou gust: galant, còmic i sensible",
+   "subtitol": "El final del Barroc",
+   "audicions": [
+    {
+     "text": "G. B. Pergolesi – La serva padrona, «Stizzoso, mio stizzoso»",
+     "clau": true
+    },
+    {
+     "text": "G. B. Pergolesi – Stabat Mater, «Stabat mater dolorosa»",
+     "clau": true
+    },
+    {
+     "text": "G. Ph. Telemann – Concert per a viola en sol major (1r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El Barroc es cansa",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Cap a 1730-1750, molts músics i oients comencen a trobar la música barroca massa complicada, massa seriosa i massa plena de contrapunt. Busquen una música més <strong>senzilla</strong>, <strong>natural</strong> i <strong>agradable</strong>, amb melodies clares i un acompanyament lleuger. Aquest nou gust s&#x27;anomena <strong>estil galant</strong>. En aquest moment, a Alemanya, alguns compositors busquen també expressar emocions canviants i íntimes: és l&#x27;<strong>estil sensible</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "L'òpera còmica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Mentre l&#x27;òpera seria parlava de reis i herois, neix l&#x27;<strong>òpera bufa</strong>, amb personatges quotidians: criats, vells gasius, joves enamorats. Al principi eren petites obres, els <strong>intermezzi</strong>, que es representaven entre els actes d&#x27;una òpera seria. La més famosa és <strong>La serva padrona</strong> (1733), de <strong>Giovanni Battista Pergolesi</strong>: una criada astuta, Serpina, aconsegueix casar-se amb el seu amo, Uberto."
+      },
+      {
+       "tipus": "p",
+       "html": "El 1752, una representació de La serva padrona a París va provocar una gran polèmica, la <strong>querella dels bufons</strong>: els partidaris de la música francesa tradicional s&#x27;enfrontaven als de la música italiana, més natural i melòdica. Pergolesi, però, ja no ho va saber: havia mort el 1736, amb només 26 anys."
+      }
+     ]
+    },
+    {
+     "titol": "Telemann",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Georg Philipp Telemann</strong> (1681-1767) va ser en vida més famós que Bach. És un dels compositors més prolífics de la història i va saber adaptar-se als nous gustos."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A <strong>«Stizzoso, mio stizzoso»</strong>, Serpina renya el seu amo i li diu que calli. Fixau-vos en la melodia àgil i clara, en les repeticions i en l&#x27;humor. Una música molt més lleugera que les àries de Händel."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici de l&#x27;<strong>Stabat Mater</strong>, que Pergolesi va escriure poc abans de morir, per a soprano i contralt, és ple de dissonàncies expressives que es resolen suaument. Aquí el nou estil és íntim i emocionant."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Concert per a viola</strong> de Telemann és un dels primers concerts per a aquest instrument, amb un caràcter amable i equilibrat."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que a finals del Barroc apareix un gust nou per la senzillesa (estil galant), que neix l&#x27;òpera bufa amb personatges quotidians, i que la querella dels bufons enfronta dues maneres d&#x27;entendre la música.</p>",
+   "obraClau": {
+    "obra": "Pergolesi – La serva padrona",
+    "motiu": "Perquè una petita obra còmica va canviar el gust de tot Europa i va obrir la porta al Classicisme."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 20,
+   "titol": "Síntesi: el Barroc instrumental",
+   "subtitol": "De Corelli a Pergolesi",
+   "audicions": [
+    {
+     "text": "Biber – Passacaglia",
+     "clau": false
+    },
+    {
+     "text": "Corelli – Concerto grosso op. 6 n. 8, Pastorale",
+     "clau": false
+    },
+    {
+     "text": "Vivaldi – L'estiu (3r moviment)",
+     "clau": false
+    },
+    {
+     "text": "Bach – Petita fuga en sol menor",
+     "clau": false
+    },
+    {
+     "text": "Bach – Concert de Brandenburg n. 5 (1r moviment)",
+     "clau": false
+    },
+    {
+     "text": "Pergolesi – La serva padrona",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem vist com els instruments prenen la paraula."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A la <strong>Passacaglia</strong> de Biber, un sol violí construïa una gran obra sobre quatre notes. El violí, perfeccionat pels lutiers de Cremona, es convertia en el rei del Barroc."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb Corelli vam descobrir la sonata i el <strong>concerto grosso</strong>, on un grup de solistes dialoga amb l&#x27;orquestra. I amb Vivaldi, el <strong>concert solista</strong> en tres moviments i la forma ritornello. A <strong>L&#x27;estiu</strong>, la tempesta ens va mostrar un solista virtuós i una música que descriu."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Vam veure la dansa convertida en música a la <strong>suite</strong>, i el contrapunt més elaborat a la <strong>fuga</strong>. A la Petita fuga de Bach vam aprendre a seguir un subjecte que passa de veu en veu."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb Bach, el gran sintetitzador, vam entendre el temperament i vam sentir el clavecí convertit en solista. I amb Händel i Scarlatti vam veure altres camins: l&#x27;empresari de Londres i el creador imaginatiu de Madrid."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Finalment, amb <strong>La serva padrona</strong>, vam sentir que el gust canviava: més senzillesa, més claredat, més humor."
+      }
+     ]
+    }
+   ],
+   "apres": "<ul><li>La música instrumental arriba a la mateixa importància que la vocal.</li><li>Neixen formes que duraran segles: sonata, concert, suite i fuga.</li><li>El contrast entre solista i grup és una idea central.</li><li>A final del Barroc, el gust es gira cap a la senzillesa i la claredat.</li></ul>",
+   "obraClau": {
+    "obra": "Vivaldi – Les quatre estacions",
+    "motiu": "Perquè resumeix el Barroc instrumental: un solista brillant, una orquestra que dialoga i una música que pinta el món."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
+  },
+  {
+   "numero": 21,
+   "titol": "Què és el Classicisme?",
+   "subtitol": "Il·lustració, claredat i equilibri",
+   "audicions": [
+    {
+     "text": "W. A. Mozart – Eine kleine Nachtmusik (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "Ch. W. Gluck – Orfeo ed Euridice, Dansa dels esperits benaurats",
+     "clau": true
+    },
+    {
+     "text": "C. Ph. E. Bach – Solfeggietto",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: la Il·lustració",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>Classicisme</strong> (aproximadament 1750-1820) coincideix amb la <strong>Il·lustració</strong>, un moviment que confia en la <strong>raó</strong>, la ciència i l&#x27;educació per millorar la societat. És l&#x27;època de l&#x27;<em>Enciclopèdia</em>, de la independència dels Estats Units (1776) i de la <strong>Revolució Francesa</strong> (1789). La burgesia creix i vol accedir a la cultura: apareixen els <strong>concerts públics</strong>, les societats musicals i els músics aficionats que compren partitures i pianos per tocar a casa."
+      },
+      {
+       "tipus": "p",
+       "html": "El nom «clàssic» vol dir que aquesta música es va considerar un model, com l&#x27;art grec i romà, que també inspirava l&#x27;arquitectura de l&#x27;època."
+      }
+     ]
+    },
+    {
+     "titol": "Les característiques de la música clàssica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Melodia acompanyada:</strong> una melodia clara a dalt i un acompanyament senzill a sota. El baix continu desapareix.",
+        "<strong>Frases regulars</strong> i equilibrades, de quatre o vuit compassos, com preguntes i respostes.",
+        "<strong>Contrastos graduals:</strong> apareixen el <strong>crescendo</strong> i el <strong>diminuendo</strong>.",
+        "Acompanyaments típics com el <strong>baix d&#x27;Alberti</strong>, acords desplegats a la mà esquerra del piano.",
+        "<strong>Formes clares</strong>, sobretot la forma sonata.",
+        "El <strong>piano</strong> substitueix el clavecí, perquè permet tocar fort (<em>forte</em>) i fluix (<em>piano</em>)."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Solfeggietto</strong> de Carl Philipp Emanuel Bach, fill de Johann Sebastian, és una peça curta per a teclat, amb canvis sobtats: una mostra de l&#x27;estil sensible que fa de pont."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Dansa dels esperits benaurats</strong> és de l&#x27;òpera <em>Orfeo ed Euridice</em> (1762) de Gluck, que va voler <strong>reformar l&#x27;òpera</strong>: menys lluïment dels cantants i més naturalitat i drama. Una flauta canta una melodia serena i senzilla. Recordau Orfeu, el tema de les primeres òperes?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici d&#x27;<strong>Eine kleine Nachtmusik</strong> (1787) de Mozart és la claredat mateixa: un tema que puja com una pregunta, frases regulars, una melodia a dalt i un acompanyament senzill."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el Classicisme neix amb la Il·lustració, que busca la claredat, l&#x27;equilibri i la naturalitat, i que substitueix el baix continu per la melodia acompanyada i el clavecí pel piano.</p>",
+   "obraClau": {
+    "obra": "Mozart – Eine kleine Nachtmusik (1r moviment)",
+    "motiu": "Perquè és l&#x27;exemple perfecte de la claredat i de l&#x27;equilibri clàssics."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 22,
+   "titol": "La forma sonata",
+   "subtitol": "Una història en tres actes",
+   "audicions": [
+    {
+     "text": "W. A. Mozart – Simfonia n. 40 (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "W. A. Mozart – Sonata per a piano en do major K. 545 (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "J. Haydn – Sonata per a piano en do major Hob. XVI:35 (1r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La sonata clàssica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al Classicisme, la <strong>sonata</strong> és una obra en diversos moviments (normalment tres o quatre) per a un o dos instruments. El mateix model s&#x27;aplica a la <strong>simfonia</strong> (una sonata per a orquestra), al <strong>quartet de corda</strong> i al <strong>concert</strong>. L&#x27;ordre habitual és:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "1r moviment: ràpid, en <strong>forma sonata</strong>.",
+        "2n moviment: lent i cantable.",
+        "3r moviment: minuet (en les obres de quatre moviments).",
+        "Darrer moviment: ràpid i brillant, sovint un <strong>rondó</strong>."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "La forma sonata",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>forma sonata</strong> és la gran creació del Classicisme. Funciona com un relat en tres parts:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Exposició:</strong> es presenten dos temes contrastants. El <strong>primer tema</strong>, a la tonalitat principal, sol ser enèrgic. Després d&#x27;un pont, el <strong>segon tema</strong> apareix en una altra tonalitat i sol ser més cantable. Normalment l&#x27;exposició es repeteix.",
+        "<strong>Desenvolupament:</strong> els temes es transformen, es fragmenten i passen per moltes tonalitats. És la part de més tensió, el conflicte.",
+        "<strong>Reexposició:</strong> tornen els dos temes, però ara tots dos a la tonalitat principal. El conflicte es resol."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Sovint hi ha una <strong>coda</strong> final. La idea de sortir de casa, viure una aventura i tornar és a la base de la música dels propers cent cinquanta anys."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Sonata K. 545</strong> (1788), que Mozart va anomenar «per a principiants», és ideal per seguir la forma: un primer tema clar amb baix d&#x27;Alberti, escales que ens porten al segon tema, un desenvolupament breu i la reexposició. Curiosament, la reexposició no comença en do major, sinó en fa major."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>1r moviment de la Simfonia n. 40</strong> (1788) comença amb un tema inquiet, en sol menor, sobre un acompanyament agitat de les violes. Fixau-vos en el segon tema, més dolç, i en el desenvolupament, ple de tensió. És una de les poques simfonies de Mozart en tonalitat menor."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La sonata de <strong>Haydn</strong> ens mostra la mateixa forma amb un caràcter alegre i enginyós."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la sonata clàssica té diversos moviments, i que la forma sonata s&#x27;organitza en exposició, desenvolupament i reexposició, amb dos temes que contrasten i es reconcilien.</p>",
+   "obraClau": {
+    "obra": "Mozart – Simfonia n. 40 (1r moviment)",
+    "motiu": "Perquè ens mostra la forma sonata com un veritable drama, amb tensió i resolució."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 23,
+   "titol": "Haydn i la simfonia",
+   "subtitol": "El pare de la simfonia i les seves sorpreses",
+   "audicions": [
+    {
+     "text": "J. Haydn – Simfonia n. 94 «La sorpresa» (2n moviment)",
+     "clau": true
+    },
+    {
+     "text": "J. Haydn – Simfonia n. 45 «dels adéus» (final)",
+     "clau": true
+    },
+    {
+     "text": "J. Haydn – Concert per a trompeta (3r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Joseph Haydn",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Joseph Haydn</strong> (1732-1809) va néixer en una família humil d&#x27;Àustria i va cantar d&#x27;infant a la catedral de Viena. Durant gairebé trenta anys va treballar per als prínceps <strong>Esterházy</strong>, una família noble d&#x27;Hongria, al seu palau d&#x27;Eszterháza. Allà dirigia una orquestra, i el seu càrrec era el d&#x27;un criat de luxe: vestia uniforme i havia de compondre el que li demanaven. Però aquest aïllament el va obligar a ser original. Quan el príncep va morir, Haydn va viatjar a <strong>Londres</strong>, on va triomfar amb les seves darreres simfonies davant un públic que pagava entrada."
+      }
+     ]
+    },
+    {
+     "titol": "La simfonia",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>simfonia</strong> neix de les obertures d&#x27;òpera italianes i es converteix en el gran gènere orquestral del Classicisme. Haydn en va escriure <strong>104</strong>, i per això se l&#x27;anomena el «pare de la simfonia». L&#x27;orquestra clàssica té:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Corda:</strong> violins primers i segons, violes, violoncels i contrabaixos.",
+        "<strong>Vent fusta:</strong> flautes, oboès, fagots i, més endavant, clarinets.",
+        "<strong>Vent metall:</strong> trompes i trompetes.",
+        "<strong>Percussió:</strong> timbals."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>2n moviment de la Simfonia n. 94</strong> (1791) comença amb un tema molt senzill, tocat suaument, que es repeteix encara més fluix... i de sobte, un cop fortíssim de tota l&#x27;orquestra amb timbals. Per això s&#x27;anomena «La sorpresa». Diuen que Haydn volia despertar el públic que s&#x27;adormia als concerts. Després, el tema es varia diverses vegades."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El final de la <strong>Simfonia n. 45</strong> (1772) té una història divertida. El príncep va allargar massa l&#x27;estada a Eszterháza i els músics volien tornar a casa amb les seves famílies. Haydn va escriure un final on els músics, a poc a poc, deixen de tocar, apaguen l&#x27;espelma i se&#x27;n van, fins que només en queden dos. El príncep va entendre el missatge."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Concert per a trompeta</strong> (1796) es va escriure per a una trompeta nova amb claus, que podia tocar totes les notes de l&#x27;escala. El 3r moviment és un rondó brillant."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Haydn va treballar per als Esterházy i va triomfar a Londres, que va fixar el model de la simfonia clàssica, i que la seva música és plena d&#x27;enginy i d&#x27;humor.</p>",
+   "obraClau": {
+    "obra": "Haydn – Simfonia n. 94 «La sorpresa»",
+    "motiu": "Perquè ens mostra l&#x27;humor i l&#x27;enginy d&#x27;un compositor que sabia jugar amb el públic."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 24,
+   "titol": "La música de cambra i el quartet de corda",
+   "subtitol": "Una conversa entre quatre",
+   "audicions": [
+    {
+     "text": "J. Haydn – Quartet op. 76 n. 3 «Emperador» (2n moviment)",
+     "clau": true
+    },
+    {
+     "text": "L. Boccherini – Quintet op. 11 n. 5, Minuet",
+     "clau": true
+    },
+    {
+     "text": "W. A. Mozart – Quartet K. 458 «La caça» (1r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La música de cambra",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>música de cambra</strong> és la que es toca amb pocs músics, cadascun amb la seva part, en una sala (<em>cambra</em>) d&#x27;un palau o d&#x27;una casa. Al Classicisme es converteix en una activitat molt estesa entre nobles i burgesos aficionats. Hi ha moltes formacions: trio amb piano, quartet, quintet..."
+      },
+      {
+       "tipus": "p",
+       "html": "La formació més important és el <strong>quartet de corda</strong>: dos violins, viola i violoncel. Goethe el va descriure com una conversa entre quatre persones intel·ligents. Haydn en va escriure més de seixanta, i Mozart li va dedicar sis quartets en senyal d&#x27;admiració."
+      }
+     ]
+    },
+    {
+     "titol": "Luigi Boccherini",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Luigi Boccherini</strong> (1743-1805) va ser un violoncel·lista italià que va passar la major part de la vida a <strong>Madrid</strong>, al servei de l&#x27;infant Lluís de Borbó i d&#x27;altres nobles. Va escriure centenars d&#x27;obres de cambra, especialment quintets de corda amb dos violoncels, i la seva música està plena de colors inspirats en la vida de Madrid."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>2n moviment del Quartet «Emperador»</strong> (1797) és un tema amb variacions sobre un himne que Haydn va escriure per a l&#x27;emperador d&#x27;Àustria. A cada variació, la melodia passa a un instrument diferent: primer violí, segon violí, violoncel i viola. És com si la conversa passàs de mà en mà. Aquesta melodia és avui la de l&#x27;himne d&#x27;Alemanya."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Minuet</strong> del Quintet op. 11 n. 5 (1771) de Boccherini és una de les melodies més conegudes del Classicisme: elegant, lleugera, amb pizzicatos que l&#x27;acompanyen."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Quartet «La caça»</strong> de Mozart, el primer tema imita les trompes de cacera. Fixau-vos en com els quatre instruments es passen les idees."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música de cambra es toca amb pocs músics en espais petits, que el quartet de corda és la formació més important, i que Boccherini va desenvolupar a Madrid una obra de cambra molt personal.</p>",
+   "obraClau": {
+    "obra": "Haydn – Quartet «Emperador» (2n moviment)",
+    "motiu": "Perquè ens deixa sentir com una mateixa melodia passa per cada un dels quatre instruments."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 25,
+   "titol": "Mozart i el concert",
+   "subtitol": "El solista i l'orquestra, cara a cara",
+   "audicions": [
+    {
+     "text": "W. A. Mozart – Concert per a clarinet K. 622 (2n moviment)",
+     "clau": true
+    },
+    {
+     "text": "W. A. Mozart – Concert per a piano n. 21 K. 467 (2n moviment)",
+     "clau": true
+    },
+    {
+     "text": "W. A. Mozart – Quintet per a clarinet K. 581 (1r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Wolfgang Amadeus Mozart",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Wolfgang Amadeus Mozart</strong> (1756-1791) va néixer a Salzburg. El seu pare, Leopold, músic i professor, el va portar de gira per Europa amb la seva germana <strong>Nannerl</strong> quan era un infant: tocaven davant reis i emperadors. Nannerl també era una gran intèrpret, però, com passava amb les dones, va haver d&#x27;abandonar la carrera. Wolfgang va treballar per a l&#x27;arquebisbe de Salzburg fins que, el 1781, va trencar amb ell i es va instal·lar a <strong>Viena</strong> com a <strong>músic independent</strong>: vivia de fer concerts, de publicar i de fer classes. Era una aposta arriscada. Va morir amb 35 anys, deixant més de sis-centes obres."
+      }
+     ]
+    },
+    {
+     "titol": "El concert clàssic",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>concert clàssic</strong> manté els tres moviments del Barroc (ràpid – lent – ràpid), però ara el diàleg entre el solista i l&#x27;orquestra és més dramàtic, com dos personatges d&#x27;òpera. Al primer moviment hi ha una <strong>cadència</strong>: l&#x27;orquestra s&#x27;atura i el solista improvisa sobre els temes. Mozart tocava ell mateix els seus concerts per a piano a Viena: n&#x27;hi va escriure 27."
+      }
+     ]
+    },
+    {
+     "titol": "Mozart i el clarinet",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>clarinet</strong> era un instrument nou, i Mozart va ser dels primers a descobrir-ne les possibilitats. Va escriure el Quintet (1789) i el Concert (1791) per al seu amic <strong>Anton Stadler</strong>, que tocava un clarinet especial, amb notes més greus: el clarinet de basset. El Concert és una de les darreres obres de Mozart."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Adagio del Concert per a clarinet</strong> és una melodia llarga i serena. Fixau-vos en com el clarinet canta com una veu humana, i en com l&#x27;orquestra repeteix i respon. Aprofitau per escoltar el registre greu, el so càlid que tant agradava a Mozart."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Andante del Concert per a piano n. 21</strong> (1785) és una melodia somiadora, sobre un acompanyament de tresets a les cordes amb sordina."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Quintet per a clarinet</strong>, el clarinet dialoga amb un quartet de corda com un més del grup."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Mozart va ser un infant prodigi i un dels primers músics independents, que el concert clàssic és un diàleg dramàtic entre solista i orquestra amb una cadència, i que Mozart va contribuir a fer del clarinet un gran instrument solista.</p>",
+   "obraClau": {
+    "obra": "Mozart – Concert per a clarinet K. 622 (2n moviment)",
+    "motiu": "Perquè és una de les obres més belles escrites per al clarinet, i una de les darreres de Mozart."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 26,
+   "titol": "L'òpera de Mozart",
+   "subtitol": "Personatges de carn i ossos",
+   "audicions": [
+    {
+     "text": "W. A. Mozart – La flauta màgica, ària de la Reina de la Nit «Der Hölle Rache»",
+     "clau": true
+    },
+    {
+     "text": "W. A. Mozart – Don Giovanni, «Là ci darem la mano»",
+     "clau": true
+    },
+    {
+     "text": "W. A. Mozart – Les noces de Fígaro, Obertura",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Mozart, home de teatre",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Mozart estimava l&#x27;òpera per sobre de tot. Les seves òperes tenen una gran virtut: els personatges no són figures ideals, sinó persones amb defectes, amb humor i amb emocions contradictòries. La música ens diu què pensen, fins i tot quan diuen una altra cosa."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Les noces de Fígaro</strong> (1786), <strong>Don Giovanni</strong> (1787) i <strong>Così fan tutte</strong> (1790) són òperes en italià, amb llibret de <strong>Lorenzo Da Ponte</strong>. Barregen comèdia i drama. <em>Les noces de Fígaro</em> està basada en una obra de teatre de Beaumarchais que es considerava perillosa perquè presentava un criat més llest que el seu senyor.",
+        "<strong>La flauta màgica</strong> (1791) és un <strong>Singspiel</strong>, òpera en alemany amb diàlegs parlats, pensada per a un públic popular. És un conte de fades ple de símbols de la Il·lustració: la llum de la raó venç la foscor."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Una de les grans innovacions de Mozart són els <strong>finals d&#x27;acte</strong>: grans escenes on molts personatges canten alhora, cada un amb les seves emocions, mentre l&#x27;acció avança."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Obertura de Les noces de Fígaro</strong> és ràpida, lleugera i plena d&#x27;energia: ens anuncia una «bogeria d&#x27;un dia»."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>«Là ci darem la mano»</strong>, Don Giovanni intenta seduir la pagesa Zerlina el dia del seu casament. Fixau-vos en com al principi canten per separat i, a poc a poc, les seves veus s&#x27;acosten fins que acaben cantant junts. La música ens explica que Zerlina es deixa convèncer."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>«Der Hölle Rache»</strong>, la Reina de la Nit, plena de ràbia, ordena a la seva filla que mati el seu enemic. La soprano arriba a notes altíssimes, fins al fa sobreagut, amb passatges virtuosos que semblen crits. És la foscor en persona."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que les òperes de Mozart presenten personatges humans i complexos, que combinen l&#x27;òpera italiana amb llibrets de Da Ponte i el Singspiel en alemany, i que la música revela el que senten els personatges.</p>",
+   "obraClau": {
+    "obra": "Mozart – La flauta màgica, «Der Hölle Rache»",
+    "motiu": "Perquè en tres minuts mostra fins on pot arribar la veu humana per expressar una passió."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 27,
+   "titol": "El Classicisme a la Península",
+   "subtitol": "De València a Viena, de Bilbao a Barcelona",
+   "audicions": [
+    {
+     "text": "J. C. de Arriaga – Simfonia en re (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "F. Sor – Variacions sobre un tema de La flauta màgica, op. 9",
+     "clau": true
+    },
+    {
+     "text": "V. Martín i Soler – Una cosa rara (fragment citat a Don Giovanni)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Músics de casa nostra a Europa",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XVIII, la música de la cort de Madrid estava dominada pels italians, i molts músics de la Península van fer carrera a l&#x27;estranger:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Vicent Martín i Soler</strong> (1754-1806), nascut a València, va triomfar com a compositor d&#x27;òperes a Viena i a Sant Petersburg. La seva òpera <strong>Una cosa rara</strong> (1786) va tenir més èxit a Viena que <em>Les noces de Fígaro</em> de Mozart, estrenada el mateix any. Mozart li va fer un homenatge: al final de <strong>Don Giovanni</strong>, mentre Don Giovanni sopa, uns músics toquen un fragment d&#x27;<em>Una cosa rara</em>.",
+        "<strong>Fernando Sor</strong> (1778-1839), nascut a Barcelona i format a l&#x27;escolania de Montserrat, va ser un dels guitarristes més importants de la història. Va viure a París i a Londres, i va escriure estudis que encara estudien tots els guitarristes.",
+        "<strong>Juan Crisóstomo de Arriaga</strong> (1806-1826), de Bilbao, va ser un infant prodigi que va estudiar a París. Va morir amb només 19 anys, i per això se l&#x27;ha anomenat el «Mozart espanyol»."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "També a Espanya es desenvolupa la <strong>tonadilla escènica</strong>, breus peces teatrals cantades, amb personatges populars de Madrid, que es feien entre els actes de les obres de teatre."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Escoltam el fragment d&#x27;<strong>Una cosa rara</strong> tal com apareix a <strong>Don Giovanni</strong>: una música lleugera que el públic de Viena reconeixia i taral·lejava."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Les <strong>Variacions op. 9</strong> de Sor parteixen d&#x27;una melodia de <em>La flauta màgica</em> de Mozart. Després d&#x27;una introducció lenta, sentim el tema i una sèrie de variacions cada vegada més brillants. La guitarra de Sor sembla una petita orquestra."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>1r moviment de la Simfonia en re</strong> d&#x27;Arriaga té la claredat del Classicisme, però també una energia i uns contrastos que miren cap al Romanticisme. Pensau que el compositor era un adolescent."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que molts músics de la Península van triomfar a Europa, com Martín i Soler a Viena o Sor a París, i que Arriaga, el «Mozart espanyol», ens va deixar una obra breu però extraordinària.</p>",
+   "obraClau": {
+    "obra": "Sor – Variacions sobre un tema de La flauta màgica",
+    "motiu": "Perquè uneix Barcelona i Viena, la guitarra i Mozart, en una obra que encara toquen guitarristes de tot el món."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 28,
+   "titol": "Beethoven: el camí cap al Romanticisme",
+   "subtitol": "Quan el compositor parla de si mateix",
+   "audicions": [
+    {
+     "text": "L. van Beethoven – Simfonia n. 5 (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "L. van Beethoven – Sonata «Patètica» (2n moviment)",
+     "clau": true
+    },
+    {
+     "text": "L. van Beethoven – Simfonia n. 3 «Heroica» (1r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Ludwig van Beethoven",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Ludwig van Beethoven</strong> (1770-1827) va néixer a Bonn i es va instal·lar a <strong>Viena</strong>, on va estudiar amb Haydn. Va ser un pianista extraordinari i un compositor que no volia ser el criat de ningú: els nobles el mantenien econòmicament perquè admiraven el seu talent, i ell els tractava d&#x27;igual a igual."
+      },
+      {
+       "tipus": "p",
+       "html": "Cap als 28 anys va començar a quedar-se <strong>sord</strong>. El 1802, en una carta coneguda com el <em>Testament de Heiligenstadt</em>, va escriure que només l&#x27;art l&#x27;havia salvat de la desesperació. Va continuar component fins i tot quan la sordesa era total."
+      }
+     ]
+    },
+    {
+     "titol": "Del Classicisme al Romanticisme",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Beethoven parteix de les formes de Haydn i de Mozart (sonata, simfonia, quartet, concert), però les transforma:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Obres més <strong>llargues</strong> i més <strong>intenses</strong>.",
+        "Contrastos <strong>extrems</strong> de dinàmica, amb <em>sforzandi</em> i silencis sobtats.",
+        "Petits motius que es desenvolupen fins a construir tota una obra.",
+        "Una música que expressa lluites, idees i emocions personals."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Beethoven va viure la Revolució Francesa i va admirar <strong>Napoleó</strong>. Li va dedicar la Simfonia n. 3, però quan Napoleó es va proclamar emperador (1804), va ratllar la dedicatòria amb ràbia i la va titular simplement «Heroica»."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>2n moviment de la Sonata «Patètica»</strong> (1798-1799) és una melodia cantable i serena, que ens mostra el costat més líric de Beethoven."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici de la <strong>Simfonia n. 3</strong> ens mostra la mida d&#x27;aquesta nova música: dos acords secs i un tema que creix i creix. El primer moviment dura tant com moltes simfonies senceres de Haydn."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>1r moviment de la Simfonia n. 5</strong> (1808) comença amb el motiu més famós de la història: tres notes breus i una de llarga. Tot el moviment es construeix amb aquest motiu, que passa per tots els instruments. Hi ha qui hi ha volgut sentir «el destí que truca a la porta». La simfonia acaba, al quart moviment, amb un triomf en do major: de la foscor a la llum."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Beethoven parteix de les formes clàssiques, però les fa més grans, més intenses i més personals, i que la seva música, marcada per la sordesa i per les idees revolucionàries, obre la porta al Romanticisme.</p>",
+   "obraClau": {
+    "obra": "Beethoven – Simfonia n. 5 (1r moviment)",
+    "motiu": "Perquè un motiu de quatre notes hi construeix tot un drama, i perquè ens porta directament al Romanticisme."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 29,
+   "titol": "Síntesi: del Barroc al llindar del Romanticisme",
+   "subtitol": "Un segle i mig de música",
+   "audicions": [
+    {
+     "text": "Gluck – Dansa dels esperits benaurats",
+     "clau": false
+    },
+    {
+     "text": "Mozart – Eine kleine Nachtmusik (1r moviment)",
+     "clau": false
+    },
+    {
+     "text": "Haydn – Simfonia n. 94 (2n moviment)",
+     "clau": false
+    },
+    {
+     "text": "Mozart – Concert per a clarinet (2n moviment)",
+     "clau": false
+    },
+    {
+     "text": "Beethoven – Simfonia n. 5 (1r moviment)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem passat del Barroc, ple de contrapunt i d&#x27;ornaments, a una música que busca la claredat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb Gluck i la <strong>Dansa dels esperits benaurats</strong> vam veure que l&#x27;òpera volia ser més natural. I amb <strong>Eine kleine Nachtmusik</strong> vam descobrir la melodia acompanyada, les frases regulars i l&#x27;equilibri del Classicisme, fill de la Il·lustració."
+      },
+      {
+       "tipus": "p",
+       "html": "Vam aprendre la gran forma d&#x27;aquesta època: la <strong>forma sonata</strong>, un relat en tres parts, amb dos temes que contrasten i es reconcilien."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb Haydn vam conèixer la simfonia i l&#x27;orquestra clàssica, i el seu humor a <strong>La sorpresa</strong>. Vam descobrir també el quartet de corda, una conversa entre quatre."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb Mozart vam escoltar el concert, on solista i orquestra dialoguen com personatges, i el <strong>Concert per a clarinet</strong>, i vam veure òperes amb personatges de carn i ossos. Vam mirar cap a casa nostra, amb Martín i Soler, Sor i Arriaga."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I finalment, amb la <strong>Simfonia n. 5</strong> de Beethoven, vam sentir com les formes clàssiques es feien més grans i més personals."
+      }
+     ]
+    }
+   ],
+   "apres": "<ul><li>El Barroc construeix sobre un baix continu i busca els afectes i el contrast.</li><li>El Classicisme busca la claredat, l&#x27;equilibri i la forma.</li><li>El músic passa de servir l&#x27;Església i la cort a treballar per a un públic que paga.</li><li>Amb Beethoven, la música comença a expressar la personalitat del compositor.</li></ul><p>L&#x27;any que ve, a 6è, començarem exactament aquí: amb el Romanticisme.</p>",
+   "obraClau": {
+    "obra": "Beethoven – Simfonia n. 5",
+    "motiu": "Perquè tanca el Classicisme i obre el Romanticisme: una música que ja no només és equilibri, sinó lluita i victòria."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
   }
  ]
 }

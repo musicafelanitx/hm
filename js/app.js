@@ -317,7 +317,7 @@ function targetaSessio(s, per, avui, proxima, colorBase, clau, ambApunts = new S
       ${s.subtitol ? `<span class="estat">${esc(s.subtitol)}</span>` : ""}
     </span>`;
 
-  const classes = ["sessio", feta && "feta", esProxima && "proxima", !s.enllac && !s.activitat && "pendent", s.activitat && "activitat"].filter(Boolean).join(" ");
+  const classes = ["sessio", feta && "feta", esProxima && "proxima", !s.enllac && !s.activitat && !s.titol && "pendent", s.activitat && "activitat"].filter(Boolean).join(" ");
   if (teApunts) {
     // La sessió té apunts a la web: la targeta hi porta (i des d'allà, a la presentació)
     return `<li><a class="${classes}" style="--color:${color}" href="apunts.html?curs=${clau}&sessio=${s.numero}">${contingut}<span class="fletxa" title="Apunts de la sessió">${ICONES.apunts}</span></a></li>`;

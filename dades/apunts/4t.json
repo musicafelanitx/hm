@@ -1226,6 +1226,1973 @@
     "motiu": "Perquè tanca el trimestre amb la música que no era a l&#x27;església: la de les places, les corts i la festa."
    },
    "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 12,
+   "titol": "Neix la polifonia: l'organum",
+   "subtitol": "Quan la melodia deixa d'estar sola",
+   "audicions": [
+    {
+     "text": "Rex caeli, Domine (Musica enchiriadis)",
+     "clau": true
+    },
+    {
+     "text": "Organum de Sant Marçal de Llemotges – Jubilemus, exultemus",
+     "clau": true
+    },
+    {
+     "text": "Codex Calixtinus – Congaudeant catholici",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Què és la polifonia?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Fins ara hem escoltat <strong>monodia</strong>: una sola línia melòdica. La <strong>polifonia</strong> («moltes veus») és la superposició de dues o més línies melòdiques <strong>independents</strong> que sonen alhora. La paraula clau és «independents»: no es tracta d&#x27;acompanyar una melodia amb acords, sinó que cada veu és una melodia amb sentit propi."
+      },
+      {
+       "tipus": "p",
+       "html": "La polifonia és una de les grans aportacions de la música occidental. Altres cultures desenvolupen la melodia, el ritme o la improvisació amb una gran complexitat, però la combinació de diverses melodies independents escrites és un camí que, a partir d&#x27;ara, marcarà tota la història de la nostra música."
+      }
+     ]
+    },
+    {
+     "titol": "Els orígens",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "És molt probable que la gent ja cantés a diverses veus de manera improvisada molt abans que s&#x27;escrivís, com passa encara en moltes tradicions populars. Però la primera descripció teòrica que en tenim és a la <em>Musica enchiriadis</em>, un tractat anònim del segle IX. S&#x27;hi explica com afegir una segona veu a un cant gregorià:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Vox principalis:</strong> la veu principal, que canta la melodia gregoriana.",
+        "<strong>Vox organalis:</strong> la veu afegida, que la segueix."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta pràctica s&#x27;anomena <strong>organum</strong>. Les dues veus poden duplicar-se a l&#x27;octava, de manera que hi pot haver fins a quatre veus."
+      }
+     ]
+    },
+    {
+     "titol": "L'evolució de l'organum",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;organum passa per diverses fases, i en cadascuna la veu afegida guanya llibertat:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Organum paral·lel</strong> (s. IX): les dues veus es mouen exactament igual, a distància de quarta o de cinquena. Són els intervals que Pitàgores considerava perfectes.",
+        "<strong>Organum lliure</strong> (s. XI): les veus ja no van sempre en paral·lel. Poden anar en moviment <strong>contrari</strong> (una puja i l&#x27;altra baixa), <strong>oblic</strong> (una es queda quieta i l&#x27;altra es mou) o <strong>paral·lel</strong>. La veu afegida comença a col·locar-se per damunt del gregorià.",
+        "<strong>Organum melismàtic o florit</strong> (s. XII): el gregorià canta notes molt llargues al greu, i la veu de dalt fa melismes llargs damunt de cada nota."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Un canvi important: a partir d&#x27;ara, la melodia gregoriana preexistent que serveix de base s&#x27;anomenarà <strong>cantus firmus</strong> («cant ferm»). La idea de construir una obra nova a partir d&#x27;una melodia coneguda ens acompanyarà fins al Renaixement."
+      }
+     ]
+    },
+    {
+     "titol": "Els centres",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XII hi ha dos centres importants: el monestir de <strong>Sant Marçal de Llemotges</strong>, al sud de França, i <strong>Santiago de Compostel·la</strong>, on el <em>Codex Calixtinus</em>, un llibre per als pelegrins del Camí de Sant Jaume, conserva peces polifòniques."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Rex caeli, Domine</strong> és l&#x27;exemple que dona la <em>Musica enchiriadis</em>. Fixau-vos que les dues veus es mouen exactament igual, en paral·lel. Sona buit, auster, gairebé com si una sola melodia tingués ombra. Les veus encara no tenen personalitat pròpia."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Jubilemus, exultemus</strong>, de Sant Marçal, la veu de baix canta notes llargues, mentre la veu de dalt fa llargs melismes damunt de cada nota. És l&#x27;<strong>organum melismàtic</strong>. Fixau-vos que ara les dues veus ja no són iguals: una sosté i l&#x27;altra adorna. Cada línia té personalitat pròpia."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Codex Calixtinus</strong> conserva <strong>Congaudeant catholici</strong>, considerada una de les primeres obres a tres veus. La polifonia ja no només existeix als grans centres francesos: viatja amb els pelegrins fins a Santiago."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la polifonia és la superposició de melodies independents, que neix afegint una veu al cant gregorià (l&#x27;organum), i que al llarg dels segles IX-XII la veu nova passa de seguir la melodia en paral·lel a tenir una identitat pròpia.</p>",
+   "obraClau": {
+    "obra": "Rex caeli, Domine",
+    "motiu": "Perquè és el primer pas: el moment en què la música occidental deixa de ser una sola melodia."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 13,
+   "titol": "L'Escola de Notre-Dame: Léonin i Pérotin",
+   "subtitol": "La catedral gòtica feta so",
+   "audicions": [
+    {
+     "text": "Pérotin – Viderunt omnes (organum quadruplum)",
+     "clau": true
+    },
+    {
+     "text": "Léonin – Viderunt omnes (organum duplum)",
+     "clau": true
+    },
+    {
+     "text": "Gradual gregorià Viderunt omnes",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: París i el gòtic",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XII, <strong>París</strong> es converteix en la gran capital cultural d&#x27;Europa. Hi neix una de les primeres universitats i s&#x27;hi desenvolupa un nou estil arquitectònic, el <strong>gòtic</strong>: catedrals altíssimes, amb arcs apuntats, voltes de creueria i grans vitralls que omplen l&#x27;interior de llum. El 1163 es comença a construir la catedral de <strong>Notre-Dame</strong>. Al mateix temps, els seus músics creen una polifonia tan ambiciosa com l&#x27;edifici."
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;art gòtic busca la <strong>verticalitat</strong>, la <strong>llum</strong> i l&#x27;<strong>ordre</strong> basat en proporcions. La música de Notre-Dame comparteix aquests ideals: un fonament sòlid, veus que s&#x27;eleven i una estructura calculada."
+      }
+     ]
+    },
+    {
+     "titol": "Léonin i Pérotin",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Coneixem el nom dels dos grans mestres de l&#x27;<strong>Escola de Notre-Dame</strong> gràcies a un estudiant anglès que en va parlar anys més tard i que els historiadors anomenen «Anònim IV». És la primera vegada que coneixem el nom de compositors de polifonia."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Léonin</strong> (actiu cap al 1150-1200) va compondre el <em>Magnus liber organi</em> («el gran llibre de l&#x27;organum»), un cicle d&#x27;organa a dues veus (<strong>organum duplum</strong>) per a les festes de tot l&#x27;any.",
+        "<strong>Pérotin</strong> (actiu cap al 1200) va revisar i ampliar aquest llibre i va escriure organa a tres veus (<strong>triplum</strong>) i a quatre veus (<strong>quadruplum</strong>), com el <em>Viderunt omnes</em> (1198) i el <em>Sederunt principes</em> (1199)."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Com funciona un organum de Notre-Dame",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "Només es posen en polifonia les parts del cant que cantaven els <strong>solistes</strong>. Les parts del cor continuen en gregorià. Així, una mateixa obra alterna monodia i polifonia.",
+        "La veu de baix, el <strong>tenor</strong> (del llatí <em>tenere</em>, «sostenir»), canta el gregorià en notes llarguíssimes, i per això s&#x27;anomena així.",
+        "Damunt seu, les altres veus canten amb un ritme precís. Hi ha dos estils: l&#x27;<strong>organum pur</strong>, on el tenor fa notes molt llargues i les veus de dalt fan melismes, i el <strong>discantus</strong>, on el tenor s&#x27;accelera i les veus es mouen amb un ritme semblant.",
+        "Les seccions de discantus que es podien intercanviar s&#x27;anomenen <strong>clausulae</strong>. Les retrobarem la sessió que ve."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "El gran invent: el ritme escrit",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Per coordinar diverses veus que canten coses diferents, cal saber exactament quant dura cada nota. Els músics de Notre-Dame van inventar els <strong>modes rítmics</strong>: sis patrons de llargues i breus, basats en la mètrica poètica, que es repetien. És la primera vegada que el ritme s&#x27;escriu de manera sistemàtica. Sense aquest invent, la polifonia complexa hauria estat impossible."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Avui farem un experiment: escoltarem el mateix cant en tres versions."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Primer, el <strong>gradual gregorià Viderunt omnes</strong>, de la missa de Nadal: una monodia. Recordau-lo bé, perquè serà la base de tot."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Després, la versió de <strong>Léonin</strong>, un organum duplum. El tenor canta el gregorià en notes tan llargues que no el reconeixem. Damunt seu, la veu de dalt fa melismes llarguíssims. Fixau-vos en els moments en què el tenor s&#x27;accelera: són les seccions de discantus."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I finalment el <strong>Viderunt omnes</strong> de <strong>Pérotin</strong>, a quatre veus. Fixau-vos en tres coses:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Les notes del tenor duren tant que semblen un bordó, com els pilars de la catedral.",
+        "Les tres veus de dalt s&#x27;entrellacen amb patrons rítmics que es repeteixen i es passen motius les unes a les altres.",
+        "L&#x27;efecte és d&#x27;una energia hipnòtica, com els arcs i els vitralls que s&#x27;eleven."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Recordau que aquesta obra ja la vam escoltar el primer dia del curs. Ara sabem d&#x27;on ve i per què sona així."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que a Notre-Dame la polifonia es converteix en arquitectura: un tenor gregorià com a fonament, veus que s&#x27;hi eleven i un ritme escrit, els modes rítmics, que ho coordina tot. I que, per primera vegada, coneixem el nom dels compositors.</p>",
+   "obraClau": {
+    "obra": "Pérotin – Viderunt omnes",
+    "motiu": "Perquè és la catedral gòtica feta música: una de les primeres obres a quatre veus i un monument sonor que encara impressiona."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 14,
+   "titol": "Ars Antiqua: el motet i el conductus",
+   "subtitol": "Quan cada veu canta el seu propi text",
+   "audicions": [
+    {
+     "text": "Motet On parole de batre / A Paris / Frese nouvele (Codex Montpellier)",
+     "clau": true
+    },
+    {
+     "text": "Conductus Dum sigillum summi patris (atribuït a Pérotin)",
+     "clau": true
+    },
+    {
+     "text": "Adam de la Halle – Tant con je vivrai",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: el segle XIII",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El segle XIII és el segle de l&#x27;<strong>Ars Antiqua</strong>, «l&#x27;art antic». El nom no el van posar els músics d&#x27;aquell moment, sinó els del segle següent, per distingir-lo del seu «art nou». És un segle d&#x27;esplendor: les ciutats creixen, la burgesia s&#x27;enriqueix, les universitats (París, Oxford, Bolonya) atreuen estudiants de tot Europa i es construeixen les grans catedrals gòtiques. La música polifònica, que havia nascut a la catedral, comença a arribar a nous públics: clergues cultes, estudiants i membres de la cort."
+      }
+     ]
+    },
+    {
+     "titol": "El motet",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>motet</strong> és la gran creació del segle XIII i una de les formes més importants de tota la història de la música. Com neix?"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Recordau les <strong>clausulae</strong> de Notre-Dame: seccions de discantus on el tenor canta un fragment de gregorià amb ritme.",
+        "Els músics comencen a posar <strong>paraules</strong> a les veus de dalt d&#x27;aquestes clausulae. En francès, «paraula» és <em>mot</em>, i d&#x27;aquí ve el nom: <strong>motet</strong>.",
+        "La clausula es converteix en una peça independent."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Les característiques del motet del segle XIII són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Normalment a <strong>tres veus</strong>: el <strong>tenor</strong> al greu, el <strong>motetus</strong> al mig i el <strong>triplum</strong> a dalt.",
+        "El tenor sol ser un fragment de gregorià, repetit amb un patró rítmic, i sovint es tocava amb instruments.",
+        "Les veus de dalt canten <strong>textos diferents</strong>, de vegades en llengües diferents (llatí i francès): és el <strong>motet politextual</strong>.",
+        "Els textos poden ser religiosos, amorosos, polítics o satírics, fins i tot a la mateixa obra.",
+        "La veu de dalt és la més ràpida, i la de baix la més lenta."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "El motet no està pensat per al poble, sinó per a un públic entès, que coneix els textos i gaudeix del joc intel·lectual. Les grans col·leccions de motets són el <strong>Codex Montpellier</strong> i el <strong>Codex Bamberg</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "El conductus",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>conductus</strong> funciona de manera oposada al motet:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>No fa servir cap melodia gregoriana</strong>: totes les veus són de nova composició.",
+        "<strong>Totes les veus canten el mateix text</strong> al mateix temps i amb el mateix ritme: la textura és més <strong>homofònica</strong>, en blocs, i el text s&#x27;entén millor.",
+        "Els textos són poemes llatins, religiosos o morals."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Una nova notació",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els modes rítmics de Notre-Dame eren massa rígids per a la complexitat del motet. Cap al 1260, <strong>Franco de Colònia</strong>, al tractat <em>Ars cantus mensurabilis</em>, va proposar un sistema nou: la <strong>forma de cada nota</strong> indica la seva durada (llarga, breu, semibreu). És la <strong>notació mensural</strong> o <strong>franconiana</strong>, l&#x27;origen de la nostra notació rítmica. A partir d&#x27;ara, les figures tenen valor propi."
+      }
+     ]
+    },
+    {
+     "titol": "La polifonia profana: Adam de la Halle",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Adam de la Halle</strong> (c. 1240-1288?) va ser un trover que també va compondre polifonia profana: rondeaux a tres veus, breus i clars. També va escriure <em>Le jeu de Robin et Marion</em>, una obra de teatre amb cançons que alguns consideren un llunyà precedent del teatre musical."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El motet <strong>On parole de batre / A Paris / Frese nouvele</strong>, del Codex Montpellier, és un exemple perfecte i molt divertit. Hi sentim tres veus i tres textos alhora:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La veu de dalt parla dels treballs del camp: batre i ventar el gra.",
+        "La veu del mig canta les delícies de París: el bon pa, el bon vi, els amics.",
+        "El tenor no és gregorià: és un pregó de carrer, «Maduixes fresques!», repetit una vegada i una altra."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Fixau-vos que és impossible entendre totes les paraules alhora. Aquí el motet ja no té res de religiós: és un retrat de la vida quotidiana de la ciutat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Dum sigillum summi patris</strong>, un conductus atribuït a Pérotin, notareu el contrast: les veus es mouen juntes i el text s&#x27;entén molt millor."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El rondeau <strong>Tant con je vivrai</strong>, d&#x27;Adam de la Halle, és una cançó d&#x27;amor a tres veus, curta, clara i amb una tornada que es repeteix."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el motet neix de posar text a les clausulae, que és politextual i combina el sagrat i el profà, que el conductus és la seva alternativa homofònica i de nova composició, i que Franco de Colònia fa que la forma de les notes indiqui la seva durada.</p>",
+   "obraClau": {
+    "obra": "On parole de batre / A Paris / Frese nouvele",
+    "motiu": "Perquè en una sola peça hi caben el camp, la ciutat i un pregó de carrer: la polifonia ja parla de la vida quotidiana."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 15,
+   "titol": "Ars Nova: De Vitry i Machaut",
+   "subtitol": "Un art nou i la primera missa d'autor",
+   "audicions": [
+    {
+     "text": "G. de Machaut – Messe de Nostre Dame (Kyrie)",
+     "clau": true
+    },
+    {
+     "text": "Ph. de Vitry – Garrit gallus / In nova fert (Roman de Fauvel)",
+     "clau": true
+    },
+    {
+     "text": "G. de Machaut – Messe de Nostre Dame (Gloria)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: un segle de crisi",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El segle XIV és un dels més durs de la història europea:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La <strong>Pesta Negra</strong> (1347-1351) mata entre un terç i la meitat de la població d&#x27;Europa.",
+        "Comença la <strong>Guerra dels Cent Anys</strong> entre França i Anglaterra (1337-1453).",
+        "El papa abandona Roma i s&#x27;instal·la a <strong>Avinyó</strong> (1309-1377), i després vindrà el <strong>Cisma d&#x27;Occident</strong>, amb dos i fins i tot tres papes alhora.",
+        "L&#x27;autoritat de l&#x27;Església es debilita i creix el poder dels reis i de les corts."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "En aquest context, la música profana guanya importància, i els compositors busquen noves maneres d&#x27;escriure. La música viu una autèntica revolució."
+      }
+     ]
+    },
+    {
+     "titol": "L'Ars Nova",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Cap al 1320, el compositor, poeta i bisbe <strong>Philippe de Vitry</strong> (1291-1361) escriu (o se li atribueix) un tractat titulat <em>Ars nova</em>, «art nou», que dona nom a tota l&#x27;època. Les novetats principals són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La divisió binària:</strong> fins ara, el ritme es basava en el nombre tres (divisió ternària), considerat perfecte perquè simbolitzava la Trinitat. L&#x27;Ars Nova accepta també la <strong>divisió en dos</strong>, considerada «imperfecta». Això multiplica les possibilitats rítmiques. És l&#x27;origen dels nostres compassos binaris i ternaris.",
+        "<strong>Valors més breus</strong>, com la mínima, que permeten ritmes més ràpids i variats.",
+        "<strong>La isorítmia:</strong> una tècnica constructiva per organitzar obres llargues (ho veurem a l&#x27;audició).",
+        "Més importància de la <strong>música profana</strong>."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta llibertat no va agradar a tothom. Cap al 1324, el papa <strong>Joan XXII</strong> va publicar una bula, <em>Docta sanctorum patrum</em>, que criticava durament els músics moderns perquè, amb tants ritmes i notes, distreien els fidels i amagaven el cant gregorià."
+      }
+     ]
+    },
+    {
+     "titol": "La isorítmia",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>isorítmia</strong> («el mateix ritme») és la gran tècnica de construcció de l&#x27;Ars Nova. Funciona així:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Es pren una melodia (normalment gregoriana) per al tenor: és el <strong>color</strong>.",
+        "Es crea un patró rítmic que es repeteix: és la <strong>talea</strong>.",
+        "Color i talea es combinen, i com que sovint no tenen la mateixa llargada, les repeticions no coincideixen."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "El resultat és una estructura gairebé matemàtica que organitza tota l&#x27;obra per dins, com l&#x27;esquelet d&#x27;un edifici, encara que l&#x27;oient no la percebi a primera escolta."
+      }
+     ]
+    },
+    {
+     "titol": "Guillaume de Machaut",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Guillaume de Machaut</strong> (c. 1300-1377) és el gran compositor de l&#x27;Ars Nova i un dels grans poetes francesos del seu temps. Va treballar al servei del rei de Bohèmia, i després va ser canonge de la catedral de <strong>Reims</strong>. Va escriure motets, cançons profanes i una missa que ha passat a la història."
+      },
+      {
+       "tipus": "p",
+       "html": "Fins aleshores, les parts de la missa polifònica eren peces soltes, compostes per autors diferents i en moments diferents. Machaut va escriure la <strong>Messe de Nostre Dame</strong> (cap al 1360), la <strong>primera missa polifònica completa de l&#x27;ordinari</strong> (Kyrie, Gloria, Credo, Sanctus, Agnus Dei i Ite missa est) composta per un sol compositor i pensada com una unitat. És a <strong>quatre veus</strong>, una novetat, i combina seccions isorítmiques amb seccions en blocs."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El motet <strong>Garrit gallus / In nova fert</strong>, de Vitry, forma part del <em>Roman de Fauvel</em>, una sàtira política on un ase anomenat Fauvel simbolitza la corrupció del poder. Fixau-vos en el tenor: repeteix un mateix patró rítmic diverses vegades. És la isorítmia en acció."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Kyrie</strong> de la <strong>Messe de Nostre Dame</strong>, fixau-vos en el so: és dur, ple de dissonàncies i de ritmes que es creuen, amb cadències que ens sonen estranyes (hi abunden les quintes i les octaves buides). No és la bellesa suau que associam a la música religiosa: és una música densa, solemne i gairebé mineral."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Gloria</strong>, en canvi, el text és llarg i Machaut el tracta de manera més sil·làbica i en blocs, perquè s&#x27;entengui. Una mateixa missa, dues maneres de relacionar música i text."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;Ars Nova neix en un segle de crisi i porta un ritme més lliure (la divisió binària), que la isorítmia organitza les obres com una arquitectura oculta, i que Machaut crea la primera missa concebuda com una obra unitària d&#x27;autor.</p>",
+   "obraClau": {
+    "obra": "Machaut – Messe de Nostre Dame",
+    "motiu": "Perquè per primera vegada un compositor concep la missa sencera com una sola obra: neix la idea d&#x27;autor."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 16,
+   "titol": "Machaut profà: les formes fixes",
+   "subtitol": "Poesia, amor i jocs musicals",
+   "audicions": [
+    {
+     "text": "G. de Machaut – Ma fin est mon commencement (rondeau)",
+     "clau": true
+    },
+    {
+     "text": "G. de Machaut – Douce dame jolie (virelai)",
+     "clau": true
+    },
+    {
+     "text": "G. de Machaut – De toutes flours (ballade)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Machaut, poeta i músic",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Machaut no només va escriure música religiosa. La major part de la seva obra és <strong>profana</strong>: cançons d&#x27;amor cortès, hereves dels trobadors i dels troveros, però ara amb tota la riquesa polifònica de l&#x27;Ars Nova. Machaut és l&#x27;últim gran representant de la tradició del poeta-músic: escrivia el poema i la música alhora."
+      },
+      {
+       "tipus": "p",
+       "html": "Un fet molt important: Machaut va supervisar personalment la còpia de les seves <strong>obres completes</strong> en manuscrits luxosos, ordenats per gèneres, per als seus mecenes. És un dels primers artistes que pensa en la seva pròpia posteritat, en com seria recordat. Aquesta consciència d&#x27;autor és una idea molt moderna."
+      }
+     ]
+    },
+    {
+     "titol": "Les formes fixes",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Les cançons de Machaut segueixen les <strong>formes fixes</strong> (<em>formes fixes</em>), estructures poètiques i musicals amb unes regles molt precises de repetició. Totes tenen un <strong>refrany</strong> o tornada. Per entendre-les, farem servir lletres: les majúscules indiquen la tornada (mateixa música i mateix text) i les minúscules indiquen la mateixa música amb text diferent."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Virelai:</strong> A bba A (i es repeteix). Comença i acaba amb la tornada, com una dansa. És la forma més lleugera i popular, hereva de les cançons de dansa.",
+        "<strong>Rondeau:</strong> AB aA ab AB. Només té dues seccions musicals, però combina tornada i estrofes de manera molt enginyosa.",
+        "<strong>Ballade:</strong> aab C, amb diverses estrofes que acaben sempre amb el mateix vers de tornada. És la forma més seriosa, llarga i elaborada."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquestes formes dominaran la cançó francesa durant tot el segle XIV i bona part del XV."
+      }
+     ]
+    },
+    {
+     "titol": "La textura de la cançó polifònica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Les cançons polifòniques de Machaut tenen una textura nova: la veu de dalt, el <strong>cantus</strong>, porta la melodia principal i el text; les veus de baix, el <strong>tenor</strong> i el <strong>contratenor</strong>, l&#x27;acompanyen i sovint es tocaven amb instruments. És l&#x27;origen de la <strong>melodia acompanyada</strong>: ja no totes les veus tenen el mateix pes, sinó que una és protagonista."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Douce dame jolie</strong> és un virelai monòdic: una sola veu, com les cançons dels trobadors. Fixau-vos en la tornada, que torna una vegada i una altra, i en el ritme ballable. Moltes interpretacions actuals hi afegeixen instruments. És una peça senzilla i molt fàcil de recordar."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Ma fin est mon commencement</strong>, «El meu final és el meu començament», és un joc d&#x27;enginy extraordinari. És un rondeau a tres veus on una de les veus superiors és exactament l&#x27;altra llegida al revés, de darrere cap endavant, i el tenor, a la meitat de la peça, també es gira i torna enrere com en un mirall. El text explica el mateix truc que fa la música. Escoltau-lo dues vegades: la primera, deixau-vos portar pel so; la segona, intentau notar el moment en què la música «es gira»."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>De toutes flours</strong> és una ballade: més llarga, més expressiva i més seriosa. Fixau-vos en com la veu de dalt canta el text mentre les altres l&#x27;acompanyen."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música profana del segle XIV s&#x27;organitza en formes fixes (virelai, rondeau i ballade), que la cançó polifònica comença a destacar una melodia principal acompanyada, i que Machaut és poeta, músic i un creador conscient de la seva obra.</p>",
+   "obraClau": {
+    "obra": "Machaut – Ma fin est mon commencement",
+    "motiu": "Perquè ens mostra que la música medieval també podia ser un joc intel·lectual brillant: una peça que llegida al revés continua sent la mateixa."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 17,
+   "titol": "El Trecento italià i l'Ars subtilior",
+   "subtitol": "Melodia italiana i refinament extrem",
+   "audicions": [
+    {
+     "text": "F. Landini – Ecco la primavera",
+     "clau": true
+    },
+    {
+     "text": "B. Cordier – Belle, bonne, sage",
+     "clau": true
+    },
+    {
+     "text": "Gherardello da Firenze – Tosto che l'alba (caccia)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El Trecento italià",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Mentre França viu l&#x27;Ars Nova, a Itàlia es desenvolupa una música amb un caràcter propi: el <strong>Trecento</strong> (el segle XIV, en italià, «els tres-cents»). Itàlia no era un país unit, sinó un conjunt de ciutats riques i independents, com <strong>Florència</strong>, Milà o Venècia, governades per famílies poderoses que competien per tenir els millors artistes. És el segle de Dant, Petrarca i Boccaccio en literatura, i de Giotto en pintura. Florència és el gran centre musical."
+      },
+      {
+       "tipus": "p",
+       "html": "La diferència amb França és clara:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La música francesa és <strong>complexa, intel·lectual</strong>, amb tècniques com la isorítmia.",
+        "La música italiana és més <strong>melòdica, cantable i lluminosa</strong>, amb una veu de dalt molt ornamentada i expressiva.",
+        "La música italiana del Trecento és gairebé tota <strong>profana</strong>."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Les formes italianes",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El madrigal:</strong> poema de tema pastoral o amorós, normalment a dues veus, amb estrofes i una tornada final (<em>ritornello</em>). Atenció: no té res a veure amb el madrigal del Renaixement.",
+        "<strong>La caccia</strong> («cacera»): dues veus en <strong>cànon</strong>, una que «persegueix» l&#x27;altra, amb textos que descriuen escenes animades, com caceres o mercats, plenes de crits i onomatopeies.",
+        "<strong>La ballata:</strong> la forma més important a la segona meitat del segle, amb tornada, semblant al virelai francès."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Francesco Landini",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Francesco Landini</strong> (c. 1325-1397) és el gran compositor del Trecento. Va quedar cec de petit a causa de la verola, i es va convertir en un organista virtuós, molt admirat en el seu temps. També era poeta i filòsof. Va escriure sobretot ballate, més de 140. Gran part de la música del Trecento, i la de Landini, es conserva al <strong>Codex Squarcialupi</strong>, un manuscrit luxós del segle XV on cada compositor apareix retratat en una miniatura."
+      },
+      {
+       "tipus": "p",
+       "html": "El seu nom ha quedat lligat a un gir melòdic: la <strong>cadència de Landini</strong>. En arribar a la nota final, la melodia no puja directament des de la sensible, sinó que baixa primer una nota i després salta a la final (per exemple: si-la-do). Encara que no la va inventar ell, la va fer servir tant que porta el seu nom."
+      }
+     ]
+    },
+    {
+     "titol": "L'Ars subtilior",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A finals del segle XIV, a les corts del sud de França, a la cort papal d&#x27;<strong>Avinyó</strong> i també a la cort de la <strong>Corona d&#x27;Aragó</strong>, la complexitat de l&#x27;Ars Nova arriba a l&#x27;extrem. És l&#x27;<strong>Ars subtilior</strong>, «l&#x27;art més subtil»:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Ritmes extraordinàriament complicats, amb síncopes i veus que van cadascuna al seu aire.",
+        "Notació plena de signes nous, notes de colors (vermelles, buides) per indicar canvis de ritme.",
+        "Música per a un públic d&#x27;elit molt refinat, gairebé un objecte de luxe.",
+        "Partitures que són autèntiques obres d&#x27;art visual."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "El gran manuscrit d&#x27;aquest estil és el <strong>Codex Chantilly</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Ecco la primavera</strong>, de Landini, és una ballata a dues veus que celebra l&#x27;arribada de la primavera. Fixau-vos en com és de clara i alegre la melodia, en el ritme dansable i en la tornada. Fixau-vos també en el final de les frases: hi sentireu la cadència de Landini."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Tosto che l&#x27;alba</strong>, de Gherardello da Firenze, dues veus canten la mateixa melodia en cànon i descriuen una cacera a l&#x27;alba, amb crits, gossos i trompes. És música que imita la realitat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Belle, bonne, sage</strong>, de <strong>Baude Cordier</strong>, és un rondeau d&#x27;amor... i la partitura té forma de cor! Les notes vermelles indiquen canvis de ritme. Fixau-vos en com les veus semblen anar cadascuna al seu aire i, tot i així, encaixen. Mirau també la imatge del manuscrit: la música també es mira."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Itàlia desenvolupa una polifonia més melòdica i clara, amb formes com el madrigal, la caccia i la ballata, amb Landini com a gran figura, i que l&#x27;Ars subtilior porta el refinament rítmic a l&#x27;extrem fins a convertir la partitura en art visual.</p>",
+   "obraClau": {
+    "obra": "Landini – Ecco la primavera",
+    "motiu": "Perquè ens mostra la cara més lluminosa i cantable de la música medieval, i anuncia la importància que tindrà la melodia italiana."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 18,
+   "titol": "La Corona d'Aragó i Mallorca",
+   "subtitol": "La música medieval a casa nostra",
+   "audicions": [
+    {
+     "text": "Cant de la Sibil·la (tradició mallorquina)",
+     "clau": true
+    },
+    {
+     "text": "Llibre Vermell de Montserrat – Stella splendens",
+     "clau": true
+    },
+    {
+     "text": "Llibre Vermell de Montserrat – Ad mortem festinamus",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: la Corona d'Aragó",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Entre els segles XIII i XV, la <strong>Corona d&#x27;Aragó</strong> és una potència mediterrània que inclou Aragó, Catalunya, València, <strong>Mallorca</strong> (conquerida per Jaume I el 1229), i territoris a Sicília, Sardenya i Nàpols. És un espai de comerç, d&#x27;intercanvi cultural i de gran activitat artística."
+      },
+      {
+       "tipus": "p",
+       "html": "La música hi era molt present:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "A la <strong>cort reial</strong>, els reis mantenien ministrils (músics d&#x27;instruments) i cantors. La cort de <strong>Joan I</strong> (1387-1396), anomenat «l&#x27;amador de tota gentilesa», va ser especialment brillant: el rei era un gran aficionat a la música, va contractar músics d&#x27;arreu d&#x27;Europa i va mantenir un contacte estret amb la cort papal d&#x27;Avinyó, el gran centre de l&#x27;Ars subtilior.",
+        "A les <strong>catedrals</strong> i els <strong>monestirs</strong>, on es cantava gregorià i polifonia.",
+        "Als carrers i places, amb joglars i festes."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Les fonts de casa nostra",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El Llibre Vermell de Montserrat</strong> (finals del s. XIV): un manuscrit amb textos per als pelegrins i deu peces musicals, en llatí i en català. Rep el nom del color vermell de l&#x27;enquadernació que se li va posar al segle XIX.",
+        "<strong>El Codex de Las Huelgas</strong> (c. 1300): un manuscrit del monestir femení de Las Huelgas, a Burgos, amb un gran repertori polifònic. Ens demostra que les monges cantaven polifonia complexa.",
+        "<strong>El Cant de la Sibil·la</strong>: un cant que s&#x27;ha mantingut viu per tradició, sobretot a Mallorca."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "El Llibre Vermell",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Montserrat era un gran centre de pelegrinatge. Els pelegrins passaven la nit a l&#x27;església vetllant, i per passar el temps cantaven i ballaven. Segons explica el mateix manuscrit, els monjos van voler que ho fessin amb cançons «honestes i devotes», i per això en van recollir unes quantes. Algunes són monòdiques i altres polifòniques; algunes es ballaven en rotllana (<strong>a ball redon</strong>). Són un testimoni únic d&#x27;una música religiosa, però popular i festiva."
+      }
+     ]
+    },
+    {
+     "titol": "El Cant de la Sibil·la",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>Cant de la Sibil·la</strong> és un drama litúrgic medieval que anuncia el Judici Final. Les sibil·les eren profetesses de l&#x27;antiguitat, i el cristianisme va interpretar que havien anunciat l&#x27;arribada de Crist. El cant s&#x27;estenia per moltes esglésies d&#x27;Europa, sobretot de l&#x27;àmbit català. El <strong>Concili de Trento</strong>, al segle XVI, va prohibir aquests drames a les esglésies, i a gairebé tot arreu van desaparèixer. Però a <strong>Mallorca</strong> la tradició es va mantenir sense interrupció, i encara avui es canta cada nit de Nadal, a la missa del gall, a moltes esglésies de l&#x27;illa, i també a l&#x27;Alguer. El 2010, la UNESCO el va declarar <strong>Patrimoni Cultural Immaterial de la Humanitat</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Cant de la Sibil·la</strong>, un infant o una dona, vestit de sibil·la i amb una espasa a les mans, canta les estrofes, i l&#x27;orgue intervé entre elles. Recordau el Quem quaeritis de la sessió 9: aquí també hi ha teatre dins l&#x27;església. Fixau-vos en la melodia: és monòdica, molt ornamentada, amb un caràcter solemne i gairebé inquietant."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Stella splendens</strong>, del Llibre Vermell, és una cançó a dues veus en forma de virelai, dedicada a la Mare de Déu de Montserrat. Fixau-vos en la tornada, en el ritme ballable i en com les dues veus es mouen juntes. És una polifonia senzilla, pensada perquè la pugui cantar tothom."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Ad mortem festinamus</strong>, «ens afanyam cap a la mort», té un missatge dur: la vida és curta i cal preparar-se per a la mort. En plena època de la Pesta Negra, aquest tema era molt present. Tot i això, té un ritme de dansa: és la <strong>dansa de la mort</strong>, en què la mort balla amb tothom, rics i pobres. Us recorda el missatge de l&#x27;Epitafi de Seikilos?"
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la Corona d&#x27;Aragó va ser un centre musical important, que el Llibre Vermell ens mostra la música dels pelegrins i que el Cant de la Sibil·la és una tradició medieval viva que es conserva a Mallorca.</p>",
+   "obraClau": {
+    "obra": "Cant de la Sibil·la",
+    "motiu": "Perquè és un drama medieval que no s&#x27;ha deixat de cantar mai: la història de la música també és a les nostres esglésies, cada nit de Nadal."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 19,
+   "titol": "Cap al Renaixement: Dunstable, Dufay i Borgonya",
+   "subtitol": "Un so nou, més dolç i més ple",
+   "audicions": [
+    {
+     "text": "G. Dufay – Nuper rosarum flores",
+     "clau": true
+    },
+    {
+     "text": "J. Dunstable – Quam pulchra es",
+     "clau": true
+    },
+    {
+     "text": "G. Binchois – De plus en plus",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La contenance angloise",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A principis del segle XV, durant la Guerra dels Cent Anys, els anglesos ocupen una part de França, i els músics del continent descobreixen un so que ve d&#x27;Anglaterra. El poeta Martin le Franc en parla com la <strong>contenance angloise</strong>, «la manera anglesa», i diu que els compositors francesos l&#x27;han adoptada i s&#x27;han tornat meravellosos."
+      },
+      {
+       "tipus": "p",
+       "html": "Què tenia de nou aquest so? Fins aleshores, seguint Pitàgores, les úniques consonàncies perfectes eren l&#x27;octava, la cinquena i la quarta, i les terceres i les sextes es consideraven dissonants. Els anglesos, en canvi, feien servir molt les <strong>terceres</strong> i les <strong>sextes</strong> com a consonàncies. Això dona un so més <strong>dolç, ple i càlid</strong>, allunyat de la sonoritat buida i dura de Machaut. És el so dels acords perfectes que coneixem avui."
+      },
+      {
+       "tipus": "p",
+       "html": "Altres característiques de l&#x27;estil anglès:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Dissonàncies molt controlades.",
+        "Veus que sovint es mouen juntes, en blocs, de manera que el text s&#x27;entén.",
+        "Una tècnica d&#x27;improvisació anomenada <strong>fauxbourdon</strong>, on una melodia s&#x27;acompanya amb dues veus paral·leles en terceres i sextes."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "El gran compositor anglès d&#x27;aquest moment és <strong>John Dunstable</strong> (c. 1390-1453), que va treballar al servei del duc de Bedford, regent anglès a França."
+      }
+     ]
+    },
+    {
+     "titol": "El ducat de Borgonya",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El nou so es va escampar pel continent a través del <strong>ducat de Borgonya</strong>. Aquest ducat, que incloïa l&#x27;est de França, Bèlgica i els Països Baixos, era la cort més rica i brillant de l&#x27;Europa del segle XV. Els seus ducs, com Felip el Bo, organitzaven festes espectaculars i mantenien una gran capella musical com a símbol del seu poder. Els compositors borgonyons van fusionar la dolçor anglesa amb la tradició francesa i la melodia italiana, i van crear un estil internacional."
+      },
+      {
+       "tipus": "p",
+       "html": "Els gèneres principals són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La chanson:</strong> cançó profana en francès, sobre temes d&#x27;amor, en les formes fixes (sobretot el rondeau).",
+        "<strong>El motet:</strong> per a ocasions solemnes, religioses o polítiques.",
+        "<strong>La missa:</strong> ara els compositors escriuen misses unificades, amb un mateix <strong>cantus firmus</strong> a totes les parts."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Guillaume Dufay",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Guillaume Dufay</strong> (c. 1397-1474) és el compositor més important del segle XV. Va treballar a Itàlia (a la capella papal i a la cort de Savoia) i a la catedral de Cambrai, al nord de França. La seva obra fa de <strong>pont</strong> entre l&#x27;Edat Mitjana i el Renaixement: combina tècniques medievals, com la isorítmia, amb la nova sonoritat plena de terceres i sextes."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Quam pulchra es</strong>, de Dunstable, posa música a un text del Cantar dels Cantars. Compareu-lo mentalment amb Machaut: aquí no hi ha dissonàncies dures, sinó una sonoritat suau i equilibrada. Les tres veus canten el text gairebé al mateix temps, i les paraules s&#x27;entenen. Fixau-vos en com l&#x27;harmonia sembla «rodona»."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>De plus en plus</strong>, de Gilles Binchois, el gran compositor de cançons de la cort borgonyona, és una chanson d&#x27;amor en forma de rondeau: una melodia elegant a la veu de dalt, acompanyada per dues veus més greus."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El 1436 van encarregar a Dufay el motet <strong>Nuper rosarum flores</strong> per a la consagració de la catedral de Florència, amb la famosa cúpula de <strong>Brunelleschi</strong>, una de les primeres grans obres del Renaixement. Fixau-vos en tres coses:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Dues veus greus canten un fragment de gregorià en notes llargues, com els fonaments de l&#x27;edifici.",
+        "Les veus de dalt fan melodies amples i dolces, amb terceres i sextes.",
+        "L&#x27;obra té quatre seccions que acceleren segons unes proporcions que, segons alguns estudiosos, reflecteixen les mides del Temple de Salomó."
+       ]
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la contenance angloise porta terceres i sextes i una sonoritat més dolça, que la cort de Borgonya difon aquest estil per Europa i que Dufay fa de pont entre l&#x27;Edat Mitjana i el Renaixement.</p>",
+   "obraClau": {
+    "obra": "Dufay – Nuper rosarum flores",
+    "motiu": "Perquè sona el dia que s&#x27;inaugura la cúpula de Florència: la música medieval i el nou món renaixentista es donen la mà."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 20,
+   "titol": "Sessió de síntesi: la polifonia medieval",
+   "subtitol": "De la melodia sola a la catedral sonora",
+   "audicions": [
+    {
+     "text": "Rex caeli, Domine",
+     "clau": false
+    },
+    {
+     "text": "Pérotin – Viderunt omnes",
+     "clau": false
+    },
+    {
+     "text": "On parole de batre / A Paris / Frese nouvele",
+     "clau": false
+    },
+    {
+     "text": "Machaut – Messe de Nostre Dame (Kyrie)",
+     "clau": false
+    },
+    {
+     "text": "Landini – Ecco la primavera",
+     "clau": false
+    },
+    {
+     "text": "Dufay – Nuper rosarum flores",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem viscut el gran canvi de la música occidental: el pas de la monodia a la polifonia. Hem començat amb una melodia sola i hem acabat amb obres a quatre veus que dialoguen amb l&#x27;arquitectura."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Tot va començar de manera molt senzilla. A <strong>Rex caeli, Domine</strong>, una segona veu segueix la melodia gregoriana en paral·lel, com una ombra. Les veus encara no tenien personalitat pròpia."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb l&#x27;Escola de Notre-Dame, tot es va fer gran. Al <strong>Viderunt omnes</strong> de Pérotin, el tenor gregorià es converteix en un fonament de notes llarguíssimes i tres veus s&#x27;hi eleven amb ritmes que es repeteixen. Aquí vam descobrir una idea clau: per coordinar moltes veus cal <strong>escriure el ritme</strong>."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al segle XIII, el <strong>motet</strong> ens va sorprendre: tres veus, tres textos i un pregó de carrer al baix. A <strong>On parole de batre</strong>, el sagrat i el profà convivien, i la música es tornava un joc per a un públic entès. I amb Franco de Colònia, la forma de cada nota va començar a indicar la seva durada."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Amb l&#x27;Ars Nova, en un segle de crisi, el ritme es va alliberar i va aparèixer la figura de l&#x27;autor. La <strong>Messe de Nostre Dame</strong> de Machaut ens va mostrar una sonoritat dura i densa, i la primera missa pensada com una sola obra. Les formes fixes van organitzar la cançó profana."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A Itàlia, en canvi, vam descobrir una música més cantable. <strong>Ecco la primavera</strong> de Landini ens va deixar la seva cadència característica i una melodia plena de llum."
+      },
+      {
+       "tipus": "p",
+       "html": "També vam mirar cap a casa: el Llibre Vermell i el <strong>Cant de la Sibil·la</strong>, una tradició medieval que continua viva a Mallorca."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I finalment, la contenance angloise va portar terceres i sextes, un so més dolç. A <strong>Nuper rosarum flores</strong>, Dufay ens va portar a la catedral de Florència, en plena arribada del Renaixement."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Més enllà dels noms i les obres, aquest trimestre hem entès una gran transformació:</p><ul><li>La música passa d&#x27;una sola veu a moltes veus.</li><li>El ritme s&#x27;escriu i la notació es fa cada vegada més precisa.</li><li>El compositor passa de ser anònim a ser un autor amb nom propi.</li><li>El so passa de les consonàncies buides a la dolçor de terceres i sextes.</li></ul><p>Aquest canvi obre la porta al Renaixement, on la polifonia arribarà al seu punt de màxima claredat i equilibri.</p>",
+   "obraClau": {
+    "obra": "Pérotin – Viderunt omnes",
+    "motiu": "Perquè és el moment en què la polifonia es converteix en arquitectura: el so de la catedral gòtica i la base de tot el que vindrà."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
+  },
+  {
+   "numero": 21,
+   "titol": "El Renaixement: humanisme, impremta i mecenatge",
+   "subtitol": "Una cançó de soldats dins la catedral",
+   "audicions": [
+    {
+     "text": "L'homme armé (cançó anònima)",
+     "clau": true
+    },
+    {
+     "text": "G. Dufay – Missa L'homme armé (Kyrie)",
+     "clau": true
+    },
+    {
+     "text": "H. Isaac – Innsbruck, ich muss dich lassen",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Què és el Renaixement?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>Renaixement</strong> és el període que va, aproximadament, del 1450 al 1600. El nom vol dir «tornar a néixer»: els artistes i pensadors d&#x27;aquest temps creien que estaven fent renéixer la cultura de l&#x27;antiguitat grega i romana, després d&#x27;una Edat Mitjana que consideraven fosca. Neix a Itàlia, sobretot a Florència, i s&#x27;estén per tot Europa."
+      },
+      {
+       "tipus": "p",
+       "html": "És una època de grans canvis:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La caiguda de Constantinoble (1453) porta a Itàlia savis grecs amb manuscrits antics.",
+        "L&#x27;arribada d&#x27;Europeus a Amèrica (1492) canvia la visió del món.",
+        "La <strong>impremta</strong> de Gutenberg (cap al 1450) fa que els llibres, i les idees, circulin com mai abans.",
+        "La <strong>Reforma protestant</strong> (1517) divideix el cristianisme.",
+        "A la pintura, Leonardo, Miquel Àngel i Rafael; a l&#x27;arquitectura, Brunelleschi."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "L'humanisme",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El pensament del Renaixement és l&#x27;<strong>humanisme</strong>. Posa l&#x27;<strong>ésser humà</strong> al centre de l&#x27;univers (antropocentrisme), en lloc de Déu (teocentrisme medieval). Valora la raó, la bellesa, la proporció i l&#x27;equilibri, i vol recuperar els autors clàssics. Aplicat a la música, l&#x27;humanisme porta diverses idees:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La música ha d&#x27;expressar i respectar el <strong>text</strong>: les paraules s&#x27;han d&#x27;entendre i la música ha de reflectir-ne el sentit.",
+        "Busca l&#x27;<strong>equilibri</strong> i la <strong>claredat</strong>: totes les veus tenen la mateixa importància.",
+        "El so ha de ser <strong>dolç i agradable</strong>: les terceres i les sextes s&#x27;accepten plenament i les dissonàncies es controlen."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "La vida dels músics",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Tres fets canvien la vida dels músics:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El mecenatge:</strong> papes, reis, prínceps i grans famílies (com els Mèdici a Florència o els Este a Ferrara) competeixen per tenir els millors músics a la seva <strong>capella</strong>, un conjunt de cantants al servei d&#x27;un senyor. La música és un símbol de poder i de prestigi.",
+        "<strong>La impremta musical:</strong> el 1501, <strong>Ottaviano Petrucci</strong> publica a Venècia l&#x27;<em>Harmonice Musices Odhecaton</em>, el primer llibre de música polifònica imprès amb tipus mòbils. La música ja no depèn de còpies a mà: es difon per tot Europa, i neixen els músics aficionats que compren partitures per cantar i tocar a casa.",
+        "<strong>El prestigi del compositor:</strong> els compositors viatgen per Europa, cobren sous alts i són admirats pel seu talent. El teòric Johannes Tinctoris va escriure el 1477 que no hi havia cap música digna d&#x27;escoltar-se composta abans de quaranta anys enrere: ells se sentien els iniciadors d&#x27;una nova era."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "La missa de cantus firmus",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El gènere religiós més important és la <strong>missa</strong>. Els compositors escriuen <strong>misses cícliques</strong>: les cinc parts de l&#x27;ordinari construïdes sobre un mateix material. La tècnica més habitual és la <strong>missa de cantus firmus</strong>: una melodia preexistent, que pot ser gregoriana o profana, es col·loca al tenor en notes llargues a totes les parts de la missa, i les altres veus es construeixen al seu voltant. La missa pren el nom de la melodia."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Començam amb una cançó molt senzilla: <strong>L&#x27;homme armé</strong>, «L&#x27;home armat», una melodia popular del segle XV que diu que cal témer l&#x27;home armat i que tothom s&#x27;ha d&#x27;armar. Fixau-vos en la melodia: és curta, enganxosa, fàcil de recordar. Memoritzau-la bé."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I ara escoltau el <strong>Kyrie</strong> de la <strong>Missa L&#x27;homme armé</strong> de Dufay. On és la cançó? Fixau-vos en el tenor: canta la melodia de L&#x27;homme armé en notes llargues, mentre les altres veus canten el text de la missa. Aquesta cançó de soldats va ser tan popular que se&#x27;n van escriure més de quaranta misses. Els compositors competien per fer-ne la versió més enginyosa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Heinrich Isaac, un compositor flamenc que va treballar per a l&#x27;emperador Maximilià, va escriure <strong>Innsbruck, ich muss dich lassen</strong>, «Innsbruck, t&#x27;he de deixar», una cançó de comiat a quatre veus en alemany. Fixau-vos que la melodia principal és a dalt i que les veus es mouen juntes, amb una claredat i una emoció senzilles que anuncien el coral luterà."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el Renaixement posa l&#x27;ésser humà, la proporció i l&#x27;equilibri al centre, que la impremta i el mecenatge transformen la vida dels músics, i que les melodies populars poden convertir-se en la base de grans obres religioses.</p>",
+   "obraClau": {
+    "obra": "L'homme armé",
+    "motiu": "Perquè una simple cançó de carrer es va convertir en el fonament de desenes de misses: el Renaixement uneix el popular i el sagrat."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 22,
+   "titol": "Els franco-flamencs: Ockeghem i Josquin",
+   "subtitol": "La imitació: quan totes les veus són iguals",
+   "audicions": [
+    {
+     "text": "Josquin des Prez – Ave Maria… virgo serena",
+     "clau": true
+    },
+    {
+     "text": "J. Ockeghem – Requiem (Introitus)",
+     "clau": false
+    },
+    {
+     "text": "Josquin des Prez – El grillo",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els franco-flamencs",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Durant el segle XV i bona part del XVI, els músics més admirats d&#x27;Europa venien d&#x27;una mateixa regió: el nord de França i Flandes (l&#x27;actual Bèlgica i els Països Baixos). Els anomenam <strong>franco-flamencs</strong>. Aquesta regió tenia moltes catedrals amb escoles de música (<strong>maîtrises</strong>), on els infants aprenien a cantar i a compondre des de ben petits. Molts d&#x27;aquests músics van emigrar i van treballar a totes les grans corts i catedrals d&#x27;Europa: a la capella papal de Roma, a Milà, a Ferrara, a la cort d&#x27;Espanya, a la de l&#x27;emperador. Van crear un <strong>estil internacional</strong> que es va convertir en el model de tot Europa."
+      }
+     ]
+    },
+    {
+     "titol": "Les característiques de l'estil",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Quatre veus</strong> com a formació habitual: soprano (<em>superius</em>), contralt (<em>altus</em>), tenor i baix (<em>bassus</em>). Per primera vegada, el baix té una línia pròpia per sota del tenor, cosa que dona un so més ple.",
+        "<strong>Igualtat de les veus:</strong> ja no hi ha un tenor que sosté i unes veus que adornen. Totes les veus tenen la mateixa importància.",
+        "<strong>La imitació:</strong> la tècnica clau del Renaixement.",
+        "<strong>Varietat de textures:</strong> alternança de seccions en imitació, en parelles de veus i en blocs d&#x27;acords (homofonia).",
+        "<strong>Música a capella</strong>, sovint, tot i que els instruments podien doblar les veus."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "La imitació",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>imitació</strong> consisteix en què una veu presenta una melodia breu (un <strong>motiu</strong>) i les altres veus la repeteixen, una rere l&#x27;altra, a diferents altures. Cada frase del text té el seu propi motiu, i quan s&#x27;acaba una frase comença un nou punt d&#x27;imitació. És com una conversa on tothom repeteix la idea de l&#x27;anterior. Si una veu repeteix exactament i de manera contínua el que fa l&#x27;altra, parlam de <strong>cànon</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "Ockeghem i Josquin",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Johannes Ockeghem</strong> (c. 1410-1497) va ser durant quaranta anys músic de la cort dels reis de França. Era famós pel seu domini del contrapunt: va escriure, per exemple, la <em>Missa prolationum</em>, construïda amb cànons a diferents velocitats. El seu estil té línies llargues que no s&#x27;aturen mai i una sonoritat fosca i profunda."
+      },
+      {
+       "tipus": "p",
+       "html": "El seu deixeble més brillant va ser <strong>Josquin des Prez</strong> (c. 1450-1521), el compositor més famós del seu temps. Va treballar a Milà, a la capella papal de Roma, a Ferrara i a França. Va ser el primer compositor amb una fama internacional equiparable a la dels grans pintors: les seves obres es van publicar i copiar per tot Europa. Martí Luter va dir d&#x27;ell que era el mestre de les notes: els altres compositors feien el que les notes volien, però ell feia amb les notes el que volia. El seu estil combina un contrapunt perfecte amb una gran atenció al text i a l&#x27;expressió."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Requiem</strong> d&#x27;Ockeghem és la missa de difunts polifònica més antiga que conservam. A l&#x27;<strong>Introitus</strong>, fixau-vos en les veus greus, les línies llargues que no s&#x27;aturen mai i la sensació d&#x27;un so continu i profund. La tècnica està al servei d&#x27;un recolliment absolut."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Ave Maria... virgo serena</strong> de Josquin (cap al 1485) és un dels motets més bells del Renaixement. Fixau-vos en l&#x27;inici: una veu canta «Ave Maria», després hi entra la segona veu cantant el mateix, després la tercera i després la quarta. És la imitació. Fixau-vos també en la varietat de textures: de vegades les veus s&#x27;imiten, de vegades canten en parelles i de vegades es mouen juntes en blocs, perquè el text s&#x27;entengui. Al final, a «O Mater Dei, memento mei», totes les veus canten juntes, en acords, com una pregària personal."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I per descansar, una sorpresa: <strong>El grillo</strong>, «El grill», una <strong>frottola</strong> italiana atribuïda a Josquin. És una cançó curta i divertida que imita el cant d&#x27;un grill amb notes repetides. El gran mestre del motet religiós també sabia fer riure."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que els franco-flamencs creen un estil internacional que domina la música europea, que la imitació és la gran tècnica del Renaixement, i que ara totes les veus, amb el baix incorporat, tenen la mateixa importància.</p>",
+   "obraClau": {
+    "obra": "Josquin – Ave Maria… virgo serena",
+    "motiu": "Perquè és el model perfecte de la polifonia renaixentista: veus que s&#x27;imiten, equilibri i claredat absoluts."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 23,
+   "titol": "Reforma i Contrareforma: el coral i Palestrina",
+   "subtitol": "Quan el text s'ha d'entendre",
+   "audicions": [
+    {
+     "text": "G. P. da Palestrina – Missa Papae Marcelli (Kyrie)",
+     "clau": true
+    },
+    {
+     "text": "M. Luter – Ein feste Burg ist unser Gott",
+     "clau": true
+    },
+    {
+     "text": "T. Tallis – If ye love me",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La Reforma protestant",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El 1517, el monjo alemany <strong>Martí Luter</strong> publica 95 tesis contra la venda d&#x27;indulgències i altres pràctiques de l&#x27;Església. És l&#x27;inici de la <strong>Reforma protestant</strong>, que divideix el cristianisme europeu. Aquesta ruptura religiosa també és una ruptura musical, perquè cada església té idees diferents sobre com ha de ser la música de culte."
+      },
+      {
+       "tipus": "p",
+       "html": "Luter era un gran aficionat a la música: cantava, tocava el llaüt i la flauta i admirava Josquin. Per a ell, la música era un regal de Déu i un mitjà excel·lent per difondre la fe. Les seves idees principals eren:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "El poble ha de <strong>participar</strong> en el culte cantant, no només escoltant.",
+        "Els textos s&#x27;han de cantar en la <strong>llengua del poble</strong>, l&#x27;alemany, perquè tothom els entengui.",
+        "La polifonia i la música culta són benvingudes, al costat del cant del poble."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "D&#x27;aquí neix el <strong>coral</strong> luterà: un himne estròfic en alemany, amb una melodia senzilla, un ritme regular i frases curtes, pensat perquè la cantés tota la comunitat. Les melodies eren noves, o adaptacions de cants gregorians i de cançons populars. Més tard s&#x27;harmonitzaran a quatre veus amb la melodia a dalt. Aquesta tradició arribarà fins a Bach."
+      },
+      {
+       "tipus": "p",
+       "html": "Altres corrents protestants van ser més estrictes. Els calvinistes, per exemple, només acceptaven el cant de salms a l&#x27;uníson. I a Anglaterra, quan el rei Enric VIII trenca amb Roma (1534), neix l&#x27;Església anglicana, amb una música religiosa en anglès, l&#x27;<strong>anthem</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "La Contrareforma i el Concili de Trento",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;Església catòlica respon amb la <strong>Contrareforma</strong>, i entre 1545 i 1563 celebra el <strong>Concili de Trento</strong>, on es revisen molts aspectes de la litúrgia. Sobre la música, les crítiques principals eren:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La polifonia s&#x27;ha tornat tan complicada que el <strong>text no s&#x27;entén</strong>: amb tantes veus que s&#x27;imiten, cada una diu una paraula diferent al mateix temps.",
+        "Moltes misses es basaven en <strong>cançons profanes</strong> (com L&#x27;homme armé), cosa que es considerava poc digna.",
+        "Els cantors feien massa ornaments i hi havia instruments massa sorollosos."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Alguns fins i tot proposaven prohibir la polifonia i tornar al gregorià. Finalment, el Concili no la va prohibir, però va demanar una música digna, sense elements profans i on el text fos intel·ligible."
+      }
+     ]
+    },
+    {
+     "titol": "Palestrina",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Giovanni Pierluigi da Palestrina</strong> (c. 1525-1594) pren el nom de la seva ciutat natal, a prop de Roma. Va ser mestre de capella a les grans basíliques romanes, com Sant Pere del Vaticà, i va dedicar gairebé tota la vida a la música religiosa: més de 100 misses i centenars de motets."
+      },
+      {
+       "tipus": "p",
+       "html": "Una llegenda explica que la seva <strong>Missa Papae Marcelli</strong> («del papa Marcel») va convèncer el Concili que la polifonia podia ser clara i va «salvar» la música polifònica. És una llegenda, però ens diu molt de com es va veure la seva música. Les característiques del seu estil són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Melodies per <strong>graus conjunts</strong>, amb pocs salts i sempre compensats.",
+        "<strong>Dissonàncies molt controlades</strong>: sempre preparades i resoltes.",
+        "Equilibri perfecte entre imitació i homofonia.",
+        "Text sempre <strong>intel·ligible</strong>.",
+        "Sonoritat serena, sense tensió dramàtica."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;estil de Palestrina es convertirà en el model de la «bona polifonia» i s&#x27;estudiarà durant segles com a base del contrapunt."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Ein feste Burg ist unser Gott</strong>, «El nostre Déu és una fortalesa», és el coral més famós de Luter. Fixau-vos en la melodia fàcil de recordar, en el ritme regular i en les frases curtes. És música per a tothom, no per a especialistes."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>If ye love me</strong>, de Thomas Tallis, és un anthem anglès breu i clar, amb el text molt ben declamat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Kyrie</strong> de la <strong>Missa Papae Marcelli</strong>, tot és suau, equilibrat i molt clar. Fixau-vos que no hi ha salts bruscos ni dissonàncies dures. No hi ha tensió dramàtica, sinó serenitat i espiritualitat."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la Reforma porta el coral i la música en la llengua del poble, que el Concili de Trento exigeix que el text s&#x27;entengui, i que Palestrina es converteix en el model de claredat de la polifonia catòlica.</p>",
+   "obraClau": {
+    "obra": "Palestrina – Missa Papae Marcelli",
+    "motiu": "Perquè és el símbol d&#x27;una polifonia perfecta i serena, al servei de la paraula."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 24,
+   "titol": "La Península Ibèrica: Victoria i el Cancionero de Palacio",
+   "subtitol": "Espiritualitat intensa i cançons de cort",
+   "audicions": [
+    {
+     "text": "T. L. de Victoria – O quam gloriosum",
+     "clau": true
+    },
+    {
+     "text": "J. del Encina – Oy comamos y bebamos",
+     "clau": true
+    },
+    {
+     "text": "M. Fletxa el Vell – La bomba (ensalada)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: el segle d'or",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El segle XVI és el <strong>segle d&#x27;or</strong> de la música a la Península Ibèrica. Els <strong>Reis Catòlics</strong> (Isabel i Ferran, que unifiquen Castella i Aragó) i després <strong>Carles V</strong> i <strong>Felip II</strong>, amb un imperi que s&#x27;estén per Europa i Amèrica, mantenen capelles musicals de primer nivell. A la cort de Carles V hi havia una «capella flamenca», amb músics del nord d&#x27;Europa, al costat de la capella espanyola. Aquest contacte va fer que els compositors hispànics coneguessin perfectament l&#x27;estil franco-flamenc."
+      },
+      {
+       "tipus": "p",
+       "html": "La música hispànica del Renaixement té dues cares: una <strong>música religiosa</strong> d&#x27;una gran intensitat espiritual, en un país que es converteix en el gran defensor de la Contrareforma, i una <strong>música profana</strong> en castellà i en català, més popular i directa."
+      }
+     ]
+    },
+    {
+     "titol": "La música profana: el villancico i l'ensalada",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El gènere profà principal és el <strong>villancico</strong> (atenció: no té res a veure amb les nadales actuals). És una cançó en castellà, sovint a tres o quatre veus, amb una estructura semblant al virelai: un refrany (<em>estribillo</em>) que s&#x27;alterna amb estrofes (<em>coplas</em>). Els temes són l&#x27;amor, la natura, la festa o la política. La melodia sol estar a la veu de dalt, i les veus es mouen sovint en blocs, amb ritmes vius i populars."
+      },
+      {
+       "tipus": "p",
+       "html": "La font principal és el <strong>Cancionero de Palacio</strong>, un manuscrit amb unes 450 obres de l&#x27;època dels Reis Catòlics. El compositor més representat és <strong>Juan del Encina</strong> (1468-1529), que també era poeta i dramaturg, i és considerat un dels pares del teatre castellà."
+      },
+      {
+       "tipus": "p",
+       "html": "Un altre gènere original és l&#x27;<strong>ensalada</strong> («amanida»), cultivada sobretot pel compositor català <strong>Mateu Fletxa el Vell</strong> (1481-1553). És una obra llarga que barreja llengües (castellà, català, llatí, italià), estils i cites d&#x27;altres cançons, i que explica una història de manera molt descriptiva i teatral."
+      }
+     ]
+    },
+    {
+     "titol": "La música religiosa: tres grans noms",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Cristóbal de Morales</strong> (c. 1500-1553): va treballar a la capella papal de Roma, i va ser el primer compositor hispànic amb fama internacional.",
+        "<strong>Francisco Guerrero</strong> (1528-1599): mestre de capella de la catedral de Sevilla, conegut per la seva música mariana i per un llibre on explica el seu viatge a Terra Santa.",
+        "<strong>Tomás Luis de Victoria</strong> (1548-1611): el més important. Nascut a Àvila, va estudiar i treballar a Roma durant vint anys, prop de l&#x27;entorn de Palestrina. Després va tornar a Madrid, com a capellà de l&#x27;emperadriu Maria. Va escriure únicament música religiosa, i és un dels grans compositors de tot el Renaixement europeu. Obres com l&#x27;<em>Officium defunctorum</em> (1605) o l&#x27;<em>Officium Hebdomadae Sanctae</em> són cims de la música religiosa."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Victoria té una tècnica semblant a la de Palestrina, però amb una <strong>intensitat expressiva</strong> més gran: fa servir la música per ressaltar el sentit de les paraules, amb canvis de textura, dissonàncies expressives i un sentit dramàtic molt particular. És la música de l&#x27;Espanya mística de santa Teresa d&#x27;Àvila i sant Joan de la Creu."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Oy comamos y bebamos</strong>, de Juan del Encina, és una cançó de festa de Carnaval: «avui mengem i bevem, que demà serà Quaresma». Fixau-vos en el ritme viu, en les veus que es mouen juntes i en el caràcter popular."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>La bomba</strong>, de Mateu Fletxa, explica un naufragi amb una gran varietat d&#x27;efectes: crits, pregàries, onomatopeies i canvis de caràcter. És música descriptiva i molt teatral."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El motet <strong>O quam gloriosum</strong> («Oh, que gloriós és el regne») de Victoria és per a la festa de Tots Sants. Compareu-lo amb Palestrina: la tècnica és semblant, amb imitació i claredat, però l&#x27;emoció és més intensa. Fixau-vos en les paraules clau, que Victoria ressalta amb canvis de textura i ritme, i en els moments en què totes les veus es troben en acords plens. Hi ha una sensació de profunditat emocional, de misticisme, que ja ens apropa una mica al món expressiu del Barroc."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la Península viu un segle d&#x27;or musical, que el villancico i l&#x27;ensalada mostren la cara festiva i popular, i que Victoria porta la polifonia religiosa a una intensitat espiritual única.</p>",
+   "obraClau": {
+    "obra": "Victoria – O quam gloriosum",
+    "motiu": "Perquè uneix la perfecció de la polifonia renaixentista amb una intensitat emocional pròpia de la tradició hispànica."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 25,
+   "titol": "Chanson i madrigal: la música es torna humana",
+   "subtitol": "Amor, guerra i paraules que es fan so",
+   "audicions": [
+    {
+     "text": "J. Arcadelt – Il bianco e dolce cigno",
+     "clau": true
+    },
+    {
+     "text": "C. Janequin – La guerre",
+     "clau": true
+    },
+    {
+     "text": "M. Casulana – Morir non può il mio cuore",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La música profana al Renaixement",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El Renaixement no és només música religiosa. A les corts i a les cases dels burgesos cultes es canta molta música profana. Gràcies a la impremta, es publiquen milers de llibres de cançons, i cantar a diverses veus es converteix en una activitat social de les classes altes: una persona educada havia de saber llegir música i cantar la seva part en una reunió d&#x27;amics. Cada país desenvolupa el seu gènere propi en la seva llengua:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "França: la <strong>chanson</strong>.",
+        "Itàlia: la <strong>frottola</strong> i, sobretot, el <strong>madrigal</strong>.",
+        "Espanya: el <strong>villancico</strong>.",
+        "Alemanya: el <strong>Lied</strong> polifònic.",
+        "Anglaterra: el madrigal anglès."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "La chanson parisenca",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A França, a partir del 1530, triomfa la <strong>chanson parisenca</strong>: cançons a quatre veus, àgils, rítmiques, amb textura sovint homofònica, molt sil·làbiques i amb temes lleugers, amorosos o fins i tot picants. L&#x27;editor Pierre Attaingnant en va publicar centenars. El compositor més original és <strong>Clément Janequin</strong> (c. 1485-1558), especialista en cançons <strong>descriptives</strong> que imiten sons de la realitat: ocells, crits de carrer, caceres o batalles."
+      }
+     ]
+    },
+    {
+     "titol": "El madrigal italià",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>madrigal</strong> és el gènere profà més important del segle XVI. (No té res a veure amb el madrigal del Trecento.) Les seves característiques són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "És una obra vocal per a solistes, normalment a <strong>quatre o cinc veus</strong>, una per part.",
+        "Posa música a <strong>poesia de qualitat</strong>: Petrarca, Tasso, Guarini...",
+        "És de <strong>composició contínua</strong>: no hi ha estrofes ni repeticions, la música segueix el poema de principi a fi.",
+        "El seu objectiu és <strong>expressar el sentit i les emocions</strong> de cada paraula del text."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta última idea és la clau. Els compositors creen el <strong>madrigalisme</strong>: la traducció musical del significat de les paraules. Si el text diu «cel», la melodia puja; si diu «baixar», baixa; si diu «dolor» o «mort», apareix una dissonància o un cromatisme; si diu «córrer», les notes s&#x27;acceleren; si diu «sol», només canta una veu."
+      },
+      {
+       "tipus": "p",
+       "html": "El madrigal evoluciona al llarg del segle:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Primers madrigalistes</strong> (des del 1530): Arcadelt, Verdelot. Estil clar i equilibrat.",
+        "<strong>Madrigal madur:</strong> Cipriano de Rore, Luca Marenzio. Més expressiu, amb madrigalismes constants.",
+        "<strong>Madrigal tardà</strong> (finals del segle): <strong>Carlo Gesualdo</strong>, príncep de Venosa, amb un cromatisme extrem i sorprenent, i <strong>Claudio Monteverdi</strong>, que el portarà cap al Barroc."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Les compositores",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La història de la música no és només masculina. <strong>Maddalena Casulana</strong> (c. 1544-1590) va ser la primera dona que va publicar un llibre de música, el 1568. A la dedicatòria va escriure que volia mostrar al món l&#x27;error dels homes que creien que només ells tenien talent intel·lectual. Altres compositores, com <strong>Vittoria Aleotti</strong> o les cantants del <em>concerto delle donne</em> de Ferrara, ens mostren que les dones hi eren, tot i les enormes dificultats per estudiar, treballar i publicar."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>La guerre</strong>, de Janequin, descriu la batalla de Marignan (1515), una victòria del rei francès Francesc I. Amb només quatre veus imita trompetes, tambors, crits dels soldats, canonades i el galop dels cavalls. Fixau-vos en les onomatopeies i en les notes repetides que imiten els tambors. Va tenir un èxit enorme."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Il bianco e dolce cigno</strong>, de <strong>Jacques Arcadelt</strong> (1539), va ser un dels madrigals més famosos del segle. Parla d&#x27;un cigne que canta abans de morir, i el poeta que diu que ell també mor... però d&#x27;amor. Fixau-vos en la textura clara, gairebé sempre en blocs, i en el moment de les paraules finals, quan les veus s&#x27;imiten amb «mille morti»: mil morts d&#x27;amor."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Morir non può il mio cuore</strong>, de Casulana, és un madrigal expressiu i refinat, que demostra el talent de la primera compositora publicada."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música profana es fa expressiva i descriptiva, que el madrigal posa la música al servei de les emocions del text a través dels madrigalismes, i que també hi havia compositores que lluitaven per ser reconegudes.</p>",
+   "obraClau": {
+    "obra": "Arcadelt – Il bianco e dolce cigno",
+    "motiu": "Perquè ens mostra el madrigal en el seu punt d&#x27;equilibri: la música comença a expressar les emocions del text sense perdre la bellesa renaixentista."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 26,
+   "titol": "Venècia i Sant Marc: la música a l'espai",
+   "subtitol": "Cors que dialoguen d'un costat a l'altre",
+   "audicions": [
+    {
+     "text": "G. Gabrieli – Sonata pian'e forte",
+     "clau": true
+    },
+    {
+     "text": "G. Gabrieli – In ecclesiis",
+     "clau": true
+    },
+    {
+     "text": "T. Tallis – Spem in alium",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: la República de Venècia",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Venècia</strong> era una república independent, rica gràcies al comerç amb Orient, orgullosa i aficionada a l&#x27;espectacle. Era també el gran centre de la <strong>impremta musical</strong> d&#x27;Europa. La música tenia un paper fonamental a la vida pública: les grans festes religioses i civils de la ciutat eren ocasions per mostrar el poder i la riquesa de la República, i la música n&#x27;era una part essencial."
+      },
+      {
+       "tipus": "p",
+       "html": "El cor musical de la ciutat era la <strong>basílica de Sant Marc</strong>, que era la capella del <strong>dux</strong>, el governant de Venècia. La seva arquitectura és molt especial: planta de creu grega, amb cúpules i amb dues tribunes enfrontades, cadascuna amb el seu orgue. Els compositors van aprofitar aquest espai per crear una música nova."
+      }
+     ]
+    },
+    {
+     "titol": "La policoralitat: els cori spezzati",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La tècnica dels <strong>cori spezzati</strong> («cors dividits») o <strong>policoralitat</strong> consisteix a dividir els músics en dos o més grups, de cantants i instruments, col·locats en llocs diferents de l&#x27;església. Els grups:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "s&#x27;alternen, creant efectes de <strong>pregunta i resposta</strong>;",
+        "fan <strong>ecos</strong>, un grup fort i l&#x27;altre fluix;",
+        "s&#x27;uneixen en grans moments de <strong>tutti</strong>, amb un so impressionant."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;efecte és estereofònic: el so arriba des de diferents llocs i sembla moure&#x27;s per l&#x27;espai. Això ens fa veure que la música no és només so, sinó també espai i arquitectura. Recordau Pérotin i Dufay: la relació entre música i edifici és una constant."
+      },
+      {
+       "tipus": "p",
+       "html": "Els grans mestres de Sant Marc van ser <strong>Adrian Willaert</strong>, un franco-flamenc que va desenvolupar aquesta tècnica, <strong>Andrea Gabrieli</strong> i el seu nebot <strong>Giovanni Gabrieli</strong> (c. 1555-1612)."
+      }
+     ]
+    },
+    {
+     "titol": "Els instruments guanyen protagonisme",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A Venècia, els instruments tenen un paper molt important. A Sant Marc hi havia un conjunt estable d&#x27;instrumentistes: <strong>cornetes</strong> (instruments de fusta amb embocadura de metall, de so brillant), <strong>sacabutxes</strong> (antecessors del trombó), violes i orgues. Giovanni Gabrieli dona un pas decisiu: comença a escriure obres pensades específicament per a instruments i a especificar exactament quins instruments han de tocar, cosa que fins aleshores quedava a criteri dels intèrprets."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Sonata pian&#x27;e forte</strong> de Giovanni Gabrieli, publicada el 1597 a les <em>Sacrae symphoniae</em>, és una obra històrica. És una de les primeres peces que especifica quins instruments han de tocar i una de les primeres que indica <strong>dinàmiques</strong>: «piano» i «forte». Hi ha dos grups: un amb una corneta i tres sacabutxes, i l&#x27;altre amb una viola i tres sacabutxes. Fixau-vos en com els grups s&#x27;alternen, cadascun en piano, i com, quan s&#x27;uneixen, esclata el forte."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>In ecclesiis</strong>, Gabrieli combina diversos cors, solistes, instruments i orgue. Fixau-vos en la tornada «Alleluia», que torna una vegada i una altra, i en els contrastos entre solistes i grups. La sensació és d&#x27;esplendor i grandiositat. Aquesta música ja mira cap al Barroc, amb els seus contrastos i efectes espectaculars."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I un repte per a l&#x27;orella: <strong>Spem in alium</strong>, del compositor anglès Thomas Tallis, és un motet a <strong>quaranta veus</strong>, dividides en vuit cors de cinc veus. Fixau-vos en com el so sembla moure&#x27;s i créixer fins als moments en què canten les quaranta veus juntes."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;espai influeix en la música, que a Venècia neix la policoralitat, i que Gabrieli fa passos decisius cap a la música instrumental, amb instruments i dinàmiques escrits.</p>",
+   "obraClau": {
+    "obra": "G. Gabrieli – Sonata pian'e forte",
+    "motiu": "Perquè és una de les primeres vegades que un compositor decideix i escriu quins instruments sonen i amb quina intensitat: la música instrumental pren la paraula."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 27,
+   "titol": "Música instrumental i dansa: viola, llaüt i vihuela",
+   "subtitol": "La música per ballar, tocar i improvisar",
+   "audicions": [
+    {
+     "text": "L. de Narváez – Diferencias sobre Guárdame las vacas",
+     "clau": true
+    },
+    {
+     "text": "T. Susato – Danserye (selecció)",
+     "clau": true
+    },
+    {
+     "text": "A. de Cabezón – Diferencias sobre el Canto del caballero",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els instruments s'independitzen",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Durant molts segles, la música instrumental va viure a l&#x27;ombra de la música vocal: els instruments doblaven les veus, acompanyaven o improvisaven, però gairebé no hi havia música escrita específicament per a ells. Al Renaixement això canvia, per diverses raons:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La <strong>impremta</strong> permet publicar música per a instruments, i apareixen els primers mètodes per aprendre a tocar.",
+        "Els <strong>aficionats</strong> de la noblesa i la burgesia volen tocar a casa.",
+        "La <strong>dansa</strong> és una part essencial de la vida social.",
+        "Els instrumentistes professionals guanyen prestigi."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Les famílies d'instruments",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Una idea característica del Renaixement és construir els instruments en <strong>famílies</strong> (en anglès, <em>consorts</em>) de diferents mides, que imiten les veus humanes: soprano, contralt, tenor i baix. Així es podia tocar una obra polifònica amb un so homogeni. Hi havia famílies de flautes de bec, de violes, de cromorns, de sacabutxes..."
+      },
+      {
+       "tipus": "p",
+       "html": "Els instruments més importants són:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La viola de gamba:</strong> de corda fregada, amb sis cordes i trasts, es toca recolzada a les cames (<em>gamba</em> vol dir «cama»). El seu so és suau i velat.",
+        "<strong>El llaüt:</strong> l&#x27;instrument de corda polsada per excel·lència a Europa, amb el cos en forma de mitja pera. Era l&#x27;instrument de l&#x27;aficionat culte, per tocar sol o acompanyar la veu.",
+        "<strong>La vihuela:</strong> l&#x27;equivalent hispànic del llaüt, amb forma de guitarra. A Espanya va ser l&#x27;instrument preferit de la noblesa.",
+        "<strong>Els instruments de tecla:</strong> l&#x27;orgue, el clavicèmbal i el virginal.",
+        "<strong>Els instruments de vent:</strong> flautes, cornetes, xeremies, sacabutxes."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Per als instruments de corda polsada i de tecla, la música s&#x27;escrivia en <strong>tabulatura</strong>: un sistema que no indica les notes, sinó on s&#x27;han de col·locar els dits, amb nombres o lletres damunt línies que representen les cordes. Semblant a les tabs de guitarra actuals!"
+      }
+     ]
+    },
+    {
+     "titol": "Els gèneres instrumentals",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Danses:</strong> es tocaven sovint per parelles, una lenta i solemne en compàs binari, com la <strong>pavana</strong>, seguida d&#x27;una de ràpida i saltada en ternari, com la <strong>gallarda</strong>. Aquesta idea de parella de danses és l&#x27;origen de la suite barroca.",
+        "<strong>Variacions</strong> (a Espanya, <strong>diferencias</strong>): una melodia o un baix coneguts es repeteixen transformant-se cada vegada.",
+        "<strong>Obres lliures o imitatives:</strong> preludis, fantasies, tientos (a Espanya), ricercars.",
+        "<strong>Arranjaments</strong> de peces vocals per a instruments."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Els pioners hispànics",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A la Península Ibèrica, els músics van ser pioners en la música instrumental. Els <strong>vihuelistes</strong> van publicar llibres importants: <strong>Luys Milán</strong> (<em>El Maestro</em>, 1536) i <strong>Luis de Narváez</strong> (<em>Los seys libros del Delphín</em>, 1538), on apareixen algunes de les primeres variacions escrites de la història. I <strong>Antonio de Cabezón</strong> (1510-1566), organista cec de la cort de Felip II, va ser un dels grans compositors europeus per a tecla."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;editor flamenc <strong>Tielman Susato</strong> va publicar el 1551 la <strong>Danserye</strong>, una col·lecció de danses per a conjunt d&#x27;instruments. Fixau-vos en el ritme regular, les frases clares i repetides i el so dels instruments de vent. És música pensada per moure&#x27;s."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Les <strong>Diferencias sobre Guárdame las vacas</strong>, de Narváez, parteixen d&#x27;una melodia i un baix coneguts a l&#x27;època. Fixau-vos en com cada variació és diferent, amb més notes, més ornaments o un ritme nou, mentre l&#x27;estructura es manté."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Les <strong>Diferencias sobre el Canto del caballero</strong>, de Cabezón, apliquen la mateixa idea de la variació a la tecla, amb una gran riquesa contrapuntística."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que al Renaixement la música instrumental guanya independència, que els instruments s&#x27;organitzen en famílies, que la dansa és una part essencial de la vida social i que els músics hispànics van ser pioners en l&#x27;art de la variació.</p>",
+   "obraClau": {
+    "obra": "Narváez – Diferencias sobre Guárdame las vacas",
+    "motiu": "Perquè és una de les primeres vegades que la música instrumental construeix una obra a partir de la variació, una idea que arribarà fins a Bach i Beethoven."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 28,
+   "titol": "Del madrigal a l'òpera: la Camerata i Monteverdi",
+   "subtitol": "Quan la música vol emocionar i explicar històries",
+   "audicions": [
+    {
+     "text": "C. Monteverdi – Cruda Amarilli",
+     "clau": true
+    },
+    {
+     "text": "C. Monteverdi – L'Orfeo (Toccata i pròleg)",
+     "clau": true
+    },
+    {
+     "text": "G. Caccini – Amarilli mia bella",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La crisi de la polifonia",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A finals del segle XVI, la polifonia havia arribat a una gran perfecció. Però alguns músics i intel·lectuals comencen a pensar que aquesta perfecció té un problema: amb tantes veus que s&#x27;imiten i canten paraules diferents al mateix temps, <strong>el text no s&#x27;entén</strong>, i la música no pot expressar les emocions de manera directa. Si una sola persona expressa el seu dolor, per què l&#x27;han de cantar cinc veus alhora?"
+      }
+     ]
+    },
+    {
+     "titol": "La Camerata Florentina",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A Florència, cap al 1570-1590, un grup d&#x27;intel·lectuals, músics i poetes es reunia a casa del comte <strong>Giovanni de&#x27; Bardi</strong>. És la <strong>Camerata Florentina</strong>. En formava part <strong>Vincenzo Galilei</strong>, el mateix que havia publicat els himnes de Mesomedes (recordau la sessió 4!). Llegien els textos grecs i estaven convençuts que la tragèdia grega era tota cantada i que tenia un poder enorme per commoure el públic. Volien recuperar aquest poder."
+      },
+      {
+       "tipus": "p",
+       "html": "La seva conclusió era que la música havia de ser <strong>com la parla</strong>, però intensificada. La proposta va ser la <strong>monodia acompanyada</strong>:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Una sola veu canta el text amb llibertat expressiva, seguint el ritme i les inflexions de la parla.",
+        "Un instrument (llaüt, clavicèmbal, orgue) l&#x27;acompanya fent els acords.",
+        "L&#x27;acompanyament s&#x27;escriu només amb la línia del baix i unes xifres que indiquen els acords: és el <strong>baix continu</strong>, que serà la base de tota la música barroca."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "També es desenvolupa el <strong>recitatiu</strong> (<em>stile recitativo</em>), un estil de cant a mig camí entre parlar i cantar, per explicar històries."
+      }
+     ]
+    },
+    {
+     "titol": "El naixement de l'òpera",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Si es pot cantar un text de manera expressiva, es pot cantar tota una obra de teatre. D&#x27;aquí neix l&#x27;<strong>òpera</strong>: un drama totalment cantat, amb personatges, escenografia i instruments. Les primeres òperes es fan a Florència: <em>Dafne</em> (1598) i <em>Euridice</em> (1600), de <strong>Jacopo Peri</strong>. Els temes són mites grecs, sobretot el d&#x27;Orfeu, el músic que amb el seu cant és capaç de commoure fins i tot els déus de l&#x27;infern. Quin millor tema per demostrar el poder de la música?"
+      }
+     ]
+    },
+    {
+     "titol": "Claudio Monteverdi",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Claudio Monteverdi</strong> (1567-1643) és el compositor que millor representa el pas del Renaixement al Barroc. Va treballar a la cort dels Gonzaga a Màntua i després com a mestre de capella de Sant Marc de Venècia. Va dominar tots dos mons: va escriure nou llibres de madrigals, on es veu tota l&#x27;evolució de l&#x27;estil antic al nou, música religiosa i òperes."
+      },
+      {
+       "tipus": "p",
+       "html": "El 1600, el teòric <strong>Giovanni Maria Artusi</strong> va criticar durament alguns madrigals de Monteverdi, entre ells <em>Cruda Amarilli</em>, perquè feien servir dissonàncies no preparades que trencaven les regles del contrapunt. Monteverdi va respondre que hi havia dues maneres de compondre:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La <strong>prima pratica</strong>: l&#x27;estil de Palestrina, on la música mana sobre el text i s&#x27;han de respectar les regles.",
+        "La <strong>seconda pratica</strong>: l&#x27;estil nou, on <strong>la paraula mana sobre la música</strong>, i les regles es poden trencar per expressar el text."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Amarilli mia bella</strong>, de <strong>Giulio Caccini</strong>, membre de la Camerata, publicat a <em>Le nuove musiche</em> (1602), és un exemple del nou estil. Fixau-vos que hi ha una sola veu protagonista, amb ornaments expressius, i un acompanyament senzill. El text s&#x27;entén perfectament."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El madrigal <strong>Cruda Amarilli</strong> de Monteverdi és encara polifònic, a cinc veus, però ja no és només bell: és expressiu, fins i tot una mica incòmode en alguns moments. Fixau-vos en les dissonàncies de les primeres paraules, «cruda Amarilli», cruel Amaril·li: les que va criticar Artusi."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El 1607, a la cort de Màntua, Monteverdi estrena <strong>L&#x27;Orfeo</strong>, considerada la primera gran òpera de la història. Fixau-vos en la <strong>Toccata</strong> inicial: una fanfàrria de trompetes i tota l&#x27;orquestra, repetida tres vegades, que servia per anunciar l&#x27;arribada dels ducs i obrir l&#x27;espectacle. Després arriba el pròleg, cantat per la Música en persona. Ja no estem davant d&#x27;una peça musical: estem davant d&#x27;un espectacle, del naixement de l&#x27;òpera."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la Camerata vol recuperar el poder expressiu de la música grega, que neixen la monodia acompanyada, el baix continu i el recitatiu, i que amb Monteverdi la música es posa al servei del text i del drama: neix l&#x27;òpera i comença el Barroc.</p>",
+   "obraClau": {
+    "obra": "Monteverdi – L'Orfeo (Toccata)",
+    "motiu": "Perquè anuncia l&#x27;inici d&#x27;una nova època: la música esdevé drama, expressió i espectacle."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 29,
+   "titol": "Sessió de síntesi: el Renaixement musical",
+   "subtitol": "Del so perfecte a l'expressió: un viatge per tot el trimestre",
+   "audicions": [
+    {
+     "text": "Josquin – Ave Maria… virgo serena",
+     "clau": false
+    },
+    {
+     "text": "Palestrina – Missa Papae Marcelli (Kyrie)",
+     "clau": false
+    },
+    {
+     "text": "Monteverdi – Cruda Amarilli",
+     "clau": false
+    },
+    {
+     "text": "Victoria – O quam gloriosum",
+     "clau": false
+    },
+    {
+     "text": "Monteverdi – L'Orfeo, Toccata",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem fet un viatge molt interessant: hem començat en un món sonor molt equilibrat i «perfecte» i hem acabat en un moment en què la música comença a voler emocionar, explicar i impactar."
+      },
+      {
+       "tipus": "p",
+       "html": "Al principi del Renaixement, la música està molt marcada per una idea clau: <strong>equilibri i bellesa</strong>. La polifonia és clara, ordenada i totes les veus tenen importància. No hi ha una veu protagonista, sinó un teixit sonor on tot encaixa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Si recordau l&#x27;<strong>Ave Maria</strong> de Josquin, la sensació és gairebé d&#x27;ordre perfecte: les veus entren una rere l&#x27;altra amb molta claredat, com si tot estigués pensat amb una precisió absoluta. Aquesta manera d&#x27;entendre la música està molt relacionada amb l&#x27;<strong>humanisme</strong>, una forma de pensar que posa l&#x27;ésser humà, la proporció i l&#x27;equilibri al centre."
+      },
+      {
+       "tipus": "p",
+       "html": "A mesura que avançam, vam veure com aquesta polifonia es perfecciona encara més. Amb compositors com Palestrina, la música arriba a un punt de màxima claredat. Aquí apareix una idea molt important: <strong>el text s&#x27;ha d&#x27;entendre</strong>. La música no pot tapar les paraules."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Kyrie</strong> de la Missa Papae Marcelli, tot és suau, equilibrat i molt clar. No hi ha tensió dramàtica, sinó una sensació de serenitat i espiritualitat. Aquest estil connecta amb el context de la <strong>Contrareforma</strong>, on l&#x27;Església vol una música més comprensible i directa."
+      },
+      {
+       "tipus": "p",
+       "html": "Però el Renaixement no és només música religiosa. També vam entrar en el món del <strong>madrigal</strong>, on la música es torna més humana, més quotidiana. Aquí els compositors volen expressar emocions: amor, dolor, natura..."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Cruda Amarilli</strong> de Monteverdi, la música ja no és només bella: és expressiva, fins i tot una mica incòmoda en alguns moments. Això és molt important, perquè ja apunta cap a un canvi."
+      },
+      {
+       "tipus": "p",
+       "html": "També vam veure que la música no era només per escoltar en silenci dins d&#x27;una església. Hi havia danses, cançons i música instrumental. Aquesta part ens mostra una altra cara del Renaixement: <strong>la música com a diversió, festa i vida social</strong>. I també apareix una idea nova: el músic com a intel·lectual, algú que pensa i escriu sobre música, no només la interpreta."
+      },
+      {
+       "tipus": "p",
+       "html": "Un dels moments més interessants del trimestre va ser entendre com <strong>l&#x27;espai influeix en la música</strong>. A Venècia, a la basílica de Sant Marc, els compositors comencen a jugar amb cors separats, creant efectes de diàleg i eco. Això ens fa veure que la música no és només so, sinó també espai i arquitectura."
+      },
+      {
+       "tipus": "p",
+       "html": "Després vam mirar el cas de la <strong>Península Ibèrica</strong>, amb compositors com Victoria o Guerrero, i vam veure una música molt espiritual però també molt intensa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>O quam gloriosum</strong> de Victoria, hi ha una sensació de profunditat emocional que ja ens apropa una mica al món expressiu del Barroc."
+      },
+      {
+       "tipus": "p",
+       "html": "Un altre punt important ha estat descobrir que la història de la música no és només masculina. Amb figures com <strong>Casulana</strong> o <strong>Aleotti</strong>, vam veure que també hi havia dones compositores, tot i que amb moltes més dificultats. Això ens ajuda a entendre que la història de la música que estudiam és incompleta i que encara avui s&#x27;està revisant."
+      },
+      {
+       "tipus": "p",
+       "html": "Finalment, hem arribat a un moment clau: <strong>la transició cap al Barroc</strong>. Aquí tot comença a canviar. La polifonia deixa de ser l&#x27;únic model i apareix una nova idea: la música ha d&#x27;expressar emocions de manera directa. Amb Monteverdi, la música es posa al servei del text i del drama."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>L&#x27;Orfeo</strong>, especialment a la Toccata, ja no estam només davant d&#x27;una peça musical: estam davant d&#x27;un espectacle, del naixement de l&#x27;òpera."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Més enllà dels noms i les obres, aquest trimestre ens ha servit per entendre una gran transformació:</p><ul><li>La música passa de ser <strong>equilibri i perfecció</strong>...</li><li>...a voler ser <strong>expressió i emoció</strong>.</li></ul><p><strong>La música com a fet humà</strong></p>",
+   "obraClau": null,
+   "etiquetaAudicions": "Audicions de recordatori"
   }
  ]
 }
