@@ -195,6 +195,7 @@ img { max-width: 100%; height: auto; }
 .cursos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr; /* tots els botons, igual d'alts (també al mòbil) */
   gap: 16px;
 }
 @media (max-width: 720px) { .cursos { grid-template-columns: 1fr; } }
@@ -249,8 +250,8 @@ img { max-width: 100%; height: auto; }
 .boto-curs:hover .entra { background: rgba(255,255,255,.32); transform: translateX(3px); }
 .boto-curs .entra svg { width: 22px; height: 22px; }
 @media (max-width: 720px) {
-  .boto-curs { min-height: 0; flex-direction: row; align-items: center; justify-content: flex-start; gap: 18px; padding: 18px 70px 18px 20px; }
-  .boto-curs .num { font-size: 3rem; }
+  .boto-curs { min-height: 0; flex-direction: row; align-items: center; justify-content: flex-start; gap: 14px; padding: 18px 68px 18px 18px; }
+  .boto-curs .num { font-size: 3rem; min-width: 1.2em; }
   .boto-curs .entra { top: 50%; transform: translateY(-50%); }
   .boto-curs:hover .entra { transform: translate(3px, -50%); }
   .boto-curs::before { inset: 50% -10% auto 55%; transform: translateY(-50%); }
