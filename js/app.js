@@ -273,7 +273,6 @@ async function paginaCurs(clau) {
       <section class="trimestre">
         <div class="cap-trimestre">
           <h2>${esc(t.nom)}${t.tema ? ` <span class="tema-trimestre">· ${esc(t.tema)}</span>` : ""}</h2>
-          ${t.diapositives ? `<a class="boto secundari petit" style="--color:${colorTrimestre(t)}" href="${esc(t.diapositives)}" target="_blank" rel="noopener">${ICONES.diapositives}Diapositives del trimestre</a>` : ""}
         </div>
         ${t.sessions.length ? `<ul class="sessions">${t.sessions.map(s => targetaSessio(s, per, avui, proxima, colorTrimestre(t), clau, ambApunts)).join("")}</ul>`
                             : `<p class="buit">Pròximament</p>`}
