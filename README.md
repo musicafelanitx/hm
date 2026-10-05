@@ -10,6 +10,8 @@ Web estàtica (HTML, CSS i JavaScript, sense frameworks) per a l'alumnat de 4t, 
 | Les obres de la setmana               | `dades/obra-setmana.json`  |
 | Els recursos (Spotify, vídeos…)       | `dades/recursos.json`      |
 | Els textos de la línia del temps      | `dades/periodes.json`      |
+| Els termes del glossari               | `dades/glossari.json`      |
+| Les obres d'«Entrena l'oïda»          | `dades/audicions.json`     |
 | Colors i tipografia                   | `css/estils.css`           |
 
 ## Afegir l'enllaç d'una sessió
@@ -61,3 +63,7 @@ La web es pot instal·lar al mòbil com una app (PWA). A la portada, al mòbil, 
 - `manifest.webmanifest`: nom, colors i icones de l'app.
 - `sw.js`: guarda una còpia de les pàgines per si no hi ha connexió. Sempre prova primer la xarxa, així els canvis es veuen de seguida.
 - `icones/`: icones fetes amb el logo del conservatori. Per canviar-les, substitueix els PNG mantenint el nom i la mida.
+
+## Entrena l'oïda
+
+Les obres són a `dades/audicions.json`. Els enregistraments són de Wikimedia Commons, amb llicències lliures (domini públic o Creative Commons), perquè els reproductors de YouTube no es poden amagar i mostrarien el títol. Per això no hi ha obres recents amb drets d'autor. A cada obra hi ha l'arxiu (`mp3` i `original`), l'intèrpret, la llicència i la pàgina de Commons, que surten als crèdits.

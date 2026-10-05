@@ -10,6 +10,8 @@ const PAGINES = [
   { href: "5e.html", text: "5è" },
   { href: "6e.html", text: "6è" },
   { href: "linia-del-temps.html", text: "Línia del temps" },
+  { href: "glossari.html", text: "Glossari" },
+  { href: "audicions.html", text: "Entrena l'oïda" },
   { href: "recursos.html", text: "Recursos" }
 ];
 
@@ -436,6 +438,266 @@ async function paginaLinia() {
   }
 }
 
+/* ---------- Glossari ---------- */
+
+// Treu accents i majúscules perquè la cerca trobi «melismatic» o «melismàtic»
+function normalitza(text) {
+  return text.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/·/g, "");
+}
+
+async function paginaGlossari() {
+  const llista = document.getElementById("llista-glossari");
+  const cerca = document.getElementById("cerca-glossari");
+  const filtre = document.getElementById("filtre-periode");
+  const recompte = document.getElementById("recompte-glossari");
+  try {
+    const [termes, per] = await Promise.all([carrega("glossari.json"), periodes()]);
+    const ordrePeriodes = per._llista.filter(p => p.linia !== false);
+    let periodeActiu = "";
+
+    filtre.innerHTML = `<button type="button" class="xip-filtre" aria-pressed="true" data-periode="">Tots</button>` +
+      ordrePeriodes.map(p => `<button type="button" class="xip-filtre" aria-pressed="false" data-periode="${p.id}" style="--color:${colorDe(p.id)}">${esc(p.nom)}</button>`).join("");
+
+    function pinta() {
+      const q = normalitza(cerca.value.trim());
+      const visibles = termes.filter(t =>
+        (!periodeActiu || t.periode === periodeActiu) &&
+        (!q || normalitza(t.terme + " " + t.definicio).includes(q)));
+      recompte.textContent = `${visibles.length} ${visibles.length === 1 ? "terme" : "termes"}`;
+      llista.innerHTML = visibles.length ? visibles.map(t => `
+        <article class="terme" style="--color:${colorDe(t.periode)}">
+          <header>
+            <h2>${esc(t.terme)}</h2>
+            <span class="xip">${esc(per[t.periode]?.nom || "")}</span>
+          </header>
+          <p>${esc(t.definicio)}</p>
+          ${t.exemple ? `<a class="exemple" href="${esc(t.exemple.enllac)}" target="_blank" rel="noopener">
+            ${ICONES.musica}<span><strong>Escolta'n un exemple</strong> ${esc(t.exemple.autor)} · <em>${esc(t.exemple.obra)}</em></span>
+          </a>` : ""}
+        </article>`).join("")
+        : `<p class="buit">No hi ha cap terme que coincideixi amb la cerca.</p>`;
+    }
+
+    cerca.addEventListener("input", pinta);
+    filtre.addEventListener("click", e => {
+      const b = e.target.closest(".xip-filtre");
+      if (!b) return;
+      periodeActiu = b.dataset.periode;
+      filtre.querySelectorAll(".xip-filtre").forEach(x => x.setAttribute("aria-pressed", x === b));
+      pinta();
+    });
+    pinta();
+  } catch (e) {
+    mostraError(llista, e);
+  }
+}
+
+/* ---------- Entrena l'oïda ---------- */
+
+const PERIODES_CURS = {
+  "4t": ["antiguitat", "edat-mitjana", "renaixement"],
+  "5e": ["barroc", "classicisme"],
+  "6e": ["romanticisme", "xx-xxi"]
+};
+const DURADA_FRAGMENT = 30; // segons
+
+function barreja(llista) {
+  const a = [...llista];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function mmss(segons) {
+  const s = Math.max(0, Math.round(segons));
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+}
+
+async function paginaAudicions() {
+  const $ = id => document.getElementById(id);
+  let obres, per;
+  try {
+    [obres, per] = await Promise.all([carrega("audicions.json"), periodes()]);
+    // Si una obra només té l'arxiu OGG i el navegador no el pot sonar (iPhone), no la feim servir
+    const potOgg = new Audio().canPlayType('audio/ogg; codecs="vorbis"') !== "";
+    obres = obres.filter(o => o.mp3 || potOgg);
+  } catch (e) {
+    mostraError($("joc"), e);
+    return;
+  }
+
+  $("llista-credits").innerHTML = obres.map(o => `
+    <li><em>${esc(o.titol)}</em> (${esc(o.autor)}) · ${esc(o.interpret || "Intèrpret desconegut")} ·
+      <a href="${esc(o.pagina)}" target="_blank" rel="noopener">${esc(o.llicencia)}</a></li>`).join("");
+
+  const audio = new Audio();
+  audio.preload = "auto";
+  let partida = null;
+
+  function aturaAudio() {
+    audio.pause();
+    $("joc-play").classList.remove("sona");
+    $("joc-estat").textContent = "Torna a escoltar el fragment";
+  }
+
+  function carregaAudio(obra) {
+    audio.src = obra.mp3 || obra.original;
+    audio.onerror = () => { if (obra.mp3 && audio.src !== obra.original) audio.src = obra.original; };
+  }
+
+  function tocaFragment() {
+    const p = partida;
+    const obra = p.preguntes[p.n];
+    const comenca = () => {
+      if (p.inici == null) {
+        // Un punt d'inici a l'atzar, evitant el principi i el final de l'obra
+        const d = audio.duration || 0;
+        const marge = Math.min(d * 0.1, 20);
+        const max = Math.max(marge, d - DURADA_FRAGMENT - 5);
+        p.inici = d > DURADA_FRAGMENT + 10 ? marge + Math.random() * (max - marge) : 0;
+      }
+      audio.currentTime = p.inici;
+      audio.play().catch(() => {});
+      $("joc-play").classList.add("sona");
+      $("joc-estat").textContent = "Escoltant…";
+    };
+    if (audio.readyState >= 1) comenca();
+    else audio.addEventListener("loadedmetadata", comenca, { once: true });
+  }
+
+  audio.addEventListener("timeupdate", () => {
+    if (!partida || partida.respost) return;
+    const passat = audio.currentTime - (partida.inici || 0);
+    $("joc-temps").textContent = `${mmss(passat)} / ${mmss(DURADA_FRAGMENT)}`;
+    if (passat >= DURADA_FRAGMENT) aturaAudio();
+  });
+  audio.addEventListener("ended", aturaAudio);
+
+  $("joc-play").addEventListener("click", () => {
+    if (!audio.paused) { aturaAudio(); return; }
+    if (partida.respost) { audio.play(); $("joc-play").classList.add("sona"); $("joc-estat").textContent = "Escoltant l'obra"; return; }
+    tocaFragment();
+  });
+
+  function opcionsPer(tipus, obra, pool) {
+    if (tipus === "periode") {
+      const ids = [...new Set(pool.map(o => o.periode))];
+      return ORDRE_PERIODES.filter(id => ids.includes(id)).map(id => ({ valor: id, text: per[id]?.nom || id }));
+    }
+    // Compositor o gènere: la correcta i tres més, preferint les del mateix període
+    const valors = o => o[tipus];
+    const propers = barreja([...new Set(pool.filter(o => o.periode === obra.periode).map(valors))]);
+    const altres = barreja([...new Set(pool.map(valors))]);
+    const tria = [obra[tipus]];
+    for (const v of [...propers, ...altres]) {
+      if (tria.length >= 4) break;
+      if (!tria.includes(v)) tria.push(v);
+    }
+    return barreja(tria).map(v => ({ valor: v, text: v }));
+  }
+
+  const ENUNCIATS = { periode: "De quin període és?", autor: "Qui l'ha composta?", genere: "Quin gènere és?" };
+
+  function mostraPregunta() {
+    const p = partida;
+    const obra = p.preguntes[p.n];
+    p.respost = false;
+    p.inici = null;
+    carregaAudio(obra);
+    $("joc-progres").textContent = `Pregunta ${p.n + 1} de ${p.preguntes.length}`;
+    $("joc-punts").textContent = `${p.encerts} ${p.encerts === 1 ? "encert" : "encerts"}`;
+    $("joc-barra").style.width = `${(p.n / p.preguntes.length) * 100}%`;
+    $("joc-enunciat").textContent = ENUNCIATS[p.tipus];
+    $("joc-estat").textContent = "Escolta el fragment";
+    $("joc-temps").textContent = `0:00 / ${mmss(DURADA_FRAGMENT)}`;
+    $("joc-play").classList.remove("sona");
+    $("joc-solucio").hidden = true;
+    $("joc-seguent").hidden = true;
+    $("joc-respostes").innerHTML = opcionsPer(p.tipus, obra, p.pool).map(o => {
+      const estil = p.tipus === "periode" ? ` style="--color:${colorDe(o.valor)}"` : "";
+      return `<button type="button" class="resposta${p.tipus === "periode" ? " de-periode" : ""}" data-valor="${esc(o.valor)}"${estil}>${esc(o.text)}</button>`;
+    }).join("");
+  }
+
+  $("joc-respostes").addEventListener("click", e => {
+    const b = e.target.closest(".resposta");
+    const p = partida;
+    if (!b || p.respost) return;
+    p.respost = true;
+    const obra = p.preguntes[p.n];
+    const correcta = String(obra[p.tipus]);
+    const encert = b.dataset.valor === correcta;
+    if (encert) p.encerts++;
+    p.resultats.push({ obra, encert });
+    $("joc-respostes").querySelectorAll(".resposta").forEach(x => {
+      x.disabled = true;
+      if (x.dataset.valor === correcta) x.classList.add("correcta");
+      else if (x === b) x.classList.add("incorrecta");
+    });
+    $("joc-punts").textContent = `${p.encerts} ${p.encerts === 1 ? "encert" : "encerts"}`;
+    $("joc-solucio").hidden = false;
+    $("joc-solucio").style.setProperty("--color", colorDe(obra.periode));
+    $("joc-solucio").innerHTML = `
+      <p class="veredicte ${encert ? "be" : "malament"}">${encert ? "Correcte!" : "No és correcte."}</p>
+      <h3>${esc(obra.titol)}</h3>
+      <p class="autor">${esc(obra.autor)} · ${esc(obra.any)} <span class="xip">${esc(per[obra.periode]?.nom || "")}</span></p>
+      <p class="genere">Gènere: ${esc(obra.genere)}</p>
+      <p class="credit">Enregistrament: ${esc(obra.interpret || "intèrpret desconegut")} · <a href="${esc(obra.pagina)}" target="_blank" rel="noopener">${esc(obra.llicencia)}</a></p>`;
+    $("joc-seguent").hidden = false;
+    $("joc-seguent").textContent = p.n + 1 < p.preguntes.length ? "Següent" : "Veure el resultat";
+    $("joc-estat").textContent = audio.paused ? "Escolta l'obra" : "Escoltant l'obra";
+  });
+
+  $("joc-seguent").addEventListener("click", () => {
+    audio.pause();
+    partida.n++;
+    if (partida.n < partida.preguntes.length) mostraPregunta();
+    else mostraFinal();
+  });
+
+  function mostraFinal() {
+    const p = partida;
+    const total = p.preguntes.length;
+    const missatge = p.encerts >= total * 0.9 ? "Excel·lent! Tens molt bona oïda."
+      : p.encerts >= total * 0.7 ? "Molt bé! Vas per bon camí."
+      : p.encerts >= total * 0.5 ? "Bé, però encara pots millorar."
+      : "Cal escoltar més. Torna-hi!";
+    $("joc-pregunta").hidden = true;
+    $("joc-final").hidden = false;
+    $("joc-final").innerHTML = `
+      <p class="nota">${p.encerts}<span>/${total}</span></p>
+      <p class="missatge">${missatge}</p>
+      <ol class="repas">${p.resultats.map(r => `
+        <li class="${r.encert ? "be" : "malament"}"><span aria-hidden="true">${r.encert ? "✓" : "✗"}</span>
+          <span><strong>${esc(r.obra.titol)}</strong> · ${esc(r.obra.autor)} <em>(${esc(per[r.obra.periode]?.nom || "")}, ${esc(r.obra.genere)})</em></span></li>`).join("")}
+      </ol>
+      <div class="accions-final">
+        <button class="boto" type="button" id="joc-repeteix">Torna-hi</button>
+        <button class="boto secundari" type="button" id="joc-canvia">Canvia les opcions</button>
+      </div>`;
+    $("joc-repeteix").addEventListener("click", comenca);
+    $("joc-canvia").addEventListener("click", () => {
+      $("joc-final").hidden = true;
+      $("joc-config").hidden = false;
+    });
+  }
+
+  function comenca() {
+    const tipus = document.querySelector('input[name="tipus"]:checked').value;
+    const curs = document.querySelector('input[name="curs"]:checked').value;
+    const pool = curs ? obres.filter(o => PERIODES_CURS[curs].includes(o.periode)) : obres;
+    partida = { tipus, pool, preguntes: barreja(pool).slice(0, 10), n: 0, encerts: 0, resultats: [] };
+    $("joc-config").hidden = true;
+    $("joc-final").hidden = true;
+    $("joc-pregunta").hidden = false;
+    mostraPregunta();
+  }
+
+  $("joc-comenca").addEventListener("click", comenca);
+}
+
 /* ---------- App al mòbil ---------- */
 
 function preparaApp() {
@@ -488,4 +750,6 @@ document.addEventListener("DOMContentLoaded", () => {
   else if (pagina === "curs") paginaCurs(document.body.dataset.curs);
   else if (pagina === "recursos") paginaRecursos();
   else if (pagina === "linia") paginaLinia();
+  else if (pagina === "glossari") paginaGlossari();
+  else if (pagina === "audicions") paginaAudicions();
 });

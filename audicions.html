@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrena l'oïda · Història de la música</title>
+  <meta name="description" content="Entrenament d'audicions: escolta un fragment i endevina el període, el compositor o el gènere.">
+  <link rel="icon" href="icones/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="Història Música">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estils.css?v=8">
+  <script src="js/app.js?v=8" defer></script>
+</head>
+<body data-pagina="audicions">
+<main id="contingut">
+  <section class="portada">
+    <div class="contenidor">
+      <span class="etiqueta">Prepara els comentaris d'audició</span>
+      <h1>Entrena l'oïda</h1>
+      <p class="intro">Escolta un fragment i endevina'n el període, el compositor o el gènere. Cada partida té 10 preguntes.</p>
+
+      <div class="joc" id="joc">
+        <!-- Configuració -->
+        <div class="joc-config" id="joc-config">
+          <fieldset>
+            <legend>Què vols endevinar?</legend>
+            <div class="opcions-config" id="config-tipus">
+              <label><input type="radio" name="tipus" value="periode" checked> <span>Període</span></label>
+              <label><input type="radio" name="tipus" value="autor"> <span>Compositor</span></label>
+              <label><input type="radio" name="tipus" value="genere"> <span>Gènere</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Repertori</legend>
+            <div class="opcions-config" id="config-curs">
+              <label><input type="radio" name="curs" value="" checked> <span>Tot</span></label>
+              <label><input type="radio" name="curs" value="4t"> <span>4t</span></label>
+              <label><input type="radio" name="curs" value="5e"> <span>5è</span></label>
+              <label><input type="radio" name="curs" value="6e"> <span>6è</span></label>
+            </div>
+          </fieldset>
+          <button class="boto gran" id="joc-comenca" type="button">Comença</button>
+        </div>
+
+        <!-- Pregunta -->
+        <div class="joc-pregunta" id="joc-pregunta" hidden>
+          <div class="joc-capcalera">
+            <span id="joc-progres">Pregunta 1 de 10</span>
+            <span id="joc-punts">0 encerts</span>
+          </div>
+          <div class="barra"><span id="joc-barra"></span></div>
+          <div class="reproductor">
+            <button class="play-gran" id="joc-play" type="button" aria-label="Escolta el fragment">
+              <svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>
+              <svg class="i-pausa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>
+            </button>
+            <div class="reproductor-text">
+              <strong id="joc-estat">Escolta el fragment</strong>
+              <div class="temps"><span id="joc-temps"></span></div>
+            </div>
+          </div>
+          <p class="enunciat" id="joc-enunciat">De quin període és?</p>
+          <div class="respostes" id="joc-respostes"></div>
+          <div class="solucio" id="joc-solucio" hidden></div>
+          <button class="boto" id="joc-seguent" type="button" hidden>Següent</button>
+        </div>
+
+        <!-- Resultat -->
+        <div class="joc-final" id="joc-final" hidden></div>
+      </div>
+
+      <details class="credits">
+        <summary>Crèdits dels enregistraments</summary>
+        <p>Els enregistraments són de <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>, amb llicències lliures (domini públic o Creative Commons). Per això no hi ha obres recents amb drets d'autor.</p>
+        <ul id="llista-credits"></ul>
+      </details>
+    </div>
+  </section>
+</main>
+<noscript><p class="contenidor">Cal activar JavaScript per fer servir l'entrenament.</p></noscript>
+</body>
+</html>

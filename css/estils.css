@@ -37,6 +37,9 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Tot el que porta l'atribut hidden ha de quedar amagat, encara que tengui un display propi */
+[hidden] { display: none !important; }
+
 html { -webkit-text-size-adjust: 100%; }
 
 body {
@@ -151,7 +154,7 @@ img { max-width: 100%; height: auto; }
   color: #fff;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 960px) {
   .boto-menu { display: block; }
   .menu {
     display: none;
@@ -775,7 +778,6 @@ a.targeta:hover { border-color: #c9c6be; }
 
 /* ---------- Botó i instruccions per instal·lar l'app ---------- */
 .boto.instal-la { margin-top: 4px; }
-.boto.instal-la[hidden] { display: none; }
 .dialeg-ios {
   width: min(420px, calc(100% - 32px));
   border: 0;
@@ -791,3 +793,172 @@ a.targeta:hover { border-color: #c9c6be; }
 .dialeg-ios li { margin-bottom: 10px; }
 .dialeg-ios svg { width: 20px; height: 20px; vertical-align: -4px; color: #0a84ff; }
 .dialeg-ios form { text-align: right; }
+
+/* ---------- Glossari ---------- */
+.filtres-glossari { margin-top: 24px; display: flex; flex-direction: column; gap: 14px; }
+.cercador {
+  display: flex; align-items: center; gap: 10px;
+  max-width: 520px;
+  padding: 0 14px;
+  border: 1px solid #cfcbc2;
+  border-radius: 12px;
+  background: var(--fons);
+}
+.cercador:focus-within { border-color: var(--focus); box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 20%, transparent); }
+.cercador svg { width: 20px; height: 20px; color: var(--text-suau); flex-shrink: 0; }
+.cercador input {
+  flex: 1; min-width: 0;
+  border: 0; outline: 0;
+  padding: 13px 0;
+  font: inherit; font-size: 1.05rem;
+  background: transparent; color: var(--text);
+}
+.xips-filtre { display: flex; flex-wrap: wrap; gap: 8px; }
+.xip-filtre {
+  --color: var(--text);
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1.5px solid color-mix(in srgb, var(--color) 45%, #fff);
+  background: var(--fons);
+  color: var(--color);
+  font: inherit; font-size: .95rem; font-weight: 700;
+  cursor: pointer;
+}
+.xip-filtre[aria-pressed="true"] { background: var(--color); border-color: var(--color); color: #fff; }
+.recompte { color: var(--text-suau); font-size: .95rem; margin: 18px 0 10px; }
+.glossari {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+}
+@media (max-width: 400px) { .glossari { grid-template-columns: 1fr; } }
+.terme {
+  display: flex; flex-direction: column;
+  padding: 18px 20px;
+  border: 1px solid var(--linia);
+  border-top: 4px solid var(--color);
+  border-radius: var(--radi);
+  background: var(--fons);
+  box-shadow: var(--ombra);
+}
+.terme header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+.terme h2 { font-size: 1.3rem; margin: 0; color: var(--color); }
+.terme .xip { background: var(--color); flex-shrink: 0; font-size: .78rem; }
+.terme p { margin: 0 0 14px; font-size: 1.02rem; }
+.exemple {
+  margin-top: auto;
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color) 8%, #fff);
+  color: var(--text);
+  text-decoration: none;
+  font-size: .95rem;
+  line-height: 1.35;
+}
+.exemple:hover { background: color-mix(in srgb, var(--color) 15%, #fff); }
+.exemple svg { width: 20px; height: 20px; color: var(--color); flex-shrink: 0; margin-top: 1px; }
+.exemple strong { display: block; color: var(--color); }
+
+/* ---------- Entrena l'oïda ---------- */
+.joc {
+  margin-top: 26px;
+  max-width: 760px;
+  padding: 26px;
+  border: 1px solid var(--linia);
+  border-radius: 20px;
+  background: var(--fons);
+  box-shadow: 0 2px 4px rgba(0,0,0,.04), 0 12px 32px rgba(0,0,0,.08);
+}
+@media (max-width: 560px) { .joc { padding: 20px 16px; } }
+.joc fieldset { border: 0; padding: 0; margin: 0 0 20px; }
+.joc legend { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; margin-bottom: 10px; }
+.opcions-config { display: flex; flex-wrap: wrap; gap: 8px; }
+.opcions-config label { cursor: pointer; }
+.opcions-config input { position: absolute; opacity: 0; pointer-events: none; }
+.opcions-config span {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1.5px solid #cfcbc2;
+  font-weight: 700;
+}
+.opcions-config input:checked + span { background: var(--text); border-color: var(--text); color: #fff; }
+.opcions-config input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
+.boto.gran { padding: 14px 30px; font-size: 1.1rem; }
+
+.joc-capcalera { display: flex; justify-content: space-between; color: var(--text-suau); font-weight: 700; font-size: .95rem; }
+.barra { height: 6px; background: var(--fons-suau); border-radius: 3px; margin: 8px 0 22px; overflow: hidden; }
+.barra span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--antiguitat), var(--edat-mitjana), var(--renaixement), var(--barroc), var(--classicisme), var(--romanticisme), var(--xx-xxi)); transition: width .3s ease; }
+
+.reproductor { display: flex; align-items: center; gap: 18px; margin-bottom: 22px; }
+.play-gran {
+  width: 76px; height: 76px; flex-shrink: 0;
+  border-radius: 50%; border: 0;
+  background: var(--text); color: #fff;
+  display: grid; place-items: center;
+  cursor: pointer;
+  transition: transform .15s ease;
+}
+.play-gran:hover { transform: scale(1.05); }
+.play-gran svg { width: 30px; height: 30px; }
+.play-gran .i-play { margin-left: 4px; }
+.play-gran .i-pausa, .play-gran.sona .i-play { display: none; }
+.play-gran.sona .i-pausa { display: block; }
+.play-gran.sona { animation: batec 1.2s ease-in-out infinite; }
+@keyframes batec { 50% { box-shadow: 0 0 0 10px rgba(0,0,0,.08); } }
+@media (prefers-reduced-motion: reduce) { .play-gran.sona { animation: none; } }
+.reproductor-text strong { font-size: 1.15rem; display: block; }
+.temps { color: var(--text-suau); font-variant-numeric: tabular-nums; }
+
+.enunciat { font-family: var(--serif); font-size: 1.35rem; font-weight: 700; margin-bottom: 12px; }
+.respostes { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.resposta {
+  --color: var(--text);
+  min-height: 52px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1.5px solid #cfcbc2;
+  background: var(--fons);
+  color: var(--text);
+  font: inherit; font-weight: 700; text-align: left;
+  cursor: pointer;
+}
+.resposta:hover:not(:disabled) { border-color: var(--text); }
+.resposta.de-periode { border-left: 6px solid var(--color); }
+.resposta:disabled { cursor: default; opacity: .55; }
+.resposta.correcta { opacity: 1; background: #e6f4ea; border-color: #2e7d4f; color: #1d5a37; }
+.resposta.incorrecta { opacity: 1; background: #fbe9e7; border-color: #c0392b; color: #8e2a20; }
+
+.solucio {
+  margin-top: 20px;
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--color) 7%, #fff);
+  border-left: 5px solid var(--color);
+}
+.solucio .veredicte { font-weight: 700; margin-bottom: 6px; }
+.solucio .veredicte.be { color: #2e7d4f; }
+.solucio .veredicte.malament { color: #c0392b; }
+.solucio h3 { font-size: 1.35rem; margin-bottom: 2px; color: var(--color); }
+.solucio .xip { background: var(--color); vertical-align: 2px; margin-left: 4px; }
+.solucio .autor, .solucio .genere { margin-bottom: 4px; }
+.solucio .credit { font-size: .85rem; color: var(--text-suau); margin: 8px 0 0; }
+#joc-seguent { margin-top: 16px; }
+
+.joc-final { text-align: center; }
+.joc-final .nota { font-family: var(--serif); font-size: 4rem; font-weight: 700; line-height: 1; margin-bottom: 4px; }
+.joc-final .nota span { font-size: 2rem; color: var(--text-suau); }
+.joc-final .missatge { font-size: 1.2rem; margin-bottom: 18px; }
+.repas { list-style: none; padding: 0; margin: 0 0 22px; text-align: left; }
+.repas li { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--linia); font-size: .98rem; }
+.repas li > span:first-child { font-weight: 700; width: 1.2em; flex-shrink: 0; }
+.repas li.be > span:first-child { color: #2e7d4f; }
+.repas li.malament > span:first-child { color: #c0392b; }
+.repas em { color: var(--text-suau); }
+.accions-final { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
+
+.credits { margin-top: 32px; color: var(--text-suau); font-size: .95rem; max-width: 760px; }
+.credits summary { cursor: pointer; font-weight: 700; }
+.credits ul { padding-left: 1.2em; }
+.credits li { margin-bottom: 4px; }

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glossari · Història de la música</title>
+  <meta name="description" content="Glossari de termes d'història de la música, amb definicions i exemples per escoltar.">
+  <link rel="icon" href="icones/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="Història Música">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:wght@400;700&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estils.css?v=8">
+  <script src="js/app.js?v=8" defer></script>
+</head>
+<body data-pagina="glossari">
+<main id="contingut">
+  <section class="portada">
+    <div class="contenidor">
+      <span class="etiqueta">De l'organum al minimalisme</span>
+      <h1>Glossari</h1>
+      <p class="intro">Els termes clau de l'assignatura, amb una definició breu i un exemple per escoltar.</p>
+      <div class="filtres-glossari">
+        <label class="cercador">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <span class="ocult">Cerca un terme</span>
+          <input type="search" id="cerca-glossari" placeholder="Cerca un terme o una paraula…" autocomplete="off">
+        </label>
+        <div class="xips-filtre" id="filtre-periode" role="group" aria-label="Filtra per període"></div>
+      </div>
+      <p class="recompte" id="recompte-glossari" aria-live="polite"></p>
+      <div class="glossari" id="llista-glossari"><p class="buit">Carregant…</p></div>
+    </div>
+  </section>
+</main>
+<noscript><p class="contenidor">Cal activar JavaScript per veure aquesta pàgina.</p></noscript>
+</body>
+</html>
