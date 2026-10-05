@@ -5,15 +5,23 @@
    ========================================================== */
 
 const PAGINES = [
-  { href: "index.html", text: "Inici" },
-  { href: "4t.html", text: "4t" },
-  { href: "5e.html", text: "5è" },
-  { href: "6e.html", text: "6è" },
-  { href: "linia-del-temps.html", text: "Línia del temps" },
-  { href: "glossari.html", text: "Glossari" },
-  { href: "audicions.html", text: "Entrena l'oïda" },
-  { href: "recursos.html", text: "Recursos" }
+  { href: "index.html", text: "Inici", grup: "inici", icona: "inici", desc: "Portada i obra de la setmana" },
+  { href: "4t.html", text: "4t", grup: "cursos", curs: "4t", desc: "Antiguitat – 1600" },
+  { href: "5e.html", text: "5è", grup: "cursos", curs: "5e", desc: "1600 – 1820" },
+  { href: "6e.html", text: "6è", grup: "cursos", curs: "6e", desc: "1820 – avui" },
+  { href: "linia-del-temps.html", text: "Línia del temps", grup: "explora", icona: "linia", desc: "Els períodes i els seus colors" },
+  { href: "glossari.html", text: "Glossari", grup: "explora", icona: "glossari", desc: "Els termes clau de l'assignatura" },
+  { href: "audicions.html", text: "Entrena l'oïda", grup: "explora", icona: "oida", desc: "Endevina el període o el compositor" },
+  { href: "recursos.html", text: "Recursos", grup: "explora", icona: "recursos", desc: "Spotify, vídeos, llibres i partitures" }
 ];
+
+const ICONES_MENU = {
+  inici: '<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>',
+  linia: '<path d="M3 12h18"/><circle cx="6" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="18" cy="12" r="2"/>',
+  glossari: '<path d="M4 4h11a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3z"/><path d="M4 17a3 3 0 0 1 3-3h11"/>',
+  oida: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>',
+  recursos: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M10 9l5 3-5 3z"/>'
+};
 
 const ORDRE_PERIODES = ["introduccio", "antiguitat", "edat-mitjana", "renaixement", "barroc", "classicisme", "romanticisme", "xx-xxi"];
 
@@ -67,6 +75,23 @@ function franja() {
 
 function pintaCapcalera() {
   const actual = location.pathname.split("/").pop() || "index.html";
+  // Les pàgines d'apunts pertanyen al seu curs
+  const actiu = actual === "apunts.html"
+    ? ({ "4t": "4t.html", "5e": "5e.html", "6e": "6e.html" }[new URLSearchParams(location.search).get("curs")] || actual)
+    : actual;
+  const marcat = p => p.href === actiu ? ' aria-current="page"' : "";
+  const grup = (nom, etiqueta, pagines) => `
+    <div class="menu-grup menu-${nom}">
+      ${etiqueta ? `<p class="menu-etiqueta">${etiqueta}</p>` : ""}
+      <ul>${pagines.map(p => p.curs ? `
+        <li><a href="${p.href}" class="menu-curs" style="--color:var(--curs-${p.curs})"${marcat(p)}>
+          <span class="menu-text">${p.text}</span><small>${esc(p.desc)}</small></a></li>` : `
+        <li><a href="${p.href}"${marcat(p)}>
+          <svg class="menu-icona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONES_MENU[p.icona] || ""}</svg>
+          <span class="menu-text">${p.text}<small>${esc(p.desc)}</small></span></a></li>`).join("")}
+      </ul>
+    </div>`;
+
   const capcalera = document.createElement("header");
   capcalera.className = "capcalera";
   capcalera.innerHTML = `
@@ -76,13 +101,17 @@ function pintaCapcalera() {
         <strong>Història de la música</strong>
         <small>Conservatori de Felanitx</small>
       </a>
-      <button class="boto-menu" aria-expanded="false" aria-controls="menu">Menú</button>
+      <button class="boto-menu" aria-expanded="false" aria-controls="menu" aria-label="Obre el menú">
+        <span class="hamburguesa" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
       <nav class="menu" id="menu" aria-label="Principal">
-        <ul>
-          ${PAGINES.map(p => `<li><a href="${p.href}"${p.href === actual ? ' aria-current="page"' : ""}>${p.text}</a></li>`).join("")}
-        </ul>
+        ${grup("inici", "", PAGINES.filter(p => p.grup === "inici"))}
+        ${grup("cursos", "Cursos", PAGINES.filter(p => p.grup === "cursos"))}
+        ${grup("explora", "Explora", PAGINES.filter(p => p.grup === "explora"))}
+        <p class="menu-peu">Conservatori de Felanitx · Història de la música</p>
       </nav>
-    </div>`;
+    </div>
+    <div class="fons-menu" hidden></div>`;
   document.body.prepend(capcalera);
 
   const salta = document.createElement("a");
@@ -93,11 +122,21 @@ function pintaCapcalera() {
 
   const boto = capcalera.querySelector(".boto-menu");
   const menu = capcalera.querySelector(".menu");
-  boto.addEventListener("click", () => {
-    const obert = menu.classList.toggle("obert");
+  const fons = capcalera.querySelector(".fons-menu");
+  const obre = obert => {
+    menu.classList.toggle("obert", obert);
+    fons.hidden = !obert;
     boto.setAttribute("aria-expanded", obert);
-    boto.textContent = obert ? "Tanca" : "Menú";
-  });
+    boto.setAttribute("aria-label", obert ? "Tanca el menú" : "Obre el menú");
+    document.documentElement.classList.toggle("menu-obert", obert);
+  };
+  const mesura = () => document.documentElement.style.setProperty("--alt-capcalera", `${capcalera.getBoundingClientRect().height}px`);
+  mesura();
+  addEventListener("resize", mesura);
+  boto.addEventListener("click", () => obre(!menu.classList.contains("obert")));
+  fons.addEventListener("click", () => obre(false));
+  addEventListener("keydown", e => { if (e.key === "Escape" && menu.classList.contains("obert")) { obre(false); boto.focus(); } });
+  matchMedia("(min-width: 961px)").addEventListener("change", e => { if (e.matches) obre(false); });
 }
 
 function pintaPeu() {
@@ -195,7 +234,11 @@ async function paginaCurs(clau) {
   const cap = document.getElementById("cap-curs");
   const cos = document.getElementById("sessions-curs");
   try {
-    const [dades, per] = await Promise.all([carrega("sessions.json"), periodes()]);
+    const [dades, per, apunts] = await Promise.all([
+      carrega("sessions.json"), periodes(),
+      carrega(`apunts/${clau}.json`).catch(() => ({ sessions: [] }))
+    ]);
+    const ambApunts = new Set(apunts.sessions.map(a => a.numero));
     const curs = dades[clau];
     if (!curs) throw new Error(`El curs «${clau}» no existeix a sessions.json`);
 
@@ -214,7 +257,7 @@ async function paginaCurs(clau) {
       <div class="materials">
         <a class="material" style="--color:${color}" href="${esc(curs.apunts)}" target="_blank" rel="noopener">
           <span class="icona">${ICONES.apunts}</span>
-          <span><strong>Apunts</strong><span>Document amb tot el temari</span></span>
+          <span><strong>Apunts complets</strong><span>Document amb tot el temari</span></span>
         </a>
         <a class="material" style="--color:${colors[colors.length - 1]}" href="${esc(curs.diapositives)}" target="_blank" rel="noopener">
           <span class="icona">${ICONES.diapositives}</span>
@@ -232,7 +275,7 @@ async function paginaCurs(clau) {
           <h2>${esc(t.nom)}${t.tema ? ` <span class="tema-trimestre">· ${esc(t.tema)}</span>` : ""}</h2>
           ${t.diapositives ? `<a class="boto secundari petit" style="--color:${colorTrimestre(t)}" href="${esc(t.diapositives)}" target="_blank" rel="noopener">${ICONES.diapositives}Diapositives del trimestre</a>` : ""}
         </div>
-        ${t.sessions.length ? `<ul class="sessions">${t.sessions.map(s => targetaSessio(s, per, avui, proxima, colorTrimestre(t))).join("")}</ul>`
+        ${t.sessions.length ? `<ul class="sessions">${t.sessions.map(s => targetaSessio(s, per, avui, proxima, colorTrimestre(t), clau, ambApunts)).join("")}</ul>`
                             : `<p class="buit">Pròximament</p>`}
       </section>`).join("");
 
@@ -263,7 +306,7 @@ function colorTrimestre(t) {
   return colorDe(t.periode || t.sessions.find(s => s.periode)?.periode);
 }
 
-function targetaSessio(s, per, avui, proxima, colorBase) {
+function targetaSessio(s, per, avui, proxima, colorBase, clau, ambApunts = new Set()) {
   // Estat segons la data: feta (passada), pròxima (la següent) o futura
   const feta = s.data && s.data < avui;
   const esProxima = s === proxima;
@@ -271,6 +314,7 @@ function targetaSessio(s, per, avui, proxima, colorBase) {
 
   let quan = s.data ? dataLlarga(s.data) : "";
   if (feta) quan = `✓ ${quan}`;
+  const teApunts = !s.activitat && ambApunts.has(s.numero);
   const etiqueta = esProxima ? `<span class="marca-proxima">${s.data === avui ? "Avui" : "Pròxima classe"}</span>` : "";
 
   const titol = s.titol || "Pròximament";
@@ -286,6 +330,10 @@ function targetaSessio(s, per, avui, proxima, colorBase) {
     </span>`;
 
   const classes = ["sessio", feta && "feta", esProxima && "proxima", !s.enllac && !s.activitat && "pendent", s.activitat && "activitat"].filter(Boolean).join(" ");
+  if (teApunts) {
+    // La sessió té apunts a la web: la targeta hi porta (i des d'allà, a la presentació)
+    return `<li><a class="${classes}" style="--color:${color}" href="apunts.html?curs=${clau}&sessio=${s.numero}">${contingut}<span class="fletxa" title="Apunts de la sessió">${ICONES.apunts}</span></a></li>`;
+  }
   if (s.enllac) {
     return `<li><a class="${classes}" style="--color:${color}" href="${esc(s.enllac)}" target="_blank" rel="noopener">${contingut}<span class="fletxa">${ICONES.fletxa}</span></a></li>`;
   }
@@ -465,7 +513,7 @@ async function paginaGlossari() {
         (!q || normalitza(t.terme + " " + t.definicio).includes(q)));
       recompte.textContent = `${visibles.length} ${visibles.length === 1 ? "terme" : "termes"}`;
       llista.innerHTML = visibles.length ? visibles.map(t => `
-        <article class="terme" style="--color:${colorDe(t.periode)}">
+        <article class="terme" id="${slug(t.terme)}" style="--color:${colorDe(t.periode)}">
           <header>
             <h2>${esc(t.terme)}</h2>
             <span class="xip">${esc(per[t.periode]?.nom || "")}</span>
@@ -479,6 +527,15 @@ async function paginaGlossari() {
     }
 
     cerca.addEventListener("input", pinta);
+    // Si s'arriba des dels apunts (glossari.html#organum), es destaca el terme
+    const marcaTerme = () => {
+      const t = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (!t) return;
+      t.classList.add("destacat");
+      t.scrollIntoView({ block: "center" });
+    };
+    addEventListener("hashchange", marcaTerme);
+    setTimeout(marcaTerme, 50);
     filtre.addEventListener("click", e => {
       const b = e.target.closest(".xip-filtre");
       if (!b) return;
@@ -698,6 +755,168 @@ async function paginaAudicions() {
   $("joc-comenca").addEventListener("click", comenca);
 }
 
+/* ---------- Apunts de cada sessió ---------- */
+
+function slug(text) {
+  return normalitza(text).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+// Paraules del glossari que s'enllacen dins els apunts (la primera vegada que surten).
+// Els termes compostos indiquen a mà quines paraules els representen.
+const ALIES_GLOSSARI = {
+  "Lira i cítara": ["lira", "cítara"],
+  "Trobador i trobairitz": ["trobador", "trobairitz"],
+  "Sil·làbic, neumàtic i melismàtic": ["melismàtic", "sil·làbic", "neumàtic"],
+  "Pavana i gallarda": ["pavana", "gallarda"],
+  "Minuet i trio": ["minuet"],
+  "Tema i variacions": ["tema amb variacions"],
+  "Sonata da chiesa i da camera": ["sonata da chiesa", "sonata da camera"],
+  "Motet (medieval)": ["motet"],
+  "Motet (renaixentista)": [],
+  "Leitmotiv al cinema": [],
+  "Temperament": [],
+  "Cadència": [],
+  "Lira i cítara ": []
+};
+
+// Cada curs només enllaça termes dels seus períodes (i els de l'Antiguitat, que surten a tot arreu)
+const PERIODES_GLOSSARI = {
+  "4t": ["antiguitat", "edat-mitjana", "renaixement"],
+  "5e": ["antiguitat", "renaixement", "barroc", "classicisme"],
+  "6e": ["antiguitat", "classicisme", "romanticisme", "xx-xxi"]
+};
+
+function aliesGlossari(termes, clau) {
+  const alies = [];
+  const permesos = PERIODES_GLOSSARI[clau];
+  for (const t of termes) {
+    if (permesos && !permesos.includes(t.periode)) continue;
+    const paraules = ALIES_GLOSSARI[t.terme] ?? [t.terme];
+    for (const p of paraules) alies.push({ text: p, id: slug(t.terme) });
+  }
+  return alies.sort((a, b) => b.text.length - a.text.length);
+}
+
+function enllacaGlossari(arrel, alies) {
+  const fets = new Set();
+  const caminant = document.createTreeWalker(arrel, NodeFilter.SHOW_TEXT, {
+    acceptNode: n => n.parentElement.closest("a, h1, h2, h3, .no-glossari") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
+  });
+  const pendents = [];
+  while (caminant.nextNode()) pendents.push(caminant.currentNode);
+  const escapa = t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  while (pendents.length) {
+    const node = pendents.shift();
+    for (const a of alies) {
+      if (fets.has(a.id)) continue;
+      const re = new RegExp(`(^|[^\\p{L}·])(${escapa(a.text)}(?:s|es|ns)?)(?![\\p{L}·])`, "iu");
+      const m = node.nodeValue.match(re);
+      if (!m) continue;
+      fets.add(a.id);
+      const paraula = node.splitText(m.index + m[1].length);
+      const resta = paraula.splitText(m[2].length);
+      const enllac = document.createElement("a");
+      enllac.className = "terme-glossari";
+      enllac.href = `glossari.html#${a.id}`;
+      enllac.title = "Veure al glossari";
+      enllac.textContent = m[2];
+      paraula.replaceWith(enllac);
+      pendents.unshift(node, resta); // continua buscant abans i després de l'enllaç
+      break;
+    }
+  }
+}
+
+async function paginaApunts() {
+  const caixa = document.getElementById("apunts");
+  const params = new URLSearchParams(location.search);
+  const clau = params.get("curs");
+  const numero = Number(params.get("sessio"));
+  try {
+    const [dades, apunts, per, termes] = await Promise.all([
+      carrega("sessions.json"), carrega(`apunts/${clau}.json`), periodes(),
+      carrega("glossari.json").catch(() => [])
+    ]);
+    const curs = dades[clau];
+    const a = apunts.sessions.find(x => x.numero === numero);
+    if (!curs || !a) throw new Error("No s'han trobat aquests apunts");
+
+    const trimestre = curs.trimestres.find(t => t.sessions.some(x => x.numero === numero));
+    const sessio = trimestre.sessions.find(x => x.numero === numero);
+    const color = colorTrimestre(trimestre);
+    const pagCurs = { "4t": "4t.html", "5e": "5e.html", "6e": "6e.html" }[clau];
+    const disponibles = apunts.sessions.map(x => x.numero);
+    const ant = disponibles.filter(n => n < numero).pop();
+    const seg = disponibles.find(n => n > numero);
+    document.title = `Sessió ${dosDigits(numero)} · ${a.titol} · ${curs.nom}`;
+
+    const cerca = t => `https://www.youtube.com/results?search_query=${encodeURIComponent(t.replace(/\(.*?\)/g, ""))}`;
+    const contingut = sec => sec.contingut.map(k =>
+      k.tipus === "llista" ? `<ul>${k.items.map(i => `<li>${i}</li>`).join("")}</ul>`
+      : k.tipus === "escolta" ? `<div class="escolta"><span class="icona-escolta" aria-hidden="true">${ICONES.musica}</span><p>${k.html}</p></div>`
+      : `<p>${k.html}</p>`).join("");
+
+    caixa.style.setProperty("--color", color);
+    caixa.innerHTML = `
+      <header class="cap-apunts" style="background:${color}">
+        <div class="contenidor">
+          <nav class="molles" aria-label="On ets"><a href="${pagCurs}">${esc(curs.nom)}</a> › ${esc(trimestre.nom)}${trimestre.tema ? ` · ${esc(trimestre.tema)}` : ""}</nav>
+          <p class="num-sessio">Sessió ${dosDigits(numero)}${sessio?.data ? ` · ${esc(dataLlarga(sessio.data))}` : ""}</p>
+          <h1>${esc(a.titol)}</h1>
+          ${a.subtitol ? `<p class="subtitol">${esc(a.subtitol)}</p>` : ""}
+        </div>
+      </header>
+
+      <div class="contenidor cos-apunts">
+        <div class="accions-apunts no-imprimir">
+          ${sessio?.enllac ? `<a class="boto" style="--color:${color}" href="${esc(sessio.enllac)}" target="_blank" rel="noopener">${ICONES.diapositives}Obre la presentació</a>` : ""}
+          <button class="boto secundari" style="--color:${color}" type="button" id="imprimeix">${ICONES.apunts}Desa en PDF</button>
+        </div>
+
+        ${a.audicions.length ? `
+        <section class="audicions-sessio">
+          <h2>${esc(a.etiquetaAudicions || "Audicions de la sessió")}</h2>
+          <ul>${a.audicions.map(x => `
+            <li class="${x.clau ? "clau" : ""}">
+              <span>${x.clau ? '<span class="estrella" title="Obra clau">★</span>' : ""}${esc(x.text)}</span>
+              <a class="no-imprimir" href="${cerca(x.text)}" target="_blank" rel="noopener">${ICONES.musica}Escolta</a>
+            </li>`).join("")}
+          </ul>
+        </section>` : ""}
+
+        <article class="text-apunts">
+          ${a.seccions.map(sec => `
+            <section class="${sec.escoltem ? "seccio-escoltem" : ""}">
+              <h2>${esc(sec.titol)}</h2>
+              ${contingut(sec)}
+            </section>`).join("")}
+        </article>
+
+        ${a.apres ? `<section class="apres"><h2>Què hem après realment?</h2>${a.apres.startsWith("<") ? a.apres : `<p>${a.apres}</p>`}</section>` : ""}
+
+        ${a.obraClau?.obra ? `
+        <section class="obra-clau">
+          <span class="etiqueta">Obra clau ${numero === disponibles[disponibles.length - 1] && /síntesi/i.test(a.titol) ? "del trimestre" : "de la sessió"}</span>
+          <h2>${esc(a.obraClau.obra)}</h2>
+          ${a.obraClau.motiu ? `<p>${a.obraClau.motiu}</p>` : ""}
+          <a class="no-imprimir" href="${cerca(a.obraClau.obra)}" target="_blank" rel="noopener">${ICONES.musica}Escolta-la</a>
+        </section>` : ""}
+
+        <nav class="navega-sessions no-imprimir" aria-label="Altres sessions">
+          ${ant ? `<a href="apunts.html?curs=${clau}&sessio=${ant}">← Sessió ${dosDigits(ant)}</a>` : "<span></span>"}
+          <a href="${pagCurs}">Totes les sessions</a>
+          ${seg ? `<a href="apunts.html?curs=${clau}&sessio=${seg}">Sessió ${dosDigits(seg)} →</a>` : "<span></span>"}
+        </nav>
+      </div>`;
+
+    document.getElementById("imprimeix").addEventListener("click", () => print());
+    if (termes.length) enllacaGlossari(caixa.querySelector(".text-apunts"), aliesGlossari(termes, clau));
+  } catch (e) {
+    mostraError(caixa, e);
+  }
+}
+
 /* ---------- App al mòbil ---------- */
 
 function preparaApp() {
@@ -752,4 +971,5 @@ document.addEventListener("DOMContentLoaded", () => {
   else if (pagina === "linia") paginaLinia();
   else if (pagina === "glossari") paginaGlossari();
   else if (pagina === "audicions") paginaAudicions();
+  else if (pagina === "apunts") paginaApunts();
 });

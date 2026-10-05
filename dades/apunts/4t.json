@@ -1,0 +1,1231 @@
+{
+ "curs": "4t",
+ "sessions": [
+  {
+   "numero": 1,
+   "titol": "Com s'escolta la història",
+   "subtitol": "Un viatge de 2.500 anys de música en tres cursos",
+   "audicions": [
+    {
+     "text": "Pérotin – Viderunt omnes",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Concert de Brandenburg n. 3 (1r moviment)",
+     "clau": false
+    },
+    {
+     "text": "S. Reich – Music for 18 Musicians (inici)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Què és la història de la música?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La història de la música estudia com ha canviat la música al llarg del temps i, sobretot, <strong>per què</strong> ha canviat. La música no apareix del no-res: cada obra neix en una societat concreta, amb unes creences, uns poders, unes tecnologies i uns gustos determinats. Una missa medieval, una òpera barroca o una peça minimalista sonen com sonen perquè responen a la seva època. Entendre aquest context ens ajuda a entendre la música, i a la inversa: la música ens ajuda a entendre la història."
+      },
+      {
+       "tipus": "p",
+       "html": "Per a un intèrpret, això és fonamental. No es toca igual una obra del Barroc que una del Romanticisme: l&#x27;articulació, el vibrato, l&#x27;ornamentació, el tempo o la manera de fraseig depenen de l&#x27;estil. Conèixer la història és, per tant, una eina per interpretar millor el vostre repertori."
+      }
+     ]
+    },
+    {
+     "titol": "Els grans períodes",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Per ordenar tanta informació, els historiadors divideixen la música occidental en períodes. Són etiquetes útils, però cal recordar que els canvis mai no són sobtats: els estils conviuen i es transformen a poc a poc."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Antiguitat</strong> (fins al s. V): Grècia i Roma. Gairebé tota la música s&#x27;ha perdut.",
+        "<strong>Edat Mitjana</strong> (s. V-XIV): el cant gregorià, els trobadors i el naixement de la polifonia.",
+        "<strong>Renaixement</strong> (s. XV-XVI): la polifonia clara i equilibrada.",
+        "<strong>Barroc</strong> (1600-1750): el baix continu, l&#x27;òpera i el concert.",
+        "<strong>Classicisme</strong> (1750-1820): la forma sonata, la simfonia i l&#x27;equilibri.",
+        "<strong>Romanticisme</strong> (s. XIX): l&#x27;expressió individual i el virtuosisme.",
+        "<strong>Segles XX i XXI</strong>: la ruptura amb la tonalitat i la diversitat d&#x27;estils."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "A 4t estudiarem de l&#x27;Antiguitat al Renaixement, a 5è el Barroc i el Classicisme, i a 6è el Romanticisme i la música dels segles XX i XXI."
+      }
+     ]
+    },
+    {
+     "titol": "Les fonts: com sabem el que sabem?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Per estudiar la música del passat tenim diferents tipus de <strong>fonts</strong>:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Partitures i manuscrits:</strong> la font més directa, però sovint incompleta. Durant segles, la notació només recordava una part de la música.",
+        "<strong>Tractats teòrics:</strong> textos on els músics expliquen com componien i com cantaven.",
+        "<strong>Iconografia:</strong> pintures, escultures i miniatures que ens mostren instruments i músics.",
+        "<strong>Documents d&#x27;arxiu:</strong> contractes, pagaments, cartes.",
+        "<strong>Instruments conservats</strong> i, a partir del segle XX, <strong>enregistraments</strong>."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Això vol dir que moltes vegades el que escoltam és una <strong>reconstrucció</strong>: els intèrprets d&#x27;avui estudien les fonts i prenen decisions. Per això dues versions d&#x27;una mateixa obra antiga poden sonar molt diferents."
+      }
+     ]
+    },
+    {
+     "titol": "Com escoltarem",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "En aquesta assignatura, l&#x27;audició és el punt de partida. Cada sessió treballarem tres audicions, una o dues a fons, seguint sempre el mateix mètode: primera escolta lliure, posada en comú, segona escolta guiada i descobriment del context. Per descriure el que sentim farem servir sempre els mateixos paràmetres:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Formació:</strong> veus, instruments o totes dues coses?",
+        "<strong>Textura:</strong> una sola melodia (monodia), diverses melodies independents (polifonia) o una melodia acompanyada?",
+        "<strong>Ritme:</strong> hi ha una pulsació regular o és lliure?",
+        "<strong>Melodia i harmonia:</strong> com es mou la melodia, quins intervals hi dominen?",
+        "<strong>Forma:</strong> com s&#x27;organitza l&#x27;obra, què es repeteix?",
+        "<strong>Funció:</strong> per a què servia aquesta música?"
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Per començar, farem un joc: escoltar tres fragments sense saber què són i intentar ordenar-los en el temps. El primer, el <strong>Viderunt omnes</strong> de Pérotin, sona a catedral: només hi ha veus, unes notes molt llargues al greu i unes línies que s&#x27;entrellacen a dalt amb molts ornaments. És música de cap a l&#x27;any 1200, una de les primeres grans obres polifòniques de la història."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El segon, el <strong>Concert de Brandenburg n. 3</strong> de Bach (1721), té una energia completament diferent. Sentim instruments de corda, una pulsació constant que no s&#x27;atura mai i grups que dialoguen entre ells. Aquesta pulsació regular és molt típica del Barroc."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El tercer, <strong>Music for 18 Musicians</strong> de Steve Reich (1976), està fet de patrons que es repeteixen i que canvien molt a poc a poc, fins al punt que perdem la noció del temps. I aquí hi ha una sorpresa: la música més antiga i la més moderna comparteixen una idea, la repetició que sembla aturar el temps."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la història de la música estudia els canvis i les seves causes, que coneixem el passat a través de fonts sovint incompletes, i que el so ens dona pistes: la formació, la textura i el ritme ens ajuden a situar una obra en el temps.</p>",
+   "obraClau": {
+    "obra": "Pérotin – Viderunt omnes",
+    "motiu": "Perquè és el punt de partida del nostre viatge: la primera gran polifonia i una música que, més de vuit segles després, encara ens sorprèn."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 2,
+   "titol": "La música com a fet humà",
+   "subtitol": "Orígens i músiques d'altres cultures",
+   "audicions": [
+    {
+     "text": "Gagaku – Etenraku",
+     "clau": true
+    },
+    {
+     "text": "Raga hindustànic (Ravi Shankar)",
+     "clau": false
+    },
+    {
+     "text": "Katajjaq, cant de gola inuit",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els orígens de la música",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Des de quan fa música l&#x27;ésser humà? No ho podem saber amb exactitud, perquè el so no deixa rastre. Però sí que tenim restes d&#x27;instruments. Els més antics que es conserven són <strong>flautes</strong> fetes d&#x27;os d&#x27;ocell i d&#x27;ivori de mamut, trobades en coves del sud d&#x27;Alemanya, com Hohle Fels i Geissenklösterle, que tenen més de 35.000 anys. Això vol dir que la música és tan antiga com les pintures rupestres. I és molt probable que abans d&#x27;aquestes flautes ja existissin el cant, les palmes i la percussió amb objectes, que no han deixat cap rastre."
+      },
+      {
+       "tipus": "p",
+       "html": "Per què fa música l&#x27;ésser humà? Hi ha diverses teories: per comunicar-se, per coordinar el treball en grup, per reforçar els vincles de la comunitat, per atraure parella, per acompanyar els rituals... Probablement, per totes aquestes raons alhora. El que sí sabem és que <strong>no s&#x27;ha trobat mai cap cultura humana sense música</strong>. És un fet universal, com el llenguatge."
+      }
+     ]
+    },
+    {
+     "titol": "Les funcions de la música",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "En la majoria de cultures, la música no és una cosa que s&#x27;escolta asseguda en silenci, com en un concert. Està lligada a la vida:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Ritual i religiosa:</strong> pregar, celebrar els déus, acompanyar la mort.",
+        "<strong>Social:</strong> festes, casaments, danses.",
+        "<strong>De treball:</strong> cançons per coordinar esforços, com remar o batre.",
+        "<strong>De poder:</strong> música de cort, música militar.",
+        "<strong>De joc i diversió.</strong>"
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta idea serà molt important durant tot el curs: per entendre una música, primer ens hem de preguntar <strong>per a què servia</strong>."
+      }
+     ]
+    },
+    {
+     "titol": "La música occidental, una tradició entre moltes",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La música que estudiarem aquests tres cursos és la <strong>música occidental</strong>, la tradició europea escrita. És la tradició que heu estudiat al conservatori, però és només una de moltes. Altres cultures han desenvolupat sistemes musicals tan complexos com el nostre, amb escales diferents (amb intervals més petits que el semitò, per exemple), amb concepcions del ritme i del temps diferents, i sovint basats en la transmissió oral i la improvisació, en lloc de la partitura."
+      },
+      {
+       "tipus": "p",
+       "html": "Mirar fora ens serveix per dues coses: per valorar la riquesa musical del món i per adonar-nos que moltes coses que ens semblen «naturals» (l&#x27;escala major, el compàs, l&#x27;harmonia) són en realitat una construcció cultural de la nostra tradició."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Etenraku</strong> és una peça de <strong>gagaku</strong>, la música de la cort imperial japonesa, amb arrels de fa més de mil anys. És una de les tradicions orquestrals vives més antigues del món. Quan l&#x27;escoltam, el primer que notam és que el temps sembla suspès. Comença una flauta sola i lliure, el ryūteki; després entra el shō, un petit orgue de boca que fa acords estàtics com una boira sonora, i el hichiriki, un instrument de canya amb un so molt penetrant que porta la melodia. Els tambors no marquen un ritme com el nostre, sinó grans cicles molt lents, i el biwa i el koto puntegen. És una música d&#x27;ordre, jerarquia i cerimònia, pensada per a la cort."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>raga</strong> hindustànic ens porta al nord de l&#x27;Índia. Un raga és molt més que una escala: és un conjunt de notes, girs melòdics i un caràcter emocional, associat sovint a un moment del dia. Tot se sosté sobre el bordó de la tanpura, una nota contínua que no canvia. Damunt seu, el sitar improvisa seguint unes regles molt precises, i la tabla hi afegeix cicles rítmics cada vegada més complexos. Tot i ser improvisada, és una música amb una teoria tan sofisticada com la nostra."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>katajjaq</strong> és completament diferent: dues dones inuit, cara a cara, fan sons amb la respiració i la gola, alternant-se molt ràpidament. És un joc: perd qui riu primer o qui perd el ritme. Aquí la música és diversió i competició."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música és tan antiga com l&#x27;ésser humà i existeix a totes les cultures, que sempre té una funció, i que cada cultura la viu d&#x27;una manera diferent: el temps, la textura i la funció canvien d&#x27;una tradició a l&#x27;altra.</p>",
+   "obraClau": {
+    "obra": "Gagaku – Etenraku",
+    "motiu": "Perquè ens mostra una orquestra de cort amb més de mil anys d&#x27;història i una manera totalment diferent de viure el temps musical."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 3,
+   "titol": "Grècia I: la música dels déus i dels homes",
+   "subtitol": "Quan música, poesia i dansa eren una sola cosa",
+   "audicions": [
+    {
+     "text": "Epitafi de Seikilos",
+     "clau": true
+    },
+    {
+     "text": "Himne dèlfic a Apol·lo (Atenaios)",
+     "clau": true
+    },
+    {
+     "text": "Eurípides – Orestes, fragment del cor",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: la Grècia antiga",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La cultura grega es desenvolupa al voltant del mar Egeu entre els segles VIII i I aC, organitzada en <strong>ciutats estat</strong> (polis) com Atenes o Esparta. És una cultura que posa les bases de gran part del pensament occidental: la filosofia, la democràcia, el teatre, les matemàtiques. I també de la teoria musical: moltes paraules que feim servir cada dia són gregues, com <em>música</em>, <em>harmonia</em>, <em>melodia</em>, <em>ritme</em>, <em>orquestra</em> o <em>cor</em>."
+      },
+      {
+       "tipus": "p",
+       "html": "Tenim, però, un gran problema: de la música grega en conservam moltíssim poca. Sabem molt del que <strong>pensaven</strong> els grecs sobre la música, perquè els filòsofs en van escriure molt, però molt poc de com <strong>sonava</strong>. Conservam uns 60 fragments, gairebé tots incomplets, gravats en pedra o escrits en papirs. Els grecs tenien un sistema de notació amb lletres, però la major part de la música es transmetia de memòria."
+      }
+     ]
+    },
+    {
+     "titol": "La mousiké",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Per als grecs, la paraula <strong>mousiké</strong> («l&#x27;art de les Muses») no volia dir exactament «música». Designava una sola art que unia <strong>música, poesia i dansa</strong>. Una cançó era alhora text, melodia, ritme i moviment. El ritme musical sortia directament de la mètrica del poema, és a dir, de l&#x27;alternança de síl·labes llargues i curtes. Per això gairebé tota la música grega que conservam és vocal i està lligada a un text."
+      },
+      {
+       "tipus": "p",
+       "html": "La mousiké tenia un paper central a la vida:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>A l&#x27;educació:</strong> els joves aprenien a cantar i a tocar la lira. Es considerava imprescindible per formar bons ciutadans.",
+        "<strong>A la religió:</strong> himnes als déus, processons, sacrificis.",
+        "<strong>Al teatre:</strong> la tragèdia i la comèdia eren, en bona part, cantades.",
+        "<strong>Als certàmens:</strong> hi havia concursos musicals, com als Jocs Pítics de Delfos.",
+        "<strong>Al simposi:</strong> el banquet on es bevia, es conversava i es cantava."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Els instruments",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els grecs tenien dues grans famílies d&#x27;instruments, associades a dos déus i a dues maneres d&#x27;entendre la música:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La lira i la kithara</strong> (corda polsada): la lira, feta amb una closca de tortuga, era l&#x27;instrument de l&#x27;educació i dels aficionats; la kithara, més gran i sonora, era la dels músics professionals. Estaven associades a <strong>Apol·lo</strong>, déu de l&#x27;ordre, la raó i la llum.",
+        "<strong>L&#x27;aulos</strong> (vent): un instrument de doble canya, semblant a un oboè, que es tocava per parelles, un tub a cada mà. El seu so era penetrant i excitant, i estava associat a <strong>Dionís</strong>, déu del vi, de l&#x27;èxtasi i del teatre."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta oposició entre la música apol·línia (serena, equilibrada) i la dionisíaca (apassionada, emocional) és una idea que es repetirà moltes vegades al llarg de la història de la música."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "La peça més important que conservam és l&#x27;<strong>Epitafi de Seikilos</strong>. No es va trobar en cap llibre, sinó gravada en una estela funerària de marbre a Tralles (Turquia), l&#x27;any 1883, amb el text i els signes musicals damunt de cada síl·laba. Data aproximadament del segle I dC i és la <strong>composició completa més antiga que conservam</strong>. Quan l&#x27;escoltam, ens adonam que és una melodia sola, sense altres veus: això és la <strong>monodia</strong>. Fixau-vos que la música segueix el ritme de les paraules. El missatge ens arriba de lluny però ens és molt proper: «mentre visquis, brilla; no t&#x27;afligeixis per res; la vida és curta i el temps en reclama el final». La música no és trista, sinó serena, gairebé un consell. I cap al final la melodia descendeix i s&#x27;apaga, com la vida de la qual parla."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A l&#x27;<strong>Himne dèlfic a Apol·lo</strong>, compost per Atenaios cap al 138 aC i gravat a les parets del Tresor dels Atenesos a Delfos, sentim una música molt diferent. És un cant de lloança a un déu, pensat per a una cerimònia i per ser cantat per un cor. Comparat amb Seikilos, la melodia és més llarga, més solemne i ornamentada, amb girs que ens sonen estranys perquè utilitza intervals que avui no fem servir. Seikilos és música íntima i privada; l&#x27;himne dèlfic és música pública i ritual."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Finalment, el fragment de l&#x27;<strong>Orestes</strong> d&#x27;Eurípides (408 aC) ens porta al teatre. El cor comentava l&#x27;acció cantant i dansant, i la música ajudava el públic a sentir el patiment dels personatges. Del papir que el conserva, a Viena, només en queden trossos, i precisament aquests buits ens recorden com és de fràgil la memòria musical."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Per als grecs, la música no era un art separat, sinó part de la vida: acompanyava l&#x27;educació, la mort, la religió i el teatre. I ja des de l&#x27;inici veiem dues cares de la música que ens acompanyaran tota la història: la <strong>música íntima</strong> i la <strong>música pública</strong>, la <strong>música apol·línia</strong> i la <strong>dionisíaca</strong>.</p>",
+   "obraClau": {
+    "obra": "Epitafi de Seikilos",
+    "motiu": "Perquè és la composició completa més antiga que conservam i perquè, gairebé dos mil anys després, el seu missatge encara ens parla directament."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 4,
+   "titol": "Grècia II: Pitàgores, els nombres i els modes",
+   "subtitol": "Quan la música era una ciència",
+   "audicions": [
+    {
+     "text": "Mesomedes – Himne a Hèlios",
+     "clau": true
+    },
+    {
+     "text": "Mesomedes – Himne a Nèmesis",
+     "clau": false
+    },
+    {
+     "text": "Himne a la Musa",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Pitàgores i el monocordi",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Si la sessió anterior vam veure la música com a art, avui la veurem com a ciència. Per als grecs, entendre la música volia dir entendre els nombres, i el gran responsable d&#x27;aquesta idea va ser <strong>Pitàgores</strong> de Samos, al segle VI aC, filòsof i matemàtic."
+      },
+      {
+       "tipus": "p",
+       "html": "Segons la tradició, Pitàgores experimentava amb el <strong>monocordi</strong>, un instrument d&#x27;una sola corda tensada damunt d&#x27;una caixa, amb un pont mòbil que permetia dividir-la. Va descobrir que els intervals que sonen més consonants corresponen a divisions molt simples de la corda:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Octava:</strong> proporció 2:1 (la meitat de la corda).",
+        "<strong>Cinquena:</strong> proporció 3:2 (dues terceres parts de la corda).",
+        "<strong>Quarta:</strong> proporció 4:3 (tres quartes parts de la corda)."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquest descobriment va ser revolucionari: demostrava que la bellesa del so tenia una base matemàtica. A partir d&#x27;aquí, els pitagòrics van construir la seva afinació, l&#x27;<strong>afinació pitagòrica</strong>, basada en la successió de cinquenes pures. Aquesta afinació es farà servir durant tota l&#x27;Edat Mitjana, i explica per què durant segles es van considerar consonants només l&#x27;octava, la cinquena i la quarta, i no les terceres."
+      }
+     ]
+    },
+    {
+     "titol": "La música de les esferes",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els pitagòrics van anar més enllà: si els sons agradables es basen en nombres i proporcions, tot l&#x27;univers, que també està ordenat per nombres, ha de sonar. Els planetes, en girar, produirien una música perfecta, la <strong>música de les esferes</strong>, que no podem sentir perquè l&#x27;hem sentida sempre. Aquesta idea tindrà una enorme influència: durant tota l&#x27;Edat Mitjana, la música s&#x27;estudiarà a les universitats al costat de l&#x27;aritmètica, la geometria i l&#x27;astronomia, com una de les quatre ciències matemàtiques."
+      }
+     ]
+    },
+    {
+     "titol": "El sistema musical grec",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Sobre aquesta base, els grecs van construir un sistema teòric molt elaborat:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El tetracord:</strong> la unitat bàsica, un grup de quatre notes descendents dins l&#x27;interval de quarta. Les dues notes dels extrems eren fixes, i les del mig podien canviar.",
+        "<strong>Els gèneres:</strong> segons on es col·locaven les notes del mig, el tetracord podia ser <strong>diatònic</strong> (tons i semitons, com les nostres escales), <strong>cromàtic</strong> (amb dos semitons seguits) o <strong>enharmònic</strong> (amb intervals més petits que un semitò, els quarts de to).",
+        "<strong>Les harmoniai:</strong> unint dos tetracords s&#x27;obtenien escales d&#x27;una octava, que rebien noms de pobles grecs: dòria, frígia, lídia, mixolídia... Cadascuna tenia un caràcter propi."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Atenció: els noms dels modes grecs els retrobarem a l&#x27;Edat Mitjana, però els teòrics medievals els van aplicar a escales diferents per una confusió. El mode dori medieval no és el mateix que el dori grec."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Himne a Hèlios</strong> de <strong>Mesomedes de Creta</strong>, un músic de la cort de l&#x27;emperador Adrià (segle II dC), ens permet escoltar aquest sistema en acció. Comença demanant silenci a tot el món davant l&#x27;arribada del déu del sol, i després descriu el seu carro que travessa el cel. Fixau-vos que la melodia es mou sobretot per graus conjunts, sense grans salts, i que el ritme ve directament de la mètrica del poema. El caràcter és solemne i lluminós, amb frases amples i regulars. Aquí veiem els nombres de Pitàgores convertits en so ordenat."
+      },
+      {
+       "tipus": "p",
+       "html": "Aquests himnes tenen una història curiosa: es van conservar en manuscrits bizantins i es van publicar el 1581 gràcies a <strong>Vincenzo Galilei</strong>, el pare de Galileu. Galilei formava part d&#x27;un grup de florentins que volien recuperar la música grega, i d&#x27;aquest intent, com veurem a final de curs, naixerà l&#x27;òpera."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Himne a Nèmesis</strong>, dedicat a la deessa de la justícia, ens permet comparar: amb un llenguatge semblant, el caràcter és més greu i més seriós."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Himne a la Musa</strong>, molt breu, és gairebé un preludi: una invocació a la inspiració abans de començar a cantar."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que per als grecs la música era també matemàtica: els intervals consonants són proporcions simples, l&#x27;univers mateix és música i els modes s&#x27;organitzen a partir de tetracords. Aquesta idea de la música com a ordre i nombre travessarà tota l&#x27;Edat Mitjana.</p>",
+   "obraClau": {
+    "obra": "Mesomedes – Himne a Hèlios",
+    "motiu": "Perquè uneix la teoria dels nombres amb una música que podem escoltar, i perquè, segles després, va inspirar els inventors de l&#x27;òpera."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 5,
+   "titol": "Grècia III i Roma: la música ens fa millors?",
+   "subtitol": "L'ethos, els filòsofs i l'espectacle romà",
+   "audicions": [
+    {
+     "text": "Limenios – Peà a Apol·lo",
+     "clau": true
+    },
+    {
+     "text": "E. Satie – Gymnopédie n. 1",
+     "clau": false
+    },
+    {
+     "text": "Música de l'antiga Roma (reconstrucció)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La teoria de l'ethos",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els grecs estaven convençuts que la música tenia un poder real sobre les persones. A aquesta idea l&#x27;anomenaven <strong>ethos</strong>, paraula que vol dir «caràcter». Segons la teoria de l&#x27;ethos, cada mode, cada ritme i cada instrument produeix un efecte concret en l&#x27;estat d&#x27;ànim i en el caràcter de qui l&#x27;escolta. Una música podia fer una persona valenta o covarda, equilibrada o descontrolada. Per això, la música no era una qüestió de gust personal, sinó un tema d&#x27;educació i fins i tot de política."
+      }
+     ]
+    },
+    {
+     "titol": "Plató i Aristòtil",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Plató</strong> (s. V-IV aC) parla de la música en obres com <em>La República</em> i <em>Les Lleis</em>. La seva posició és molt estricta:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "La música és una eina fonamental per educar els ciutadans, i per això l&#x27;Estat l&#x27;ha de controlar.",
+        "A la seva ciutat ideal només s&#x27;haurien d&#x27;admetre els modes <strong>dori</strong> (que fa valents) i <strong>frigi</strong> (que fa moderats).",
+        "S&#x27;haurien de prohibir els modes «tous» o lamentosos, com el lidi o el mixolidi, perquè debiliten el caràcter.",
+        "També desconfia dels instruments massa complicats, com l&#x27;aulos, i de les innovacions, perquè canviar la música pot fer trontollar l&#x27;ordre social."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Aristòtil</strong> (s. IV aC), deixeble de Plató, és menys rigorós. A la <em>Política</em> diu que la música té diverses funcions:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Educar</strong> el caràcter, com deia Plató.",
+        "<strong>Divertir i descansar</strong>: el lleure també és valuós.",
+        "Produir la <strong>catarsi</strong>: una purificació de les emocions. Quan escoltam una música que ens commou, alliberam tensions i en sortim renovats."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquest debat entre la música que ha d&#x27;educar i la música que ha d&#x27;emocionar el retrobarem moltes vegades al llarg de la història: a l&#x27;Església medieval, a la Contrareforma, a les discussions sobre la música «seriosa» i la «lleugera», i fins i tot avui, quan es debat sobre la influència de la música en els joves."
+      }
+     ]
+    },
+    {
+     "titol": "La música a Roma",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Quan Roma conquereix Grècia (s. II aC), adopta bona part de la seva cultura, també la musical: la teoria, els instruments i molts músics grecs, que treballen a Roma. Però els romans en fan un ús diferent. La música deixa de ser una qüestió filosòfica i educativa per convertir-se sobretot en <strong>espectacle</strong>:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Música als teatres, als circs i als combats de gladiadors.",
+        "Música militar, amb instruments de metall com la <strong>tuba</strong> (recta) i el <strong>cornu</strong> (corbat).",
+        "Músics virtuosos, autèntiques estrelles, fins i tot emperadors com Neró, que es presentava a concursos.",
+        "L&#x27;<strong>hydraulis</strong>, un orgue inventat a Alexandria que funcionava amb pressió d&#x27;aigua i que sonava als espectacles. És l&#x27;avantpassat de l&#x27;orgue."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "De la música romana no ens n&#x27;ha arribat pràcticament cap partitura. El que escoltam avui són reconstruccions basades en instruments, textos i imatges."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Peà a Apol·lo</strong> de <strong>Limenios</strong>, gravat a Delfos l&#x27;any 128 aC, ens mostra la música grega en el seu moment més públic. Era part d&#x27;una gran processó religiosa d&#x27;Atenes. Primer invoca Apol·lo i les Muses, després recorda el naixement del déu i les seves victòries, i finalment demana protecció per a Atenes... i per a Roma. Fixau-vos que la melodia és ornamentada i utilitza intervals que ens sonen estranys. És una música col·lectiva i ritual, i en el text ja hi apareix el nou poder del Mediterrani."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Per debatre sobre l&#x27;ethos, feim un salt de dos mil anys: la <strong>Gymnopédie n. 1</strong> d&#x27;Erik Satie, de 1888. El títol fa referència a una dansa de l&#x27;antiga Esparta, però aquesta música és una Grècia imaginada, lenta, suspesa i melancòlica. La pregunta per a vosaltres és: quin ethos li hauria atribuït Plató? L&#x27;hauria acceptada a la seva ciutat ideal?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "Finalment, escoltam una reconstrucció de la música de <strong>Roma</strong>. Fixau-vos en el so dels instruments de metall i de l&#x27;hydraulis: una música més espectacular i menys filosòfica. Cal recordar, però, que és una reconstrucció moderna."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que per als grecs la música tenia poder sobre el caràcter (ethos), que Plató volia controlar-la per educar i Aristòtil hi veia també lleure i catarsi, i que Roma va convertir la música en espectacle.</p>",
+   "obraClau": {
+    "obra": "Limenios – Peà a Apol·lo",
+    "motiu": "Perquè resumeix la música grega com a acte col·lectiu i religiós just en el moment en què Roma es converteix en la nova potència."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 6,
+   "titol": "Els primers cristians: del temple a l'església",
+   "subtitol": "Una nova fe que canta",
+   "audicions": [
+    {
+     "text": "Himne d'Oxirrinc",
+     "clau": true
+    },
+    {
+     "text": "Al·leluia mossàrab",
+     "clau": true
+    },
+    {
+     "text": "Querubikon bizantí",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: el pas a l'Edat Mitjana",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Durant els primers segles de la nostra era, el cristianisme passa de ser una religió perseguida a ser la religió oficial de l&#x27;Imperi romà (any 380). L&#x27;any 476 cau l&#x27;Imperi romà d&#x27;Occident, i amb aquesta data es considera que comença l&#x27;<strong>Edat Mitjana</strong>. Europa es fragmenta en regnes, les ciutats perden importància i l&#x27;<strong>Església</strong> es converteix en la gran institució que conserva la cultura: la lectura, l&#x27;escriptura i també la música es mantenen sobretot als monestirs i a les catedrals."
+      },
+      {
+       "tipus": "p",
+       "html": "Per això, durant molts segles, la música que conservam és gairebé exclusivament <strong>música religiosa</strong>. No perquè no n&#x27;hi hagués d&#x27;altra, sinó perquè només l&#x27;Església l&#x27;escrivia."
+      }
+     ]
+    },
+    {
+     "titol": "Les arrels de la música cristiana",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La música cristiana neix de dues tradicions:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La tradició jueva:</strong> els primers cristians eren jueus, i van mantenir el cant dels <strong>salms</strong> que es feia a les sinagogues. D&#x27;aquí prenen dues maneres de cantar: la <strong>responsorial</strong>, en què un solista canta i el poble respon amb una frase breu, i l&#x27;<strong>antifonal</strong>, en què dos cors s&#x27;alternen els versos.",
+        "<strong>La tradició grega:</strong> la teoria musical, els modes i la idea de l&#x27;ethos, que els pensadors cristians adapten a la nova fe."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Els Pares de l&#x27;Església, com sant Agustí o sant Jeroni, van reflexionar molt sobre la música. Pensaven que era un camí per acostar-se a Déu, però també desconfiaven del plaer que produïa: la música havia de servir el text sagrat, no distreure&#x27;l. Per això van rebutjar els <strong>instruments</strong>, que associaven als rituals pagans, al teatre i als espectacles romans. La música de l&#x27;Església serà durant segles una <strong>música vocal</strong>, i la paraula en serà el centre."
+      }
+     ]
+    },
+    {
+     "titol": "Les litúrgies primitives",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>litúrgia</strong> és el conjunt de ritus i cerimònies d&#x27;una religió. En els primers segles no hi havia una litúrgia única: cada regió desenvolupava la seva, amb els seus textos i les seves melodies:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Bizantina:</strong> a Constantinoble, capital de l&#x27;Imperi romà d&#x27;Orient. Encara avui és viva a les esglésies ortodoxes.",
+        "<strong>Ambrosiana:</strong> a Milà, atribuïda a sant Ambròs (s. IV), gran impulsor dels himnes. També es conserva avui.",
+        "<strong>Gal·licana:</strong> a la Gàl·lia, l&#x27;actual França.",
+        "<strong>Hispànica o mossàrab:</strong> a la Península Ibèrica, amb centre a Toledo. Es va abolir al segle XI, però es conserva en manuscrits com l&#x27;Antifonari de Lleó (s. X).",
+        "<strong>Romana:</strong> a Roma. Fusionada amb la gal·licana, donarà lloc al cant gregorià."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Himne d&#x27;Oxirrinc</strong> és un petit miracle. Es va trobar en un papir a Egipte, del segle III dC, i és la música cristiana més antiga que conservam amb notació. Quan l&#x27;escoltam, sembla música grega, i de fet ho és: la notació i el llenguatge són grecs. Però el text és cristià. Comença demanant silenci a tota la creació, lloa el Pare, el Fill i l&#x27;Esperit Sant, i acaba amb un «Amén» repetit. Aquí veiem com una nova fe fa servir la música de l&#x27;antiga cultura: canvia la funció, però encara no el llenguatge."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Al·leluia mossàrab</strong> ens porta a la tradició hispànica. Fixau-vos en els <strong>melismes</strong>, llargues cadenes de notes sobre una sola síl·laba, que li donen un color ornamentat i gairebé oriental. La seva notació indica la direcció de la melodia però no les notes exactes, i per això el que escoltam són reconstruccions: una música que hem perdut en gran part."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Querubikon</strong> bizantí ens mostra una tradició que, a diferència de la mossàrab, continua viva. Fixau-vos en l&#x27;<strong>ison</strong>, una nota llarga i sostinguda que els cantors mantenen sota la melodia. Ens recorda el bordó de la sessió de les músiques del món."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que amb l&#x27;Edat Mitjana l&#x27;Església es converteix en la gran guardiana de la música, que la música cristiana neix de la tradició jueva i grega, que és vocal i al servei de la paraula, i que en els primers segles cada regió tenia la seva pròpia litúrgia i el seu cant.</p>",
+   "obraClau": {
+    "obra": "Himne d'Oxirrinc",
+    "motiu": "Perquè és el primer cant cristià amb notació: el moment exacte en què la música grega passa a servir una nova fe."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 7,
+   "titol": "Cant gregorià I: la veu de l'Església",
+   "subtitol": "La missa, l'ofici i un cant per a tot un imperi",
+   "audicions": [
+    {
+     "text": "Introit Puer natus est",
+     "clau": true
+    },
+    {
+     "text": "Kyrie de la Missa de Angelis",
+     "clau": false
+    },
+    {
+     "text": "Salve Regina",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "L'origen del cant gregorià",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Si hi ha una música que associam a l&#x27;Edat Mitjana és el <strong>cant gregorià</strong>. Porta el nom del papa <strong>Gregori I</strong>, el Gran (590-604), i una llegenda explica que un colom, símbol de l&#x27;Esperit Sant, li dictava les melodies a l&#x27;orella mentre un monjo les copiava. Aquesta llegenda va donar al gregorià un prestigi immens: era una música d&#x27;origen diví."
+      },
+      {
+       "tipus": "p",
+       "html": "La realitat, però, és diferent. Els historiadors creuen que el gregorià es va formar als segles <strong>VIII i IX</strong>, quan els reis francs, i sobretot <strong>Carlemany</strong>, van voler unificar la litúrgia de tot el seu imperi seguint el model de Roma. El cant romà es va barrejar amb el cant gal·licà, i d&#x27;aquesta fusió va néixer el gregorià. Carlemany volia un imperi unit en la política, en la fe i també en la manera de cantar. A poc a poc, el gregorià va anar substituint les altres litúrgies d&#x27;Occident, com la hispànica."
+      }
+     ]
+    },
+    {
+     "titol": "Característiques del cant gregorià",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Monodia:</strong> una sola línia melòdica, cantada a l&#x27;uníson.",
+        "<strong>Vocal i sense instruments</strong> (a capella).",
+        "<strong>En llatí</strong>, la llengua de l&#x27;Església.",
+        "<strong>Ritme lliure:</strong> no hi ha compàs ni pulsació regular. El ritme neix de l&#x27;accent i la duració natural de les paraules.",
+        "<strong>Melodia per graus conjunts</strong>, en un àmbit reduït, sense grans salts.",
+        "<strong>Modal:</strong> s&#x27;organitza en modes, no en tonalitats (ho veurem la sessió que ve).",
+        "<strong>Anònim:</strong> no coneixem els autors. Són melodies col·lectives, transmeses i transformades durant segles.",
+        "<strong>Funcional:</strong> no és música per escoltar en concert, sinó per pregar dins la litúrgia."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "La missa i l'ofici",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El gregorià acompanya les dues grans celebracions de l&#x27;Església:"
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>La missa</strong> és la celebració central, i té dos tipus de parts:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>L&#x27;ordinari:</strong> textos que no canvien mai i es canten a totes les misses: <strong>Kyrie</strong> (petició de perdó), <strong>Gloria</strong> (lloança), <strong>Credo</strong> (professió de fe), <strong>Sanctus</strong> i <strong>Agnus Dei</strong>. Aquestes cinc parts seran, durant segles, el text de totes les misses polifòniques, de Machaut a Bach i de Mozart a Beethoven.",
+        "<strong>El propi:</strong> textos que canvien segons el dia i la festa: introit (cant d&#x27;entrada), gradual, al·leluia, ofertori i comunió."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>L&#x27;ofici</strong> o <strong>hores canòniques</strong> són les pregàries que els monjos canten en diferents moments del dia: matines (de nit), laudes (a l&#x27;alba), prima, tèrcia, sexta, nona, vespres (al capvespre) i completes (abans d&#x27;anar a dormir). S&#x27;hi canten salms, himnes i antífones. La música marca el temps del dia i també de l&#x27;any litúrgic (Advent, Nadal, Quaresma, Pasqua...)."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;introit <strong>Puer natus est</strong> és el cant d&#x27;entrada de la missa del dia de Nadal, i per tant forma part del propi. Fixau-vos en com comença: la melodia fa un salt ascendent a la primera paraula, com un crit d&#x27;alegria per l&#x27;infant que ha nascut. No hi ha pulsació regular; el ritme neix de les paraules llatines. L&#x27;introit té una forma molt clara: una <strong>antífona</strong>, després un verset del <strong>salm</strong> recitat sobre una nota fixa, el «Gloria Patri», i la repetició de l&#x27;antífona. És una forma A – salm – A."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Kyrie</strong> de la Missa de Angelis és una de les peces més conegudes de l&#x27;ordinari. Fixau-vos en les repeticions: tres «Kyrie eleison», tres «Christe eleison» i tres «Kyrie eleison» més, amb melodies que tornen i una darrera invocació més ampliada. El text és molt breu, i per això la música s&#x27;hi pot estendre."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Salve Regina</strong>, antífona mariana que es canta a completes, l&#x27;última hora del dia, té un to més íntim i recollit. Imaginau-vos un monestir a punt d&#x27;anar a dormir."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el gregorià neix de la voluntat d&#x27;unificar la litúrgia de l&#x27;imperi de Carlemany, que és una monodia vocal, en llatí, de ritme lliure i anònima, i que acompanya la missa (ordinari i propi) i l&#x27;ofici.</p>",
+   "obraClau": {
+    "obra": "Introit Puer natus est",
+    "motiu": "Perquè en un sol cant veiem com el gregorià serveix la festa i com la melodia s&#x27;ajusta al sentit del text."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 8,
+   "titol": "Cant gregorià II: modes, notes i el naixement del solfeig",
+   "subtitol": "D'on surten el do, el re i el mi",
+   "audicions": [
+    {
+     "text": "Himne Ut queant laxis",
+     "clau": true
+    },
+    {
+     "text": "Al·leluia Pascha nostrum",
+     "clau": true
+    },
+    {
+     "text": "Credo I",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els modes eclesiàstics",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El gregorià no s&#x27;organitza en tonalitats majors i menors, sinó en <strong>vuit modes eclesiàstics</strong>. Un mode és una escala amb una organització interna pròpia. Per identificar-lo cal mirar dues notes:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La final:</strong> la nota on acaba la melodia i on reposa. Pot ser <strong>re, mi, fa o sol</strong>.",
+        "<strong>El tenor</strong> o <strong>corda de recitació</strong>: la nota sobre la qual es reciten els textos i al voltant de la qual gira la melodia."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Cada final dona lloc a dos modes:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Autèntic:</strong> la melodia es mou per damunt de la final, fins a una octava més amunt.",
+        "<strong>Plagal</strong> (amb el prefix <em>hipo-</em>): la melodia es mou al voltant de la final, una quarta per sota i una cinquena per sobre."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Així obtenim vuit modes: protus (re), deuterus (mi), tritus (fa) i tetrardus (sol), cadascun autèntic i plagal. Més tard se&#x27;ls van donar els noms grecs: dori, hipodori, frigi, hipofrigi, lidi, hipolidi, mixolidi i hipomixolidi. Cada mode té un color expressiu propi, i els teòrics medievals, com els grecs, els atribuïen caràcters diferents."
+      }
+     ]
+    },
+    {
+     "titol": "La relació entre text i música",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Segons quantes notes es canten sobre cada síl·laba, distingim tres estils:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Sil·làbic:</strong> una nota per síl·laba. El text s&#x27;entén perfectament. Típic dels himnes, dels salms i de les parts amb molt de text, com el Credo.",
+        "<strong>Neumàtic:</strong> petits grups de dues a quatre notes per síl·laba. Típic dels introits.",
+        "<strong>Melismàtic:</strong> moltes notes sobre una sola síl·laba (un <strong>melisme</strong>). Típic dels al·leluies i dels graduals, cants de meditació i d&#x27;alegria."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "El naixement de la notació",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Durant segles, el gregorià es va transmetre <strong>oralment</strong>, de mestre a deixeble. Un cantor havia de memoritzar centenars de melodies, i es diu que calien uns deu anys per aprendre el repertori. A partir del segle IX, per ajudar la memòria, es comencen a escriure signes damunt del text:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Neumes in campo aperto</strong> («en camp obert»): signes sense línies que indiquen el gest de la melodia (puja, baixa, s&#x27;ornamenta), però no les notes exactes. Només servien a qui ja coneixia la melodia.",
+        "<strong>Notació diastemàtica:</strong> els neumes es col·loquen a diferents altures, primer al voltant d&#x27;una línia, després de dues (una de fa, vermella, i una de do, groga).",
+        "<strong>El tetragrama:</strong> quatre línies que permeten fixar exactament l&#x27;altura de cada nota. Amb el temps, els neumes es converteixen en la <strong>notació quadrada</strong>, que encara es fa servir als llibres de gregorià."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Guido d'Arezzo",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XI, un monjo italià, <strong>Guido d&#x27;Arezzo</strong> (c. 991-1033), va revolucionar l&#x27;ensenyament musical. Va perfeccionar el sistema de línies i va inventar un mètode per aprendre a cantar melodies noves a primera vista, cosa que va reduir molt el temps d&#x27;aprenentatge. El seu mètode es basava en unes síl·labes per a cada nota, la <strong>solmització</strong>, i en la <strong>mà guidoniana</strong>, una manera d&#x27;associar cada nota a una part dels dits per poder ensenyar-les visualment."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Les síl·labes de Guido surten de l&#x27;himne <strong>Ut queant laxis</strong>, dedicat a sant Joan Baptista i atribuït a Pau Diaca (s. VIII). Fixau-vos en una cosa: cada vers comença una nota més amunt que l&#x27;anterior. Guido va agafar la primera síl·laba de cada vers: <strong>UT</strong> queant laxis, <strong>RE</strong>sonare fibris, <strong>MI</strong>ra gestorum, <strong>FA</strong>muli tuorum, <strong>SOL</strong>ve polluti, <strong>LA</strong>bii reatum. Més endavant, l&#x27;«ut» es canviarà per «do» i s&#x27;hi afegirà el «si», de <strong>S</strong>ancte <strong>I</strong>oannes. L&#x27;himne és <strong>sil·làbic</strong>: una nota per síl·laba, perquè cada nota quedi ben clara."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;<strong>Al·leluia Pascha nostrum</strong>, de la missa de Pasqua, és tot el contrari. Fixau-vos en la darrera «a» d&#x27;Al·leluia: s&#x27;hi estira durant desenes de notes. Aquest melisme s&#x27;anomena <strong>jubilus</strong>. Aquí importa poc entendre el text: la música expressa una alegria tan gran que no cap en paraules. És l&#x27;estil <strong>melismàtic</strong>."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Credo I</strong> torna a l&#x27;estil sil·làbic, i per una raó ben pràctica: el text del Credo és molt llarg i s&#x27;ha d&#x27;entendre. La música s&#x27;aparta per deixar passar la paraula."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el gregorià s&#x27;organitza en vuit modes definits per la final i el tenor, que hi ha tres estils segons la relació entre text i notes (sil·làbic, neumàtic i melismàtic), que la notació va passar dels neumes al tetragrama, i que Guido d&#x27;Arezzo va posar les bases del solfeig que encara feim servir.</p>",
+   "obraClau": {
+    "obra": "Ut queant laxis",
+    "motiu": "Perquè cada vegada que cantam do-re-mi estam recitant, sense saber-ho, un himne del segle VIII."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 9,
+   "titol": "Tropus, seqüències i Hildegarda de Bingen",
+   "subtitol": "Quan la litúrgia comença a créixer",
+   "audicions": [
+    {
+     "text": "Hildegarda de Bingen – O virtus sapientiae",
+     "clau": true
+    },
+    {
+     "text": "Seqüència Victimae paschali laudes",
+     "clau": true
+    },
+    {
+     "text": "Quem quaeritis",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Ampliar el repertori",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Un cop fixat el repertori gregorià, es considerava sagrat i no es podia modificar. Però els monjos, sobretot en grans monestirs com el de Sant Gall (Suïssa) o Sant Marçal de Llemotges (França), tenien ganes de crear música nova. La solució va ser <strong>afegir</strong> sense treure res: inserir nous textos i noves melodies dins la litúrgia existent. Així neixen dues formes noves, a partir del segle IX."
+      }
+     ]
+    },
+    {
+     "titol": "El tropus",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Un <strong>tropus</strong> és un fragment nou de text, de música o de totes dues coses, que s&#x27;insereix dins un cant gregorià ja existent. Podia afegir-se al principi, al mig o al final. De vegades, el tropus consistia a posar paraules a un melisme llarg; d&#x27;altres, a afegir una frase que explicava o comentava el text original. Els tropus es van fer molt populars, sobretot en les parts de l&#x27;ordinari, com el Kyrie."
+      }
+     ]
+    },
+    {
+     "titol": "La seqüència",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>seqüència</strong> és un cant nou que es col·loca després de l&#x27;al·leluia de la missa. Segons la tradició, un dels primers a escriure&#x27;n va ser <strong>Notker Balbulus</strong> («el quequejador»), monjo de Sant Gall al segle IX, que explica que va començar posant text als llargs melismes de l&#x27;al·leluia per poder-los recordar. Amb el temps, les seqüències es van convertir en poemes independents amb una forma molt característica: els versos van per <strong>parelles</strong>, i cada parella comparteix la mateixa melodia (a bb cc dd... z). Els textos es tornen rimats i regulars."
+      },
+      {
+       "tipus": "p",
+       "html": "Es van escriure milers de seqüències. Segles més tard, el Concili de Trento (s. XVI) les va eliminar gairebé totes i en va conservar només unes poques, entre les quals el famós <em>Dies irae</em> de la missa de difunts."
+      }
+     ]
+    },
+    {
+     "titol": "El drama litúrgic",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Alguns tropus tenien forma de diàleg. Quan els monjos van començar a representar-los, amb personatges, vestits i moviments dins l&#x27;església, va néixer el <strong>drama litúrgic</strong>. És l&#x27;origen del teatre medieval europeu, que després sortirà de l&#x27;església a la plaça. Els temes principals eren la Pasqua (la resurrecció) i el Nadal."
+      }
+     ]
+    },
+    {
+     "titol": "Hildegarda de Bingen",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Hildegarda de Bingen</strong> (1098-1179) és una de les figures més extraordinàries de l&#x27;Edat Mitjana. Va entrar al monestir de petita i va arribar a ser abadessa i fundadora del monestir de Rupertsberg, a Alemanya. Des de petita tenia visions, que va descriure en llibres com el <em>Scivias</em>. Va escriure sobre medicina, ciències naturals i teologia, es va cartejar amb papes i emperadors, i va predicar en públic, cosa gairebé impensable per a una dona de la seva època."
+      },
+      {
+       "tipus": "p",
+       "html": "També va ser compositora. La seva música es recull a la <em>Symphonia armonie celestium revelationum</em> («Simfonia de l&#x27;harmonia de les revelacions celestials»), amb unes 70 obres, i al drama musical <em>Ordo virtutum</em>, sobre la lluita de les virtuts contra el diable. És una de les primeres compositores de qui coneixem el nom i una bona part de l&#x27;obra. El seu estil és molt personal:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Melodies amb un <strong>àmbit molt ampli</strong>, de vegades de més de dues octaves.",
+        "<strong>Grans salts</strong>, sobretot de quarta i de cinquena.",
+        "<strong>Melismes expressius</strong> en les paraules importants.",
+        "Textos propis, plens d&#x27;imatges poètiques de llum, verd i natura."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Quem quaeritis</strong> és un tropus de l&#x27;introit de Pasqua del segle X. Recrea el moment en què les tres Maries arriben al sepulcre i un àngel els pregunta: «Qui cercau?». Elles responen que cerquen Jesús, i l&#x27;àngel anuncia que ha ressuscitat. Aquest petit diàleg cantat és l&#x27;origen del drama litúrgic."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La seqüència <strong>Victimae paschali laudes</strong>, del segle XI, és una de les poques que Trento va conservar. Fixau-vos en la seva forma: després d&#x27;un vers inicial, els versos van per parelles, i cada parella comparteix la mateixa melodia. A la part central hi ha un diàleg amb Maria Magdalena: «Digues-nos, Maria, què has vist pel camí?». És gairebé teatre."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A l&#x27;antífona <strong>O virtus sapientiae</strong> («Oh força de la saviesa»), d&#x27;Hildegarda, escoltam un estil molt diferent del gregorià. La melodia és molt ampla, amb grans salts que la fan pujar i baixar per tot el registre. Els melismes apareixen en les paraules importants, com si la música volgués il·luminar-les. El text parla d&#x27;una saviesa amb tres ales que ho envolta tot, i la música sembla volar. En moltes interpretacions actuals s&#x27;hi afegeix un bordó."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que tropus i seqüències fan créixer la litúrgia sense modificar-ne el repertori sagrat, que del diàleg cantat neix el teatre medieval i que Hildegarda de Bingen és una veu creativa i personal dins un món dominat per homes.</p>",
+   "obraClau": {
+    "obra": "Hildegarda de Bingen – O virtus sapientiae",
+    "motiu": "Perquè ens presenta una compositora amb un estil propi, capaç de fer volar la melodia com cap altre cant del seu temps."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 10,
+   "titol": "Monodia profana: trobadors, trobairitz i reis poetes",
+   "subtitol": "La música surt de l'església",
+   "audicions": [
+    {
+     "text": "Comtessa de Dia – A chantar m'er",
+     "clau": true
+    },
+    {
+     "text": "Cantiga 100 – Santa Maria, strela do dia",
+     "clau": true
+    },
+    {
+     "text": "Llibre Vermell de Montserrat – Los set gotxs",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El context: la Baixa Edat Mitjana",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A partir del segle XI, Europa canvia. S&#x27;acaben les grans invasions, creix la població, reneix el comerç i les ciutats tornen a prosperar. Les <strong>corts</strong> dels nobles es converteixen en centres de cultura i de refinament. En aquest ambient neix una música nova: la <strong>música profana</strong> (no religiosa), en les llengües que parlava la gent, les <strong>llengües vulgars</strong>, i no en llatí."
+      },
+      {
+       "tipus": "p",
+       "html": "Evidentment, la gent sempre havia cantat cançons profanes, però no s&#x27;escrivien. Ara, per primera vegada, es copien en <strong>cançoners</strong>, sovint anys després de ser compostes, i per això moltes vegades conservam els poemes però no la música."
+      }
+     ]
+    },
+    {
+     "titol": "Trobadors, troveros i Minnesänger",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els <strong>trobadors</strong> apareixen a les corts d&#x27;<strong>Occitània</strong>, el sud de l&#x27;actual França, als segles XI-XIII. Escrivien en <strong>llengua d&#x27;oc</strong> (occità), molt propera al català. El nom ve de <em>trobar</em>, «inventar», «compondre». El primer que coneixem és <strong>Guillem IX</strong>, duc d&#x27;Aquitània. Eren poetes i músics, sovint nobles, i de vegades encarregaven la interpretació als <strong>joglars</strong>, músics ambulants que cantaven, tocaven i feien espectacles."
+      },
+      {
+       "tipus": "p",
+       "html": "El seu gran tema és l&#x27;<strong>amor cortès</strong> (<em>fin&#x27;amor</em>): el trobador estima una dama casada i d&#x27;alt rang, idealitzada i inaccessible, i li serveix com un vassall serveix el seu senyor. També escrivien sobre política (el <em>sirventès</em>), sobre la guerra, i cançons d&#x27;alba, de pastora o de debat."
+      },
+      {
+       "tipus": "p",
+       "html": "També hi havia dones trobadores, les <strong>trobairitz</strong>, un fet excepcional a l&#x27;època. N&#x27;hem conservat una vintena de noms."
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta moda es va escampar per Europa:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Troveros</strong> (<em>trouvères</em>), al nord de França, en llengua d&#x27;oïl.",
+        "<strong>Minnesänger</strong>, a Alemanya («cantors de l&#x27;amor»).",
+        "A la Península, la lírica galaicoportuguesa i la trobadoresca catalana."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Les característiques musicals",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Monodia</strong>, com el gregorià, però amb un ritme més regular i sovint ballable.",
+        "<strong>Estrofes</strong>: la mateixa melodia es repeteix per a cada estrofa del poema.",
+        "<strong>Formes amb repeticions</strong>, com AAB o formes amb <strong>refrany</strong> (una tornada que torna entre estrofes).",
+        "<strong>Acompanyament instrumental improvisat</strong>: els manuscrits només conserven la melodia, però sabem que s&#x27;acompanyava amb instruments com la viella o l&#x27;arpa."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Les Cantigas de Santa Maria",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A Castella, el rei <strong>Alfons X el Savi</strong> (1221-1284) va promoure un recull extraordinari: les <strong>Cantigas de Santa Maria</strong>, més de 400 cançons en galaicoportuguès que expliquen miracles de la Mare de Déu o la lloen. Els manuscrits estan decorats amb miniatures de músics que toquen una gran varietat d&#x27;instruments, i són una de les fonts més valuoses per conèixer els instruments medievals. La majoria tenen forma de <strong>virelai</strong>: un refrany que s&#x27;alterna amb estrofes."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "De la <strong>Comtessa de Dia</strong>, trobairitz del segle XII, conservam la cançó <strong>A chantar m&#x27;er</strong>, que és l&#x27;única <strong>canso</strong> d&#x27;una trobairitz que ens ha arribat amb música. Fixau-vos que canta en primera persona: una dona que es queixa d&#x27;un amor no correspost, una perspectiva molt poc habitual. La melodia s&#x27;organitza en frases que es repeteixen: les dues primeres tenen la mateixa música amb text diferent, i després arriba una frase nova, més tensa. Els instruments que sentiu no estan escrits: els intèrprets actuals reconstrueixen l&#x27;acompanyament."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A la <strong>Cantiga 100</strong>, «Santa Maria, strela do dia», fixau-vos en el refrany, que torna una vegada i una altra entre les estrofes. És una forma pensada per cantar en grup: un solista canta les estrofes i tothom respon amb el refrany. És devoció, però també té alguna cosa de dansa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I a casa nostra, el <strong>Llibre Vermell de Montserrat</strong>, del segle XIV, recull les cançons i danses dels pelegrins que visitaven el monestir. <strong>Los set gotxs</strong> canta en català els set goigs de Maria, i es ballava en rotllana. Música religiosa, sí, però cantada i ballada pel poble."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música profana neix a les corts de la Baixa Edat Mitjana, que trobadors i trobairitz canten l&#x27;amor cortès en llengües vulgars, i que les formes estròfiques i amb refrany i els instruments improvisats ens acosten a la vida quotidiana medieval.</p>",
+   "obraClau": {
+    "obra": "Comtessa de Dia – A chantar m'er",
+    "motiu": "Perquè és l&#x27;única cançó d&#x27;una trobairitz que conservam amb música: una veu femenina que ha travessat vuit segles."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 11,
+   "titol": "Instruments medievals i síntesi del trimestre",
+   "subtitol": "Joglars, danses i tot un trimestre",
+   "audicions": [
+    {
+     "text": "Raimbaut de Vaqueiras – Kalenda maya",
+     "clau": true
+    },
+    {
+     "text": "Saltarello (manuscrit italià del s. XIV)",
+     "clau": false
+    },
+    {
+     "text": "Audicions de recordatori del trimestre",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Com coneixem els instruments medievals?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La música instrumental medieval gairebé no s&#x27;escrivia: els músics la improvisaven o la tocaven de memòria. A més, pocs instruments d&#x27;aquella època s&#x27;han conservat. Per això, la nostra font principal és la <strong>iconografia</strong>: les escultures dels pòrtics de les catedrals (com el Pòrtic de la Glòria de Santiago de Compostel·la), les miniatures dels manuscrits (com les de les Cantigas) i les pintures. A partir d&#x27;aquestes imatges, els lutiers actuals reconstrueixen els instruments."
+      }
+     ]
+    },
+    {
+     "titol": "Les famílies d'instruments",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Corda fregada:</strong> la <strong>viella</strong>, avantpassat del violí, era l&#x27;instrument dels joglars per excel·lència; el <strong>rabeb</strong>, d&#x27;origen àrab.",
+        "<strong>Corda polsada:</strong> el <strong>llaüt</strong>, també d&#x27;origen àrab (<em>al-&#x27;ud</em>); l&#x27;<strong>arpa</strong>; el <strong>saltiri</strong>, una caixa amb cordes que es polsaven; la <strong>citola</strong>.",
+        "<strong>Corda percudida o fregada per roda:</strong> l&#x27;<strong>organistrum</strong> o viola de roda, amb una manovella que fa girar una roda que frega les cordes.",
+        "<strong>Vent:</strong> flautes de bec i travesseres, la <strong>xeremia</strong> (de doble canya, antecessora de l&#x27;oboè), la <strong>cornamusa</strong>, trompetes i cornetes.",
+        "<strong>Percussió:</strong> tambors, nàcares (petits timbals), panderos, campanetes.",
+        "<strong>Tecla:</strong> l&#x27;<strong>orgue</strong>, que entra a les esglésies, i l&#x27;<strong>orgue portatiu</strong>, petit, que es penjava al coll."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Aquesta riquesa instrumental ens mostra també les influències culturals: molts instruments arriben a Europa a través d&#x27;al-Àndalus i de les Croades."
+      }
+     ]
+    },
+    {
+     "titol": "Instruments alts i baixos",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A l&#x27;Edat Mitjana, els instruments no es classificaven com ara, sinó segons la seva intensitat i el lloc on sonaven:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Instruments alts</strong> (<em>haut</em>): forts i penetrants, per a l&#x27;exterior, les festes, les processons i la guerra: xeremies, trompetes, sacabutxes, tambors.",
+        "<strong>Instruments baixos</strong> (<em>bas</em>): suaus, per a la cambra i per acompanyar la veu: llaüt, arpa, viella, flauta, orgue portatiu."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Els músics: joglars i ministrils",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els <strong>joglars</strong> eren músics ambulants que anaven de poble en poble i de cort en cort. Eren artistes complets: cantaven, tocaven, feien acrobàcies i explicaven històries. Sovint tenien mala fama i l&#x27;Església en desconfiava. A partir del segle XIII, alguns músics s&#x27;estableixen al servei fix d&#x27;una cort o d&#x27;una ciutat: són els <strong>ministrils</strong>, més ben considerats socialment."
+      }
+     ]
+    },
+    {
+     "titol": "La música de dansa",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La dansa era present a totes les capes de la societat. Les poques danses instrumentals conservades són de formes molt simples. La més important és l&#x27;<strong>estampida</strong>, formada per diverses frases anomenades <strong>puncta</strong>. Cada punctum es toca dues vegades: la primera amb un final obert (<em>ouvert</em>), que queda en suspens, i la segona amb un final tancat (<em>clos</em>), que conclou. Com una pregunta i una resposta."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Kalenda maya</strong> és una estampida. Segons la tradició, el trobador Raimbaut de Vaqueiras, cap a l&#x27;any 1200, va sentir dos joglars tocant aquesta melodia i hi va posar un text per celebrar l&#x27;arribada de maig. Fixau-vos en el tempo viu, pensat per ballar, i en l&#x27;estructura de puncta amb finals oberts i tancats. Cada gravació és diferent, perquè els músics reconstrueixen l&#x27;acompanyament amb viella, flautes i percussió."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Saltarello</strong>, conservat en un manuscrit italià del segle XIV, té un ritme saltat que li dona nom. És música de festa, energia pura."
+      },
+      {
+       "tipus": "escolta",
+       "html": "I per acabar, feim memòria del trimestre amb breus fragments de les obres clau: l&#x27;Epitafi de Seikilos, el Puer natus est, l&#x27;Ut queant laxis, O virtus sapientiae i A chantar m&#x27;er."
+      }
+     ]
+    },
+    {
+     "titol": "Síntesi del trimestre",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Si miram enrere, hem fet un viatge molt llarg. Hem començat a Grècia, on la música era mousiké, filosofia i nombre, i on ja existien la música íntima i la música pública. Després hem vist com el cristianisme va adoptar aquesta herència i la va convertir en un cant de veus al servei de la paraula: el gregorià, amb els seus modes i la seva notació. I finalment hem vist com, a poc a poc, la música creix: tropus, seqüències, drama litúrgic, i una música profana que surt de l&#x27;església per anar a les corts i a les places."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que durant tot aquest temps la música ha estat sobretot <strong>monodia</strong>: una sola melodia, lligada al text. El trimestre que ve, aquesta melodia començarà a tenir companyia. Arriba la polifonia.</p>",
+   "obraClau": {
+    "obra": "Raimbaut de Vaqueiras – Kalenda maya",
+    "motiu": "Perquè tanca el trimestre amb la música que no era a l&#x27;església: la de les places, les corts i la festa."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  }
+ ]
+}

@@ -12,6 +12,7 @@ Web estàtica (HTML, CSS i JavaScript, sense frameworks) per a l'alumnat de 4t, 
 | Els textos de la línia del temps      | `dades/periodes.json`      |
 | Els termes del glossari               | `dades/glossari.json`      |
 | Les obres d'«Entrena l'oïda»          | `dades/audicions.json`     |
+| Els apunts de cada sessió             | `dades/apunts/4t.json`, `5e.json`, `6e.json` |
 | Colors i tipografia                   | `css/estils.css`           |
 
 ## Afegir l'enllaç d'una sessió
@@ -67,3 +68,9 @@ La web es pot instal·lar al mòbil com una app (PWA). A la portada, al mòbil, 
 ## Entrena l'oïda
 
 Les obres són a `dades/audicions.json`. Els enregistraments són de Wikimedia Commons, amb llicències lliures (domini públic o Creative Commons), perquè els reproductors de YouTube no es poden amagar i mostrarien el títol. Per això no hi ha obres recents amb drets d'autor. A cada obra hi ha l'arxiu (`mp3` i `original`), l'intèrpret, la llicència i la pàgina de Commons, que surten als crèdits.
+
+## Apunts de cada sessió
+
+Els apunts del 1r trimestre de cada curs són a `dades/apunts/`. S'han convertit des dels documents d'apunts de Drive, amb el mateix contingut, i cada sessió té la seva pàgina (`apunts.html?curs=4t&sessio=3`). Les targetes de les sessions que tenen apunts hi porten directament, i des d'allà es pot obrir la presentació o desar els apunts en PDF. Els termes del glossari s'enllacen automàticament la primera vegada que surten.
+
+Si canvies els documents de Drive, demana que es tornin a convertir: el contingut de la web no s'actualitza sol.

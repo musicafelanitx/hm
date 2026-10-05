@@ -1,0 +1,802 @@
+{
+ "curs": "6e",
+ "sessions": [
+  {
+   "numero": 1,
+   "titol": "Què és el Romanticisme?",
+   "subtitol": "L'individu, la natura i el sublim",
+   "audicions": [
+    {
+     "text": "L. van Beethoven – Simfonia n. 9, 4t moviment (Oda a l'alegria)",
+     "clau": true
+    },
+    {
+     "text": "F. Mendelssohn – Obertura Les Hèbrides",
+     "clau": false
+    },
+    {
+     "text": "L. van Beethoven – Simfonia n. 5, 1r moviment (recordatori de 5è)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "On érem?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;any passat vam acabar amb la <strong>Simfonia n. 5</strong> de Beethoven: les formes clàssiques es feien més grans i la música començava a expressar la lluita personal del compositor. Aquest curs comencem aquí, amb el <strong>Romanticisme</strong> (segle XIX), i arribarem fins als nostres dies."
+      }
+     ]
+    },
+    {
+     "titol": "El context",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El segle XIX és el segle de la <strong>Revolució Industrial</strong>: fàbriques, ferrocarril, ciutats que creixen. També és el segle dels <strong>nacionalismes</strong> i de les revolucions liberals. La burgesia es converteix en el gran públic de la música: omple els teatres i les sales de concert, i té un piano a casa."
+      },
+      {
+       "tipus": "p",
+       "html": "El Romanticisme reacciona contra la raó de la Il·lustració i posa al centre:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>El jo i les emocions:</strong> l&#x27;artista expressa els seus sentiments més íntims.",
+        "<strong>La natura</strong>, sovint salvatge i poderosa, i el <strong>sublim</strong>: allò tan gran que ens sobrepassa.",
+        "<strong>La nostàlgia del passat</strong>, l&#x27;Edat Mitjana, les llegendes i els somnis.",
+        "<strong>L&#x27;artista com a geni</strong>, incomprès i lliure.",
+        "<strong>La nació</strong>: el poble, les seves cançons i les seves llegendes."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Pensau en els quadres de Caspar David Friedrich: un home sol davant un mar de boira. Això és el Romanticisme."
+      }
+     ]
+    },
+    {
+     "titol": "La música, l'art romàntic per excel·lència",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Per als romàntics, la música és l&#x27;art més elevat, perquè pot expressar el que les paraules no poden dir. Les obres es fan més llargues o molt breus, l&#x27;orquestra creix, l&#x27;harmonia s&#x27;enriqueix amb cromatismes i la melodia es torna apassionada."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Recordem l&#x27;inici de la <strong>Simfonia n. 5</strong>: el destí que truca a la porta. És el punt de partida."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Simfonia n. 9</strong> (1824) de Beethoven acaba amb una novetat: per primera vegada en una simfonia hi entren <strong>solistes i cor</strong>, que canten l&#x27;<em>Oda a l&#x27;alegria</em> del poeta Schiller, un himne a la fraternitat de tots els éssers humans. Beethoven ja era completament sord. Avui aquesta melodia és l&#x27;himne de la Unió Europea."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Les Hèbrides</strong>, Mendelssohn recorda un viatge a les illes d&#x27;Escòcia i la cova de Fingal. Fixau-vos en el tema de les onades que tornen una vegada i una altra. És la natura feta música."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el Romanticisme posa al centre l&#x27;individu, les emocions, la natura i la nació, que considera la música l&#x27;art més elevat, i que Beethoven, amb la Novena, obre el camí.</p>",
+   "obraClau": {
+    "obra": "Beethoven – Simfonia n. 9 (Oda a l'alegria)",
+    "motiu": "Perquè una simfonia que canta la fraternitat humana s&#x27;ha convertit en un símbol que ens uneix encara avui."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 2,
+   "titol": "El lied",
+   "subtitol": "Poesia i piano",
+   "audicions": [
+    {
+     "text": "F. Schubert – Der Erlkönig",
+     "clau": true
+    },
+    {
+     "text": "F. Schubert – Gretchen am Spinnrade",
+     "clau": true
+    },
+    {
+     "text": "C. Schumann – Liebst du um Schönheit",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Què és un lied?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "El <strong>lied</strong> (plural <em>lieder</em>, «cançó» en alemany) és una cançó per a <strong>veu i piano</strong> sobre un poema de qualitat. És el gènere romàntic més íntim: es cantava a les cases, en reunions d&#x27;amics. El piano no és un simple acompanyament: descriu el paisatge, l&#x27;ambient o els sentiments del personatge."
+      },
+      {
+       "tipus": "p",
+       "html": "Hi ha dos tipus principals:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Estròfic:</strong> la mateixa música per a cada estrofa, com una cançó popular.",
+        "<strong>De composició contínua:</strong> la música canvia seguint el que diu el poema."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Els compositors agrupen de vegades els lieder en <strong>cicles</strong> que expliquen una història."
+      }
+     ]
+    },
+    {
+     "titol": "Franz Schubert i Clara Schumann",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Franz Schubert</strong> (1797-1828) va viure a Viena i va morir amb només 31 anys. Va escriure més de sis-cents lieder. Els seus amics organitzaven vetllades, les <em>schubertíades</em>, on es tocava la seva música."
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Clara Schumann</strong> (1819-1896), de soltera Clara Wieck, va ser una de les grans pianistes del segle XIX. Es va casar amb el compositor Robert Schumann. Va compondre lieder, música per a piano i un concert per a piano, però la societat de l&#x27;època li deixava poc espai com a compositora."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Der Erlkönig</strong> («El rei dels elfs»), sobre un poema de Goethe, el va escriure Schubert amb 18 anys. Un pare galopa de nit amb el seu fill malalt als braços, i el rei dels elfs intenta endur-se l&#x27;infant. Un sol cantant fa quatre personatges: el narrador, el pare (greu i tranquil), el fill (agut i espantat) i el rei dels elfs (dolç i seductor). El piano fa el galop del cavall sense parar, amb tresets ràpids. Fixau-vos en el final: el galop s&#x27;atura..."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Gretchen am Spinnrade</strong> («Margarida a la filosa»), també de Goethe, el piano imita el moviment de la roda de filar. Quan Margarida recorda el petó del seu estimat, la roda s&#x27;atura."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Liebst du um Schönheit</strong>, de Clara Schumann, és un lied d&#x27;amor delicat: «si m&#x27;estimes per la bellesa, no m&#x27;estimis...»."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el lied és una cançó per a veu i piano sobre un poema, que el piano hi descriu i expressa tant com la veu, i que Schubert i Clara Schumann en són grans mestres.</p>",
+   "obraClau": {
+    "obra": "Schubert – Der Erlkönig",
+    "motiu": "Perquè en quatre minuts, una veu i un piano ens fan viure una història de terror."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 3,
+   "titol": "El piano romàntic",
+   "subtitol": "Petites peces per a grans emocions",
+   "audicions": [
+    {
+     "text": "F. Chopin – Nocturn op. 9 n. 2",
+     "clau": true
+    },
+    {
+     "text": "R. Schumann – Escenes d'infants, «Träumerei»",
+     "clau": true
+    },
+    {
+     "text": "F. Mendelssohn Hensel – L'any (selecció)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El piano, l'instrument del segle",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XIX, el piano es perfecciona: marc de ferro, més tecles, més potència i el pedal que permet allargar el so. Es converteix en l&#x27;instrument de totes les cases burgeses. Tocar el piano era part de l&#x27;educació, especialment de les noies."
+      }
+     ]
+    },
+    {
+     "titol": "La peça de caràcter",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els romàntics escriuen moltes <strong>peces breus</strong> per a piano que expressen un sol estat d&#x27;ànim o una imatge: <strong>nocturns</strong>, <strong>impromptus</strong>, <strong>preludis</strong>, <strong>romances sense paraules</strong>, valsos, mazurques... Sovint tenen títols poètics."
+      }
+     ]
+    },
+    {
+     "titol": "Chopin, Schumann i Fanny Mendelssohn",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Frédéric Chopin</strong> (1810-1849), polonès, va viure a París. Va escriure gairebé només per a piano. Va passar un hivern a <strong>Mallorca</strong>, a la Cartoixa de <strong>Valldemossa</strong> (1838-1839), amb l&#x27;escriptora George Sand, i allà va acabar els seus <em>Preludis</em>.",
+        "<strong>Robert Schumann</strong> (1810-1856), marit de Clara, va ser compositor i crític musical.",
+        "<strong>Fanny Mendelssohn Hensel</strong> (1805-1847), germana de Felix, era tan bona pianista i compositora com ell, però la família no li va permetre fer carrera pública. Moltes de les seves obres es van publicar amb el nom del seu germà."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Nocturn op. 9 n. 2</strong> de Chopin és una melodia que canta com una veu d&#x27;òpera, sobre un acompanyament ondulant a la mà esquerra. Fixau-vos en els ornaments i en el <strong>rubato</strong>: el pianista allarga i escurça les notes lliurement, com qui respira."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Träumerei</strong> («Somni») forma part de les <em>Escenes d&#x27;infants</em> de Schumann: records de la infància vistos per un adult. Una melodia senzilla i tendra."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>L&#x27;any</strong> de Fanny Mendelssohn és un cicle de dotze peces, una per a cada mes, que va escriure després d&#x27;un viatge a Itàlia."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el piano és l&#x27;instrument romàntic per excel·lència, que les peces breus de caràcter expressen un sol estat d&#x27;ànim, i que Chopin, que va viure a Mallorca, n&#x27;és el gran poeta.</p>",
+   "obraClau": {
+    "obra": "Chopin – Nocturn op. 9 n. 2",
+    "motiu": "Perquè ens mostra el piano convertit en una veu que canta, i perquè Chopin va deixar petjada a Mallorca."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 4,
+   "titol": "Els virtuosos",
+   "subtitol": "Paganini i Liszt, les primeres estrelles",
+   "audicions": [
+    {
+     "text": "N. Paganini – Caprici n. 24",
+     "clau": true
+    },
+    {
+     "text": "F. Liszt – La campanella",
+     "clau": true
+    },
+    {
+     "text": "F. Liszt – Rapsòdia hongaresa n. 2",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El virtuós romàntic",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XIX apareix la figura del <strong>virtuós</strong>: un intèrpret amb una tècnica increïble que omple els teatres i fascina el públic. És l&#x27;equivalent de les estrelles del rock actuals."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Niccolò Paganini</strong> (1782-1840), violinista italià, tocava amb una tècnica que semblava impossible: pizzicatos amb la mà esquerra, harmònics, escales vertiginoses. Era tan prim i tan ràpid que es deia que havia fet un pacte amb el diable.",
+        "<strong>Franz Liszt</strong> (1811-1886), pianista hongarès, va inventar el <strong>recital</strong>: un concert d&#x27;un sol intèrpret. Col·locava el piano de perfil perquè el públic li veiés la cara. El públic es desmaiava i es barallava per aconseguir un record seu: se&#x27;n va dir la «lisztomania». Més tard va deixar els concerts i es va dedicar a compondre i a ensenyar."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Caprici n. 24</strong> de Paganini és un tema amb variacions per a violí sol. Cada variació presenta una dificultat tècnica diferent. Aquest tema ha inspirat molts altres compositors."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>La campanella</strong> de Liszt és una adaptació per a piano d&#x27;un tema de Paganini. La mà dreta salta sense parar cap a una nota molt aguda que sona com una campaneta."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Rapsòdia hongaresa n. 2</strong> s&#x27;inspira en la música dels gitanos d&#x27;Hongria: una part lenta i dramàtica i una part ràpida que s&#x27;accelera fins al final."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el Romanticisme crea la figura del virtuós, que Paganini i Liszt van ser les primeres grans estrelles de la música, i que Liszt va inventar el recital.</p>",
+   "obraClau": {
+    "obra": "Paganini – Caprici n. 24",
+    "motiu": "Perquè és el repte tècnic per excel·lència del violí i un tema que ha inspirat generacions de compositors."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 5,
+   "titol": "La música que explica històries",
+   "subtitol": "Música programàtica i poema simfònic",
+   "audicions": [
+    {
+     "text": "H. Berlioz – Simfonia fantàstica, 4t moviment «Marxa al cadafal»",
+     "clau": true
+    },
+    {
+     "text": "M. Mussorgski – Quadres d'una exposició, «La gran porta de Kíev»",
+     "clau": true
+    },
+    {
+     "text": "C. Saint-Saëns – Dansa macabra",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Música pura i música programàtica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XIX hi ha un gran debat. Uns defensen la <strong>música pura</strong> o absoluta, que no descriu res i només es val per ella mateixa, com una simfonia de Brahms. Els altres defensen la <strong>música programàtica</strong>, que explica una història, descriu un paisatge o un quadre. El «programa» és el text que explica al públic què descriu la música. Recordau Les quatre estacions de Vivaldi? Eren un precedent."
+      },
+      {
+       "tipus": "p",
+       "html": "Liszt va crear el <strong>poema simfònic</strong>: una obra orquestral en un sol moviment basada en una història, un poema o un quadre."
+      }
+     ]
+    },
+    {
+     "titol": "Hector Berlioz",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Hector Berlioz</strong> (1803-1869), francès, va ser un gran innovador de l&#x27;orquestra. La seva <strong>Simfonia fantàstica</strong> (1830) explica la història d&#x27;un jove artista enamorat que, desesperat, somia que mata la seva estimada i que el condemnen a mort. La dona estimada apareix sempre amb una mateixa melodia, la <strong>idée fixe</strong> («idea fixa»), que es transforma segons la història."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A la <strong>Marxa al cadafal</strong>, el jove és conduït a l&#x27;execució. Fixau-vos en la marxa amb metalls i timbals, i en el final: la idea fixa apareix un instant al clarinet, com un darrer pensament per a l&#x27;estimada, i un cop sec de tota l&#x27;orquestra la interromp."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Els <strong>Quadres d&#x27;una exposició</strong> (1874), que Mussorgski va escriure per a piano i Ravel va orquestrar el 1922, descriuen els quadres d&#x27;una exposició d&#x27;un amic pintor. <strong>La gran porta de Kíev</strong> és el final: solemne, amb campanes i un so enorme."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A la <strong>Dansa macabra</strong> (1874), Saint-Saëns ens explica com, a mitjanit, la mort toca el violí i els esquelets ballen. El xilòfon imita el soroll dels ossos, i el cant del gall anuncia l&#x27;alba."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música programàtica explica històries o descriu imatges, que Berlioz va fer servir una idea fixa per representar un personatge, i que Liszt va crear el poema simfònic.</p>",
+   "obraClau": {
+    "obra": "Berlioz – Simfonia fantàstica",
+    "motiu": "Perquè una orquestra ens explica un somni amb una melodia que representa una persona."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 6,
+   "titol": "La gran simfonia romàntica",
+   "subtitol": "L'orquestra creix",
+   "audicions": [
+    {
+     "text": "A. Dvořák – Simfonia n. 9 «del Nou Món», 2n moviment (Largo)",
+     "clau": true
+    },
+    {
+     "text": "J. Brahms – Simfonia n. 3, 3r moviment",
+     "clau": true
+    },
+    {
+     "text": "F. Mendelssohn – Concert per a violí, 1r moviment",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "L'orquestra romàntica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;orquestra del segle XIX és molt més gran que la de Haydn: més corda, més vent i més percussió. S&#x27;hi afegeixen instruments com el <strong>trombó</strong>, la <strong>tuba</strong>, el <strong>corn anglès</strong>, el <strong>clarinet baix</strong>, l&#x27;<strong>arpa</strong> o el <strong>flautí</strong>. Els metalls tenen <strong>pistons</strong> i poden tocar totes les notes. Apareix la figura del <strong>director d&#x27;orquestra</strong> amb batuta, tal com el coneixem avui."
+      }
+     ]
+    },
+    {
+     "titol": "La simfonia després de Beethoven",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Després de Beethoven, molts compositors sentien que era molt difícil escriure simfonies. <strong>Johannes Brahms</strong> (1833-1897) va trigar més de vint anys a acabar la primera. Brahms defensava la música pura i les formes clàssiques, però amb una harmonia i una emoció plenament romàntiques."
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Antonín Dvořák</strong> (1841-1904), txec, va dirigir un conservatori a Nova York. Allà va escriure la <strong>Simfonia del Nou Món</strong> (1893), inspirada en el que va sentir als Estats Units, especialment la música afroamericana i indígena."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Largo de la Simfonia del Nou Món</strong> comença amb uns acords solemnes dels metalls, i després el <strong>corn anglès</strong> canta una melodia nostàlgica, com un record de casa. Aquesta melodia es va fer tan popular que es va convertir en una cançó."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>3r moviment de la Simfonia n. 3</strong> de Brahms és una melodia càlida i melancòlica del violoncel, que després passen altres instruments."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Concert per a violí</strong> de Mendelssohn comença sense introducció orquestral: el violí entra directament amb una melodia apassionada."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;orquestra romàntica creix i incorpora nous instruments, que apareix el director d&#x27;orquestra, i que compositors com Brahms i Dvořák continuen la tradició simfònica de Beethoven.</p>",
+   "obraClau": {
+    "obra": "Dvořák – Simfonia del Nou Món (Largo)",
+    "motiu": "Perquè ens mostra el so ple de l&#x27;orquestra romàntica i la nostàlgia d&#x27;un músic lluny de casa."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 7,
+   "titol": "Els nacionalismes",
+   "subtitol": "La música de cada poble",
+   "audicions": [
+    {
+     "text": "B. Smetana – El Moldava",
+     "clau": true
+    },
+    {
+     "text": "E. Grieg – Peer Gynt, «En el palau del rei de la muntanya»",
+     "clau": true
+    },
+    {
+     "text": "A. Borodin – El príncep Ígor, Danses polovtsianes",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Música i nació",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Durant el segle XIX, molts pobles d&#x27;Europa lluiten per la seva identitat i la seva independència. Els compositors dels països que no tenien una gran tradició musical, com Rússia, Txèquia, Noruega o Espanya, volen crear una música pròpia, diferent de l&#x27;alemanya, la italiana i la francesa. Per fer-ho:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Fan servir <strong>melodies i ritmes populars</strong> del seu país.",
+        "S&#x27;inspiren en la <strong>història</strong>, les <strong>llegendes</strong> i els <strong>paisatges</strong> nacionals.",
+        "Escriuen òperes en la seva <strong>llengua</strong>."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "A Rússia, un grup de cinc compositors, el <strong>Grup dels Cinc</strong> (entre ells Mussorgski i Borodin), va voler crear una música russa pròpia."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>El Moldava</strong> (1874) forma part del cicle <em>La meva pàtria</em> de Bedřich Smetana. Descriu el riu Moldava des que neix, amb dues fonts (dues flautes), fins que arriba a Praga. Pel camí travessa boscos amb caçadors, un casament de pagesos, una nit de nimfes a la llum de la lluna i uns ràpids. És un poema simfònic i un retrat de tot un país."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>En el palau del rei de la muntanya</strong>, de la música per a l&#x27;obra de teatre <em>Peer Gynt</em> d&#x27;Ibsen, descriu com el protagonista s&#x27;endinsa a la cova dels trols. El tema comença molt greu i lent i es va repetint cada vegada més fort i més ràpid."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Les <strong>Danses polovtsianes</strong> de Borodin evoquen els pobles de les estepes, amb ritmes enèrgics i melodies d&#x27;aire oriental."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que els nacionalismes musicals fan servir la música popular, la història i els paisatges per crear una identitat pròpia, i que el poema simfònic és un gènere ideal per retratar un país.</p>",
+   "obraClau": {
+    "obra": "Smetana – El Moldava",
+    "motiu": "Perquè el curs d&#x27;un riu es converteix en el retrat musical de tot un poble."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 8,
+   "titol": "L'òpera italiana: Rossini i Verdi",
+   "subtitol": "Bel canto i passions humanes",
+   "audicions": [
+    {
+     "text": "G. Verdi – Nabucco, «Va, pensiero»",
+     "clau": true
+    },
+    {
+     "text": "G. Verdi – Rigoletto, «La donna è mobile»",
+     "clau": true
+    },
+    {
+     "text": "G. Rossini – El barber de Sevilla, «Largo al factotum»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "El bel canto",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A principis del segle XIX, l&#x27;òpera italiana viu l&#x27;època del <strong>bel canto</strong> («cant bell»): melodies llargues i ornamentades que lluïen la veu. El compositor més popular és <strong>Gioachino Rossini</strong> (1792-1868), mestre de l&#x27;òpera còmica, amb ritmes vius i els famosos «crescendos Rossini»."
+      }
+     ]
+    },
+    {
+     "titol": "Giuseppe Verdi",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Giuseppe Verdi</strong> (1813-1901) és el gran compositor d&#x27;òpera italià. Les seves òperes presenten personatges amb passions intenses: amor, gelosia, venjança, sacrifici. La música està al servei del drama. Verdi es va convertir en un símbol de la unificació d&#x27;Itàlia: el crit «Viva Verdi!» es va interpretar com un missatge polític."
+      },
+      {
+       "tipus": "p",
+       "html": "Al final del segle, el <strong>verisme</strong> porta a l&#x27;escena històries de gent corrent, i <strong>Giacomo Puccini</strong> (1858-1924) escriu òperes com <em>La bohème</em> o <em>Turandot</em>."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A <strong>«Largo al factotum»</strong>, Fígaro, el barber, es presenta: tothom el busca, tothom el necessita. Fixau-vos en el ritme endimoniat, en les paraules repetides a tota velocitat i en l&#x27;humor."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Va, pensiero»</strong> és el cor dels esclaus hebreus de <em>Nabucco</em> (1842), que enyoren la seva pàtria perduda. Molts italians el van sentir com un cant per la seva pròpia llibertat. Una melodia senzilla, cantada per tot el cor a l&#x27;uníson."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«La donna è mobile»</strong>, de <em>Rigoletto</em> (1851), la canta un duc frívol. Una melodia tan enganxosa que, segons diuen, Verdi no la va donar al tenor fins a l&#x27;últim moment perquè no la cantàs pels carrers abans de l&#x27;estrena."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;òpera italiana del segle XIX passa del bel canto de Rossini al drama intens de Verdi, i que la música pot convertir-se en un símbol polític.</p>",
+   "obraClau": {
+    "obra": "Verdi – Nabucco, «Va, pensiero»",
+    "motiu": "Perquè un cor sobre la pàtria perduda va unir tot un poble."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 9,
+   "titol": "Wagner i el drama musical",
+   "subtitol": "L'obra d'art total",
+   "audicions": [
+    {
+     "text": "R. Wagner – Tristany i Isolda, Preludi",
+     "clau": true
+    },
+    {
+     "text": "R. Wagner – La valquíria, «La cavalcada de les valquíries»",
+     "clau": true
+    },
+    {
+     "text": "R. Wagner – Lohengrin, Preludi del 3r acte",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Richard Wagner",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Richard Wagner</strong> (1813-1883), alemany, va voler revolucionar l&#x27;òpera. Escrivia ell mateix els textos i va fer construir un teatre propi a <strong>Bayreuth</strong> per representar-hi les seves obres. Les seves idees principals eren:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>L&#x27;obra d&#x27;art total</strong> (<em>Gesamtkunstwerk</em>): música, poesia, teatre i escenografia units en una sola obra.",
+        "<strong>La melodia infinita</strong>: la música no es divideix en recitatius i àries, sinó que flueix contínuament.",
+        "<strong>El leitmotiv</strong>: un motiu musical breu associat a un personatge, un objecte o una idea, que torna i es transforma al llarg de l&#x27;obra. Recordau la idea fixa de Berlioz?",
+        "Una <strong>orquestra enorme</strong> que explica el que els personatges no diuen."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "La seva obra més ambiciosa és <strong>L&#x27;anell del nibelung</strong>, un cicle de quatre òperes que dura unes quinze hores. Wagner va ser un geni musical, però també una persona amb idees profundament antisemites, un fet que avui no podem oblidar."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Preludi de Tristany i Isolda</strong> (1865) comença amb un acord que no es resol: el famós <strong>acord de Tristany</strong>. La música busca una resolució que no arriba mai, com l&#x27;amor impossible dels protagonistes. Aquest acord va obrir el camí cap a la ruptura amb la tonalitat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>La cavalcada de les valquíries</strong> descriu les guerreres mitològiques que cavalquen pels núvols. Fixau-vos en el leitmotiv als metalls, sobre els trèmolos de la corda."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Preludi del 3r acte de Lohengrin</strong> és brillant i festiu, amb els metalls en primer pla."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Wagner va crear el drama musical com a obra d&#x27;art total, amb melodia infinita i leitmotivs, i que la seva harmonia va portar la tonalitat al límit.</p>",
+   "obraClau": {
+    "obra": "Wagner – Tristany i Isolda, Preludi",
+    "motiu": "Perquè un sol acord sense resoldre va canviar la història de l&#x27;harmonia."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 10,
+   "titol": "El Romanticisme a casa nostra",
+   "subtitol": "Cors, sarsuela i piano",
+   "audicions": [
+    {
+     "text": "I. Albéniz – Asturias (Llegenda)",
+     "clau": true
+    },
+    {
+     "text": "E. Granados – Goyescas, «Quejas, o la maja y el ruiseñor»",
+     "clau": true
+    },
+    {
+     "text": "J. A. Clavé – Les flors de maig",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Catalunya, Mallorca i Espanya al segle XIX",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XIX, la música a la Península viu entre la gran influència italiana i la recerca d&#x27;una identitat pròpia:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La sarsuela</strong>, el teatre musical en castellà, amb parts parlades i cantades, es fa molt popular a Madrid i a tot arreu.",
+        "<strong>Els cors</strong>: <strong>Josep Anselm Clavé</strong> (1824-1874) va fundar a Barcelona cors formats per obrers, per portar la música i l&#x27;educació a les classes treballadores. D&#x27;aquest moviment neix, més tard, l&#x27;<strong>Orfeó Català</strong> (1891) i el <strong>Palau de la Música Catalana</strong>.",
+        "<strong>Les bandes de música</strong> es multipliquen als pobles, també a Mallorca, i esdevenen l&#x27;escola musical de moltes generacions.",
+        "<strong>El nacionalisme espanyol</strong>: Felip Pedrell (1841-1922), de Tortosa, va estudiar la música antiga i popular i va ser el mestre d&#x27;Albéniz, Granados i Falla."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "<strong>Isaac Albéniz</strong> (1860-1909), de Camprodon, i <strong>Enric Granados</strong> (1867-1916), de Lleida, van ser grans pianistes que van portar els ritmes i els colors de la música popular espanyola al piano romàntic. Granados va morir quan el vaixell on viatjava va ser torpedinat durant la Primera Guerra Mundial."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Asturias</strong> d&#x27;Albéniz, originalment per a piano, s&#x27;ha fet molt més famosa en la versió per a guitarra. Fixau-vos en les notes repetides que imiten la guitarra flamenca i en la part central, lenta i cantable."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Quejas, o la maja y el ruiseñor»</strong>, de les <em>Goyescas</em> de Granados, inspirades en els quadres de Goya, és una peça melancòlica on una noia canta amb un rossinyol. Al final sentim el cant de l&#x27;ocell."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Les flors de maig</strong>, de Clavé, és una cançó coral que celebra la primavera, pensada per ser cantada per cors d&#x27;aficionats."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que al segle XIX neixen a casa nostra els cors populars, les bandes i la sarsuela, i que Albéniz i Granados porten la música espanyola al piano romàntic.</p>",
+   "obraClau": {
+    "obra": "Albéniz – Asturias",
+    "motiu": "Perquè ens mostra com els sons de la música popular es converteixen en una gran obra de concert."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 11,
+   "titol": "Síntesi del trimestre",
+   "subtitol": "El segle de les emocions",
+   "audicions": [
+    {
+     "text": "Beethoven – Simfonia n. 9 (Oda a l'alegria)",
+     "clau": false
+    },
+    {
+     "text": "Schubert – Der Erlkönig",
+     "clau": false
+    },
+    {
+     "text": "Chopin – Nocturn op. 9 n. 2",
+     "clau": false
+    },
+    {
+     "text": "Smetana – El Moldava",
+     "clau": false
+    },
+    {
+     "text": "Verdi – Va, pensiero",
+     "clau": false
+    },
+    {
+     "text": "Wagner – Tristany i Isolda, Preludi",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem viscut el Romanticisme, el segle en què la música es converteix en l&#x27;art més elevat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem començat amb l&#x27;<strong>Oda a l&#x27;alegria</strong>: Beethoven obria el camí amb una simfonia que cantava la fraternitat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem descobert les formes íntimes: el <strong>lied</strong>, on al <strong>Erlkönig</strong> una veu i un piano ens explicaven una història, i les peces de piano, on el <strong>Nocturn</strong> de Chopin cantava com una veu."
+      },
+      {
+       "tipus": "p",
+       "html": "Hem conegut els virtuosos, les primeres estrelles, i la música que explica històries, amb la idea fixa de Berlioz."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem vist créixer l&#x27;orquestra i hem escoltat com cada poble buscava la seva veu: al <strong>Moldava</strong>, un riu es convertia en el retrat d&#x27;un país."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem viscut les passions de l&#x27;òpera: <strong>Va, pensiero</strong> va unir Itàlia, i Wagner, amb l&#x27;<strong>acord de Tristany</strong>, va portar la tonalitat al límit. I hem mirat cap a casa nostra, amb Clavé, Albéniz i Granados."
+      }
+     ]
+    }
+   ],
+   "apres": "<ul><li>El Romanticisme posa al centre l&#x27;individu, les emocions, la natura i la nació.</li><li>Conviuen les formes íntimes (lied, peça per a piano) i les gegantines (simfonia, drama musical).</li><li>La música explica històries i representa personatges amb motius.</li><li>L&#x27;harmonia es fa cada vegada més cromàtica, fins al límit de la tonalitat.</li></ul>",
+   "obraClau": {
+    "obra": "Wagner – Tristany i Isolda, Preludi",
+    "motiu": "Perquè tanca el Romanticisme i obre la porta a la gran ruptura del segle XX."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
+  }
+ ]
+}

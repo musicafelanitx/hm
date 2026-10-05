@@ -124,22 +124,32 @@ img { max-width: 100%; height: auto; }
 
 .boto-menu {
   display: none;
-  background: none;
+  width: 46px; height: 46px;
   border: 1px solid var(--linia);
-  border-radius: 10px;
-  padding: 8px 12px;
-  font: inherit;
-  font-size: 1rem;
+  border-radius: 12px;
+  background: var(--fons);
   color: var(--text);
   cursor: pointer;
+  place-items: center;
 }
+.hamburguesa { position: relative; width: 20px; height: 14px; display: block; }
+.hamburguesa span {
+  position: absolute; left: 0; right: 0;
+  height: 2px; border-radius: 2px;
+  background: currentColor;
+  transition: transform .25s ease, opacity .2s ease, top .25s ease;
+}
+.hamburguesa span:nth-child(1) { top: 0; }
+.hamburguesa span:nth-child(2) { top: 6px; }
+.hamburguesa span:nth-child(3) { top: 12px; }
+.boto-menu[aria-expanded="true"] .hamburguesa span:nth-child(1) { top: 6px; transform: rotate(45deg); }
+.boto-menu[aria-expanded="true"] .hamburguesa span:nth-child(2) { opacity: 0; }
+.boto-menu[aria-expanded="true"] .hamburguesa span:nth-child(3) { top: 6px; transform: rotate(-45deg); }
 
-.menu ul {
-  list-style: none;
-  margin: 0; padding: 0;
-  display: flex;
-  gap: 4px;
-}
+/* Menú d'escriptori: una sola fila */
+.menu { display: flex; align-items: center; gap: 4px; }
+.menu-grup ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px; }
+.menu-etiqueta, .menu-peu, .menu small, .menu-icona { display: none; }
 .menu a {
   display: block;
   padding: 8px 12px;
@@ -147,27 +157,96 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
   color: var(--text);
   font-size: 1rem;
+  white-space: nowrap;
 }
 .menu a:hover { background: var(--fons-suau); }
-.menu a[aria-current="page"] {
-  background: var(--text);
-  color: #fff;
-}
+.menu a[aria-current="page"] { background: var(--text); color: #fff; }
+.fons-menu { display: none; }
 
+/* Menú del mòbil: un panell amb els cursos en color i la resta amb icona */
 @media (max-width: 960px) {
-  .boto-menu { display: block; }
+  .boto-menu { display: grid; }
   .menu {
     display: none;
-    position: absolute;
-    left: 0; right: 0; top: 100%;
+    position: fixed;
+    left: 0; right: 0;
+    top: var(--alt-capcalera, 71px);
+    max-height: calc(100dvh - var(--alt-capcalera, 71px));
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 18px 16px 22px;
     background: var(--fons);
-    border-bottom: 1px solid var(--linia);
-    box-shadow: var(--ombra);
+    border-top: 1px solid var(--linia);
+    box-shadow: 0 18px 40px rgba(0,0,0,.18);
+    border-radius: 0 0 20px 20px;
+    z-index: 30;
   }
-  .menu.obert { display: block; }
-  .menu ul { flex-direction: column; padding: 8px 16px 16px; }
-  .menu a { padding: 14px 12px; font-size: 1.1rem; }
+  .menu.obert { display: flex; animation: baixa .22s ease; }
+  @keyframes baixa { from { opacity: 0; transform: translateY(-8px); } }
+  .fons-menu {
+    display: block;
+    position: fixed; inset: 0;
+    top: var(--alt-capcalera, 71px);
+    background: rgba(20, 18, 15, .4);
+    z-index: 25;
+  }
+  .fons-menu[hidden] { display: none !important; }
+  .menu-obert, .menu-obert body { overflow: hidden; }
+
+  .menu-etiqueta {
+    display: block;
+    margin: 18px 4px 8px;
+    font-size: .75rem; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: var(--text-suau);
+  }
+  .menu-grup ul { flex-direction: column; gap: 2px; }
+  .menu a {
+    display: flex; align-items: center; gap: 14px;
+    padding: 12px;
+    border-radius: 14px;
+    font-size: 1.08rem;
+    white-space: normal;
+  }
+  .menu a:hover { background: var(--fons-suau); }
+  .menu a[aria-current="page"] { background: var(--fons-suau); color: var(--text); box-shadow: inset 4px 0 0 var(--text); }
+  .menu-icona {
+    display: block;
+    width: 40px; height: 40px; padding: 9px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--fons-suau);
+    color: var(--text);
+  }
+  .menu a[aria-current="page"] .menu-icona { background: var(--text); color: #fff; }
+  .menu-text { display: flex; flex-direction: column; font-weight: 700; line-height: 1.2; }
+  .menu small { display: block; font-weight: 400; font-size: .88rem; color: var(--text-suau); margin-top: 2px; }
+
+  /* Cursos: tres rajoles de color */
+  .menu-cursos ul { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .menu a.menu-curs {
+    flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: 2px;
+    min-height: 84px;
+    padding: 12px;
+    background: var(--color);
+    color: #fff;
+  }
+  .menu a.menu-curs:hover { filter: brightness(1.1); background: var(--color); }
+  .menu a.menu-curs .menu-text { font-family: var(--serif); font-size: 1.7rem; line-height: 1; }
+  .menu a.menu-curs small { color: rgba(255,255,255,.88); font-size: .78rem; }
+  .menu a.menu-curs[aria-current="page"] { box-shadow: inset 0 0 0 3px rgba(255,255,255,.75); color: #fff; background: var(--color); }
+
+  .menu-peu {
+    display: block;
+    margin: 20px 4px 0;
+    padding-top: 14px;
+    border-top: 1px solid var(--linia);
+    font-size: .85rem; color: var(--text-suau);
+  }
 }
+@media (prefers-reduced-motion: reduce) { .menu.obert { animation: none; } }
 
 /* ---------- Peu ---------- */
 .peu {
@@ -962,3 +1041,132 @@ a.targeta:hover { border-color: #c9c6be; }
 .credits summary { cursor: pointer; font-weight: 700; }
 .credits ul { padding-left: 1.2em; }
 .credits li { margin-bottom: 4px; }
+
+/* ---------- Apunts de cada sessió ---------- */
+.marca-apunts {
+  padding: 1px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--color);
+  color: var(--color);
+  font-size: .74rem;
+}
+.cap-apunts { color: #fff; padding: 30px 0 34px; position: relative; overflow: hidden; isolation: isolate; }
+.cap-apunts::before {
+  content: ""; position: absolute; top: 50%; right: -5%; width: 50%; height: 73px; transform: translateY(-50%);
+  background: repeating-linear-gradient(to bottom, rgba(255,255,255,.16) 0 1.5px, transparent 1.5px 18px); z-index: -1;
+}
+.molles { font-size: .92rem; opacity: .9; margin-bottom: 14px; }
+.molles a { color: #fff; }
+.num-sessio { font-weight: 700; letter-spacing: .04em; margin: 0 0 4px; opacity: .92; }
+.cap-apunts h1 { margin-bottom: .2em; max-width: 26ch; }
+.cap-apunts .subtitol { font-size: 1.2rem; margin: 0; opacity: .95; }
+
+.cos-apunts { max-width: 820px; }
+.accions-apunts { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 8px; }
+
+.audicions-sessio {
+  margin-top: 22px;
+  padding: 18px 20px;
+  border: 1px solid var(--linia);
+  border-radius: var(--radi);
+  background: var(--fons-suau);
+}
+.audicions-sessio h2 { font-size: 1.15rem; margin-bottom: 10px; }
+.audicions-sessio ul { list-style: none; margin: 0; padding: 0; }
+.audicions-sessio li {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--linia);
+}
+.audicions-sessio li:first-child { border-top: 0; }
+.audicions-sessio li.clau > span { font-weight: 700; }
+.estrella { color: var(--color); margin-right: 6px; }
+.audicions-sessio a, .obra-clau a {
+  display: inline-flex; align-items: center; gap: 6px; flex-shrink: 0;
+  padding: 6px 12px; border-radius: 999px;
+  background: var(--fons); border: 1px solid var(--linia);
+  color: var(--color); font-weight: 700; font-size: .9rem; text-decoration: none;
+}
+.audicions-sessio a svg, .obra-clau a svg { width: 16px; height: 16px; }
+
+.text-apunts { margin-top: 10px; }
+.text-apunts section { margin-top: 30px; }
+.text-apunts h2 { font-size: 1.45rem; color: var(--color); }
+.text-apunts h2::after {
+  content: ""; display: block; width: 44px; height: 3px; margin-top: 8px; border-radius: 2px; background: var(--color); opacity: .5;
+}
+.text-apunts p { font-size: 1.1rem; line-height: 1.65; }
+.text-apunts ul { padding-left: 1.3em; margin: 0 0 1em; }
+.text-apunts li { margin-bottom: 8px; line-height: 1.55; font-size: 1.08rem; }
+.text-apunts li::marker { color: var(--color); }
+.escolta {
+  display: flex; gap: 14px; align-items: flex-start;
+  margin: 0 0 12px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--color) 6%, #fff);
+  border-left: 4px solid var(--color);
+}
+.escolta p { margin: 0; }
+.icona-escolta { color: var(--color); flex-shrink: 0; margin-top: 3px; }
+.icona-escolta svg { width: 22px; height: 22px; display: block; }
+.terme-glossari {
+  color: inherit;
+  text-decoration: underline dotted color-mix(in srgb, var(--color) 70%, transparent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+.terme-glossari:hover { color: var(--color); }
+
+.apres {
+  margin-top: 34px;
+  padding: 20px 22px;
+  border-radius: var(--radi);
+  border: 1px solid var(--linia);
+  box-shadow: var(--ombra);
+}
+.apres h2 { font-size: 1.25rem; }
+.apres p:last-child, .apres ul:last-child { margin-bottom: 0; }
+.apres ul { padding-left: 1.2em; }
+.obra-clau {
+  margin-top: 18px;
+  padding: 22px;
+  border-radius: var(--radi);
+  background: var(--color);
+  color: #fff;
+}
+.obra-clau .etiqueta { color: rgba(255,255,255,.85); }
+.obra-clau h2 { font-size: 1.45rem; margin-bottom: .3em; }
+.obra-clau p { opacity: .95; }
+.obra-clau a { background: #fff; border: 0; }
+.navega-sessions {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  margin-top: 34px; padding-top: 18px;
+  border-top: 1px solid var(--linia);
+  font-weight: 700;
+}
+.navega-sessions a { color: var(--color); text-decoration: none; padding: 8px 0; }
+.navega-sessions a:hover { text-decoration: underline; }
+@media (max-width: 560px) {
+  .audicions-sessio li { flex-wrap: wrap; }
+  .navega-sessions { font-size: .95rem; }
+}
+
+/* Glossari: terme destacat quan s'hi arriba des dels apunts */
+.terme.destacat { outline: 3px solid var(--color); outline-offset: 2px; }
+
+/* ---------- Impressió i PDF ---------- */
+@media print {
+  @page { margin: 18mm 16mm; }
+  .capcalera, .peu, .salta, .no-imprimir, .fons-menu, noscript { display: none !important; }
+  body { font-size: 11pt; background: #fff; }
+  .cap-apunts { color: var(--color); background: none !important; padding: 0 0 10px; border-bottom: 2px solid var(--color); }
+  .cap-apunts::before { display: none; }
+  .molles, .molles a { color: #555; }
+  .cos-apunts { max-width: none; padding: 0; }
+  .audicions-sessio, .escolta, .apres { break-inside: avoid; }
+  .obra-clau { background: none; color: var(--text); border: 2px solid var(--color); break-inside: avoid; }
+  .obra-clau .etiqueta { color: var(--color); }
+  .terme-glossari { text-decoration: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

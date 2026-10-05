@@ -1,0 +1,820 @@
+{
+ "curs": "5e",
+ "sessions": [
+  {
+   "numero": 1,
+   "titol": "Benvinguts al Barroc",
+   "subtitol": "Contrast, moviment i emoció",
+   "audicions": [
+    {
+     "text": "A. Vivaldi – La primavera (1r moviment)",
+     "clau": true
+    },
+    {
+     "text": "C. Monteverdi – L'Orfeo, Toccata (recordatori de 4t)",
+     "clau": false
+    },
+    {
+     "text": "J. S. Bach – Tocata i fuga en re menor (inici)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "On érem?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;any passat vam acabar el viatge amb <strong>L&#x27;Orfeo</strong> de Monteverdi (1607): la música deixava de buscar només l&#x27;equilibri i volia <strong>emocionar</strong>, explicar històries i impressionar. Aquest curs comencem exactament aquí. Estudiarem el <strong>Barroc</strong> (1600-1750) i el <strong>Classicisme</strong> (1750-1820), i acabarem als llindars del Romanticisme."
+      }
+     ]
+    },
+    {
+     "titol": "Què és el Barroc?",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La paraula <em>barroc</em> probablement ve del portuguès <em>barroco</em>, una perla irregular. Durant molt de temps es va fer servir com a insult: art recarregat, exagerat. Avui la feim servir sense aquest sentit negatiu per designar l&#x27;art europeu del segle XVII i de la primera meitat del XVIII. És l&#x27;època dels reis absoluts, com Lluís XIV, de la Contrareforma, dels grans palaus i de la ciència moderna de Galileu i Newton."
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;art barroc busca el <strong>moviment</strong>, el <strong>contrast</strong> i l&#x27;<strong>emoció</strong>. Pensau en les escultures de Bernini o en la llum i l&#x27;ombra de Caravaggio. La música fa el mateix:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Contrastos:</strong> fort i fluix, solista i grup, ràpid i lent.",
+        "<strong>Baix continu:</strong> una línia greu que no s&#x27;atura i sosté tota l&#x27;obra.",
+        "<strong>Afectes:</strong> cada peça vol provocar una emoció concreta.",
+        "<strong>Tonalitat:</strong> els modes medievals deixen pas al major i al menor.",
+        "<strong>Naixement de gèneres nous:</strong> òpera, oratori, cantata, concert, sonata, suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Recordau la <strong>Toccata</strong> de L&#x27;Orfeo: la fanfàrria que obria l&#x27;espectacle a la cort de Màntua. Ara ja sabeu on érem."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>La primavera</strong> de Vivaldi (publicada el 1725) és potser la música barroca més coneguda. Fixau-vos en el <strong>tutti</strong>, el tema de tota l&#x27;orquestra que torna una vegada i una altra, i en els moments en què un violí solista imita els ocells, el rierol i una tempesta. Contrast i imatges: el Barroc en estat pur."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici de la <strong>Tocata i fuga en re menor</strong>, atribuïda a Bach, és dramàtic des de la primera nota: un orgue que omple l&#x27;església, silencis que creen tensió i una gran energia."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el Barroc (1600-1750) busca el moviment, el contrast i l&#x27;emoció, que la seva música s&#x27;aguanta sobre el baix continu i la tonalitat, i que és l&#x27;època en què neixen molts dels gèneres que encara feim servir.</p>",
+   "obraClau": {
+    "obra": "Vivaldi – La primavera",
+    "motiu": "Perquè en tres minuts ens mostra tot el Barroc: contrastos, un solista que brilla i una música que pinta imatges."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 2,
+   "titol": "El baix continu",
+   "subtitol": "Els fonaments de la música barroca",
+   "audicions": [
+    {
+     "text": "J. Pachelbel – Cànon en re",
+     "clau": true
+    },
+    {
+     "text": "C. Monteverdi – Zefiro torna",
+     "clau": true
+    },
+    {
+     "text": "G. F. Händel – Sarabanda (Suite en re menor, HWV 437)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Una línia greu que ho sosté tot",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Recordau que la Camerata Florentina va inventar la monodia acompanyada: una veu que canta i un instrument que fa els acords. D&#x27;aquí neix el <strong>baix continu</strong>, el gran invent del Barroc. El compositor només escrivia la línia del baix i, damunt de les notes, uns nombres que indicaven quins acords s&#x27;havien de tocar: el <strong>baix xifrat</strong>. Els músics improvisaven la resta."
+      },
+      {
+       "tipus": "p",
+       "html": "El continu el tocaven normalment dos instruments alhora:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Un <strong>instrument greu melòdic</strong>: violoncel, viola da gamba o fagot, que toca la línia del baix.",
+        "Un <strong>instrument d&#x27;acords</strong>: clavecí, orgue, llaüt o tiorba, que fa l&#x27;harmonia."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Pensau en una banda de pop: el baix elèctric i el teclat fan una feina molt semblant. Per això es diu que el Barroc és la primera música amb una «secció rítmica»."
+      }
+     ]
+    },
+    {
+     "titol": "L'ostinato",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Molts compositors barrocs van construir obres senceres sobre un baix que es repeteix sense parar, l&#x27;<strong>ostinato</strong> o <strong>basso ostinato</strong>. Damunt d&#x27;aquest fonament, les veus superiors fan variacions cada vegada més elaborades. Hi ha diversos esquemes famosos: la <strong>ciaccona</strong>, la <strong>passacaglia</strong> o el <strong>ground</strong> anglès."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Cànon</strong> de Pachelbel és un cas perfecte. El baix toca vuit notes, sempre les mateixes, unes vint-i-vuit vegades. Damunt seu, tres violins toquen en cànon, i cada vegada les figures són més ràpides i ornamentades. Intentau seguir només el baix: no s&#x27;atura mai."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>Zefiro torna</strong> (1632), Monteverdi escriu per a dos tenors sobre un baix de ciaccona curt, alegre i dansable. Les veus juguen amb el text, que parla del vent de primavera, i de sobte, quan el poeta parla del seu dolor, el baix s&#x27;atura i la música canvia completament."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Sarabanda</strong> de Händel és lenta i solemne, i també es basa en una seqüència d&#x27;acords que torna i es varia."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el baix continu és el fonament de la música barroca, que el tocaven un instrument greu i un d&#x27;acords a partir d&#x27;un baix xifrat, i que l&#x27;ostinato permet construir grans obres damunt una línia que es repeteix.</p>",
+   "obraClau": {
+    "obra": "Pachelbel – Cànon en re",
+    "motiu": "Perquè ens fa sentir amb tota claredat com funciona un baix que no s&#x27;atura mai."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 3,
+   "titol": "La música dels afectes",
+   "subtitol": "Quan cada peça vol fer-nos sentir una cosa",
+   "audicions": [
+    {
+     "text": "C. Monteverdi – Lamento della ninfa",
+     "clau": true
+    },
+    {
+     "text": "A. Vivaldi – L'hivern (1r moviment)",
+     "clau": false
+    },
+    {
+     "text": "H. Purcell – Música per al funeral de la reina Maria (Marxa)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La teoria dels afectes",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Recordau l&#x27;<strong>ethos</strong> dels grecs? Els músics barrocs recuperen aquesta idea amb la <strong>teoria dels afectes</strong>: la música ha de despertar en l&#x27;oient un estat d&#x27;ànim concret, un <strong>afecte</strong>: alegria, tristesa, ira, amor, por, devoció. Normalment, una peça o un moviment expressa un sol afecte de principi a fi."
+      },
+      {
+       "tipus": "p",
+       "html": "Per aconseguir-ho, els compositors feien servir recursos que tothom coneixia:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Tonalitats:</strong> cada tonalitat tenia un caràcter; el re major era brillant i triomfal, el sol menor, trist.",
+        "<strong>Tempo i ritme:</strong> ràpid per a l&#x27;alegria, lent per al dolor.",
+        "<strong>Dissonàncies i cromatismes</strong> per al patiment.",
+        "<strong>Figures retòriques:</strong> igual que un orador, el músic feia servir «figures» com els sospirs (notes separades per silencis) o el <strong>baix de lament</strong>, un baix que baixa per graus conjunts."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "La música barroca s&#x27;entén com un discurs: vol convèncer i commoure, com un orador."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Lamento della ninfa</strong> (1638), una nimfa plora perquè el seu estimat l&#x27;ha abandonada. Fixau-vos en el baix: quatre notes que baixen, repetides tota l&#x27;estona. És el baix de lament, el símbol musical del dolor. Damunt seu, la soprano canta amb molta llibertat, i tres veus masculines comenten l&#x27;escena com un cor, compadint-la."
+      },
+      {
+       "tipus": "escolta",
+       "html": "A <strong>L&#x27;hivern</strong> de Vivaldi, les notes repetides i les dissonàncies imiten el tremolor del fred i el castanyeig de les dents. L&#x27;afecte és clar: fa fred de veritat."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Marxa</strong> que Purcell va escriure el 1695 per al funeral de la reina Maria d&#x27;Anglaterra, amb trompetes lentes i timbals, expressa un afecte solemne i fúnebre."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música barroca vol provocar emocions concretes (afectes), que per fer-ho fa servir recursos coneguts com les tonalitats, els tempos, les dissonàncies o el baix de lament, i que s&#x27;entén com un discurs que vol convèncer.</p>",
+   "obraClau": {
+    "obra": "Monteverdi – Lamento della ninfa",
+    "motiu": "Perquè quatre notes que baixen són suficients per fer-nos sentir el dolor d&#x27;un personatge."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 4,
+   "titol": "Monteverdi i els inicis de l'òpera",
+   "subtitol": "Del palau al teatre públic",
+   "audicions": [
+    {
+     "text": "C. Monteverdi – L'Orfeo, «Tu se' morta»",
+     "clau": true
+    },
+    {
+     "text": "C. Monteverdi – L'incoronazione di Poppea, «Pur ti miro»",
+     "clau": true
+    },
+    {
+     "text": "C. Monteverdi – Vespres de la Mare de Déu, «Deus in adiutorium»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Els elements de l'òpera",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Una òpera és un drama totalment cantat. Des del principi hi trobam uns elements que es mantindran durant segles:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Obertura o sinfonia:</strong> peça instrumental inicial.",
+        "<strong>Recitatiu:</strong> cant proper a la parla, per avançar l&#x27;acció i els diàlegs.",
+        "<strong>Ària:</strong> un moment melòdic, on el personatge expressa les seves emocions. L&#x27;acció s&#x27;atura.",
+        "<strong>Cors, duos i danses.</strong>",
+        "<strong>Llibret:</strong> el text de l&#x27;òpera, escrit per un poeta, el llibretista."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Monteverdi, de Màntua a Venècia",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Després de L&#x27;Orfeo, Monteverdi va deixar Màntua i el 1613 es va convertir en mestre de capella de Sant Marc de Venècia, el càrrec musical més important de la ciutat. Hi va escriure música religiosa i va continuar amb l&#x27;òpera. Els seus <strong>Vespres</strong>, publicats el 1610, són una de les grans obres religioses del moment."
+      },
+      {
+       "tipus": "p",
+       "html": "El 1637 s&#x27;obre a Venècia el <strong>teatre San Cassiano</strong>, el primer teatre d&#x27;òpera <strong>públic</strong> de la història: qualsevol persona que pagàs una entrada podia assistir-hi. L&#x27;òpera deixa de ser un luxe de cort i es converteix en un negoci i un espectacle per a la ciutat. En pocs anys, Venècia té diversos teatres d&#x27;òpera."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "A <strong>«Tu se&#x27; morta»</strong>, Orfeu acaba de saber que Eurídice ha mort. És un recitatiu: la música segueix les paraules com si Orfeu parlàs. Fixau-vos en els silencis, en les dissonàncies i en la manera com la veu puja i baixa segons el dolor del text. És la seconda pratica en acció: la paraula mana."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Pur ti miro»</strong> tanca <em>L&#x27;incoronazione di Poppea</em> (1643), una òpera escrita per als teatres públics de Venècia, sobre personatges històrics: l&#x27;emperador Neró i Popea. És un duo d&#x27;amor sobre un baix ostinato de quatre notes, i les dues veus s&#x27;entrellacen amb dissonàncies suaus que es resolen. Els estudiosos discuteixen si és del mateix Monteverdi o d&#x27;algun deixeble."
+      },
+      {
+       "tipus": "escolta",
+       "html": "L&#x27;inici dels <strong>Vespres</strong> fa servir la mateixa Toccata de L&#x27;Orfeo, ara amb el cor cantant a sobre. La música de teatre entra a l&#x27;església."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;òpera s&#x27;organitza en obertura, recitatius, àries i cors, que Monteverdi la va portar del palau de Màntua a Venècia, i que el 1637 neix el primer teatre d&#x27;òpera públic.</p>",
+   "obraClau": {
+    "obra": "Monteverdi – L'incoronazione di Poppea, «Pur ti miro»",
+    "motiu": "Perquè ens mostra l&#x27;òpera sortint del palau cap al teatre públic, amb personatges humans i passions de veritat."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 5,
+   "titol": "L'òpera italiana: àries, castrats i estrelles",
+   "subtitol": "El cant com a espectacle",
+   "audicions": [
+    {
+     "text": "G. F. Händel – Rinaldo, «Lascia ch'io pianga»",
+     "clau": true
+    },
+    {
+     "text": "R. Broschi – «Son qual nave ch'agitata»",
+     "clau": true
+    },
+    {
+     "text": "G. F. Händel – Serse, «Ombra mai fù»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "L'òpera seria",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A finals del segle XVII i durant el XVIII, l&#x27;òpera italiana triomfa a tot Europa, excepte a França. El gènere més prestigiós és l&#x27;<strong>òpera seria</strong>: temes heroics, mitològics o de la història antiga, amb reis i herois que han de triar entre l&#x27;amor i el deure. L&#x27;estructura és una alternança constant de recitatius i àries."
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;ària més habitual és l&#x27;<strong>ària da capo</strong>, amb forma <strong>A B A</strong>: una primera secció, una secció central contrastant i la repetició de la primera. Però a la repetició el cantant no cantava igual: hi afegia <strong>ornaments</strong> improvisats per lluir la seva veu i la seva imaginació."
+      }
+     ]
+    },
+    {
+     "titol": "Els castrats i les primeres estrelles",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Els grans protagonistes de l&#x27;òpera seria eren els <strong>castrats</strong>, cantants que havien estat operats de petits perquè no els canviàs la veu. Tenien la veu aguda d&#x27;un infant i la força pulmonar d&#x27;un adult. Avui ens sembla una pràctica cruel, i ho era: molts infants eren operats per famílies pobres que somiaven amb l&#x27;èxit dels seus fills, però molt pocs el trobaven. Els que triomfaven eren les grans estrelles de l&#x27;època, com <strong>Farinelli</strong> (Carlo Broschi, 1705-1782), que va passar molts anys a la cort d&#x27;Espanya, on cantava cada nit per al rei Felip V. Avui aquests papers els canten contratenors o mezzosopranos."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Lascia ch&#x27;io pianga»</strong> («Deixa que plori») és de <em>Rinaldo</em> (1711), l&#x27;òpera que va fer triomfar Händel a Londres. Almirena, presonera, plora la seva llibertat perduda. Escoltau-ne la forma da capo: una melodia lenta i senzilla (A), una secció central més agitada (B) i el retorn d&#x27;A, que la soprano ornamenta."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Son qual nave ch&#x27;agitata»</strong>, del germà de Farinelli, Riccardo Broschi, era una ària escrita per lluir-lo. El cantant es compara amb una nau agitada per la tempesta, i la música s&#x27;omple de passatges virtuosos rapidíssims i notes llarguíssimes. És el cant com a exhibició."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Ombra mai fù»</strong> obre <em>Serse</em> (1738): el rei Xerxes canta a l&#x27;ombra d&#x27;un plàtan. Una melodia ampla i serena, de les més conegudes de Händel."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;òpera seria italiana domina Europa, que l&#x27;ària da capo (ABA) permet al cantant ornamentar la repetició, i que els castrats van ser les grans estrelles, fruit d&#x27;una pràctica que avui considerem inacceptable.</p>",
+   "obraClau": {
+    "obra": "Händel – Lascia ch'io pianga",
+    "motiu": "Perquè en una ària da capo senzilla i emocionant veiem com funcionava el gran espectacle de l&#x27;òpera barroca."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 6,
+   "titol": "Versalles i Londres",
+   "subtitol": "L'òpera a França i a Anglaterra",
+   "audicions": [
+    {
+     "text": "H. Purcell – Dido and Aeneas, «When I am laid in earth» (Lament de Dido)",
+     "clau": true
+    },
+    {
+     "text": "J.-B. Lully – Marxa per a la cerimònia dels turcs",
+     "clau": true
+    },
+    {
+     "text": "J.-Ph. Rameau – Les Indes galantes, «Les Sauvages»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "França: la música del Rei Sol",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Lluís XIV</strong>, el Rei Sol, va convertir el palau de <strong>Versalles</strong> en el centre del poder i de l&#x27;art. La música era una eina política: mostrava la grandesa del rei. El mateix rei ballava de jove en els ballets de la cort."
+      },
+      {
+       "tipus": "p",
+       "html": "El gran músic de Versalles va ser <strong>Jean-Baptiste Lully</strong> (1632-1687), un florentí que va arribar a controlar tota la música de França. Va crear una òpera francesa pròpia, la <strong>tragèdia lírica</strong>, molt diferent de la italiana:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "Molta <strong>dansa</strong> i molts <strong>cors</strong>.",
+        "Recitatius que segueixen amb cura la pronúncia francesa.",
+        "L&#x27;<strong>obertura francesa</strong>: una part lenta i solemne amb ritmes puntejats, i una part ràpida.",
+        "Una orquestra disciplinada, els <em>Vint-i-quatre violins del rei</em>."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "Lully també va treballar amb el dramaturg <strong>Molière</strong>. I va tenir una mort ben estranya: dirigia marcant el ritme picant a terra amb un bastó llarg, es va colpejar el peu i la ferida es va infectar."
+      }
+     ]
+    },
+    {
+     "titol": "Anglaterra: Purcell",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "A Anglaterra, on el teatre parlat tenia molta força, l&#x27;òpera va arribar més tard. <strong>Henry Purcell</strong> (1659-1695) va ser el gran compositor anglès del Barroc. La seva única òpera totalment cantada és <strong>Dido and Aeneas</strong> (c. 1689), una obra breu que, segons es creu, es va representar en una escola de noies."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "Al <strong>Lament de Dido</strong>, la reina de Cartago s&#x27;acomiada abans de morir, abandonada per Enees. Fixau-vos en el baix: una línia que baixa cromàticament i es repeteix una vegada i una altra, un <strong>ground</strong>. Recordau el Lamento della ninfa? És el mateix recurs. Damunt seu, Dido canta «Remember me» («Recorda&#x27;m»), un dels moments més emocionants del Barroc."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Marxa per a la cerimònia dels turcs</strong>, de l&#x27;obra <em>El burgès gentilhome</em> (1670) de Molière i Lully, és solemne i pomposa, amb ritmes puntejats i timbals. És la música de la cort feta espectacle."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Les Sauvages»</strong>, de Rameau, és una dansa enèrgica i rítmica de l&#x27;òpera-ballet <em>Les Indes galantes</em> (1735). Rameau va ser el gran continuador de Lully i un teòric important de l&#x27;harmonia."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que a França l&#x27;òpera es posa al servei del rei, amb molta dansa i l&#x27;obertura francesa, i que a Anglaterra Purcell ens deixa una de les pàgines més emocionants del Barroc sobre un baix ostinato.</p>",
+   "obraClau": {
+    "obra": "Purcell – Lament de Dido",
+    "motiu": "Perquè un baix que es repeteix i una veu que demana ser recordada han commogut el públic durant més de tres segles."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 7,
+   "titol": "Oratori i cantata",
+   "subtitol": "Teatre sense escena, fe amb música",
+   "audicions": [
+    {
+     "text": "G. F. Händel – El Messies, «Hallelujah»",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Cantata BWV 147, «Jesus bleibet meine Freude»",
+     "clau": true
+    },
+    {
+     "text": "G. Carissimi – Jefte, «Plorate filii Israel»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "L'oratori",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;<strong>oratori</strong> neix a Roma al segle XVII, a les sales de pregària anomenades <em>oratoris</em>. Té els mateixos elements que l&#x27;òpera (recitatius, àries, cors, orquestra), però amb dues diferències:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "El tema és <strong>religiós</strong>, normalment una història de la Bíblia.",
+        "<strong>No es representa</strong>: no hi ha escenografia ni vestuari. Un <strong>narrador</strong> explica la història, i el cor hi té molta importància."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "L&#x27;oratori era molt útil en èpoques, com la Quaresma, en què els teatres d&#x27;òpera tancaven. El primer gran compositor d&#x27;oratoris va ser <strong>Giacomo Carissimi</strong>."
+      },
+      {
+       "tipus": "p",
+       "html": "El gran mestre de l&#x27;oratori és <strong>Händel</strong>. Quan l&#x27;òpera italiana va passar de moda a Londres, va escriure oratoris en anglès, i el públic els va rebre amb entusiasme. El més famós és <strong>El Messies</strong>, estrenat a Dublín el 1742."
+      }
+     ]
+    },
+    {
+     "titol": "La cantata",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>cantata</strong> és una obra vocal més breu, per a una o diverses veus, amb recitatius, àries i, de vegades, cors. N&#x27;hi ha de <strong>profanes</strong> i de <strong>religioses</strong>. A l&#x27;Alemanya luterana, la cantata religiosa formava part del servei de cada diumenge, i sovint acabava amb un <strong>coral</strong>. Recordau el coral de Luter de l&#x27;any passat? Aquí el retrobam."
+      },
+      {
+       "tipus": "p",
+       "html": "A Leipzig, <strong>Bach</strong> tenia l&#x27;obligació de preparar música per a cada diumenge, i en va compondre cicles sencers: se&#x27;n conserven més de dues-centes cantates."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El cor <strong>«Plorate filii Israel»</strong>, de <em>Jefte</em> de Carissimi, tanca l&#x27;oratori amb un lament ple de dissonàncies expressives."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>«Jesus bleibet meine Freude»</strong> (1723) és un coral de la cantata BWV 147 de Bach. El cor canta la melodia del coral a frases llargues, mentre l&#x27;orquestra fa sonar sense parar una melodia en tresets que envolta les veus. Dues capes molt diferents que encaixen perfectament."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>«Hallelujah»</strong> és el cor més famós del Messies. Fixau-vos en els contrastos: frases en bloc, totes les veus juntes, i fragments en imitació; trompetes i timbals, i un final triomfal. Segons una tradició, el públic s&#x27;hi posa dret."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que l&#x27;oratori és una òpera religiosa sense escena, amb narrador i un cor molt important, que la cantata és més breu i a l&#x27;Alemanya luterana formava part del culte, i que Händel i Bach en són els grans mestres.</p>",
+   "obraClau": {
+    "obra": "Händel – El Messies, «Hallelujah»",
+    "motiu": "Perquè és un dels cors més coneguts de la història i mostra tota la força del Barroc."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 8,
+   "titol": "Bach i la Passió",
+   "subtitol": "El gran drama sense teatre",
+   "audicions": [
+    {
+     "text": "J. S. Bach – Passió segons sant Mateu, cor inicial «Kommt, ihr Töchter»",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Passió segons sant Mateu, «Erbarme dich»",
+     "clau": true
+    },
+    {
+     "text": "J. S. Bach – Passió segons sant Mateu, coral «O Haupt voll Blut und Wunden»",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Johann Sebastian Bach",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "<strong>Johann Sebastian Bach</strong> (1685-1750) va néixer a Eisenach, a Alemanya, en una família on tothom era músic. Va treballar com a organista, com a músic de cort a Weimar i a Köthen i, des del 1723 fins a la seva mort, com a <strong>Kantor</strong> de l&#x27;església de Sant Tomàs de <strong>Leipzig</strong>: s&#x27;encarregava de la música de les esglésies de la ciutat i ensenyava els al·lots de l&#x27;escola. Va tenir vint fills, i diversos van ser compositors importants."
+      }
+     ]
+    },
+    {
+     "titol": "La Passió",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "La <strong>Passió</strong> narra els darrers dies de Jesús segons un dels evangelis. Es cantava el Divendres Sant i té tres nivells:"
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>La narració:</strong> l&#x27;<strong>Evangelista</strong> (un tenor) explica la història en recitatiu, i els personatges (Jesús, Pere, Pilat) hi intervenen. El cor fa de multitud.",
+        "<strong>La meditació:</strong> les àries comenten el que ha passat, com si fos un creient d&#x27;avui qui reflexiona.",
+        "<strong>La comunitat:</strong> els corals, melodies que tothom coneixia, representen l&#x27;església sencera."
+       ]
+      },
+      {
+       "tipus": "p",
+       "html": "La <strong>Passió segons sant Mateu</strong> (1727) és per a dos cors i dues orquestres, i dura prop de tres hores. Després de la mort de Bach, la seva música va quedar gairebé oblidada, i el 1829 un jove <strong>Felix Mendelssohn</strong> va tornar a dirigir aquesta Passió. Va ser el començament de la recuperació de Bach."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "El <strong>cor inicial</strong> és immens: dos cors dialoguen («Veniu, filles, ajudau-me a plorar»), sobre un baix que avança com passes feixugues. I per damunt de tot, un tercer cor d&#x27;infants canta un coral. Recordau la policoralitat de Venècia?"
+      },
+      {
+       "tipus": "escolta",
+       "html": "A l&#x27;ària <strong>«Erbarme dich»</strong>, Pere ha negat Jesús tres vegades i plora. Una contralt canta acompanyada per un violí solista que plora amb ella. És un moment de meditació pura."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El coral <strong>«O Haupt voll Blut und Wunden»</strong> apareix diverses vegades a la Passió, harmonitzat de manera diferent cada vegada. És senzill, a quatre veus, en blocs: la veu de la comunitat."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que Bach va ser el Kantor de Leipzig, que la Passió combina narració, meditació i coral, i que la seva música va ser recuperada el 1829 gràcies a Mendelssohn.</p>",
+   "obraClau": {
+    "obra": "Bach – Passió segons sant Mateu (cor inicial)",
+    "motiu": "Perquè és una de les construccions musicals més grans de la història, al servei d&#x27;un relat que tothom coneixia."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 9,
+   "titol": "El Barroc hispànic i americà",
+   "subtitol": "Villancicos, orgues i músiques de dos mons",
+   "audicions": [
+    {
+     "text": "J. de Araujo – Los coflades de la estleya",
+     "clau": true
+    },
+    {
+     "text": "G. Fernandes – Xicochi conetzintle",
+     "clau": true
+    },
+    {
+     "text": "J. Cabanilles – Corrente italiana",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "La Península Ibèrica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Al segle XVII, la monarquia hispànica perd poder polític, però continua mantenint grans capelles musicals a la cort i a les catedrals. La música religiosa en llatí es combina amb el <strong>villancico religiós</strong>, en castellà o en altres llengües, que es cantava a les grans festes, com Nadal o Corpus, i que sovint era festiu i teatral. A la cort es desenvolupa la <strong>sarsuela</strong>, un teatre amb parts parlades i parts cantades."
+      },
+      {
+       "tipus": "p",
+       "html": "Els instruments més característics són l&#x27;<strong>orgue</strong> i la <strong>guitarra barroca</strong>, de cinc ordres. Els orgues ibèrics tenen una característica pròpia: la <strong>trompeteria de batalla</strong>, tubs de llengüeta col·locats horitzontalment a la façana, amb un so brillant, com trompetes. A València, <strong>Joan Cabanilles</strong> (1644-1712), organista de la catedral, va ser un dels grans organistes d&#x27;Europa."
+      }
+     ]
+    },
+    {
+     "titol": "Amèrica",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Les catedrals de les colònies espanyoles i portugueses d&#x27;Amèrica (Mèxic, Puebla, Lima, Cusco, La Plata) tenien capelles musicals tan importants com les europees. Hi treballaven músics europeus i músics nascuts a Amèrica, i la música es va barrejar amb les llengües i els ritmes indígenes i africans. També s&#x27;hi van fer servir la música i els instruments en les missions per evangelitzar la població indígena. És una història de riquesa cultural, però també de conquesta i d&#x27;imposició."
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Xicochi conetzintle</strong>, de Gaspar Fernandes, mestre de capella de la catedral de Puebla (Mèxic) a principis del segle XVII, és una cançó de bressol per a l&#x27;infant Jesús en <strong>nàhuatl</strong>, la llengua dels mexica. Música europea, llengua americana: una fusió de dos mons."
+      },
+      {
+       "tipus": "escolta",
+       "html": "<strong>Los coflades de la estleya</strong>, de Juan de Araujo, mestre de capella de la catedral de La Plata (l&#x27;actual Sucre, a Bolívia), és un villancico de Nadal que imita la manera de parlar castellà de la població africana esclavitzada. Fixau-vos en el ritme viu i sincopat, les percussions i el caràcter de festa."
+      },
+      {
+       "tipus": "escolta",
+       "html": "La <strong>Corrente italiana</strong> de Cabanilles és una dansa animada, que sovint s&#x27;interpreta amb instruments diversos."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que el Barroc hispànic combina música religiosa, villancicos i sarsuela, que l&#x27;orgue ibèric té una sonoritat pròpia, i que a Amèrica la música europea es barreja amb llengües i ritmes indígenes i africans.</p>",
+   "obraClau": {
+    "obra": "Araujo – Los coflades de la estleya",
+    "motiu": "Perquè ens mostra que el Barroc també va sonar a l&#x27;altra banda de l&#x27;oceà, amb ritmes i veus nous."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 10,
+   "titol": "Les compositores del Barroc",
+   "subtitol": "Veus que la història havia oblidat",
+   "audicions": [
+    {
+     "text": "B. Strozzi – Che si può fare",
+     "clau": true
+    },
+    {
+     "text": "É. Jacquet de La Guerre – Suite en re menor (Prélude)",
+     "clau": true
+    },
+    {
+     "text": "F. Caccini – La liberazione di Ruggiero (selecció)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Ser compositora al Barroc",
+     "escoltem": false,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "L&#x27;any passat vam conèixer Hildegarda de Bingen, la Comtessa de Dia i Maddalena Casulana. Al Barroc, les dones continuen tenint moltes dificultats: no podien ocupar càrrecs a les esglésies ni a les universitats, i s&#x27;esperava que la música fos per a elles un entreteniment domèstic. Tot i això, algunes van aconseguir desenvolupar una carrera, sovint gràcies a la seva família o a un mecenes."
+      },
+      {
+       "tipus": "llista",
+       "items": [
+        "<strong>Francesca Caccini</strong> (1587-c. 1641), filla de Giulio Caccini (el de la Camerata), va treballar a la cort dels Mèdici. La seva <em>Liberazione di Ruggiero</em> (1625) és considerada la primera òpera escrita per una dona.",
+        "<strong>Barbara Strozzi</strong> (1619-1677), a Venècia, va publicar vuit llibres de música vocal, més que molts compositors de la seva època. Va ser una de les primeres persones que va viure de publicar música sense tenir un càrrec fix.",
+        "<strong>Élisabeth Jacquet de La Guerre</strong> (1665-1729) va ser un infant prodigi del clavecí a la cort de Lluís XIV. Va compondre per a clavecí, cantates i una òpera, i va ser molt admirada en el seu temps."
+       ]
+      }
+     ]
+    },
+    {
+     "titol": "Escoltem",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "escolta",
+       "html": "<strong>Che si può fare</strong> («Què s&#x27;hi pot fer?») és un lament de Strozzi. Fixau-vos en el baix, que baixa lentament i es repeteix, i en com la veu s&#x27;hi expressa amb una gran llibertat, amb dissonàncies i silencis. És el llenguatge dels afectes, amb una veu molt personal."
+      },
+      {
+       "tipus": "escolta",
+       "html": "El <strong>Prélude</strong> de la Suite en re menor de Jacquet de La Guerre és un <strong>preludi no mesurat</strong>: la partitura no indica el ritme, i l&#x27;intèrpret decideix com fer sonar els acords arpegiats, com si improvisàs."
+      },
+      {
+       "tipus": "escolta",
+       "html": "De <strong>La liberazione di Ruggiero</strong>, escoltam un fragment de l&#x27;òpera que Francesca Caccini va escriure per a la cort de Florència."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que al Barroc també hi ha compositores importants, com Francesca Caccini, Barbara Strozzi o Élisabeth Jacquet de La Guerre, que van haver de superar grans obstacles i que avui la història de la música està recuperant.</p>",
+   "obraClau": {
+    "obra": "Strozzi – Che si può fare",
+    "motiu": "Perquè ens fa sentir una de les veus més expressives del Barroc, la d&#x27;una dona que va viure de la seva música."
+   },
+   "etiquetaAudicions": "Audicions de la sessió"
+  },
+  {
+   "numero": 11,
+   "titol": "Síntesi del trimestre",
+   "subtitol": "La veu barroca",
+   "audicions": [
+    {
+     "text": "Vivaldi – La primavera",
+     "clau": false
+    },
+    {
+     "text": "Monteverdi – Lamento della ninfa",
+     "clau": false
+    },
+    {
+     "text": "Händel – Lascia ch'io pianga",
+     "clau": false
+    },
+    {
+     "text": "Purcell – Lament de Dido",
+     "clau": false
+    },
+    {
+     "text": "Bach – Passió segons sant Mateu (cor inicial)",
+     "clau": false
+    }
+   ],
+   "seccions": [
+    {
+     "titol": "Repàs del trimestre",
+     "escoltem": true,
+     "contingut": [
+      {
+       "tipus": "p",
+       "html": "Aquest trimestre hem descobert que el Barroc és l&#x27;època del contrast i de l&#x27;emoció. Hem començat amb <strong>La primavera</strong> de Vivaldi, on un violí solista i l&#x27;orquestra dialoguen i pinten imatges."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Després hem descobert el fonament de tota aquesta música: el <strong>baix continu</strong>. Al <strong>Lamento della ninfa</strong>, quatre notes que baixen sostenen el plor d&#x27;un personatge. Hem après que cada peça vol despertar un <strong>afecte</strong>."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem vist com l&#x27;òpera surt dels palaus i arriba als teatres públics de Venècia, i com l&#x27;òpera seria italiana conquereix Europa amb les seves àries da capo. A <strong>Lascia ch&#x27;io pianga</strong> vam sentir com la repetició de l&#x27;ària permetia al cantant lluir-se."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem viatjat a Versalles i a Londres, i al <strong>Lament de Dido</strong> hem retrobat el baix ostinato com a símbol del dolor."
+      },
+      {
+       "tipus": "escolta",
+       "html": "Hem vist que la música religiosa també es fa dramàtica, amb l&#x27;oratori, la cantata i la <strong>Passió</strong> de Bach, on la narració, la meditació i la comunitat es combinen. I hem mirat cap a Amèrica i cap a les compositores que la història havia oblidat."
+      }
+     ]
+    }
+   ],
+   "apres": "<p>Que la música barroca es construeix sobre un baix continu, vol commoure amb els afectes i fa del cant un gran espectacle, a l&#x27;òpera i a l&#x27;església. El trimestre que ve, els instruments prendran la paraula.</p>",
+   "obraClau": {
+    "obra": "Purcell – Lament de Dido",
+    "motiu": "Perquè resumeix el trimestre: un baix que es repeteix, un afecte clar i una veu que ens commou."
+   },
+   "etiquetaAudicions": "Audicions de recordatori"
+  }
+ ]
+}

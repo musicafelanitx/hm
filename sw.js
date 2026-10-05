@@ -1,10 +1,10 @@
 /* Service worker de l'app: guarda una còpia de la web per si no hi ha connexió.
    Sempre intenta primer la xarxa, així els canvis es veuen de seguida. */
-const CACHE = "hm-v3";
+const CACHE = "hm-v4";
 const BASE = [
-  "./", "index.html", "4t.html", "5e.html", "6e.html", "linia-del-temps.html", "glossari.html", "audicions.html", "recursos.html",
+  "./", "index.html", "4t.html", "5e.html", "6e.html", "linia-del-temps.html", "glossari.html", "audicions.html", "apunts.html", "recursos.html",
   "css/estils.css", "js/app.js",
-  "dades/sessions.json", "dades/obra-setmana.json", "dades/periodes.json", "dades/recursos.json", "dades/glossari.json", "dades/audicions.json",
+  "dades/sessions.json", "dades/obra-setmana.json", "dades/periodes.json", "dades/recursos.json", "dades/glossari.json", "dades/audicions.json", "dades/apunts/4t.json", "dades/apunts/5e.json", "dades/apunts/6e.json",
   "icones/icona-192.png", "icones/icona-512.png"
 ];
 
