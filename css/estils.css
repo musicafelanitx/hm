@@ -161,48 +161,110 @@ img { max-width: 100%; height: auto; }
 }
 .menu a:hover { background: var(--fons-suau); }
 .menu a[aria-current="page"] { background: var(--text); color: #fff; }
-.fons-menu { display: none; }
 
-/* Menú del mòbil: una llista senzilla que es desplega sota la capçalera */
+/* Menú del mòbil: panell que llisca des de la dreta, per damunt del contingut */
+.fons-menu, .panell-menu { display: none; }
 @media (max-width: 960px) {
   .boto-menu { display: grid; }
-  .menu {
-    display: none;
-    position: absolute;
-    left: 0; right: 0; top: 100%;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-    padding: 6px 16px 14px;
-    background: var(--fons);
-    border-bottom: 1px solid var(--linia);
-    box-shadow: 0 10px 24px rgba(0,0,0,.12);
-  }
-  .menu.obert { display: flex; }
-  .menu-grup ul { flex-direction: column; gap: 0; }
-  .menu-grup + .menu-grup { border-top: 1px solid var(--linia); }
-  .menu a {
-    display: flex; align-items: center; gap: 12px;
-    padding: 12px 8px;
-    font-size: 1.08rem; font-weight: 700;
-    white-space: normal;
-    border-radius: 10px;
-  }
-  .menu a[aria-current="page"] { background: var(--fons-suau); color: var(--text); }
-  .menu-icona {
+  .capcalera .menu { display: none; }
+
+  .fons-menu {
     display: block;
-    width: 22px; height: 22px;
-    flex-shrink: 0;
-    color: var(--text-suau);
+    position: fixed; inset: 0;
+    z-index: 90;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: opacity .25s ease;
+    -webkit-tap-highlight-color: transparent;
   }
+  .panell-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: 80%; max-width: 360px;
+    height: 100%;
+    z-index: 100;
+    background: var(--introduccio);
+    color: #fff;
+    box-shadow: -8px 0 28px rgba(0, 0, 0, .35);
+    transform: translateX(100%);
+    transition: transform .25s ease;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .fons-menu[hidden], .panell-menu[hidden] { display: none; }
+  .menu-obert .fons-menu { opacity: 1; }
+  .menu-obert .panell-menu { transform: translateX(0); }
+
+  .panell-cap {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 12px;
+    min-height: 70px;
+    padding: max(6px, env(safe-area-inset-top)) 12px 6px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .18);
+  }
+  .panell-titol { margin: 0; font-family: var(--serif); font-size: 1.4rem; font-weight: 700; }
+  .panell-tanca {
+    width: 52px; height: 52px;
+    display: grid; place-items: center;
+    border: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .08);
+    color: #fff;
+    cursor: pointer;
+  }
+  .panell-tanca svg { width: 28px; height: 28px; }
+  .panell-tanca:active { background: rgba(255, 255, 255, .2); }
+  .panell-tanca:focus-visible, .panell-nav a:focus-visible { outline: 3px solid #fff; outline-offset: -3px; }
+
+  .panell-nav .menu-grup ul { list-style: none; margin: 0; padding: 0; display: block; }
+  .panell-nav .menu-etiqueta {
+    display: block;
+    margin: 0;
+    padding: 18px 20px 6px;
+    font-size: .8rem; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase;
+    color: rgba(255, 255, 255, .65);
+  }
+  .panell-nav li { border-bottom: 1px solid rgba(255, 255, 255, .14); }
+  .panell-nav a {
+    display: flex; align-items: center; gap: 14px;
+    min-height: 56px;
+    padding: 10px 20px;
+    border-left: 5px solid transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem; font-weight: 400;
+  }
+  .panell-nav a:active { background: rgba(255, 255, 255, .12); }
+  .panell-nav .menu-text { display: flex; flex-direction: column; line-height: 1.25; }
+  .panell-nav small { display: block; font-size: .85rem; color: rgba(255, 255, 255, .7); }
+  .panell-nav .menu-icona { display: block; width: 22px; height: 22px; flex-shrink: 0; color: rgba(255, 255, 255, .8); }
   /* Cursos: un quadradet amb el color de cada curs */
-  .menu a.menu-curs::before {
+  .panell-nav a.menu-curs { flex-wrap: wrap; column-gap: 14px; row-gap: 0; }
+  .panell-nav a.menu-curs::before {
     content: "";
     width: 22px; height: 22px; flex-shrink: 0;
     border-radius: 6px;
     background: var(--color);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, .55);
   }
-  .menu a.menu-curs small { display: inline; font-weight: 400; font-size: .92rem; color: var(--text-suau); margin-left: auto; }
+  .panell-nav a.menu-curs small { margin-left: auto; }
+  /* Pàgina actual: en negreta, amb una barra i un fons més clar (del color del curs, si n'és un) */
+  .panell-nav a[aria-current="page"] {
+    font-weight: 700;
+    background: rgba(255, 255, 255, .14);
+    border-left-color: #fff;
+  }
+  .panell-nav a.menu-curs[aria-current="page"] {
+    background: color-mix(in srgb, var(--color) 55%, transparent);
+  }
+}
+@media (max-width: 960px) and (prefers-reduced-motion: reduce) {
+  .fons-menu, .panell-menu { transition: none; }
 }
 
 
@@ -1116,7 +1178,7 @@ a.targeta:hover { border-color: #c9c6be; }
 /* ---------- Impressió i PDF ---------- */
 @media print {
   @page { margin: 18mm 16mm; }
-  .capcalera, .peu, .salta, .no-imprimir, .fons-menu, noscript { display: none !important; }
+  .capcalera, .peu, .salta, .no-imprimir, .fons-menu, .panell-menu, noscript { display: none !important; }
   body { font-size: 11pt; background: #fff; }
   .cap-apunts { color: var(--color); background: none !important; padding: 0 0 10px; border-bottom: 2px solid var(--color); }
   .cap-apunts::before { display: none; }

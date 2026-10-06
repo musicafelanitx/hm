@@ -119,13 +119,86 @@ function pintaCapcalera() {
   salta.textContent = "Salta al contingut";
   document.body.prepend(salta);
 
+  // Menú del mòbil: un panell que llisca des de la dreta, per damunt del contingut.
+  // Va directament dins el <body> (no dins la capçalera, que és sticky) perquè el
+  // position: fixed funcioni bé també a l'iPhone.
+  const fons = document.createElement("div");
+  fons.className = "fons-menu";
+  fons.hidden = true;
+  const panell = document.createElement("div");
+  panell.className = "panell-menu";
+  panell.id = "panell-menu";
+  panell.setAttribute("role", "dialog");
+  panell.setAttribute("aria-modal", "true");
+  panell.setAttribute("aria-labelledby", "titol-menu");
+  panell.hidden = true;
+  panell.innerHTML = `
+    <div class="panell-cap">
+      <p class="panell-titol" id="titol-menu">Menú</p>
+      <button class="panell-tanca" type="button" aria-label="Tanca el menú">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav class="panell-nav" aria-label="Principal">
+      ${grup("inici", "", PAGINES.filter(p => p.grup === "inici"))}
+      ${grup("cursos", "Cursos", PAGINES.filter(p => p.grup === "cursos"))}
+      ${grup("explora", "Explora", PAGINES.filter(p => p.grup === "explora"))}
+    </nav>`;
+  document.body.append(fons, panell);
+
   const boto = capcalera.querySelector(".boto-menu");
-  const menu = capcalera.querySelector(".menu");
-  boto.addEventListener("click", () => {
-    const obert = menu.classList.toggle("obert");
-    boto.setAttribute("aria-expanded", obert);
-    boto.setAttribute("aria-label", obert ? "Tanca el menú" : "Obre el menú");
+  boto.setAttribute("aria-controls", "panell-menu");
+  const tanca = panell.querySelector(".panell-tanca");
+  let obert = false, scrollGuardat = 0, temporitzador;
+
+  // Bloqueja el desplaçament de la pàgina de darrere (aquesta manera també funciona a Safari d'iOS)
+  function bloquejaScroll(bloqueja) {
+    const b = document.body.style;
+    if (bloqueja) {
+      scrollGuardat = window.scrollY;
+      Object.assign(b, { position: "fixed", top: `-${scrollGuardat}px`, left: "0", right: "0", width: "100%" });
+    } else {
+      Object.assign(b, { position: "", top: "", left: "", right: "", width: "" });
+      window.scrollTo(0, scrollGuardat);
+    }
+  }
+
+  function obreMenu(obre) {
+    if (obre === obert) return;
+    obert = obre;
+    clearTimeout(temporitzador);
+    boto.setAttribute("aria-expanded", obre);
+    boto.setAttribute("aria-label", obre ? "Tanca el menú" : "Obre el menú");
+    if (obre) {
+      panell.hidden = fons.hidden = false;
+      bloquejaScroll(true);
+      requestAnimationFrame(() => requestAnimationFrame(() => document.documentElement.classList.add("menu-obert")));
+      tanca.focus({ preventScroll: true });
+    } else {
+      document.documentElement.classList.remove("menu-obert");
+      bloquejaScroll(false);
+      temporitzador = setTimeout(() => { panell.hidden = fons.hidden = true; }, 260);
+      boto.focus({ preventScroll: true });
+    }
+  }
+
+  boto.addEventListener("click", () => obreMenu(!obert));
+  tanca.addEventListener("click", () => obreMenu(false));
+  fons.addEventListener("click", () => obreMenu(false));
+  panell.addEventListener("click", e => { if (e.target.closest("a")) obreMenu(false); });
+  document.addEventListener("keydown", e => {
+    if (!obert) return;
+    if (e.key === "Escape") { obreMenu(false); return; }
+    // Manté el focus dins el panell mentre és obert
+    if (e.key === "Tab") {
+      const focables = [...panell.querySelectorAll("button, a[href]")];
+      const primer = focables[0], darrer = focables[focables.length - 1];
+      if (e.shiftKey && document.activeElement === primer) { e.preventDefault(); darrer.focus(); }
+      else if (!e.shiftKey && document.activeElement === darrer) { e.preventDefault(); primer.focus(); }
+    }
   });
+  // Si la finestra es fa ampla (menú d'escriptori), tanca el panell
+  matchMedia("(min-width: 961px)").addEventListener("change", e => { if (e.matches) obreMenu(false); });
 }
 
 function pintaPeu() {
